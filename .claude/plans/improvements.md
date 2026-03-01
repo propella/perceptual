@@ -36,6 +36,14 @@
   - `data-src` 属性（lazy-loading）にも対応
   - bijutsu_techo の HTML フォールバックにも同様の改善を適用
 
+### Phase 4: 画像URL取得の強化 ✅
+- [x] Tokyo Art Beat: `__NEXT_DATA__` JSON から画像 URL を抽出
+  - `imageposter.fields.file.url` パスで Contentful CDN URL を取得
+  - slug でイベントカードとマッチング
+- [x] ICC: 個別展覧会ページから画像を取得
+  - 一覧ページに画像がないため、各展覧会の詳細ページを fetch
+  - `/uploads/assets/` パターンの img タグから抽出
+
 ## 修正対象ファイル
 
 - `scripts/scrapers/tokyo_art_beat.py`

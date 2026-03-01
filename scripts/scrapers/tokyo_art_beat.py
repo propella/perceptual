@@ -1,3 +1,4 @@
+import json
 import re
 from datetime import datetime
 
@@ -17,9 +18,12 @@ class TokyoArtBeatScraper(BaseScraper):
         exhibitions = []
         seen_urls: set[str] = set()
 
+        # Extract image map from __NEXT_DATA__ JSON
+        image_map = self._extract_next_data_images(soup)
+
         for item in soup.select("a[href^='/events/']"):
             try:
-                exhibition = self._parse_item(item)
+                exhibition = self._parse_item(item, image_map)
                 if exhibition and exhibition.source_url not in seen_urls:
                     seen_urls.add(exhibition.source_url)
                     exhibitions.append(exhibition)
@@ -28,7 +32,7 @@ class TokyoArtBeatScraper(BaseScraper):
 
         return exhibitions
 
-    def _parse_item(self, item) -> Exhibition | None:
+    def _parse_item(self, item, image_map: dict | None = None) -> Exhibition | None:
         """Parse a single exhibition item."""
         href = item.get("href", "")
         if not href or "/events/" not in href:
@@ -51,8 +55,10 @@ class TokyoArtBeatScraper(BaseScraper):
         # Extract venue from first <p> after <h3>
         venue = self._extract_venue(item)
 
-        # Extract image (handle protocol-relative URLs)
+        # Extract image: try HTML first, then __NEXT_DATA__
         image_url = self._extract_image_url(item)
+        if not image_url and image_map:
+            image_url = self._lookup_image(href, image_map)
 
         return Exhibition(
             title=title,
@@ -119,3 +125,61 @@ class TokyoArtBeatScraper(BaseScraper):
         if src.startswith("//"):
             return f"https:{src}"
         return src if src.startswith("http") else None
+
+    def _extract_next_data_images(self, soup) -> dict[str, str]:
+        """Extract slug->image_url map from __NEXT_DATA__ JSON."""
+        image_map: dict[str, str] = {}
+        script = soup.select_one("script#__NEXT_DATA__")
+        if not script or not script.string:
+            return image_map
+
+        try:
+            data = json.loads(script.string)
+        except (json.JSONDecodeError, TypeError):
+            return image_map
+
+        # Find event objects recursively in the JSON
+        events = self._find_events(data)
+        for event in events:
+            slug = event.get("slug", "")
+            image_url = self._get_image_url_from_event(event)
+            if slug and image_url:
+                image_map[slug] = image_url
+
+        return image_map
+
+    def _find_events(self, obj) -> list[dict]:
+        """Recursively find event objects (dicts with slug + imageposter)."""
+        results = []
+        if isinstance(obj, dict):
+            if "slug" in obj and ("imageposter" in obj or "eventName" in obj):
+                results.append(obj)
+            for value in obj.values():
+                results.extend(self._find_events(value))
+        elif isinstance(obj, list):
+            for item in obj:
+                results.extend(self._find_events(item))
+        return results
+
+    def _get_image_url_from_event(self, event: dict) -> str | None:
+        """Extract image URL from a __NEXT_DATA__ event object."""
+        poster = event.get("imageposter")
+        if not isinstance(poster, dict):
+            return None
+        fields = poster.get("fields")
+        if not isinstance(fields, dict):
+            return None
+        file_info = fields.get("file")
+        if not isinstance(file_info, dict):
+            return None
+        url = file_info.get("url", "")
+        if url.startswith("//"):
+            return f"https:{url}"
+        return url if url.startswith("http") else None
+
+    def _lookup_image(self, href: str, image_map: dict[str, str]) -> str | None:
+        """Look up image URL by matching href against slug in image_map."""
+        for slug, url in image_map.items():
+            if slug in href:
+                return url
+        return None

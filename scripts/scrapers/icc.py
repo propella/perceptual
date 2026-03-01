@@ -27,6 +27,16 @@ class ICCScraper(BaseScraper):
             except Exception:
                 continue
 
+        # Fetch images from individual exhibition pages
+        for exhibition in exhibitions:
+            if not exhibition.image_url:
+                try:
+                    exhibition.image_url = self._fetch_detail_image(
+                        exhibition.source_url
+                    )
+                except Exception:
+                    pass
+
         return exhibitions
 
     def _parse_item(self, item) -> Exhibition | None:
@@ -120,3 +130,14 @@ class ICCScraper(BaseScraper):
             return start_date, end_date
 
         return None, None
+
+    def _fetch_detail_image(self, url: str) -> str | None:
+        """Fetch exhibition detail page and extract first exhibition image."""
+        soup = self.fetch(url)
+        for img in soup.select("img[src*='/uploads/assets/']"):
+            src = img.get("src", "").strip()
+            if src.startswith("/"):
+                return f"{self.base_url}{src}"
+            if src.startswith("http"):
+                return src
+        return None

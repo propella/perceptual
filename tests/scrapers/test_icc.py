@@ -19,6 +19,12 @@ SAMPLE_HTML = """
 </html>
 """
 
+DETAIL_HTML = """
+<html><body>
+<img src="/uploads/assets/007/detail.7768.small.jpg">
+</body></html>
+"""
+
 
 class TestICCScraper:
     @responses.activate
@@ -27,6 +33,12 @@ class TestICCScraper:
             responses.GET,
             "https://www.ntticc.or.jp/ja/exhibitions/",
             body=SAMPLE_HTML,
+            status=200,
+        )
+        responses.add(
+            responses.GET,
+            "https://www.ntticc.or.jp/ja/exhibitions/2026/another-show",
+            body=DETAIL_HTML,
             status=200,
         )
 
@@ -45,6 +57,12 @@ class TestICCScraper:
             body=SAMPLE_HTML,
             status=200,
         )
+        responses.add(
+            responses.GET,
+            "https://www.ntticc.or.jp/ja/exhibitions/2026/another-show",
+            body=DETAIL_HTML,
+            status=200,
+        )
 
         scraper = ICCScraper()
         exhibitions = scraper.scrape()
@@ -57,6 +75,12 @@ class TestICCScraper:
             responses.GET,
             "https://www.ntticc.or.jp/ja/exhibitions/",
             body=SAMPLE_HTML,
+            status=200,
+        )
+        responses.add(
+            responses.GET,
+            "https://www.ntticc.or.jp/ja/exhibitions/2026/another-show",
+            body=DETAIL_HTML,
             status=200,
         )
 
@@ -76,6 +100,12 @@ class TestICCScraper:
             body=SAMPLE_HTML,
             status=200,
         )
+        responses.add(
+            responses.GET,
+            "https://www.ntticc.or.jp/ja/exhibitions/2026/another-show",
+            body=DETAIL_HTML,
+            status=200,
+        )
 
         scraper = ICCScraper()
         exhibitions = scraper.scrape()
@@ -90,11 +120,52 @@ class TestICCScraper:
             body=SAMPLE_HTML,
             status=200,
         )
+        responses.add(
+            responses.GET,
+            "https://www.ntticc.or.jp/ja/exhibitions/2026/another-show",
+            body=DETAIL_HTML,
+            status=200,
+        )
 
         scraper = ICCScraper()
         exhibitions = scraper.scrape()
 
         assert "メディアアート" in exhibitions[0].tags
+
+    @responses.activate
+    def test_scrape_fetches_detail_image(self):
+        """Test that detail page is fetched for exhibitions without images."""
+        html_no_img = """
+        <html><body>
+        <a href="/ja/exhibitions/2025/test-show">
+            <h3>展覧会X</h3>
+            <span>2025年12月13日（土）—2026年3月8日（日）</span>
+        </a>
+        </body></html>
+        """
+        detail_html = """
+        <html><body>
+        <img src="/uploads/assets/007/abc123.7768.small.jpg">
+        </body></html>
+        """
+        responses.add(
+            responses.GET,
+            "https://www.ntticc.or.jp/ja/exhibitions/",
+            body=html_no_img,
+            status=200,
+        )
+        responses.add(
+            responses.GET,
+            "https://www.ntticc.or.jp/ja/exhibitions/2025/test-show",
+            body=detail_html,
+            status=200,
+        )
+
+        scraper = ICCScraper()
+        exhibitions = scraper.scrape()
+
+        assert len(exhibitions) == 1
+        assert exhibitions[0].image_url == "https://www.ntticc.or.jp/uploads/assets/007/abc123.7768.small.jpg"
 
     def test_parse_dates(self):
         scraper = ICCScraper()

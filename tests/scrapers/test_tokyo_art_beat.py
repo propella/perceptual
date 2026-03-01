@@ -101,6 +101,39 @@ class TestTokyoArtBeatScraper:
         assert exhibitions[0].image_url == "https://images.ctfassets.net/example/image.jpg"
         assert exhibitions[1].image_url is None
 
+    @responses.activate
+    def test_scrape_extracts_image_from_next_data(self):
+        """Test image extraction from __NEXT_DATA__ when no img tag exists."""
+        html_with_next_data = """
+        <html>
+        <body>
+        <script id="__NEXT_DATA__" type="application/json">
+        {"props":{"pageProps":{"fallback":{"events":{"data":[
+            {"slug":"abc123","eventName":"Test",
+             "imageposter":{"fields":{"file":{"url":"//images.ctfassets.net/poster.jpg"}}}}
+        ]}}}}}
+        </script>
+        <a href="/events/-/Test/abc123/2026-03-01">
+            <h3>テスト展</h3>
+            <p>美術館</p>
+            <p>2026/3/1-5/31</p>
+        </a>
+        </body>
+        </html>
+        """
+        responses.add(
+            responses.GET,
+            "https://www.tokyoartbeat.com/events",
+            body=html_with_next_data,
+            status=200,
+        )
+
+        scraper = TokyoArtBeatScraper()
+        exhibitions = scraper.scrape()
+
+        assert len(exhibitions) == 1
+        assert exhibitions[0].image_url == "https://images.ctfassets.net/poster.jpg"
+
     def test_parse_dates(self):
         scraper = TokyoArtBeatScraper()
         start, end = scraper._parse_dates("展覧会 2026/3/1-5/31 開催")
