@@ -229,9 +229,9 @@ jobs:
 15. [x] デプロイワークフロー (deploy.yml)
 
 ### Phase 5: フロントエンド
-16. [ ] index.html
-17. [ ] style.css
-18. [ ] app.js
+16. [x] index.html
+17. [x] style.css
+18. [x] app.js
 
 ### Phase 6: 本番稼働
 19. [ ] GitHub Pages 設定

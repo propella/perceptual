@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perceptual - 展覧会情報</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>perceptual</h1>
+        <p>キネティックアート・サウンドアート・メディアアート展覧会情報</p>
+    </header>
+
+    <main>
+        <div class="controls">
+            <div class="filter-tags" id="filter-tags"></div>
+            <div class="sort-controls">
+                <label>
+                    <select id="sort-select">
+                        <option value="startDate">開始日順</option>
+                        <option value="endDate">終了日順</option>
+                        <option value="title">タイトル順</option>
+                    </select>
+                </label>
+                <a href="data/exhibitions.ics" class="calendar-link">iCal購読</a>
+            </div>
+        </div>
+
+        <div class="exhibitions" id="exhibitions"></div>
+
+        <p class="last-updated" id="last-updated"></p>
+    </main>
+
+    <footer>
+        <p>
+            <a href="https://github.com/tyamamiya/perceptual">GitHub</a>
+        </p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
