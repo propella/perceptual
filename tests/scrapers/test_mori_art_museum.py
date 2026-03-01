@@ -5,16 +5,16 @@ from scripts.scrapers.mori_art_museum import MoriArtMuseumScraper
 SAMPLE_HTML = """
 <html>
 <body>
-<a href="/jp/exhibitions/roppongi_crossing_2025/">
-    <img src="/images/exhibition1.jpg">
+<a href="roppongicrossing2025/index.html">
+    <img src="roppongicrossing2025/image.jpg">
     <h3>六本木クロッシング2025展</h3>
     <span>2025.12.3（水）～ 2026.3.29（日）</span>
 </a>
-<a href="/jp/exhibitions/another_show/">
+<a href="anothershow/index.html">
     <h3>現代アート展</h3>
     <span>2026.4.1（木）～ 2026.6.30（火）</span>
 </a>
-<a href="/jp/exhibitions/">
+<a href="index.html">
     <span>All Exhibitions</span>
 </a>
 </body>
@@ -82,8 +82,8 @@ class TestMoriArtMuseumScraper:
         scraper = MoriArtMuseumScraper()
         exhibitions = scraper.scrape()
 
-        assert exhibitions[0].source_url == "https://www.mori.art.museum/jp/exhibitions/roppongi_crossing_2025/"
-        assert exhibitions[0].image_url == "https://www.mori.art.museum/images/exhibition1.jpg"
+        assert exhibitions[0].source_url == "https://www.mori.art.museum/jp/exhibitions/roppongicrossing2025/index.html"
+        assert exhibitions[0].image_url == "https://www.mori.art.museum/jp/exhibitions/roppongicrossing2025/image.jpg"
 
     def test_parse_dates(self):
         scraper = MoriArtMuseumScraper()

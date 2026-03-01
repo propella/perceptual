@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-01T07:52:52.325983+00:00",
+  "lastUpdated": "2026-03-01T08:00:50.974862+00:00",
   "exhibitions": [
     {
       "id": "a6dabdc25781a776",
@@ -39,6 +39,105 @@
       "sourceUrl": "https://www.tokyoartbeat.com/events/-/That-Place/shutl/2026-03-06",
       "source": "tokyo_art_beat",
       "tags": []
+    },
+    {
+      "id": "057c4ad2ce6e2d7b",
+      "title": "生誕100周年記念 安野光雅展",
+      "description": null,
+      "venue": "PLAY! MUSEUM",
+      "address": null,
+      "startDate": "2026-03-04",
+      "endDate": "2026-05-10",
+      "imageUrl": "https://bt.imgix.net/exhibition/17549/main/1771880887442_558a9820512ef536cf9177224ac18c23.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,17,3178,1787&v=6",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/17549",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "057c4ad2ce6e2d7b",
+      "title": "生誕100周年記念 安野光雅展",
+      "description": null,
+      "venue": "PLAY! MUSEUM",
+      "address": null,
+      "startDate": "2026-03-04",
+      "endDate": "2026-05-10",
+      "imageUrl": "https://bt.imgix.net/exhibition/17549/main/1771880887442_558a9820512ef536cf9177224ac18c23.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,17,3178,1787&v=6",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/17549",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "057c4ad2ce6e2d7b",
+      "title": "生誕100周年記念 安野光雅展",
+      "description": null,
+      "venue": "PLAY! MUSEUM",
+      "address": null,
+      "startDate": "2026-03-04",
+      "endDate": "2026-05-10",
+      "imageUrl": "https://bt.imgix.net/exhibition/17549/main/1771880887442_558a9820512ef536cf9177224ac18c23.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,17,3178,1787&v=6",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/17549",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "96bfa8bcc8491e9b",
+      "title": "知覚の大霊廟をめざして——三上晴子のインタラクティヴ・インスタレーション",
+      "description": null,
+      "venue": "NTTインターコミュニケーション・センター [ICC]",
+      "address": "東京都新宿区西新宿3-20-2 東京オペラシティタワー4F",
+      "startDate": "2025-12-13",
+      "endDate": "2026-03-08",
+      "imageUrl": null,
+      "sourceUrl": "https://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations/",
+      "source": "icc",
+      "tags": [
+        "メディアアート"
+      ]
+    },
+    {
+      "id": "048333a79798ddd6",
+      "title": "上映プログラム",
+      "description": null,
+      "venue": "NTTインターコミュニケーション・センター [ICC]",
+      "address": "東京都新宿区西新宿3-20-2 東京オペラシティタワー4F",
+      "startDate": "2025-12-13",
+      "endDate": "2026-03-08",
+      "imageUrl": null,
+      "sourceUrl": "https://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations-screening-program/",
+      "source": "icc",
+      "tags": [
+        "メディアアート"
+      ]
+    },
+    {
+      "id": "15f0f311e93bf920",
+      "title": "5Fロビー 無料展示エリア",
+      "description": null,
+      "venue": "NTTインターコミュニケーション・センター [ICC]",
+      "address": "東京都新宿区西新宿3-20-2 東京オペラシティタワー4F",
+      "startDate": "2025-12-13",
+      "endDate": "2026-03-08",
+      "imageUrl": null,
+      "sourceUrl": "https://www.ntticc.or.jp/ja/exhibitions/2025/5th-floor-lobby-from-dec-13-2025/",
+      "source": "icc",
+      "tags": [
+        "メディアアート"
+      ]
+    },
+    {
+      "id": "31355febcbd6326e",
+      "title": "リサーチ・コンプレックス NTT R＆D @ICC「身体性BEYOND」",
+      "description": null,
+      "venue": "NTTインターコミュニケーション・センター [ICC]",
+      "address": "東京都新宿区西新宿3-20-2 東京オペラシティタワー4F",
+      "startDate": "2025-12-13",
+      "endDate": "2026-03-08",
+      "imageUrl": null,
+      "sourceUrl": "https://www.ntticc.or.jp/ja/exhibitions/2025/beyond-embodiment-from-dec-13-2025/",
+      "source": "icc",
+      "tags": [
+        "メディアアート"
+      ]
     }
   ]
 }

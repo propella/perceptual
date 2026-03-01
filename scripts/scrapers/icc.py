@@ -15,12 +15,15 @@ class ICCScraper(BaseScraper):
         """Scrape exhibitions from ICC."""
         soup = self.fetch(self.events_url)
         exhibitions = []
+        seen_urls = set()
 
-        for item in soup.select("a[href*='/exhibitions/']"):
+        # Look for links with year in path (e.g., /ja/exhibitions/2025/...)
+        for item in soup.select("a[href*='/exhibitions/202']"):
             try:
                 exhibition = self._parse_item(item)
-                if exhibition:
+                if exhibition and exhibition.source_url not in seen_urls:
                     exhibitions.append(exhibition)
+                    seen_urls.add(exhibition.source_url)
             except Exception:
                 continue
 
@@ -32,18 +35,23 @@ class ICCScraper(BaseScraper):
         if not href or "/exhibitions/" not in href:
             return None
 
-        # Get all text content
+        # Get text from item and parent
         text = item.get_text(separator=" ", strip=True)
-        if not text:
+        parent = item.find_parent("li") or item.find_parent("div") or item.find_parent()
+        parent_text = parent.get_text(separator=" ", strip=True) if parent else text
+
+        if not text and not parent_text:
             return None
 
         # Extract title (usually the main text)
-        title = self._extract_title(item, text)
+        title = self._extract_title(item, text or parent_text)
         if not title:
             return None
 
-        # Extract date range
-        start_date, end_date = self._parse_dates(text)
+        # Extract date range - try parent text first
+        start_date, end_date = self._parse_dates(parent_text)
+        if not start_date or not end_date:
+            start_date, end_date = self._parse_dates(text)
         if not start_date or not end_date:
             return None
 

@@ -74,13 +74,16 @@ class BijutsuTechoScraper(BaseScraper):
         if not title or not venue:
             return None
 
-        # Parse periods
+        # Parse periods - try both startDate/endDate and startAt/endAt
         periods = item.get("periods", [])
         if not periods:
             return None
 
-        start_ts = periods[0].get("startAt")
-        end_ts = periods[-1].get("endAt")
+        first_period = periods[0]
+        last_period = periods[-1]
+
+        start_ts = first_period.get("startDate") or first_period.get("startAt")
+        end_ts = last_period.get("endDate") or last_period.get("endAt")
         if not start_ts or not end_ts:
             return None
 

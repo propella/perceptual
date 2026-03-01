@@ -39,6 +39,8 @@ class BaseScraper(ABC):
         """Fetch URL and return parsed HTML."""
         response = self.session.get(url, timeout=30)
         response.raise_for_status()
+        # Force UTF-8 encoding for Japanese sites
+        response.encoding = "utf-8"
         return BeautifulSoup(response.text, "lxml")
 
     @abstractmethod

@@ -5,15 +5,19 @@ from scripts.scrapers.design_sight import DesignSightScraper
 SAMPLE_HTML = """
 <html>
 <body>
-<a href="/program/design_maestros/">
-    <img src="/program/design_maestros/topweb.jpg">
-    <h5>企画展「デザインの先生」</h5>
-    <p>2025年11月21日 (金) - 2026年3月 8日 (日)</p>
-</a>
-<a href="/program/another_exhibition/">
-    <h5>「インタラクティブ展」</h5>
-    <p>2026年4月1日 (水) - 2026年6月30日 (火)</p>
-</a>
+<section>
+    <h5>2025年11月21日 (金) - 2026年3月 8日 (日)</h5>
+    <a href="/program/design_maestros/">
+        <img src="/program/design_maestros/topweb.jpg">
+        企画展「デザインの先生」
+    </a>
+</section>
+<section>
+    <h5>2026年4月1日 (水) - 2026年6月30日 (火)</h5>
+    <a href="/program/another_exhibition/">
+        「インタラクティブ展」
+    </a>
+</section>
 <a href="/program/">
     <span>All Programs</span>
 </a>

@@ -8,6 +8,16 @@
 uv sync --dev
 ```
 
+## 実行
+
+```bash
+uv run python -m scripts.main
+```
+
+出力ファイル:
+- `docs/data/exhibitions.json`
+- `docs/data/exhibitions.ics`
+
 ## テスト
 
 ```bash

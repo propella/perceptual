@@ -15,12 +15,15 @@ class MoriArtMuseumScraper(BaseScraper):
         """Scrape exhibitions from Mori Art Museum."""
         soup = self.fetch(self.events_url)
         exhibitions = []
+        seen_urls = set()
 
-        for item in soup.select("a[href*='/exhibitions/']"):
+        # Links are relative like "roppongicrossing2025/index.html"
+        for item in soup.select("a[href$='/index.html']"):
             try:
                 exhibition = self._parse_item(item)
-                if exhibition:
+                if exhibition and exhibition.source_url not in seen_urls:
                     exhibitions.append(exhibition)
+                    seen_urls.add(exhibition.source_url)
             except Exception:
                 continue
 
@@ -29,7 +32,16 @@ class MoriArtMuseumScraper(BaseScraper):
     def _parse_item(self, item) -> Exhibition | None:
         """Parse a single exhibition item."""
         href = item.get("href", "")
-        if not href or "/exhibitions/" not in href or href.endswith("/exhibitions/"):
+        if not href:
+            return None
+
+        # Skip navigation links
+        if href in ("index.html", "../index.html") or href.startswith(".."):
+            return None
+
+        # Skip non-exhibition pages
+        skip_pages = ["past/", "tours/", "news/", "about/", "support/", "mamc/", "learning/"]
+        if any(skip in href for skip in skip_pages):
             return None
 
         text = item.get_text(separator=" ", strip=True)
@@ -46,21 +58,25 @@ class MoriArtMuseumScraper(BaseScraper):
         if not start_date or not end_date:
             return None
 
-        # Build URL
-        if href.startswith("/"):
+        # Build URL - handle relative paths like "roppongicrossing2025/index.html"
+        if href.startswith("http"):
+            source_url = href
+        elif href.startswith("/"):
             source_url = f"{self.base_url}{href}"
         else:
-            source_url = href
+            source_url = f"{self.events_url}{href}"
 
         # Extract image
         img = item.select_one("img")
         image_url = None
         if img:
             src = img.get("src", "")
-            if src.startswith("/"):
+            if src.startswith("http"):
+                image_url = src
+            elif src.startswith("/"):
                 image_url = f"{self.base_url}{src}"
             else:
-                image_url = src
+                image_url = f"{self.events_url}{src}"
 
         return Exhibition(
             title=title,
