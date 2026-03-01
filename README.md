@@ -35,3 +35,16 @@ uv run pytest --cov=scripts
 ```bash
 uv run ruff check scripts tests
 ```
+
+## フロントエンド確認
+
+```bash
+uv run python -m http.server 8000 -d docs
+# http://localhost:8000 で表示確認
+```
+
+## CI/CD
+
+- PR 作成時: CI が自動でテスト実行
+- main マージ: 自動デプロイ (GitHub Pages)
+- 毎日 18:00 JST にスクレイピング自動実行

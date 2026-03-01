@@ -237,40 +237,6 @@ jobs:
 19. [x] GitHub Pages 設定
 20. [x] 動作確認・監視設定
 
-## 検証方法
-
-1. **セットアップ**:
-   ```bash
-   uv sync --dev
-   ```
-
-2. **ユニットテスト**:
-   ```bash
-   uv run pytest --cov=scripts
-   ```
-
-3. **リンター**:
-   ```bash
-   uv run ruff check scripts tests
-   ```
-
-4. **ローカル実行**:
-   ```bash
-   uv run python scripts/main.py
-   # docs/data/exhibitions.json と exhibitions.ics を確認
-   ```
-
-5. **フロントエンド確認**:
-   ```bash
-   uv run python -m http.server 8000 -d docs
-   # http://localhost:8000 で表示確認
-   ```
-
-6. **CI/CD**:
-   - PR 作成時: CI が自動でテスト実行
-   - main マージ: 自動デプロイ
-   - Actions タブでログ確認
-
 ## 注意事項
 
 - スクレイピングは各サイトの利用規約を確認
