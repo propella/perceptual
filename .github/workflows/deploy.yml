@@ -1,0 +1,24 @@
+name: Deploy
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # 毎日18:00 JST
+  workflow_dispatch:      # 手動実行可能
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync
+      - run: uv run python scripts/main.py
+      - name: Log scraping results
+        run: |
+          echo "::notice::Exhibitions found: $(jq '.exhibitions | length' docs/data/exhibitions.json)"
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
