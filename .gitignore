@@ -1,1 +1,7 @@
 .claude/settings.local.json
+.venv/
+__pycache__/
+*.pyc
+.coverage
+.pytest_cache/
+.ruff_cache/

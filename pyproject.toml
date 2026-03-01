@@ -1,0 +1,31 @@
+[project]
+name = "perceptual"
+version = "0.1.0"
+description = "Exhibition information collector for kinetic, sound, and media art"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "ics>=0.7.2",
+    "lxml>=6.0.2",
+    "requests>=2.32.5",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "pytest-cov>=7.0.0",
+    "responses>=0.26.0",
+    "ruff>=0.15.4",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
