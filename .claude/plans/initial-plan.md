@@ -43,6 +43,7 @@
 
 | コンポーネント | 技術 |
 |---------------|------|
+| パッケージ管理 | uv |
 | スクレイピング | Python + requests + BeautifulSoup4 |
 | ICS生成 | ics ライブラリ |
 | テスト | pytest + responses (モック) |
@@ -86,8 +87,8 @@
 │   └── data/
 │       ├── exhibitions.json
 │       └── exhibitions.ics
-├── requirements.txt                  # 本番依存
-├── requirements-dev.txt              # 開発依存 (pytest等)
+├── pyproject.toml                    # プロジェクト設定・依存管理
+├── uv.lock                           # ロックファイル
 └── README.md
 ```
 
@@ -182,12 +183,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - run: pip install -r requirements.txt -r requirements-dev.txt
-      - run: pytest --cov=scripts --cov-report=term-missing
-      - run: ruff check scripts tests
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --dev
+      - run: uv run pytest --cov=scripts --cov-report=term-missing
+      - run: uv run ruff check scripts tests
 ```
 
 ### deploy.yml (自動デプロイ)
@@ -206,11 +205,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - run: pip install -r requirements.txt
-      - run: python scripts/main.py
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync
+      - run: uv run python scripts/main.py
       - name: Log scraping results
         run: |
           echo "::notice::Exhibitions found: $(jq '.exhibitions | length' docs/data/exhibitions.json)"
@@ -239,7 +236,7 @@ jobs:
 
 ### Phase 1: プロジェクト基盤
 1. [ ] プロジェクト構造の作成
-2. [ ] requirements.txt / requirements-dev.txt
+2. [ ] pyproject.toml (uv init)
 3. [ ] pytest 設定 (conftest.py)
 4. [ ] CI ワークフロー (ci.yml)
 
@@ -271,30 +268,34 @@ jobs:
 
 ## 検証方法
 
-1. **ユニットテスト**:
+1. **セットアップ**:
    ```bash
-   pip install -r requirements.txt -r requirements-dev.txt
-   pytest --cov=scripts
+   uv sync --dev
    ```
 
-2. **リンター**:
+2. **ユニットテスト**:
    ```bash
-   ruff check scripts tests
+   uv run pytest --cov=scripts
    ```
 
-3. **ローカル実行**:
+3. **リンター**:
    ```bash
-   python scripts/main.py
+   uv run ruff check scripts tests
+   ```
+
+4. **ローカル実行**:
+   ```bash
+   uv run python scripts/main.py
    # docs/data/exhibitions.json と exhibitions.ics を確認
    ```
 
-4. **フロントエンド確認**:
+5. **フロントエンド確認**:
    ```bash
-   python -m http.server 8000 -d docs
+   uv run python -m http.server 8000 -d docs
    # http://localhost:8000 で表示確認
    ```
 
-5. **CI/CD**:
+6. **CI/CD**:
    - PR 作成時: CI が自動でテスト実行
    - main マージ: 自動デプロイ
    - Actions タブでログ確認
