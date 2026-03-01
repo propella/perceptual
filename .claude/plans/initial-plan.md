@@ -115,7 +115,7 @@ END:VCALENDAR
 | ICC | icc.or.jp | メディアアート専門 |
 | 21_21 DESIGN SIGHT | 2121designsight.jp | デザイン/アート |
 | 森美術館 | mori.art.museum | 現代アート |
-| 東京都現代美術館 | mot-art-museum.jp | 現代アート |
+| 東京都現代美術館 | mot-art-museum.jp | **未対応**: JavaScript動的読込みのためヘッドレスブラウザが必要 |
 
 ## フィルタリングロジック
 
