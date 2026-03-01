@@ -234,8 +234,8 @@ jobs:
 18. [x] app.js
 
 ### Phase 6: 本番稼働
-19. [ ] GitHub Pages 設定
-20. [ ] 動作確認・監視設定
+19. [x] GitHub Pages 設定
+20. [x] 動作確認・監視設定
 
 ## 検証方法
 
