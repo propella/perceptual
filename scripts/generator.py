@@ -53,9 +53,12 @@ def generate_ics(exhibitions: list[Exhibition], output_path: Path) -> None:
         event.end = exhibition.end_date
         event.location = exhibition.address or exhibition.venue
         event.url = exhibition.source_url
-        event.description = (
-            f"{exhibition.description or ''}\n\n会場: {exhibition.venue}"
-        ).strip()
+        parts = []
+        if exhibition.description:
+            parts.append(exhibition.description)
+        parts.append(f"会場: {exhibition.venue}")
+        parts.append(exhibition.source_url)
+        event.description = "\n\n".join(parts)
         event.make_all_day()
         calendar.events.add(event)
 

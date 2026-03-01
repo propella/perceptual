@@ -102,6 +102,15 @@ class TestGenerateIcs:
         event = list(calendar.events)[0]
         assert event.location == "東京都渋谷区"
 
+    def test_event_description_includes_url(self, tmp_path: Path):
+        exhibitions = [make_exhibition()]
+        output = tmp_path / "exhibitions.ics"
+        generate_ics(exhibitions, output)
+
+        calendar = Calendar(output.read_text())
+        event = list(calendar.events)[0]
+        assert "https://example.com/exhibition" in event.description
+
     def test_empty_exhibitions(self, tmp_path: Path):
         output = tmp_path / "exhibitions.ics"
         generate_ics([], output)
