@@ -224,15 +224,15 @@ jobs:
 ## 実装手順
 
 ### Phase 1: プロジェクト基盤
-1. [ ] プロジェクト構造の作成
-2. [ ] pyproject.toml (uv init)
-3. [ ] pytest 設定 (conftest.py)
-4. [ ] CI ワークフロー (ci.yml)
+1. [x] プロジェクト構造の作成
+2. [x] pyproject.toml (uv init)
+3. [x] pytest 設定 (conftest.py)
+4. [x] CI ワークフロー (ci.yml)
 
 ### Phase 2: コアモジュール + テスト
-5. [ ] 基底スクレイパークラス (base.py) + テスト
-6. [ ] フィルタリングモジュール (filters.py) + テスト
-7. [ ] JSON/ICS生成 (generator.py) + テスト
+5. [x] 基底スクレイパークラス (base.py) + テスト
+6. [x] フィルタリングモジュール (filters.py) + テスト
+7. [x] JSON/ICS生成 (generator.py) + テスト
 
 ### Phase 3: スクレイパー実装 + テスト
 8. [ ] Tokyo Art Beat スクレイパー + テスト
