@@ -1,6 +1,6 @@
 # perceptual
 
-展覧会情報自動収集システム
+展覧会情報自動収集: https://propella.github.io/perceptual/
 
 ## セットアップ
 
