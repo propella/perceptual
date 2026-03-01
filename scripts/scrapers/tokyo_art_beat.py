@@ -48,12 +48,11 @@ class TokyoArtBeatScraper(BaseScraper):
         if not start_date or not end_date:
             return None
 
-        # Extract venue from text
+        # Extract venue from first <p> after <h3>
         venue = self._extract_venue(item)
 
-        # Extract image
-        img = item.select_one("img")
-        image_url = img.get("src") if img else None
+        # Extract image (handle protocol-relative URLs)
+        image_url = self._extract_image_url(item)
 
         return Exhibition(
             title=title,
@@ -85,11 +84,38 @@ class TokyoArtBeatScraper(BaseScraper):
         return None, None
 
     def _extract_venue(self, item) -> str | None:
-        """Extract venue name from item."""
+        """Extract venue name from item.
+
+        Tokyo Art Beat cards have the venue in the first <p> after <h3>.
+        Falls back to @ or 会場: patterns in text.
+        """
+        # Primary: first <p> sibling after <h3>
+        h3 = item.select_one("h3")
+        if h3:
+            p = h3.find_next_sibling("p")
+            if p:
+                venue = p.get_text(strip=True)
+                if venue and not re.match(r"^\d{4}/", venue) and venue != "開催中":
+                    return venue
+
+        # Fallback: text patterns
         text = item.get_text(separator=" ")
-        # Common venue patterns
         for pattern in [r"@\s*(.+?)(?:\s|$)", r"会場[：:]\s*(.+?)(?:\s|$)"]:
             match = re.search(pattern, text)
             if match:
                 return match.group(1).strip()
         return None
+
+    def _extract_image_url(self, item) -> str | None:
+        """Extract image URL, handling protocol-relative URLs."""
+        img = item.select_one("img")
+        if not img:
+            return None
+
+        src = img.get("src") or img.get("data-src") or ""
+        if not src:
+            return None
+
+        if src.startswith("//"):
+            return f"https:{src}"
+        return src if src.startswith("http") else None

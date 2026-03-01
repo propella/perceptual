@@ -18,19 +18,23 @@
 
 ## 改善タスク
 
-### Phase 1: 重複排除
-- [ ] `scripts/scrapers/tokyo_art_beat.py` に `seen_urls` 追加
-- [ ] `scripts/scrapers/bijutsu_techo.py` に `seen_urls` 追加
-- [ ] `scripts/main.py` にグローバル重複排除を追加（source_url ベース）
+### Phase 1: 重複排除 ✅
+- [x] `scripts/scrapers/tokyo_art_beat.py` に `seen_urls` 追加
+- [x] `scripts/scrapers/bijutsu_techo.py` に `seen_urls` 追加
+- [x] `scripts/main.py` にグローバル重複排除を追加（source_url ベース）
 
-### Phase 2: フィルタリング改善
-- [ ] `scripts/filters.py` の短いキーワードを改善
-  - 「音」→「サウンド」「音響」に変更、または
-  - 単語境界マッチングに変更
+### Phase 2: フィルタリング改善 ✅
+- [x] `scripts/filters.py` の短いキーワードを検討
+  - 短いキーワード（音、光、影、空間）は維持（誤検出許容）
 
-### Phase 3: データ品質改善
-- [ ] Tokyo Art Beat の会場抽出パターン追加
-- [ ] 画像URL取得の改善
+### Phase 3: データ品質改善 ✅
+- [x] Tokyo Art Beat の会場抽出パターン追加
+  - `<h3>` 後の最初の `<p>` から会場名を抽出
+  - フォールバックとして `@` / `会場：` パターンも維持
+- [x] 画像URL取得の改善
+  - プロトコル相対URL (`//images.ctfassets.net/...`) を `https:` 付きに変換
+  - `data-src` 属性（lazy-loading）にも対応
+  - bijutsu_techo の HTML フォールバックにも同様の改善を適用
 
 ## 修正対象ファイル
 

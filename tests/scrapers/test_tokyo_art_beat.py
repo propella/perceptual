@@ -7,13 +7,15 @@ SAMPLE_HTML = """
 <body>
 <a href="/events/abc123">
     <h3>キネティックアート展</h3>
-    <img src="https://example.com/image.jpg">
-    <span>2026/3/1-5/31</span>
-    <span>@ 東京都美術館</span>
+    <p>東京都美術館</p>
+    <p>上野</p>
+    <p>2026/3/1-5/31</p>
+    <img src="//images.ctfassets.net/example/image.jpg">
 </a>
 <a href="/events/def456">
     <h3>サウンドインスタレーション</h3>
-    <span>2026/4/1-6/30</span>
+    <p>ICC</p>
+    <p>2026/4/1-6/30</p>
 </a>
 <a href="/other/page">
     <h3>Not an event</h3>
@@ -67,7 +69,37 @@ class TestTokyoArtBeatScraper:
         scraper = TokyoArtBeatScraper()
         exhibitions = scraper.scrape()
 
-        assert exhibitions[0].image_url == "https://example.com/image.jpg"
+        assert exhibitions[0].image_url == "https://images.ctfassets.net/example/image.jpg"
+
+    @responses.activate
+    def test_scrape_extracts_venue(self):
+        responses.add(
+            responses.GET,
+            "https://www.tokyoartbeat.com/events",
+            body=SAMPLE_HTML,
+            status=200,
+        )
+
+        scraper = TokyoArtBeatScraper()
+        exhibitions = scraper.scrape()
+
+        assert exhibitions[0].venue == "東京都美術館"
+        assert exhibitions[1].venue == "ICC"
+
+    @responses.activate
+    def test_scrape_handles_protocol_relative_image(self):
+        responses.add(
+            responses.GET,
+            "https://www.tokyoartbeat.com/events",
+            body=SAMPLE_HTML,
+            status=200,
+        )
+
+        scraper = TokyoArtBeatScraper()
+        exhibitions = scraper.scrape()
+
+        assert exhibitions[0].image_url == "https://images.ctfassets.net/example/image.jpg"
+        assert exhibitions[1].image_url is None
 
     def test_parse_dates(self):
         scraper = TokyoArtBeatScraper()

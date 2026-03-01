@@ -139,20 +139,53 @@ class BijutsuTechoScraper(BaseScraper):
                 end_date = datetime(end_year, end_month, end_day).date()
 
                 href = card.get("href", "")
-                img = card.select_one("img")
+
+                # Extract venue from <p> elements
+                venue = self._extract_venue_from_card(card)
+
+                # Extract image URL
+                image_url = self._extract_image_url(card)
 
                 exhibitions.append(
                     Exhibition(
                         title=title,
-                        venue="会場情報なし",
+                        venue=venue or "会場情報なし",
                         start_date=start_date,
                         end_date=end_date,
                         source_url=f"{self.base_url}{href}" if href.startswith("/") else href,
                         source=self.source_name,
-                        image_url=img.get("src") if img else None,
+                        image_url=image_url,
                     )
                 )
             except Exception:
                 continue
 
         return exhibitions
+
+    def _extract_venue_from_card(self, card) -> str | None:
+        """Extract venue name from HTML card."""
+        h3 = card.select_one("h3")
+        if h3:
+            for sibling in h3.find_next_siblings():
+                text = sibling.get_text(strip=True)
+                if not text:
+                    continue
+                if re.match(r"^\d{4}[./]", text):
+                    break
+                if len(text) > 2 and not text.startswith("#"):
+                    return text
+        return None
+
+    def _extract_image_url(self, card) -> str | None:
+        """Extract image URL, handling protocol-relative URLs."""
+        img = card.select_one("img")
+        if not img:
+            return None
+
+        src = img.get("src") or img.get("data-src") or ""
+        if not src:
+            return None
+
+        if src.startswith("//"):
+            return f"https:{src}"
+        return src if src.startswith("http") else None
