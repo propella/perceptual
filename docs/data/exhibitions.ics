@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:perceptual-exhibition-collector
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260306
+DTEND;VALUE=DATE:20260323
+DESCRIPTION:会場: 会場情報なし
+LOCATION:会場情報なし
+SUMMARY:「あの空間・場所について」
+UID:1b647bd9-9ee3-4255-bc23-25b02d3f668f@1b64.org
+URL:https://www.tokyoartbeat.com/events/-/That-Place/shutl/2026-03-06
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260225
+DTEND;VALUE=DATE:20260323
+DESCRIPTION:会場: 会場情報なし
+LOCATION:会場情報なし
+SUMMARY:「恵比寿映像祭2026　あなたの音に｜日花聲音｜Polyphonic Voices Bathed in Sunlight コミッション・プロジェクト＆東京都コレクション」
+UID:945e999d-3705-47e0-93c0-3b8ae8551133@945e.org
+URL:https://www.tokyoartbeat.com/events/-/Yebisu-International-Festival-for-Art-and-Alternative-Visions-2026-Polyphonic-Voices-Bathed-in-Sunlight-Commission-Project-Tokyo-Museum-Collection/B6131856/2026-02-25
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: 会場情報なし
+LOCATION:会場情報なし
+SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
+UID:4f95a9e4-ee31-4d3e-9851-be5461069ba4@4f95.org
+URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+END:VEVENT
+END:VCALENDAR
