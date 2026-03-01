@@ -19,13 +19,34 @@
 - メディアアート / インスタレーション（野村仁、カワクボリョウタ）
 - インタラクティブアート、テクノロジーアート
 
+## 開発方針 (DORA ベストプラクティス)
+
+[DORA](https://dora.dev/) の推奨するプラクティスに従い、以下を重視する：
+
+### 5つのメトリクス
+| メトリクス | 目標 | 実現方法 |
+|-----------|------|----------|
+| デプロイ頻度 | 高 | main マージで自動デプロイ |
+| 変更リードタイム | 短 | 小さな PR、自動テスト |
+| 変更失敗率 | 低 | テスト自動化、CI 必須化 |
+| 復旧時間 | 短 | ロールバック可能な設計 |
+| 再作業率 | 低 | コードレビュー、テストカバレッジ |
+
+### 採用するプラクティス
+- **トランクベース開発**: 短命ブランチ、小さな PR
+- **継続的インテグレーション**: PR ごとにテスト自動実行
+- **継続的デリバリー**: main マージで GitHub Pages に自動デプロイ
+- **テスト自動化**: pytest によるユニットテスト
+- **監視/可観測性**: スクレイピング成功率のログ出力
+
 ## 技術構成
 
 | コンポーネント | 技術 |
 |---------------|------|
 | スクレイピング | Python + requests + BeautifulSoup4 |
 | ICS生成 | ics ライブラリ |
-| 定期実行 | GitHub Actions (cron) |
+| テスト | pytest + responses (モック) |
+| CI/CD | GitHub Actions |
 | ホスティング | GitHub Pages |
 | フロントエンド | 静的HTML + Vanilla JS |
 
@@ -35,7 +56,8 @@
 /
 ├── .github/
 │   └── workflows/
-│       └── update-exhibitions.yml    # 毎日実行
+│       ├── ci.yml                    # PR時にテスト実行
+│       └── deploy.yml                # main マージで自動デプロイ
 ├── scripts/
 │   ├── scrapers/
 │   │   ├── __init__.py
@@ -48,8 +70,15 @@
 │   │   └── mot.py                    # 東京都現代美術館
 │   ├── filters.py                    # ジャンルフィルタリング
 │   ├── generator.py                  # JSON/ICS生成
-│   ├── main.py
-│   └── requirements.txt
+│   └── main.py
+├── tests/
+│   ├── __init__.py
+│   ├── conftest.py                   # pytest fixtures
+│   ├── test_filters.py
+│   ├── test_generator.py
+│   └── scrapers/
+│       ├── __init__.py
+│       └── test_base.py
 ├── docs/                             # GitHub Pages公開ディレクトリ
 │   ├── index.html
 │   ├── style.css
@@ -57,6 +86,8 @@
 │   └── data/
 │       ├── exhibitions.json
 │       └── exhibitions.ics
+├── requirements.txt                  # 本番依存
+├── requirements-dev.txt              # 開発依存 (pytest等)
 └── README.md
 ```
 
@@ -136,24 +167,53 @@ FILTER_KEYWORDS = [
 
 ## GitHub Actions ワークフロー
 
+### ci.yml (PR時のテスト)
 ```yaml
-name: Update Exhibitions
+name: CI
 
 on:
-  schedule:
-    - cron: '0 9 * * *'  # 毎日18:00 JST
-  workflow_dispatch:      # 手動実行可能
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
 
 jobs:
-  update:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install -r scripts/requirements.txt
+      - run: pip install -r requirements.txt -r requirements-dev.txt
+      - run: pytest --cov=scripts --cov-report=term-missing
+      - run: ruff check scripts tests
+```
+
+### deploy.yml (自動デプロイ)
+```yaml
+name: Deploy
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # 毎日18:00 JST
+  workflow_dispatch:      # 手動実行可能
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
       - run: python scripts/main.py
+      - name: Log scraping results
+        run: |
+          echo "::notice::Exhibitions found: $(jq '.exhibitions | length' docs/data/exhibitions.json)"
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -177,54 +237,67 @@ jobs:
 
 ## 実装手順
 
-### Phase 1: 基盤構築
+### Phase 1: プロジェクト基盤
 1. [ ] プロジェクト構造の作成
-2. [ ] requirements.txt (requests, beautifulsoup4, ics, lxml)
-3. [ ] 基底スクレイパークラス (base.py)
-4. [ ] フィルタリングモジュール (filters.py)
+2. [ ] requirements.txt / requirements-dev.txt
+3. [ ] pytest 設定 (conftest.py)
+4. [ ] CI ワークフロー (ci.yml)
 
-### Phase 2: スクレイパー実装
-5. [ ] Tokyo Art Beat スクレイパー
-6. [ ] 美術手帖スクレイパー
-7. [ ] ICC スクレイパー
-8. [ ] 21_21 DESIGN SIGHT スクレイパー
-9. [ ] 森美術館スクレイパー
-10. [ ] 東京都現代美術館スクレイパー
+### Phase 2: コアモジュール + テスト
+5. [ ] 基底スクレイパークラス (base.py) + テスト
+6. [ ] フィルタリングモジュール (filters.py) + テスト
+7. [ ] JSON/ICS生成 (generator.py) + テスト
 
-### Phase 3: 出力生成
-11. [ ] JSON生成 (generator.py)
-12. [ ] ICS生成 (generator.py)
-13. [ ] メインスクリプト (main.py)
+### Phase 3: スクレイパー実装 + テスト
+8. [ ] Tokyo Art Beat スクレイパー + テスト
+9. [ ] 美術手帖スクレイパー + テスト
+10. [ ] ICC スクレイパー + テスト
+11. [ ] 21_21 DESIGN SIGHT スクレイパー + テスト
+12. [ ] 森美術館スクレイパー + テスト
+13. [ ] 東京都現代美術館スクレイパー + テスト
 
-### Phase 4: フロントエンド
-14. [ ] index.html
-15. [ ] style.css
-16. [ ] app.js
+### Phase 4: 統合
+14. [ ] メインスクリプト (main.py)
+15. [ ] デプロイワークフロー (deploy.yml)
 
-### Phase 5: CI/CD
-17. [ ] GitHub Actions ワークフロー
-18. [ ] GitHub Pages設定
+### Phase 5: フロントエンド
+16. [ ] index.html
+17. [ ] style.css
+18. [ ] app.js
+
+### Phase 6: 本番稼働
+19. [ ] GitHub Pages 設定
+20. [ ] 動作確認・監視設定
 
 ## 検証方法
 
-1. **ローカルテスト**:
+1. **ユニットテスト**:
    ```bash
-   cd scripts
-   pip install -r requirements.txt
-   python main.py
+   pip install -r requirements.txt -r requirements-dev.txt
+   pytest --cov=scripts
+   ```
+
+2. **リンター**:
+   ```bash
+   ruff check scripts tests
+   ```
+
+3. **ローカル実行**:
+   ```bash
+   python scripts/main.py
    # docs/data/exhibitions.json と exhibitions.ics を確認
    ```
 
-2. **フロントエンド確認**:
+4. **フロントエンド確認**:
    ```bash
-   cd docs
-   python -m http.server 8000
+   python -m http.server 8000 -d docs
    # http://localhost:8000 で表示確認
    ```
 
-3. **GitHub Actions**:
-   - Push後、Actionsタブでワークフロー実行を確認
-   - GitHub Pagesの公開URLでサイト確認
+5. **CI/CD**:
+   - PR 作成時: CI が自動でテスト実行
+   - main マージ: 自動デプロイ
+   - Actions タブでログ確認
 
 ## 注意事項
 
