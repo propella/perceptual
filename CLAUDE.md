@@ -16,6 +16,7 @@
 - DORA ベストプラクティス (https://dora.dev/) に従う
 - uv を使用する
 - commit 前にテストを行う。
+- commit 前に完了した Plan をチェックする。
 
 ## 開発方針 (DORA ベストプラクティス)
 
