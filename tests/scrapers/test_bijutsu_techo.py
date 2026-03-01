@@ -88,3 +88,38 @@ class TestBijutsuTechoScraper:
         exhibitions = scraper.scrape()
 
         assert exhibitions[0].source_url == "https://bijutsutecho.com/exhibitions/12345"
+
+    @responses.activate
+    def test_scrape_deduplicates_by_url(self):
+        """Test that duplicate URLs are filtered out."""
+        html_with_duplicates = """
+        <html>
+        <body>
+        <a href="/exhibitions/12345">
+            <h3>展覧会A</h3>
+            <span>2026.03.01 - 05.31</span>
+        </a>
+        <a href="/exhibitions/12345">
+            <h3>展覧会A</h3>
+            <span>2026.03.01 - 05.31</span>
+        </a>
+        <a href="/exhibitions/67890">
+            <h3>展覧会B</h3>
+            <span>2026.04.01 - 06.30</span>
+        </a>
+        </body>
+        </html>
+        """
+        responses.add(
+            responses.GET,
+            "https://bijutsutecho.com/exhibitions",
+            body=html_with_duplicates,
+            status=200,
+        )
+
+        scraper = BijutsuTechoScraper()
+        exhibitions = scraper.scrape()
+
+        assert len(exhibitions) == 2
+        urls = [e.source_url for e in exhibitions]
+        assert len(urls) == len(set(urls))

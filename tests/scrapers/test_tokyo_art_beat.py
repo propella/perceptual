@@ -83,3 +83,38 @@ class TestTokyoArtBeatScraper:
         start, end = scraper._parse_dates("2026/11/1-2/28")
         assert start.year == 2026
         assert end.year == 2027
+
+    @responses.activate
+    def test_scrape_deduplicates_by_url(self):
+        """Test that duplicate URLs are filtered out."""
+        html_with_duplicates = """
+        <html>
+        <body>
+        <a href="/events/abc123">
+            <h3>展覧会A</h3>
+            <span>2026/3/1-5/31</span>
+        </a>
+        <a href="/events/abc123">
+            <h3>展覧会A</h3>
+            <span>2026/3/1-5/31</span>
+        </a>
+        <a href="/events/def456">
+            <h3>展覧会B</h3>
+            <span>2026/4/1-6/30</span>
+        </a>
+        </body>
+        </html>
+        """
+        responses.add(
+            responses.GET,
+            "https://www.tokyoartbeat.com/events",
+            body=html_with_duplicates,
+            status=200,
+        )
+
+        scraper = TokyoArtBeatScraper()
+        exhibitions = scraper.scrape()
+
+        assert len(exhibitions) == 2
+        urls = [e.source_url for e in exhibitions]
+        assert len(urls) == len(set(urls))

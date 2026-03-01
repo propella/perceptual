@@ -15,11 +15,13 @@ class TokyoArtBeatScraper(BaseScraper):
         """Scrape exhibitions from Tokyo Art Beat."""
         soup = self.fetch(self.events_url)
         exhibitions = []
+        seen_urls: set[str] = set()
 
         for item in soup.select("a[href^='/events/']"):
             try:
                 exhibition = self._parse_item(item)
-                if exhibition:
+                if exhibition and exhibition.source_url not in seen_urls:
+                    seen_urls.add(exhibition.source_url)
                     exhibitions.append(exhibition)
             except Exception:
                 continue

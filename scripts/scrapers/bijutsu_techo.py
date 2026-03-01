@@ -16,14 +16,21 @@ class BijutsuTechoScraper(BaseScraper):
         """Scrape exhibitions from Bijutsu Techo."""
         soup = self.fetch(self.events_url)
         exhibitions = []
+        seen_urls: set[str] = set()
 
         # Try to extract from __NUXT__ data
         nuxt_data = self._extract_nuxt_data(soup)
         if nuxt_data:
-            exhibitions.extend(self._parse_nuxt_data(nuxt_data))
+            for exhibition in self._parse_nuxt_data(nuxt_data):
+                if exhibition.source_url not in seen_urls:
+                    seen_urls.add(exhibition.source_url)
+                    exhibitions.append(exhibition)
         else:
             # Fallback to HTML parsing
-            exhibitions.extend(self._parse_html(soup))
+            for exhibition in self._parse_html(soup):
+                if exhibition.source_url not in seen_urls:
+                    seen_urls.add(exhibition.source_url)
+                    exhibitions.append(exhibition)
 
         return exhibitions
 

@@ -33,6 +33,17 @@ SCRAPERS = [
 OUTPUT_DIR = Path(__file__).parent.parent / "docs" / "data"
 
 
+def deduplicate_exhibitions(exhibitions: list) -> list:
+    """Remove duplicate exhibitions based on source_url."""
+    seen_urls: set[str] = set()
+    unique = []
+    for exhibition in exhibitions:
+        if exhibition.source_url not in seen_urls:
+            seen_urls.add(exhibition.source_url)
+            unique.append(exhibition)
+    return unique
+
+
 def main():
     """Run all scrapers and generate output files."""
     all_exhibitions = []
@@ -47,7 +58,9 @@ def main():
         except Exception as e:
             logger.error(f"  Error: {e}")
 
-    logger.info(f"Total exhibitions: {len(all_exhibitions)}")
+    # Remove duplicates across all sources
+    all_exhibitions = deduplicate_exhibitions(all_exhibitions)
+    logger.info(f"Total exhibitions (after dedup): {len(all_exhibitions)}")
 
     # Filter by keywords
     filtered = filter_exhibitions(all_exhibitions)
