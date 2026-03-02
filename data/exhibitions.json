@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-01T13:05:36.532649+00:00",
+  "lastUpdated": "2026-03-02T09:36:35.405612+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -28,15 +28,15 @@
       "tags": []
     },
     {
-      "id": "42e079c7bf8873d8",
-      "title": "「あの空間・場所について」",
+      "id": "d9116147cc108b71",
+      "title": "「追悼 田部光子展」",
       "description": null,
-      "venue": "SHUTL（シャトル）",
+      "venue": "みぞえ画廊東京店",
       "address": null,
-      "startDate": "2026-03-06",
+      "startDate": "2026-03-07",
       "endDate": "2026-03-22",
-      "imageUrl": "https://images.ctfassets.net/j05yk38inose/spBTReWk1jZ5vDQ6RjJs2/e19d63eed46f4afceb485ad5236f18dd/_SNSç___å__ç_ºã__ã__ã__ã__ã__.png",
-      "sourceUrl": "https://www.tokyoartbeat.com/events/-/That-Place/shutl/2026-03-06",
+      "imageUrl": "https://images.ctfassets.net/j05yk38inose/4mDoQDc7GilI3bUZbtDD16/93c726a9c36ba0deccbbdf5d5db064fd/7529d902-45a5-4f7e-9d06-cb6cb53fdcaf.jpg",
+      "sourceUrl": "https://www.tokyoartbeat.com/events/-/In-Memoriam-Mitsuko-Tabe-Exhibition/35-ED-845-D/2026-03-07",
       "source": "tokyo_art_beat",
       "tags": []
     },
@@ -50,6 +50,19 @@
       "endDate": "2026-05-09",
       "imageUrl": "https://bt.imgix.net/exhibition/17549/main/1771880887442_558a9820512ef536cf9177224ac18c23.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,17,3178,1787&v=6",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17549",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "05ffa6559835f214",
+      "title": "福光真実「Opening Blue」",
+      "description": null,
+      "venue": "バンビナートギャラリー",
+      "address": null,
+      "startDate": "2026-02-19",
+      "endDate": "2026-03-13",
+      "imageUrl": "https://bt.imgix.net/exhibition/17590/main/1772421697921_79d55e898b368012dfd5b693ee689168.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=122,0,1619,911&v=10",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/17590",
       "source": "bijutsu_techo",
       "tags": []
     },
