@@ -4,29 +4,29 @@ PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251213
 DTEND;VALUE=DATE:20260309
+DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/5th-floor-lobby-from-dec-13-2025/
+LOCATION:東京都新宿区西新宿3-20-2 東京オペラシティタワー4F
+SUMMARY:5Fロビー 無料展示エリア
+UID:e2605313-5746-4773-b8d4-dd19bd02c115@e260.org
+URL:https://www.ntticc.or.jp/ja/exhibitions/2025/5th-floor-lobby-from-dec-13-2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251213
+DTEND;VALUE=DATE:20260309
 DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations-screening-program/
 LOCATION:東京都新宿区西新宿3-20-2 東京オペラシティタワー4F
 SUMMARY:上映プログラム
-UID:dfdcf1d3-ef7e-44e8-9359-c75b57f7c659@dfdc.org
+UID:b2fbf29d-113e-46c5-811e-cb605b914361@b2fb.org
 URL:https://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations-screening-program/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251213
 DTEND;VALUE=DATE:20260309
-DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/5th-floor-lobby-from-dec-13-2025/
+DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/beyond-embodiment-from-dec-13-2025/
 LOCATION:東京都新宿区西新宿3-20-2 東京オペラシティタワー4F
-SUMMARY:5Fロビー 無料展示エリア
-UID:17ece12e-e167-4895-8510-57a33af2efb7@17ec.org
-URL:https://www.ntticc.or.jp/ja/exhibitions/2025/5th-floor-lobby-from-dec-13-2025/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260303
-DTEND;VALUE=DATE:20260510
-DESCRIPTION:会場: PLAY! MUSEUM\n\nhttps://bijutsutecho.com/exhibitions/17549
-LOCATION:PLAY! MUSEUM
-SUMMARY:生誕100周年記念 安野光雅展
-UID:2ac80e3c-df24-423a-ab9b-a6de69022f80@2ac8.org
-URL:https://bijutsutecho.com/exhibitions/17549
+SUMMARY:リサーチ・コンプレックス NTT R＆D @ICC「身体性BEYOND」
+UID:55b2f245-9677-4fe6-8418-e7e5fd318d97@55b2.org
+URL:https://www.ntticc.or.jp/ja/exhibitions/2025/beyond-embodiment-from-dec-13-2025/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251213
@@ -34,17 +34,17 @@ DTEND;VALUE=DATE:20260309
 DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations/
 LOCATION:東京都新宿区西新宿3-20-2 東京オペラシティタワー4F
 SUMMARY:知覚の大霊廟をめざして——三上晴子のインタラクティヴ・インスタレーション
-UID:928df4ee-56ee-4779-af83-abd3e6c54f04@928d.org
+UID:b1908102-5365-4663-9721-75612ef467a2@b190.org
 URL:https://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260307
-DTEND;VALUE=DATE:20260323
-DESCRIPTION:会場: みぞえ画廊東京店\n\nhttps://www.tokyoartbeat.com/events/-/In-Memoriam-Mitsuko-Tabe-Exhibition/35-ED-845-D/2026-03-07
-LOCATION:みぞえ画廊東京店
-SUMMARY:「追悼 田部光子展」
-UID:d39cdf86-17f0-4336-8d0c-a3098f97ac98@d39c.org
-URL:https://www.tokyoartbeat.com/events/-/In-Memoriam-Mitsuko-Tabe-Exhibition/35-ED-845-D/2026-03-07
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260510
+DESCRIPTION:会場: PLAY! MUSEUM\n\nhttps://bijutsutecho.com/exhibitions/17549
+LOCATION:PLAY! MUSEUM
+SUMMARY:生誕100周年記念 安野光雅展
+UID:10a3bd86-341e-476d-b55f-b3067c1ac456@10a3.org
+URL:https://bijutsutecho.com/exhibitions/17549
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260411
@@ -52,7 +52,7 @@ DTEND;VALUE=DATE:20260622
 DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
 LOCATION:SOMPO美術館
 SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:97322e2e-ff31-4fcc-b940-99441b6a410d@9732.org
+UID:43bdd824-7f2c-40bb-a76a-4d14877485a6@43bd.org
 URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
 END:VEVENT
 BEGIN:VEVENT
@@ -61,25 +61,7 @@ DTEND;VALUE=DATE:20260323
 DESCRIPTION:会場: 東京都写真美術館\n\nhttps://www.tokyoartbeat.com/events/-/Yebisu-International-Festival-for-Art-and-Alternative-Visions-2026-Polyphonic-Voices-Bathed-in-Sunlight-Commission-Project-Tokyo-Museum-Collection/B6131856/2026-02-25
 LOCATION:東京都写真美術館
 SUMMARY:「恵比寿映像祭2026　あなたの音に｜日花聲音｜Polyphonic Voices Bathed in Sunlight コミッション・プロジェクト＆東京都コレクション」
-UID:b2c4c563-303a-4d87-8a8f-3404ee78e0be@b2c4.org
+UID:7dbec7ba-19d4-4fc9-9b3c-27bdf24cd71c@7dbe.org
 URL:https://www.tokyoartbeat.com/events/-/Yebisu-International-Festival-for-Art-and-Alternative-Visions-2026-Polyphonic-Voices-Bathed-in-Sunlight-Commission-Project-Tokyo-Museum-Collection/B6131856/2026-02-25
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260219
-DTEND;VALUE=DATE:20260314
-DESCRIPTION:会場: バンビナートギャラリー\n\nhttps://bijutsutecho.com/exhibitions/17590
-LOCATION:バンビナートギャラリー
-SUMMARY:福光真実「Opening Blue」
-UID:2df248cb-98cb-4fc4-9666-3755ef017cf5@2df2.org
-URL:https://bijutsutecho.com/exhibitions/17590
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251213
-DTEND;VALUE=DATE:20260309
-DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/beyond-embodiment-from-dec-13-2025/
-LOCATION:東京都新宿区西新宿3-20-2 東京オペラシティタワー4F
-SUMMARY:リサーチ・コンプレックス NTT R＆D @ICC「身体性BEYOND」
-UID:abf91e4f-ae9b-45e6-8907-2633daf57fe9@abf9.org
-URL:https://www.ntticc.or.jp/ja/exhibitions/2025/beyond-embodiment-from-dec-13-2025/
 END:VEVENT
 END:VCALENDAR
