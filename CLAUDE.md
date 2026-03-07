@@ -18,7 +18,7 @@
 - 開発プランは .claude/plans/nnn-(slug).md に記述する。nnn は連番。
 - 開発プランには、完了を示すチェックボックスをつける。
 - 実装後テストを行う。
-- テスト完了後は実際に動作確認する。
+- テスト完了後は実際に `uv run python -m scripts.main` で動作確認する。
 - 動作確認後に完了した Plan をチェックする。
 - 将来の課題は @.claude/plans/999-backlog.md に記録。
 - commit と push を行う。
