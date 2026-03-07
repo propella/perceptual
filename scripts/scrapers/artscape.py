@@ -18,9 +18,9 @@ class ArtscapeScraper(PlaywrightBaseScraper):
         exhibitions = []
         seen_urls: set[str] = set()
 
-        for a in soup.select("a[href*='/exhibitions/']"):
+        for article in soup.select("article.item-article"):
             try:
-                exhibition = self._parse_item(a)
+                exhibition = self._parse_article(article)
                 if exhibition and exhibition.source_url not in seen_urls:
                     exhibitions.append(exhibition)
                     seen_urls.add(exhibition.source_url)
@@ -29,25 +29,83 @@ class ArtscapeScraper(PlaywrightBaseScraper):
 
         return exhibitions
 
-    def _parse_item(self, a) -> Exhibition | None:
-        """Parse a single exhibition link element.
+    def _parse_article(self, article) -> Exhibition | None:
+        """Parse a single article element.
 
-        The actual HTML structure has the h3, venue, and date OUTSIDE the <a> tag,
-        in the parent container div:
-          <div>
-            <a href="/exhibitions/ID/"><img></a>
-            <div><h3>Title</h3></div>
-            <div>Venue</div>
-            <div>会期：dates</div>
-          </div>
+        Actual HTML structure:
+          <article class="item-article item-exhibitions">
+            <figure class="item-img">
+              <a href="/exhibitions/ID/"><img /></a>
+            </figure>
+            <div class="item-txt">
+              <h3 class="article-title"><a href="..."><span>Title</span></a></h3>
+              <p>Venue<br/>location</p>
+              <p>会期：dates</p>
+            </div>
+          </article>
         """
+        # URL and source_url from h3 link or figure link
+        h3 = article.select_one("h3.article-title")
+        if not h3:
+            return None
+        title = h3.get_text(strip=True)
+        if not title:
+            return None
+
+        h3_link = h3.select_one("a")
+        if not h3_link:
+            return None
+        href = h3_link.get("href", "")
+        if not re.search(r"/exhibitions/\d+/", href):
+            return None
+        source_url = href if href.startswith("http") else f"{self.base_url}{href}"
+
+        # Image from figure
+        image_url = None
+        img = article.select_one("figure img")
+        if img:
+            src = img.get("src") or img.get("data-src", "")
+            if src.startswith("http"):
+                image_url = src
+            elif src.startswith("/"):
+                image_url = f"{self.base_url}{src}"
+
+        # Text content from item-txt
+        item_txt = article.select_one("div.item-txt")
+        if not item_txt:
+            return None
+
+        article_text = item_txt.get_text(separator=" ", strip=True)
+        start_date, end_date = self._parse_dates(article_text)
+        if not start_date or not end_date:
+            return None
+
+        # Venue: first <p> that has no year pattern
+        venue = "artscape"
+        for p in item_txt.select("p"):
+            text = p.get_text(strip=True)
+            if text and not re.search(r"\d{4}年", text):
+                venue = text
+                break
+
+        return Exhibition(
+            title=title,
+            venue=venue,
+            start_date=start_date,
+            end_date=end_date,
+            source_url=source_url,
+            source=self.source_name,
+            image_url=image_url,
+        )
+
+    def _parse_item(self, a) -> Exhibition | None:
+        """Legacy: parse from <a> element (kept for test compatibility)."""
         href = a.get("href", "")
         if not re.search(r"/exhibitions/\d+/", href):
             return None
 
         source_url = href if href.startswith("http") else f"{self.base_url}{href}"
 
-        # Image is inside the <a> tag
         img = a.select_one("img")
         image_url = None
         if img:
@@ -57,7 +115,6 @@ class ArtscapeScraper(PlaywrightBaseScraper):
             elif src.startswith("/"):
                 image_url = f"{self.base_url}{src}"
 
-        # Title, venue, dates are in the parent container (sibling divs of the <a>)
         parent = a.parent
         if parent is None:
             return None
@@ -74,10 +131,9 @@ class ArtscapeScraper(PlaywrightBaseScraper):
         if not start_date or not end_date:
             return None
 
-        # Venue: first div/p in parent that has no h3 (not the title/badge div) and no dates
         venue = "artscape"
         for elem in parent.select("p, div"):
-            if elem.find("h3"):  # Skip the title+status badge div
+            if elem.find("h3"):
                 continue
             text = elem.get_text(strip=True)
             if text and not re.search(r"\d{4}年", text):

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T12:09:22.596937+00:00",
+  "lastUpdated": "2026-03-07T12:54:10.034015+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -124,6 +124,32 @@
       "imageUrl": "https://www.kanazawa21.jp/file.php?g=45&d=1833&n=main_image&gp=&lng=&p= ",
       "sourceUrl": "https://www.kanazawa21.jp/data_list.php?g=17&d=1833",
       "source": "kanazawa21",
+      "tags": []
+    },
+    {
+      "id": "ad75a2f3c64d9355",
+      "title": "Noctis：影と光のグラスアート",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-03-07",
+      "endDate": "2026-06-21",
+      "imageUrl": null,
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12031",
+      "source": "artagenda",
+      "tags": []
+    },
+    {
+      "id": "092a251593bf63ab",
+      "title": "光安義光と村野藤吾―共振するモダンデザイン―",
+      "description": null,
+      "venue": "京都工芸繊維大学 美術工芸資料館京都",
+      "address": null,
+      "startDate": "2026-03-23",
+      "endDate": "2026-05-16",
+      "imageUrl": null,
+      "sourceUrl": "https://artscape.jp/exhibitions/63193/",
+      "source": "artscape",
       "tags": []
     }
   ]
