@@ -1,6 +1,45 @@
 {
-  "lastUpdated": "2026-03-07T09:18:20.952480+00:00",
+  "lastUpdated": "2026-03-07T12:17:19.924828+00:00",
   "exhibitions": [
+    {
+      "id": "a94ed52ca18bc4ea",
+      "title": "「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」",
+      "description": null,
+      "venue": "SOMPO美術館",
+      "address": null,
+      "startDate": "2026-04-11",
+      "endDate": "2026-06-21",
+      "imageUrl": "https://images.ctfassets.net/j05yk38inose/6MuXksBHnXBVQU2WUdQQJc/95a63391a135e912cedea7c309a6715d/unnamed.jpg",
+      "sourceUrl": "https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11",
+      "source": "tokyo_art_beat",
+      "tags": []
+    },
+    {
+      "id": "d5c2d2ae83d52272",
+      "title": "「恵比寿映像祭2026　あなたの音に｜日花聲音｜Polyphonic Voices Bathed in Sunlight コミッション・プロジェクト＆東京都コレクション」",
+      "description": null,
+      "venue": "東京都写真美術館",
+      "address": null,
+      "startDate": "2026-02-25",
+      "endDate": "2026-03-22",
+      "imageUrl": "https://images.ctfassets.net/j05yk38inose/import_venue_image__B6131856/7121cde074f0f2868ffda4184753c36d/topmuseum_main.jpg",
+      "sourceUrl": "https://www.tokyoartbeat.com/events/-/Yebisu-International-Festival-for-Art-and-Alternative-Visions-2026-Polyphonic-Voices-Bathed-in-Sunlight-Commission-Project-Tokyo-Museum-Collection/B6131856/2026-02-25",
+      "source": "tokyo_art_beat",
+      "tags": []
+    },
+    {
+      "id": "42e079c7bf8873d8",
+      "title": "「あの空間・場所について」",
+      "description": null,
+      "venue": "SHUTL（シャトル）",
+      "address": null,
+      "startDate": "2026-03-06",
+      "endDate": "2026-03-22",
+      "imageUrl": "https://images.ctfassets.net/j05yk38inose/spBTReWk1jZ5vDQ6RjJs2/e19d63eed46f4afceb485ad5236f18dd/_SNSç___å__ç_ºã__ã__ã__ã__ã__.png",
+      "sourceUrl": "https://www.tokyoartbeat.com/events/-/That-Place/shutl/2026-03-06",
+      "source": "tokyo_art_beat",
+      "tags": []
+    },
     {
       "id": "057c4ad2ce6e2d7b",
       "title": "生誕100周年記念 安野光雅展",
@@ -73,6 +112,32 @@
       "tags": [
         "メディアアート"
       ]
+    },
+    {
+      "id": "180eb0cdb7515592",
+      "title": "江康泉　電気心音",
+      "description": null,
+      "venue": "金沢21世紀美術館",
+      "address": "石川県金沢市広坂1-2-1",
+      "startDate": "2025-10-18",
+      "endDate": "2026-03-22",
+      "imageUrl": "https://www.kanazawa21.jp/file.php?g=45&d=1833&n=main_image&gp=&lng=&p= ",
+      "sourceUrl": "https://www.kanazawa21.jp/data_list.php?g=17&d=1833",
+      "source": "kanazawa21",
+      "tags": []
+    },
+    {
+      "id": "ad75a2f3c64d9355",
+      "title": "Noctis：影と光のグラスアート",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-03-07",
+      "endDate": "2026-06-21",
+      "imageUrl": null,
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12031",
+      "source": "artagenda",
+      "tags": []
     }
   ]
 }
