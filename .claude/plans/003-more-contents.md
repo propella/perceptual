@@ -64,11 +64,11 @@ def merge_exhibitions(existing: list[Exhibition], new: list[Exhibition], today: 
 
 ### 実装順序
 
-- [ ] `scripts/main.py` にマージロジックを追加 + テスト（課題1）
-- [ ] artscapeスクレイパー + テスト
-- [ ] アートアジェンダスクレイパー + テスト
-- [ ] 金沢21世紀美術館スクレイパー + テスト
-- [ ] 国立国際美術館スクレイパー + テスト
+- [x] `scripts/main.py` にマージロジックを追加 + テスト（課題1）
+- [x] artscapeスクレイパー + テスト
+- [x] アートアジェンダスクレイパー + テスト
+- [x] 金沢21世紀美術館スクレイパー + テスト
+- [x] 国立国際美術館スクレイパー + テスト
 
 ---
 
