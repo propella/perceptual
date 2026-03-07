@@ -2,12 +2,84 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260307
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
+LOCATION:アートアジェンダ
+SUMMARY:Noctis：影と光のグラスアート
+UID:aa70785b-28ee-4321-bd29-43d2404d34be@aa70.org
+URL:https://www.artagenda.jp/exhibition/detail/12031
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251018
+DTEND;VALUE=DATE:20260323
+DESCRIPTION:会場: 金沢21世紀美術館\n\nhttps://www.kanazawa21.jp/data_list.php?g=17&d=1833
+LOCATION:石川県金沢市広坂1-2-1
+SUMMARY:江康泉　電気心音
+UID:d20eaa6f-5430-48fc-8862-2522083e575d@d20e.org
+URL:https://www.kanazawa21.jp/data_list.php?g=17&d=1833
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251213
+DTEND;VALUE=DATE:20260309
+DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/5th-floor-lobby-from-dec-13-2025/
+LOCATION:東京都新宿区西新宿3-20-2 東京オペラシティタワー4F
+SUMMARY:5Fロビー 無料展示エリア
+UID:72357dca-659d-47c7-8bd4-e3e0e8030480@7235.org
+URL:https://www.ntticc.or.jp/ja/exhibitions/2025/5th-floor-lobby-from-dec-13-2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+LOCATION:SOMPO美術館
+SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
+UID:86837df8-d495-464a-8f7a-1ad761752aab@8683.org
+URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251213
+DTEND;VALUE=DATE:20260309
+DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/beyond-embodiment-from-dec-13-2025/
+LOCATION:東京都新宿区西新宿3-20-2 東京オペラシティタワー4F
+SUMMARY:リサーチ・コンプレックス NTT R＆D @ICC「身体性BEYOND」
+UID:d9573b37-bc43-40d6-928c-097bbd8d8d81@d957.org
+URL:https://www.ntticc.or.jp/ja/exhibitions/2025/beyond-embodiment-from-dec-13-2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260517
+DESCRIPTION:会場: 京都工芸繊維大学 美術工芸資料館京都\n\nhttps://artscape.jp/exhibitions/63193/
+LOCATION:京都工芸繊維大学 美術工芸資料館京都
+SUMMARY:光安義光と村野藤吾―共振するモダンデザイン―
+UID:0bf5a386-9f1c-4583-a1e2-aa1f1beb73bd@0bf5.org
+URL:https://artscape.jp/exhibitions/63193/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260225
+DTEND;VALUE=DATE:20260323
+DESCRIPTION:会場: 東京都写真美術館\n\nhttps://www.tokyoartbeat.com/events/-/Yebisu-International-Festival-for-Art-and-Alternative-Visions-2026-Polyphonic-Voices-Bathed-in-Sunlight-Commission-Project-Tokyo-Museum-Collection/B6131856/2026-02-25
+LOCATION:東京都写真美術館
+SUMMARY:「恵比寿映像祭2026　あなたの音に｜日花聲音｜Polyphonic Voices Bathed in Sunlight コミッション・プロジェクト＆東京都コレクション」
+UID:1d627bec-c43a-47cb-88bd-f217182fec88@1d62.org
+URL:https://www.tokyoartbeat.com/events/-/Yebisu-International-Festival-for-Art-and-Alternative-Visions-2026-Polyphonic-Voices-Bathed-in-Sunlight-Commission-Project-Tokyo-Museum-Collection/B6131856/2026-02-25
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260510
+DESCRIPTION:会場: PLAY! MUSEUM\n\nhttps://bijutsutecho.com/exhibitions/17549
+LOCATION:PLAY! MUSEUM
+SUMMARY:生誕100周年記念 安野光雅展
+UID:5c4dbc10-a8ce-48c7-b8ce-43e655200051@5c4d.org
+URL:https://bijutsutecho.com/exhibitions/17549
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260306
 DTEND;VALUE=DATE:20260323
 DESCRIPTION:会場: SHUTL（シャトル）\n\nhttps://www.tokyoartbeat.com/events/-/That-Place/shutl/2026-03-06
 LOCATION:SHUTL（シャトル）
 SUMMARY:「あの空間・場所について」
-UID:6fdf521a-eccb-4dad-93c5-7e1dac5d8d9f@6fdf.org
+UID:9e5e02d7-a3a8-40bf-a6e8-4b2fd23c50b5@9e5e.org
 URL:https://www.tokyoartbeat.com/events/-/That-Place/shutl/2026-03-06
 END:VEVENT
 BEGIN:VEVENT
@@ -16,53 +88,8 @@ DTEND;VALUE=DATE:20260309
 DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations-screening-program/
 LOCATION:東京都新宿区西新宿3-20-2 東京オペラシティタワー4F
 SUMMARY:上映プログラム
-UID:bf408f82-ff20-4fa6-b21f-3e8d5c07cb61@bf40.org
+UID:45c41d59-fb55-4a29-96a9-2db48a1d7b6b@45c4.org
 URL:https://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations-screening-program/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251018
-DTEND;VALUE=DATE:20260323
-DESCRIPTION:会場: 金沢21世紀美術館\n\nhttps://www.kanazawa21.jp/data_list.php?g=17&d=1833
-LOCATION:石川県金沢市広坂1-2-1
-SUMMARY:江康泉　電気心音
-UID:52e7120e-d2af-482b-bf07-d20c4b8bce25@52e7.org
-URL:https://www.kanazawa21.jp/data_list.php?g=17&d=1833
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260307
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
-LOCATION:アートアジェンダ
-SUMMARY:Noctis：影と光のグラスアート
-UID:73bd0b28-fcba-4f0b-98eb-cfeca21bcdb6@73bd.org
-URL:https://www.artagenda.jp/exhibition/detail/12031
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260303
-DTEND;VALUE=DATE:20260510
-DESCRIPTION:会場: PLAY! MUSEUM\n\nhttps://bijutsutecho.com/exhibitions/17549
-LOCATION:PLAY! MUSEUM
-SUMMARY:生誕100周年記念 安野光雅展
-UID:b8746fcf-fb84-49fd-8d7b-bf5e9fbacf75@b874.org
-URL:https://bijutsutecho.com/exhibitions/17549
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260225
-DTEND;VALUE=DATE:20260323
-DESCRIPTION:会場: 東京都写真美術館\n\nhttps://www.tokyoartbeat.com/events/-/Yebisu-International-Festival-for-Art-and-Alternative-Visions-2026-Polyphonic-Voices-Bathed-in-Sunlight-Commission-Project-Tokyo-Museum-Collection/B6131856/2026-02-25
-LOCATION:東京都写真美術館
-SUMMARY:「恵比寿映像祭2026　あなたの音に｜日花聲音｜Polyphonic Voices Bathed in Sunlight コミッション・プロジェクト＆東京都コレクション」
-UID:1c47e5ce-a2de-4251-9515-c11e53d04c13@1c47.org
-URL:https://www.tokyoartbeat.com/events/-/Yebisu-International-Festival-for-Art-and-Alternative-Visions-2026-Polyphonic-Voices-Bathed-in-Sunlight-Commission-Project-Tokyo-Museum-Collection/B6131856/2026-02-25
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-LOCATION:SOMPO美術館
-SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:1d31fbd0-1481-4b48-831f-03b057ffa1c8@1d31.org
-URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251213
@@ -70,25 +97,7 @@ DTEND;VALUE=DATE:20260309
 DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations/
 LOCATION:東京都新宿区西新宿3-20-2 東京オペラシティタワー4F
 SUMMARY:知覚の大霊廟をめざして——三上晴子のインタラクティヴ・インスタレーション
-UID:19eec409-0272-46b7-95f2-aa244dba090d@19ee.org
+UID:498c8d04-0b43-4e8b-858d-eb5c5abc7fe2@498c.org
 URL:https://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251213
-DTEND;VALUE=DATE:20260309
-DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/beyond-embodiment-from-dec-13-2025/
-LOCATION:東京都新宿区西新宿3-20-2 東京オペラシティタワー4F
-SUMMARY:リサーチ・コンプレックス NTT R＆D @ICC「身体性BEYOND」
-UID:74af889d-649a-40f4-9dcb-598886a3a066@74af.org
-URL:https://www.ntticc.or.jp/ja/exhibitions/2025/beyond-embodiment-from-dec-13-2025/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251213
-DTEND;VALUE=DATE:20260309
-DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/5th-floor-lobby-from-dec-13-2025/
-LOCATION:東京都新宿区西新宿3-20-2 東京オペラシティタワー4F
-SUMMARY:5Fロビー 無料展示エリア
-UID:da008ad2-e112-4f90-ac75-1d780ea44eef@da00.org
-URL:https://www.ntticc.or.jp/ja/exhibitions/2025/5th-floor-lobby-from-dec-13-2025/
 END:VEVENT
 END:VCALENDAR

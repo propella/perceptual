@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T12:47:35.222100+00:00",
+  "lastUpdated": "2026-03-07T12:56:06.488642+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -137,6 +137,19 @@
       "imageUrl": null,
       "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12031",
       "source": "artagenda",
+      "tags": []
+    },
+    {
+      "id": "092a251593bf63ab",
+      "title": "光安義光と村野藤吾―共振するモダンデザイン―",
+      "description": null,
+      "venue": "京都工芸繊維大学 美術工芸資料館京都",
+      "address": null,
+      "startDate": "2026-03-23",
+      "endDate": "2026-05-16",
+      "imageUrl": null,
+      "sourceUrl": "https://artscape.jp/exhibitions/63193/",
+      "source": "artscape",
       "tags": []
     }
   ]
