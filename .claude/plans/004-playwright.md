@@ -29,6 +29,17 @@ BaseScraper (requests ベース)
 
 `tokyo_art_beat` は `__NEXT_DATA__` 抽出の調査・修正で対応を試みる（Playwright 不要な可能性）。
 
+### 懸念点
+
+| 懸念 | 詳細 | 対策 |
+|------|------|------|
+| **CI/CD 実行時間の増大** | Chromium インストール（~200MB）＋ ブラウザ起動・networkidle 待機で 1 スクレイパーあたり 30〜60 秒増加 | deploy.yml のみに追加（ci.yml のテストはモックで高速に保つ） |
+| **GitHub Actions メモリ使用量** | ヘッドレス Chromium はメモリ消費が大きい（~300MB） | `ubuntu-latest` の 7GB RAM で問題なし。同時実行はしない |
+| **Anti-bot 対策** | サイトがヘッドレスブラウザを検出してブロックする可能性 | User-Agent を設定済み。必要に応じて `stealth` 対応を検討 |
+| **networkidle タイムアウト** | SPA でネットワークがアイドルにならないケースがある | `wait_for_load_state("networkidle")` + 30 秒タイムアウト。失敗時は `domcontentloaded` にフォールバック |
+| **Playwright 依存の複雑さ** | Linux では `--with-deps` で OS 依存ライブラリが必要 | `uv run playwright install chromium --with-deps` で解決 |
+| **テストの実行速度** | 実際の Playwright を使うとテストが遅い | すべてのテストは `mock.patch` でモック化し、ユニットテストは高速に保つ |
+
 ### テスト方法
 
 `responses` ライブラリは HTTP レベルのモックのため Playwright では使えない。
