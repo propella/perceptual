@@ -134,6 +134,54 @@ class TestTokyoArtBeatScraper:
         assert len(exhibitions) == 1
         assert exhibitions[0].image_url == "https://images.ctfassets.net/poster.jpg"
 
+    @responses.activate
+    def test_scrape_from_next_data_full_event(self):
+        """Test full event extraction from __NEXT_DATA__ including dates and venue."""
+        html_with_full_next_data = """
+        <html>
+        <body>
+        <script id="__NEXT_DATA__" type="application/json">
+        {"props":{"pageProps":{"fallback":{"events":{"data":[
+            {
+              "slug": "kinetic-art-2026",
+              "eventName": "キネティックアート展",
+              "startDate": "2026-03-01",
+              "endDate": "2026-05-31",
+              "spaceName": "東京都美術館",
+              "imageposter": {"fields": {"file": {"url": "//images.ctfassets.net/poster.jpg"}}}
+            },
+            {
+              "slug": "sound-installation",
+              "eventName": "サウンドインスタレーション",
+              "startDate": "2026-04-01",
+              "endDate": "2026-06-30",
+              "spaceName": "ICC"
+            }
+        ]}}}}}
+        </script>
+        </body>
+        </html>
+        """
+        responses.add(
+            responses.GET,
+            "https://www.tokyoartbeat.com/events",
+            body=html_with_full_next_data,
+            status=200,
+        )
+
+        scraper = TokyoArtBeatScraper()
+        exhibitions = scraper.scrape()
+
+        assert len(exhibitions) == 2
+        assert exhibitions[0].title == "キネティックアート展"
+        assert exhibitions[0].venue == "東京都美術館"
+        assert exhibitions[0].start_date.month == 3
+        assert exhibitions[0].end_date.month == 5
+        assert exhibitions[0].source_url == "https://www.tokyoartbeat.com/events/kinetic-art-2026"
+        assert exhibitions[0].image_url == "https://images.ctfassets.net/poster.jpg"
+        assert exhibitions[1].title == "サウンドインスタレーション"
+        assert exhibitions[1].venue == "ICC"
+
     def test_parse_dates(self):
         scraper = TokyoArtBeatScraper()
         start, end = scraper._parse_dates("展覧会 2026/3/1-5/31 開催")

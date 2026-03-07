@@ -1,4 +1,6 @@
-import responses
+from unittest.mock import patch
+
+from bs4 import BeautifulSoup
 
 from scripts.scrapers.artscape import ArtscapeScraper
 
@@ -27,95 +29,61 @@ SAMPLE_HTML = """
 """
 
 
+def _mock_fetch_js(self, url):
+    return BeautifulSoup(SAMPLE_HTML, "lxml")
+
+
 class TestArtscapeScraper:
-    @responses.activate
     def test_scrape_returns_exhibitions(self):
-        responses.add(
-            responses.GET,
-            "https://artscape.jp/exhibitions/",
-            body=SAMPLE_HTML,
-            status=200,
-        )
-        scraper = ArtscapeScraper()
-        exhibitions = scraper.scrape()
+        with patch.object(ArtscapeScraper, "fetch_js", _mock_fetch_js):
+            scraper = ArtscapeScraper()
+            exhibitions = scraper.scrape()
         assert len(exhibitions) == 2
 
-    @responses.activate
     def test_scrape_extracts_title(self):
-        responses.add(
-            responses.GET,
-            "https://artscape.jp/exhibitions/",
-            body=SAMPLE_HTML,
-            status=200,
-        )
-        scraper = ArtscapeScraper()
-        exhibitions = scraper.scrape()
+        with patch.object(ArtscapeScraper, "fetch_js", _mock_fetch_js):
+            scraper = ArtscapeScraper()
+            exhibitions = scraper.scrape()
         assert exhibitions[0].title == "サウンドアート展2026"
 
-    @responses.activate
     def test_scrape_extracts_venue(self):
-        responses.add(
-            responses.GET,
-            "https://artscape.jp/exhibitions/",
-            body=SAMPLE_HTML,
-            status=200,
-        )
-        scraper = ArtscapeScraper()
-        exhibitions = scraper.scrape()
+        with patch.object(ArtscapeScraper, "fetch_js", _mock_fetch_js):
+            scraper = ArtscapeScraper()
+            exhibitions = scraper.scrape()
         assert exhibitions[0].venue == "東京都現代美術館"
 
-    @responses.activate
     def test_scrape_extracts_dates(self):
-        responses.add(
-            responses.GET,
-            "https://artscape.jp/exhibitions/",
-            body=SAMPLE_HTML,
-            status=200,
-        )
-        scraper = ArtscapeScraper()
-        exhibitions = scraper.scrape()
+        with patch.object(ArtscapeScraper, "fetch_js", _mock_fetch_js):
+            scraper = ArtscapeScraper()
+            exhibitions = scraper.scrape()
         assert exhibitions[0].start_date.year == 2026
         assert exhibitions[0].start_date.month == 3
         assert exhibitions[0].end_date.month == 5
 
-    @responses.activate
     def test_scrape_extracts_image_url(self):
-        responses.add(
-            responses.GET,
-            "https://artscape.jp/exhibitions/",
-            body=SAMPLE_HTML,
-            status=200,
-        )
-        scraper = ArtscapeScraper()
-        exhibitions = scraper.scrape()
+        with patch.object(ArtscapeScraper, "fetch_js", _mock_fetch_js):
+            scraper = ArtscapeScraper()
+            exhibitions = scraper.scrape()
         assert exhibitions[0].image_url == "https://artscape.jp/wp-content/uploads/2026/01/exhibition1.jpg"
 
-    @responses.activate
     def test_scrape_sets_source(self):
-        responses.add(
-            responses.GET,
-            "https://artscape.jp/exhibitions/",
-            body=SAMPLE_HTML,
-            status=200,
-        )
-        scraper = ArtscapeScraper()
-        exhibitions = scraper.scrape()
+        with patch.object(ArtscapeScraper, "fetch_js", _mock_fetch_js):
+            scraper = ArtscapeScraper()
+            exhibitions = scraper.scrape()
         assert all(e.source == "artscape" for e in exhibitions)
 
-    @responses.activate
     def test_scrape_deduplicates(self):
         html = SAMPLE_HTML.replace(
             'href="https://artscape.jp/exhibitions/63466/"',
             'href="https://artscape.jp/exhibitions/63464/"',
         )
-        responses.add(
-            responses.GET,
-            "https://artscape.jp/exhibitions/",
-            body=html,
-            status=200,
-        )
-        scraper = ArtscapeScraper()
-        exhibitions = scraper.scrape()
+
+        def _mock_dedup(self, url):
+            return BeautifulSoup(html, "lxml")
+
+        with patch.object(ArtscapeScraper, "fetch_js", _mock_dedup):
+            scraper = ArtscapeScraper()
+            exhibitions = scraper.scrape()
         assert len(exhibitions) == 1
 
     def test_parse_dates(self):

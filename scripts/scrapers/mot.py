@@ -1,10 +1,11 @@
 import re
 from datetime import datetime
 
-from scripts.scrapers.base import BaseScraper, Exhibition
+from scripts.scrapers.base import Exhibition
+from scripts.scrapers.base_playwright import PlaywrightBaseScraper
 
 
-class MOTScraper(BaseScraper):
+class MOTScraper(PlaywrightBaseScraper):
     """Scraper for Museum of Contemporary Art Tokyo (東京都現代美術館)."""
 
     source_name = "mot"
@@ -13,7 +14,7 @@ class MOTScraper(BaseScraper):
 
     def scrape(self) -> list[Exhibition]:
         """Scrape exhibitions from MOT."""
-        soup = self.fetch(self.events_url)
+        soup = self.fetch_js(self.events_url)
         exhibitions = []
         seen_urls = set()
 

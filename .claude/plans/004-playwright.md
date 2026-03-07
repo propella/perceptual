@@ -67,15 +67,15 @@ class TestMOTScraper:
 
 ## 実装順序
 
-- [ ] `pyproject.toml` に `playwright>=1.50` を追加
-- [ ] `scripts/scrapers/base_playwright.py` を新規作成（`PlaywrightBaseScraper`）
-- [ ] `scripts/scrapers/__init__.py` に `PlaywrightBaseScraper` を追加
-- [ ] `scripts/scrapers/mot.py` を `PlaywrightBaseScraper` 継承に更新
-- [ ] `tests/scrapers/test_mot.py` を Playwright モック対応に更新
-- [ ] `scripts/scrapers/artscape.py` を `PlaywrightBaseScraper` 継承に更新
-- [ ] `tests/scrapers/test_artscape.py` を Playwright モック対応に更新
-- [ ] `scripts/scrapers/tokyo_art_beat.py` の `__NEXT_DATA__` 抽出を調査・修正
-- [ ] `.github/workflows/deploy.yml` に Playwright ブラウザインストールステップを追加
+- [x] `pyproject.toml` に `playwright>=1.50` を追加
+- [x] `scripts/scrapers/base_playwright.py` を新規作成（`PlaywrightBaseScraper`）
+- [x] `scripts/scrapers/__init__.py` に `PlaywrightBaseScraper` を追加
+- [x] `scripts/scrapers/mot.py` を `PlaywrightBaseScraper` 継承に更新
+- [x] `tests/scrapers/test_mot.py` を Playwright モック対応に更新
+- [x] `scripts/scrapers/artscape.py` を `PlaywrightBaseScraper` 継承に更新
+- [x] `tests/scrapers/test_artscape.py` を Playwright モック対応に更新
+- [x] `scripts/scrapers/tokyo_art_beat.py` の `__NEXT_DATA__` 抽出を調査・修正
+- [x] `.github/workflows/deploy.yml` に Playwright ブラウザインストールステップを追加
 
 ## 変更対象ファイル
 

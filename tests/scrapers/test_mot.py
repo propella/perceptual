@@ -1,4 +1,6 @@
-import responses
+from unittest.mock import patch
+
+from bs4 import BeautifulSoup
 
 from scripts.scrapers.mot import MOTScraper
 
@@ -27,65 +29,41 @@ SAMPLE_HTML = """
 """
 
 
-class TestMOTScraper:
-    @responses.activate
-    def test_scrape_returns_exhibitions(self):
-        responses.add(
-            responses.GET,
-            "https://www.mot-art-museum.jp/exhibitions/",
-            body=SAMPLE_HTML,
-            status=200,
-        )
+def _mock_fetch_js(self, url):
+    return BeautifulSoup(SAMPLE_HTML, "lxml")
 
-        scraper = MOTScraper()
-        exhibitions = scraper.scrape()
+
+class TestMOTScraper:
+    def test_scrape_returns_exhibitions(self):
+        with patch.object(MOTScraper, "fetch_js", _mock_fetch_js):
+            scraper = MOTScraper()
+            exhibitions = scraper.scrape()
 
         assert len(exhibitions) == 2
         assert exhibitions[0].title == "現代美術の新展開"
         assert exhibitions[0].source == "mot"
 
-    @responses.activate
     def test_scrape_sets_venue(self):
-        responses.add(
-            responses.GET,
-            "https://www.mot-art-museum.jp/exhibitions/",
-            body=SAMPLE_HTML,
-            status=200,
-        )
-
-        scraper = MOTScraper()
-        exhibitions = scraper.scrape()
+        with patch.object(MOTScraper, "fetch_js", _mock_fetch_js):
+            scraper = MOTScraper()
+            exhibitions = scraper.scrape()
 
         assert exhibitions[0].venue == "東京都現代美術館"
 
-    @responses.activate
     def test_scrape_extracts_dates(self):
-        responses.add(
-            responses.GET,
-            "https://www.mot-art-museum.jp/exhibitions/",
-            body=SAMPLE_HTML,
-            status=200,
-        )
-
-        scraper = MOTScraper()
-        exhibitions = scraper.scrape()
+        with patch.object(MOTScraper, "fetch_js", _mock_fetch_js):
+            scraper = MOTScraper()
+            exhibitions = scraper.scrape()
 
         assert exhibitions[0].start_date.year == 2025
         assert exhibitions[0].start_date.month == 12
         assert exhibitions[0].end_date.year == 2026
         assert exhibitions[0].end_date.month == 3
 
-    @responses.activate
     def test_scrape_builds_full_urls(self):
-        responses.add(
-            responses.GET,
-            "https://www.mot-art-museum.jp/exhibitions/",
-            body=SAMPLE_HTML,
-            status=200,
-        )
-
-        scraper = MOTScraper()
-        exhibitions = scraper.scrape()
+        with patch.object(MOTScraper, "fetch_js", _mock_fetch_js):
+            scraper = MOTScraper()
+            exhibitions = scraper.scrape()
 
         assert exhibitions[0].source_url == "https://www.mot-art-museum.jp/exhibitions/test-exhibition/"
         assert exhibitions[0].image_url == "https://www.mot-art-museum.jp/images/exhibition1.jpg"

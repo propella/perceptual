@@ -1,6 +1,6 @@
 import json
 import re
-from datetime import datetime
+from datetime import date, datetime
 
 from scripts.scrapers.base import BaseScraper, Exhibition
 
@@ -15,11 +15,15 @@ class TokyoArtBeatScraper(BaseScraper):
     def scrape(self) -> list[Exhibition]:
         """Scrape exhibitions from Tokyo Art Beat."""
         soup = self.fetch(self.events_url)
-        exhibitions = []
-        seen_urls: set[str] = set()
 
-        # Extract image map from __NEXT_DATA__ JSON
+        # Primary: extract full event data from __NEXT_DATA__ JSON
+        exhibitions = self._scrape_from_next_data(soup)
+        if exhibitions:
+            return exhibitions
+
+        # Fallback: parse rendered HTML elements
         image_map = self._extract_next_data_images(soup)
+        seen_urls: set[str] = set()
 
         for item in soup.select("a[href^='/events/']"):
             try:
@@ -31,6 +35,78 @@ class TokyoArtBeatScraper(BaseScraper):
                 continue
 
         return exhibitions
+
+    def _scrape_from_next_data(self, soup) -> list[Exhibition]:
+        """Extract exhibitions directly from __NEXT_DATA__ JSON (primary path)."""
+        script = soup.select_one("script#__NEXT_DATA__")
+        if not script or not script.string:
+            return []
+
+        try:
+            data = json.loads(script.string)
+        except (json.JSONDecodeError, TypeError):
+            return []
+
+        events = self._find_events(data)
+        exhibitions = []
+        seen_urls: set[str] = set()
+
+        for event in events:
+            try:
+                ex = self._parse_next_data_event(event)
+                if ex and ex.source_url not in seen_urls:
+                    seen_urls.add(ex.source_url)
+                    exhibitions.append(ex)
+            except Exception:
+                continue
+
+        return exhibitions
+
+    def _parse_next_data_event(self, event: dict) -> Exhibition | None:
+        """Parse a full exhibition from a __NEXT_DATA__ event object."""
+        title = event.get("eventName") or event.get("title", "")
+        if not title:
+            return None
+
+        slug = event.get("slug", "")
+        if not slug:
+            return None
+        source_url = f"{self.base_url}/events/{slug}"
+
+        start_date = self._parse_iso_date(
+            event.get("startDate") or event.get("start_date", "")
+        )
+        end_date = self._parse_iso_date(
+            event.get("endDate") or event.get("end_date", "")
+        )
+        if not start_date or not end_date:
+            return None
+
+        venue = event.get("spaceName") or ""
+        if not venue:
+            space = event.get("space")
+            if isinstance(space, dict):
+                venue = space.get("name", "")
+        venue = venue or "会場情報なし"
+
+        return Exhibition(
+            title=title,
+            venue=venue,
+            start_date=start_date,
+            end_date=end_date,
+            source_url=source_url,
+            source=self.source_name,
+            image_url=self._get_image_url_from_event(event),
+        )
+
+    def _parse_iso_date(self, value: str) -> date | None:
+        """Parse ISO date string like '2026-03-01'."""
+        if not value:
+            return None
+        try:
+            return datetime.fromisoformat(value[:10]).date()
+        except (ValueError, TypeError):
+            return None
 
     def _parse_item(self, item, image_map: dict | None = None) -> Exhibition | None:
         """Parse a single exhibition item."""

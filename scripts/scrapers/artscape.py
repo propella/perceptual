@@ -1,10 +1,11 @@
 import re
 from datetime import date
 
-from scripts.scrapers.base import BaseScraper, Exhibition
+from scripts.scrapers.base import Exhibition
+from scripts.scrapers.base_playwright import PlaywrightBaseScraper
 
 
-class ArtscapeScraper(BaseScraper):
+class ArtscapeScraper(PlaywrightBaseScraper):
     """Scraper for artscape (https://artscape.jp) - national art exhibition aggregator."""
 
     source_name = "artscape"
@@ -13,7 +14,7 @@ class ArtscapeScraper(BaseScraper):
 
     def scrape(self) -> list[Exhibition]:
         """Scrape exhibitions from artscape."""
-        soup = self.fetch(self.events_url)
+        soup = self.fetch_js(self.events_url)
         exhibitions = []
         seen_urls: set[str] = set()
 
