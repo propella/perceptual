@@ -12,14 +12,22 @@ class ArtagendaScraper(BaseScraper):
     events_url = "https://www.artagenda.jp/exhibition/index"
 
     def scrape(self) -> list[Exhibition]:
-        """Scrape exhibitions from artagenda."""
+        """Scrape exhibitions from artagenda.
+
+        The actual HTML structure:
+          <a href="/exhibition/detail/ID"><img></a>   <- image link
+          <h3><a href="/exhibition/detail/ID">Title</a></h3>  <- title in h3
+          <p>[Venue|Prefecture]status</p>
+          <p>会期：dates</p>
+        """
         soup = self.fetch(self.events_url)
         exhibitions = []
         seen_urls: set[str] = set()
 
-        for a in soup.select("a[href*='/exhibition/detail/']"):
+        # Select title links: <a> inside <h3> pointing to exhibition detail
+        for h3_link in soup.select("h3 a[href*='/exhibition/detail/']"):
             try:
-                exhibition = self._parse_item(a)
+                exhibition = self._parse_item(h3_link)
                 if exhibition and exhibition.source_url not in seen_urls:
                     exhibitions.append(exhibition)
                     seen_urls.add(exhibition.source_url)
@@ -29,35 +37,55 @@ class ArtagendaScraper(BaseScraper):
         return exhibitions
 
     def _parse_item(self, a) -> Exhibition | None:
-        """Parse a single exhibition link element."""
+        """Parse a single exhibition from the title link (inside h3)."""
         href = a.get("href", "")
         if not href:
             return None
 
         source_url = href if href.startswith("http") else f"{self.base_url}{href}"
 
-        title_elem = a.select_one("h3")
-        if not title_elem:
-            return None
-        title = title_elem.get_text(strip=True)
+        title = a.get_text(strip=True)
         if not title:
             return None
 
-        # Look for date and venue in the next sibling elements
-        parent = a.parent
-        venue, start_date, end_date = self._extract_meta(parent, a)
+        # h3 is the parent of this title link
+        h3 = a.parent
+
+        # Image is in a preceding sibling <a> with the same href
+        image_url = None
+        prev_a = h3.find_previous_sibling("a")
+        if prev_a and prev_a.get("href") == href:
+            img = prev_a.select_one("img")
+            if img:
+                src = img.get("src") or img.get("data-src", "")
+                if src.startswith("http"):
+                    image_url = src
+                elif src.startswith("/"):
+                    image_url = f"{self.base_url}{src}"
+
+        # Venue and dates are in <p> siblings following the h3
+        venue = None
+        start_date = None
+        end_date = None
+        for sibling in h3.find_next_siblings():
+            if sibling.name in ("h3", "h2"):
+                break  # Next exhibition item
+            if sibling.name != "p":
+                continue
+            text = sibling.get_text(strip=True)
+            if not text:
+                continue
+            if venue is None:
+                venue_match = re.search(r"\[([^｜\]]+)(?:｜[^\]]+)?\]", text)
+                if venue_match:
+                    venue = venue_match.group(1).strip()
+            if start_date is None:
+                s, e = self._parse_dates(text)
+                if s and e:
+                    start_date, end_date = s, e
 
         if not start_date or not end_date:
             return None
-
-        img = a.select_one("img")
-        image_url = None
-        if img:
-            src = img.get("src") or img.get("data-src", "")
-            if src.startswith("http"):
-                image_url = src
-            elif src.startswith("/"):
-                image_url = f"{self.base_url}{src}"
 
         return Exhibition(
             title=title,
@@ -68,30 +96,6 @@ class ArtagendaScraper(BaseScraper):
             source=self.source_name,
             image_url=image_url,
         )
-
-    def _extract_meta(
-        self, parent, a
-    ) -> tuple[str | None, date | None, date | None]:
-        """Extract venue and date from sibling elements after the link."""
-        venue = None
-        start_date = None
-        end_date = None
-
-        if parent is None:
-            return venue, start_date, end_date
-
-        # Search all text in parent container
-        full_text = parent.get_text(separator="\n")
-
-        # Venue: [会場名|都道府県] pattern
-        venue_match = re.search(r"\[([^｜\]]+)(?:｜[^\]]+)?\]", full_text)
-        if venue_match:
-            venue = venue_match.group(1).strip()
-
-        # Date: 会期：YYYY年M月D日(曜)〜YYYY年M月D日(曜)
-        start_date, end_date = self._parse_dates(full_text)
-
-        return venue, start_date, end_date
 
     def _parse_dates(self, text: str) -> tuple[date | None, date | None]:
         """Parse date format: '会期：2026年3月7日(土)〜2026年5月24日(日)'."""

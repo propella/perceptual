@@ -5,25 +5,19 @@ from scripts.scrapers.artagenda import ArtagendaScraper
 SAMPLE_HTML = """
 <html>
 <body>
-<div class="exhibition-item">
-  <a href="https://www.artagenda.jp/exhibition/detail/11076">
-    <img src="https://www.artagenda.jp/img/event/11076/thumbnail.jpg">
-    <h3>インスタレーション展2026</h3>
-  </a>
-  <p>[金沢21世紀美術館｜石川県]開催中</p>
-  <p>会期：2026年3月7日(土)〜2026年5月24日(日)</p>
-</div>
-<div class="exhibition-item">
-  <a href="https://www.artagenda.jp/exhibition/detail/11077">
-    <img src="https://www.artagenda.jp/img/event/11077/thumbnail.jpg">
-    <h3>メディアアート展</h3>
-  </a>
-  <p>[森美術館｜東京都]開催予定</p>
-  <p>会期：2026年6月1日(月)〜2026年8月31日(月)</p>
-</div>
-<a href="https://www.artagenda.jp/about/">
-  <p>無関係なリンク</p>
+<a href="/exhibition/detail/11076">
+  <img src="https://www.artagenda.jp/img/event/11076/thumbnail.jpg">
 </a>
+<h3><a href="/exhibition/detail/11076">インスタレーション展2026</a></h3>
+<p>[金沢21世紀美術館｜石川県]開催中</p>
+<p>会期：2026年3月7日(土)〜2026年5月24日(日)</p>
+<a href="/exhibition/detail/11077">
+  <img src="https://www.artagenda.jp/img/event/11077/thumbnail.jpg">
+</a>
+<h3><a href="/exhibition/detail/11077">メディアアート展</a></h3>
+<p>[森美術館｜東京都]開催予定</p>
+<p>会期：2026年6月1日(月)〜2026年8月31日(月)</p>
+<a href="/about/">無関係なリンク</a>
 </body>
 </html>
 """

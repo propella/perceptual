@@ -5,25 +5,23 @@ from scripts.scrapers.artscape import ArtscapeScraper
 SAMPLE_HTML = """
 <html>
 <body>
-<a href="https://artscape.jp/exhibitions/63464/">
-  <img src="/wp-content/uploads/2026/01/exhibition1.jpg" alt="展覧会1">
-  <span>開催中</span>
-  <h3>サウンドアート展2026</h3>
-  <p>東京都現代美術館</p>
-  <p>東京</p>
-  <p>会期：2026年03月01日～2026年05月31日</p>
-</a>
-<a href="https://artscape.jp/exhibitions/63466/">
-  <img src="/wp-content/uploads/2026/02/exhibition2.jpg" alt="展覧会2">
-  <span>開催前</span>
-  <h3>キネティックアートの世界</h3>
-  <p>国立新美術館</p>
-  <p>東京</p>
-  <p>会期：2026年06月01日～2026年08月31日</p>
-</a>
-<a href="https://artscape.jp/museums/123/">
-  <h3>無関係なリンク</h3>
-</a>
+<div>
+  <a href="https://artscape.jp/exhibitions/63464/">
+    <img src="/wp-content/uploads/2026/01/exhibition1.jpg" alt="展覧会1">
+  </a>
+  <div><span>開催中</span><h3>サウンドアート展2026</h3></div>
+  <div>東京都現代美術館</div>
+  <div>会期：2026年03月01日～2026年05月31日</div>
+</div>
+<div>
+  <a href="https://artscape.jp/exhibitions/63466/">
+    <img src="/wp-content/uploads/2026/02/exhibition2.jpg" alt="展覧会2">
+  </a>
+  <div><span>開催前</span><h3>キネティックアートの世界</h3></div>
+  <div>国立新美術館</div>
+  <div>会期：2026年06月01日～2026年08月31日</div>
+</div>
+<a href="https://artscape.jp/museums/123/">無関係なリンク</a>
 </body>
 </html>
 """

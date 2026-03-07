@@ -29,31 +29,24 @@ class ArtscapeScraper(BaseScraper):
         return exhibitions
 
     def _parse_item(self, a) -> Exhibition | None:
-        """Parse a single exhibition link element."""
+        """Parse a single exhibition link element.
+
+        The actual HTML structure has the h3, venue, and date OUTSIDE the <a> tag,
+        in the parent container div:
+          <div>
+            <a href="/exhibitions/ID/"><img></a>
+            <div><h3>Title</h3></div>
+            <div>Venue</div>
+            <div>会期：dates</div>
+          </div>
+        """
         href = a.get("href", "")
         if not re.search(r"/exhibitions/\d+/", href):
             return None
 
         source_url = href if href.startswith("http") else f"{self.base_url}{href}"
 
-        title_elem = a.select_one("h3")
-        if not title_elem:
-            return None
-        title = title_elem.get_text(strip=True)
-        if not title:
-            return None
-
-        text = a.get_text(separator=" ", strip=True)
-        start_date, end_date = self._parse_dates(text)
-        if not start_date or not end_date:
-            return None
-
-        # First <p> is typically the venue name
-        venue = "artscape"
-        paragraphs = a.select("p")
-        if paragraphs:
-            venue = paragraphs[0].get_text(strip=True) or venue
-
+        # Image is inside the <a> tag
         img = a.select_one("img")
         image_url = None
         if img:
@@ -62,6 +55,33 @@ class ArtscapeScraper(BaseScraper):
                 image_url = src
             elif src.startswith("/"):
                 image_url = f"{self.base_url}{src}"
+
+        # Title, venue, dates are in the parent container (sibling divs of the <a>)
+        parent = a.parent
+        if parent is None:
+            return None
+
+        title_elem = parent.select_one("h3")
+        if not title_elem:
+            return None
+        title = title_elem.get_text(strip=True)
+        if not title:
+            return None
+
+        parent_text = parent.get_text(separator=" ", strip=True)
+        start_date, end_date = self._parse_dates(parent_text)
+        if not start_date or not end_date:
+            return None
+
+        # Venue: first div/p in parent that has no h3 (not the title/badge div) and no dates
+        venue = "artscape"
+        for elem in parent.select("p, div"):
+            if elem.find("h3"):  # Skip the title+status badge div
+                continue
+            text = elem.get_text(strip=True)
+            if text and not re.search(r"\d{4}年", text):
+                venue = text
+                break
 
         return Exhibition(
             title=title,

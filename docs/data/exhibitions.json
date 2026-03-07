@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-01T13:06:19.771056+00:00",
+  "lastUpdated": "2026-03-07T12:09:22.596937+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -48,7 +48,7 @@
       "address": null,
       "startDate": "2026-03-04",
       "endDate": "2026-05-10",
-      "imageUrl": "https://bt.imgix.net/exhibition/17549/main/1771880887442_558a9820512ef536cf9177224ac18c23.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,17,3178,1787&v=6",
+      "imageUrl": "https://bt.imgix.net/exhibition/17549/main/1771880887442_558a9820512ef536cf9177224ac18c23.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,17,3178,1787&v=7",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17549",
       "source": "bijutsu_techo",
       "tags": []
@@ -112,6 +112,19 @@
       "tags": [
         "メディアアート"
       ]
+    },
+    {
+      "id": "180eb0cdb7515592",
+      "title": "江康泉　電気心音",
+      "description": null,
+      "venue": "金沢21世紀美術館",
+      "address": "石川県金沢市広坂1-2-1",
+      "startDate": "2025-10-18",
+      "endDate": "2026-03-22",
+      "imageUrl": "https://www.kanazawa21.jp/file.php?g=45&d=1833&n=main_image&gp=&lng=&p= ",
+      "sourceUrl": "https://www.kanazawa21.jp/data_list.php?g=17&d=1833",
+      "source": "kanazawa21",
+      "tags": []
     }
   ]
 }
