@@ -21,6 +21,7 @@
 - テスト完了後は実際に `uv run python -m scripts.main` で動作確認する。
 - 動作確認後に完了した Plan をチェックする。
 - 将来の課題は @.claude/plans/999-backlog.md に記録。
+- 解決した課題は削除。
 - commit と push を行う。
 
 ## 開発方針 (DORA ベストプラクティス)
