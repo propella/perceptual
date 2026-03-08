@@ -8,7 +8,8 @@ SAMPLE_HTML = """
 <h3 id="content_1_2">直近の開催<a class="anchor_super" href="./#o2346d18">&dagger;</a></h3>
 <ul class="list1 list-indent1">
   <li>2026-03-07 <a href="./?NT%E6%9D%BE%E6%88%B82026" class="link_page_passage">NT松戸2026</a></li>
-  <li>2026-06-27,28 <a href="./?NT%E9%87%91%E6%B2%A22026" class="link_page_passage">NT金沢2026</a></li>
+  <li>2026-06-27,28 <a href="./?NT%E9%87%91%E6%B2%A22026"
+    class="link_page_passage">NT金沢2026</a></li>
 </ul>
 </body>
 </html>
