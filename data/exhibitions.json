@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-08T11:03:08.581689+00:00",
+  "lastUpdated": "2026-03-08T11:43:51.631662+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -151,6 +151,119 @@
       "sourceUrl": "https://artscape.jp/exhibitions/63193/",
       "source": "artscape",
       "tags": []
+    },
+    {
+      "id": "9d6a5bde0cba8c02",
+      "title": "NT京都2026",
+      "description": null,
+      "venue": "NT京都",
+      "address": null,
+      "startDate": "2026-03-21",
+      "endDate": "2026-03-21",
+      "imageUrl": null,
+      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E4%BA%AC%E9%83%BD2026",
+      "source": "nt",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
+    },
+    {
+      "id": "a28b9966f262da79",
+      "title": "NT福島2026",
+      "description": null,
+      "venue": "NT福島",
+      "address": null,
+      "startDate": "2026-03-28",
+      "endDate": "2026-03-28",
+      "imageUrl": null,
+      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E7%A6%8F%E5%B3%B62026",
+      "source": "nt",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
+    },
+    {
+      "id": "52ddb1d52f474cbb",
+      "title": "NT函館mini2026",
+      "description": null,
+      "venue": "NT函館mini",
+      "address": null,
+      "startDate": "2026-05-04",
+      "endDate": "2026-05-04",
+      "imageUrl": null,
+      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026",
+      "source": "nt",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
+    },
+    {
+      "id": "1fbd55bd788af3c9",
+      "title": "NT金沢2026",
+      "description": null,
+      "venue": "NT金沢",
+      "address": null,
+      "startDate": "2026-06-27",
+      "endDate": "2026-06-28",
+      "imageUrl": null,
+      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026",
+      "source": "nt",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
+    },
+    {
+      "id": "a08ae61ab9cc8602",
+      "title": "【お知らせ】出展募集を2月1日から2月28日まで、公式ホームページにて行います。たくさんのご応募をお待ちしております。次回「博物ふぇすてぃばる！12」の開催日時は、2026年7月19日（日）・20日（月・祝）会場は東京ビッグサイト 南1ホールです。楽しく、熱い2日間を一緒に過ごしませんか？",
+      "description": null,
+      "venue": "東京ビッグサイト",
+      "address": "東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F",
+      "startDate": "2026-07-19",
+      "endDate": "2026-07-19",
+      "imageUrl": null,
+      "sourceUrl": "https://www.hakubutufes.info/",
+      "source": "hakubutsu_fes",
+      "tags": [
+        "メイカー",
+        "ものづくり",
+        "博物"
+      ]
+    },
+    {
+      "id": "a5868f178432aee3",
+      "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
+      "description": null,
+      "venue": "東京ビッグサイト　西4ホール東京都江東区有明3-11-1",
+      "address": null,
+      "startDate": "2025-10-04",
+      "endDate": "2025-10-05",
+      "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
+      "sourceUrl": "https://makezine.jp/event/mft2025/",
+      "source": "maker_faire",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
+    },
+    {
+      "id": "661dbbda170c14e7",
+      "title": "NT松戸2026",
+      "description": null,
+      "venue": "NT松戸",
+      "address": null,
+      "startDate": "2026-03-07",
+      "endDate": "2026-03-07",
+      "imageUrl": null,
+      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%BE%E6%88%B82026",
+      "source": "nt",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
     }
   ]
 }
