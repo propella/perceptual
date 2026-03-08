@@ -13,11 +13,14 @@ from scripts.scrapers import (
     ArtscapeScraper,
     BijutsuTechoScraper,
     DesignSightScraper,
+    HakubutsuFesScraper,
     ICCScraper,
     Kanazawa21Scraper,
+    MakerFaireScraper,
     MoriArtMuseumScraper,
     MOTScraper,
     NMAOScraper,
+    NTScraper,
     TokyoArtBeatScraper,
 )
 from scripts.scrapers.base import Exhibition
@@ -39,6 +42,9 @@ SCRAPERS = [
     ArtagendaScraper,
     Kanazawa21Scraper,
     NMAOScraper,
+    MakerFaireScraper,
+    NTScraper,
+    HakubutsuFesScraper,
 ]
 
 OUTPUT_DIR = Path(__file__).parent.parent / "docs" / "data"
