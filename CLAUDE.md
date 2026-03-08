@@ -26,6 +26,7 @@
 実装手順
 
 - 実装後テストを行う。
+- `uv run ruff check scripts tests` で lint エラーがないことを確認する。
 - テスト完了後は実際に `uv run python -m scripts.main` で動作確認する。
 - 動作確認後に完了した Plan をチェックする。
 - 将来の課題は @.claude/plans/999-backlog.md に記録。
