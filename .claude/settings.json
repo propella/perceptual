@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(uv:*)",
+      "Bash(curl:*)",
+      "Bash(gh:*)",
+      "Bash(grep:*)",
+      "Bash(wc:*)",
+      "Bash(python3:*)",
+      "WebSearch",
+      "WebFetch(domain:dora.dev)",
+      "WebFetch(domain:www.tokyoartbeat.com)",
+      "WebFetch(domain:www.ntticc.or.jp)",
+      "WebFetch(domain:www.2121designsight.jp)",
+      "WebFetch(domain:www.mori.art.museum)",
+      "WebFetch(domain:www.mot-art-museum.jp)",
+      "WebFetch(domain:bijutsutecho.com)",
+      "WebFetch(domain:artscape.jp)",
+      "WebFetch(domain:www.artagenda.jp)",
+      "WebFetch(domain:www.kanazawa21.jp)",
+      "WebFetch(domain:www.nmao.go.jp)",
+      "WebFetch(domain:makezine.jp)",
+      "WebFetch(domain:wiki.nicotech.jp)",
+      "WebFetch(domain:maker-faire.jp)",
+      "WebFetch(domain:www.hakubutufes.info)"
+    ]
+  }
+}
