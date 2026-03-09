@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T22:43:21.930394+00:00",
+  "lastUpdated": "2026-03-09T23:09:05.504641+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -74,7 +74,7 @@
       "address": null,
       "startDate": "2026-03-07",
       "endDate": "2026-06-21",
-      "imageUrl": null,
+      "imageUrl": "https://www.artagenda.jp/img/event/12031/thumbnail.jpg",
       "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12031",
       "source": "artagenda",
       "tags": []
@@ -164,7 +164,7 @@
       "address": "東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F",
       "startDate": "2026-07-19",
       "endDate": "2026-07-19",
-      "imageUrl": null,
+      "imageUrl": "https://image.jimcdn.com/cdn-cgi/image//app/cms/storage/image/path/s7a4bc3c032178296/backgroundarea/iaa9312233b6a7306/version/1768116813/image.jpg",
       "sourceUrl": "https://www.hakubutufes.info/",
       "source": "hakubutsu_fes",
       "tags": [
