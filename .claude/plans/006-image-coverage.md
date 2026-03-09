@@ -10,33 +10,33 @@
 
 ### 優先度1: artagenda.py — セレクタのバグ修正
 
-- [ ] `_parse_item` で `h3` から親要素を遡り `a.exhImg` を見つける処理を修正
+- [x] `_parse_item` で `h3` から親要素を遡り `a.exhImg` を見つける処理を修正
 - 現在: `h3.parent`（`div.exhDtl`）の前の兄弟を探しているが、`a.exhImg` は `article.artEvent` の直下にある
 - 修正: `article.artEvent` まで遡って `a[href=href]` 内の `img` を取得
-- [ ] `tests/scrapers/test_artagenda.py` の既存テスト `test_scrape_extracts_image_url` が通ることを確認
+- [x] `tests/scrapers/test_artagenda.py` の既存テスト `test_scrape_extracts_image_url` が通ることを確認
 
 ### 優先度2: artscape.py — lazy-load の base64 スキップ
 
-- [ ] `_parse_article` と `_parse_item` の画像抽出で `src="data:image/png;base64,..."` を無視し、`data-src` を使うよう修正
-- [ ] `tests/scrapers/test_artscape.py` に base64 + `data-src` のテストケースを追加
+- [x] `_parse_article` と `_parse_item` の画像抽出で `src="data:image/png;base64,..."` を無視し、`data-src` を使うよう修正
+- [x] `tests/scrapers/test_artscape.py` に base64 + `data-src` のテストケースを追加
 
 ### 優先度3: icc.py — CSS background-image と OGP フォールバック
 
-- [ ] `_parse_item`: `<img>` が見つからない場合、`[style*='background-image']` から URL を抽出するコードを追加
-- [ ] `_fetch_detail_image`: `img[src*='/uploads/assets/']` の前に `og:image` メタタグ取得を試みるよう修正
-- [ ] `tests/scrapers/test_icc.py` の HTML フィクスチャを実際のページ構造に合わせて更新
+- [x] `_parse_item`: `<img>` が見つからない場合、`[style*='background-image']` から URL を抽出するコードを追加
+- [x] `_fetch_detail_image`: `img[src*='/uploads/assets/']` の前に `og:image` メタタグ取得を試みるよう修正
+- [x] `tests/scrapers/test_icc.py` に background-image と og:image テストを追加
 
 ### 優先度4: nt.py — 詳細ページから画像取得
 
-- [ ] `_fetch_detail_image(page_url, page_name)` メソッドを追加
+- [x] `_fetch_detail_image(page_url, page_name)` メソッドを追加
 - 詳細ページの `<img>` から `plugin=ref` かつ `page=PAGE_NAME` を含む URL を取得
-- [ ] `_parse_li` から詳細ページ取得を呼び出す
-- [ ] `tests/scrapers/test_nt.py` に詳細ページモックを使ったテストを追加
+- [x] `_parse_li` から詳細ページ取得を呼び出す
+- [x] `tests/scrapers/test_nt.py` に詳細ページモックを使ったテストを追加
 
 ### 優先度5: hakubutsu_fes.py — OGP 画像取得を追加
 
-- [ ] `_parse_page` に `og:image` メタタグ取得と、ドメイン一致 `<img>` のフォールバックを追加
-- [ ] `tests/scrapers/test_hakubutsu_fes.py` を新規作成
+- [x] `_parse_page` に `og:image` メタタグ取得と、ドメイン一致 `<img>` のフォールバックを追加
+- [x] `tests/scrapers/test_hakubutsu_fes.py` を新規作成
 
 ---
 

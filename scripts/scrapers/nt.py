@@ -1,6 +1,6 @@
 import re
 from datetime import date
-from urllib.parse import urljoin
+from urllib.parse import unquote, urljoin
 
 from bs4 import NavigableString
 
@@ -68,6 +68,14 @@ class NTScraper(BaseScraper):
         # Venue: event name without year (e.g., "NT松戸2026" → "NT松戸")
         venue = re.sub(r"\d{4}$", "", title).strip() or title
 
+        # Try to get an image from the detail page
+        image_url = None
+        try:
+            page_name = unquote(href.lstrip("./").lstrip("?"))
+            image_url = self._fetch_detail_image(url, page_name)
+        except Exception:
+            pass
+
         return Exhibition(
             title=title,
             venue=venue,
@@ -75,8 +83,21 @@ class NTScraper(BaseScraper):
             end_date=end_date,
             source_url=url,
             source=self.source_name,
+            image_url=image_url,
             tags=["メイカー", "ものづくり"],
         )
+
+    def _fetch_detail_image(self, page_url: str, page_name: str) -> str | None:
+        """Fetch NT event detail page and extract image URL.
+
+        PukiWiki image refs use: ?plugin=ref&page=PAGE_NAME&src=file.jpg
+        """
+        soup = self.fetch(page_url)
+        for img in soup.select("img"):
+            src = img.get("src", "")
+            if "plugin=ref" in src and f"page={page_name}" in src:
+                return urljoin(self.base_url, src)
+        return None
 
     def _parse_date(self, text: str) -> tuple:
         """Parse date strings like '2026-03-07' or '2026-06-27,28'."""

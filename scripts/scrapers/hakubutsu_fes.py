@@ -81,6 +81,23 @@ class HakubutsuFesScraper(PlaywrightBaseScraper):
                 address = text[:100]
                 break
 
+        # Image: og:image first, then domain-matching img fallback
+        image_url = None
+        og_img = soup.select_one('meta[property="og:image"]')
+        if og_img:
+            content = og_img.get("content", "").strip()
+            if content:
+                image_url = content
+        if not image_url:
+            for img in soup.select("img"):
+                src = img.get("src", "")
+                if src.startswith(self.base_url):
+                    image_url = src
+                    break
+                if src.startswith("/"):
+                    image_url = f"{self.base_url}{src}"
+                    break
+
         return Exhibition(
             title=title,
             venue=venue,
@@ -89,6 +106,7 @@ class HakubutsuFesScraper(PlaywrightBaseScraper):
             end_date=end_date,
             source_url=self.events_url,
             source=self.source_name,
+            image_url=image_url,
             tags=["メイカー", "ものづくり", "博物"],
         )
 

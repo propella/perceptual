@@ -51,17 +51,24 @@ class ArtagendaScraper(BaseScraper):
         # h3 is the parent of this title link
         h3 = a.parent
 
-        # Image is in a preceding sibling <a> with the same href
+        # Image is in a preceding sibling <a> with the same href.
+        # Try at h3 level first; if not found, walk up through parent containers.
         image_url = None
-        prev_a = h3.find_previous_sibling("a")
-        if prev_a and prev_a.get("href") == href:
-            img = prev_a.select_one("img")
-            if img:
-                src = img.get("src") or img.get("data-src", "")
-                if src.startswith("http"):
-                    image_url = src
-                elif src.startswith("/"):
-                    image_url = f"{self.base_url}{src}"
+        container = h3
+        for _ in range(4):
+            prev_a = container.find_previous_sibling("a")
+            if prev_a and prev_a.get("href") == href:
+                img = prev_a.select_one("img")
+                if img:
+                    src = img.get("src") or img.get("data-src", "")
+                    if src.startswith("http"):
+                        image_url = src
+                    elif src.startswith("/"):
+                        image_url = f"{self.base_url}{src}"
+                break
+            if container.parent is None or container.parent.name in ("body", "html"):
+                break
+            container = container.parent
 
         # Venue and dates are in <p> siblings following the h3
         venue = None

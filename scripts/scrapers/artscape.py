@@ -60,11 +60,13 @@ class ArtscapeScraper(PlaywrightBaseScraper):
             return None
         source_url = href if href.startswith("http") else f"{self.base_url}{href}"
 
-        # Image from figure
+        # Image from figure (skip base64 data URIs, fall back to data-src)
         image_url = None
         img = article.select_one("figure img")
         if img:
-            src = img.get("src") or img.get("data-src", "")
+            src = img.get("src", "")
+            if src.startswith("data:"):
+                src = img.get("data-src", "")
             if src.startswith("http"):
                 image_url = src
             elif src.startswith("/"):
@@ -109,7 +111,9 @@ class ArtscapeScraper(PlaywrightBaseScraper):
         img = a.select_one("img")
         image_url = None
         if img:
-            src = img.get("src") or img.get("data-src", "")
+            src = img.get("src", "")
+            if src.startswith("data:"):
+                src = img.get("data-src", "")
             if src.startswith("http"):
                 image_url = src
             elif src.startswith("/"):

@@ -71,11 +71,24 @@ class ICCScraper(BaseScraper):
         else:
             source_url = href
 
-        # Extract image
+        # Extract image: try <img> first, then CSS background-image
         img = item.select_one("img")
         image_url = img.get("src") if img else None
         if image_url and image_url.startswith("/"):
             image_url = f"{self.base_url}{image_url}"
+        if not image_url:
+            for el in item.select("[style]"):
+                m = re.search(
+                    r"background-image\s*:\s*url\(['\"]?(.*?)['\"]?\)",
+                    el.get("style", ""),
+                )
+                if m:
+                    src = m.group(1)
+                    if src.startswith("/"):
+                        image_url = f"{self.base_url}{src}"
+                    elif src.startswith("http"):
+                        image_url = src
+                    break
 
         return Exhibition(
             title=title,
@@ -134,6 +147,13 @@ class ICCScraper(BaseScraper):
     def _fetch_detail_image(self, url: str) -> str | None:
         """Fetch exhibition detail page and extract first exhibition image."""
         soup = self.fetch(url)
+        # Try og:image first
+        og = soup.select_one('meta[property="og:image"]')
+        if og:
+            content = og.get("content", "").strip()
+            if content:
+                return content
+        # Fallback: uploads/assets img
         for img in soup.select("img[src*='/uploads/assets/']"):
             src = img.get("src", "").strip()
             if src.startswith("/"):

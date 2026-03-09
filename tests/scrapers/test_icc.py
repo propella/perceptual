@@ -167,6 +167,64 @@ class TestICCScraper:
         assert len(exhibitions) == 1
         assert exhibitions[0].image_url == "https://www.ntticc.or.jp/uploads/assets/007/abc123.7768.small.jpg"
 
+    @responses.activate
+    def test_parse_item_extracts_background_image(self):
+        """CSS background-image から画像 URL を取得する。"""
+        html_bg = """
+        <html><body>
+        <a href="/ja/exhibitions/2026/bg-test">
+            <h3>背景画像展</h3>
+            <div style="background-image: url('/images/bg.jpg');"></div>
+            <span>2026年4月1日（水）—2026年6月30日（火）</span>
+        </a>
+        </body></html>
+        """
+        responses.add(
+            responses.GET,
+            "https://www.ntticc.or.jp/ja/exhibitions/",
+            body=html_bg,
+            status=200,
+        )
+        responses.add(
+            responses.GET,
+            "https://www.ntticc.or.jp/ja/exhibitions/2026/bg-test",
+            body="<html><body></body></html>",
+            status=200,
+        )
+        scraper = ICCScraper()
+        exhibitions = scraper.scrape()
+        assert len(exhibitions) == 1
+        assert exhibitions[0].image_url == "https://www.ntticc.or.jp/images/bg.jpg"
+
+    @responses.activate
+    def test_fetch_detail_image_uses_og_image(self):
+        """詳細ページの og:image を優先して取得する。"""
+        detail_html = """
+        <html>
+        <head>
+          <meta property="og:image" content="https://www.ntticc.or.jp/og/detail.jpg">
+        </head>
+        <body>
+          <img src="/uploads/assets/007/fallback.jpg">
+        </body></html>
+        """
+        responses.add(
+            responses.GET,
+            "https://www.ntticc.or.jp/ja/exhibitions/",
+            body=SAMPLE_HTML,
+            status=200,
+        )
+        # Only detail page for the one without an image
+        responses.add(
+            responses.GET,
+            "https://www.ntticc.or.jp/ja/exhibitions/2026/another-show",
+            body=detail_html,
+            status=200,
+        )
+        scraper = ICCScraper()
+        exhibitions = scraper.scrape()
+        assert exhibitions[1].image_url == "https://www.ntticc.or.jp/og/detail.jpg"
+
     def test_parse_dates(self):
         scraper = ICCScraper()
         start, end = scraper._parse_dates(

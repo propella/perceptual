@@ -100,6 +100,37 @@ class TestArtscapeScraper:
             exhibitions = scraper.scrape()
         assert len(exhibitions) == 1
 
+    def test_scrape_skips_base64_and_uses_data_src(self):
+        """base64 data URI の src を無視して data-src を使う。"""
+        html_lazy = """
+        <html><body>
+        <article class="item-article item-exhibitions">
+          <figure class="item-img">
+            <a href="https://artscape.jp/exhibitions/99999/">
+              <img src="data:image/png;base64,ABC=="
+                   data-src="/wp-content/uploads/2026/03/lazy.jpg">
+            </a>
+          </figure>
+          <div class="item-txt">
+            <h3 class="article-title">
+              <a href="https://artscape.jp/exhibitions/99999/"><span>レイジーロード展</span></a>
+            </h3>
+            <p>テスト美術館</p>
+            <p>会期：2026年03月01日～2026年05月31日</p>
+          </div>
+        </article>
+        </body></html>
+        """
+
+        def _mock(self, url):
+            return BeautifulSoup(html_lazy, "lxml")
+
+        with patch.object(ArtscapeScraper, "fetch_js", _mock):
+            scraper = ArtscapeScraper()
+            exhibitions = scraper.scrape()
+        assert len(exhibitions) == 1
+        assert exhibitions[0].image_url == "https://artscape.jp/wp-content/uploads/2026/03/lazy.jpg"
+
     def test_parse_dates(self):
         scraper = ArtscapeScraper()
         start, end = scraper._parse_dates("会期：2026年03月01日～2026年05月31日")
