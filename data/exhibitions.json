@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-08T12:03:05.332643+00:00",
+  "lastUpdated": "2026-03-09T09:37:25.406309+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -52,66 +52,6 @@
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17549",
       "source": "bijutsu_techo",
       "tags": []
-    },
-    {
-      "id": "96bfa8bcc8491e9b",
-      "title": "知覚の大霊廟をめざして——三上晴子のインタラクティヴ・インスタレーション",
-      "description": null,
-      "venue": "NTTインターコミュニケーション・センター [ICC]",
-      "address": "東京都新宿区西新宿3-20-2 東京オペラシティタワー4F",
-      "startDate": "2025-12-13",
-      "endDate": "2026-03-08",
-      "imageUrl": "https://www.ntticc.or.jp/uploads/assets/007/7d601.7768.small.jpg",
-      "sourceUrl": "https://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations/",
-      "source": "icc",
-      "tags": [
-        "メディアアート"
-      ]
-    },
-    {
-      "id": "048333a79798ddd6",
-      "title": "上映プログラム",
-      "description": null,
-      "venue": "NTTインターコミュニケーション・センター [ICC]",
-      "address": "東京都新宿区西新宿3-20-2 東京オペラシティタワー4F",
-      "startDate": "2025-12-13",
-      "endDate": "2026-03-08",
-      "imageUrl": "https://www.ntticc.or.jp/uploads/assets/007/bcdb6.7817.orig.png",
-      "sourceUrl": "https://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations-screening-program/",
-      "source": "icc",
-      "tags": [
-        "メディアアート"
-      ]
-    },
-    {
-      "id": "15f0f311e93bf920",
-      "title": "5Fロビー 無料展示エリア",
-      "description": null,
-      "venue": "NTTインターコミュニケーション・センター [ICC]",
-      "address": "東京都新宿区西新宿3-20-2 東京オペラシティタワー4F",
-      "startDate": "2025-12-13",
-      "endDate": "2026-03-08",
-      "imageUrl": null,
-      "sourceUrl": "https://www.ntticc.or.jp/ja/exhibitions/2025/5th-floor-lobby-from-dec-13-2025/",
-      "source": "icc",
-      "tags": [
-        "メディアアート"
-      ]
-    },
-    {
-      "id": "31355febcbd6326e",
-      "title": "リサーチ・コンプレックス NTT R＆D @ICC「身体性BEYOND」",
-      "description": null,
-      "venue": "NTTインターコミュニケーション・センター [ICC]",
-      "address": "東京都新宿区西新宿3-20-2 東京オペラシティタワー4F",
-      "startDate": "2025-12-13",
-      "endDate": "2026-03-08",
-      "imageUrl": null,
-      "sourceUrl": "https://www.ntticc.or.jp/ja/exhibitions/2025/beyond-embodiment-from-dec-13-2025/",
-      "source": "icc",
-      "tags": [
-        "メディアアート"
-      ]
     },
     {
       "id": "180eb0cdb7515592",

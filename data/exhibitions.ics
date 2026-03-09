@@ -2,39 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251213
-DTEND;VALUE=DATE:20260309
-DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/5th-floor-lobby-from-dec-13-2025/
-LOCATION:東京都新宿区西新宿3-20-2 東京オペラシティタワー4F
-SUMMARY:5Fロビー 無料展示エリア
-UID:e7cc65c3-0211-43d2-a271-4219e9f80be1@e7cc.org
-URL:https://www.ntticc.or.jp/ja/exhibitions/2025/5th-floor-lobby-from-dec-13-2025/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260504
-DESCRIPTION:会場: NT函館mini\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
-LOCATION:NT函館mini
-SUMMARY:NT函館mini2026
-UID:fc795544-0086-492c-83f0-3a985bb578ed@fc79.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260307
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
-LOCATION:アートアジェンダ
-SUMMARY:Noctis：影と光のグラスアート
-UID:5aa545bb-290d-4e37-ad02-3821b9bb58ee@5aa5.org
-URL:https://www.artagenda.jp/exhibition/detail/12031
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251213
-DTEND;VALUE=DATE:20260309
-DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations/
-LOCATION:東京都新宿区西新宿3-20-2 東京オペラシティタワー4F
-SUMMARY:知覚の大霊廟をめざして——三上晴子のインタラクティヴ・インスタレーション
-UID:4e66b866-894f-4a6f-94fb-9a2fc5e9580f@4e66.org
-URL:https://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations/
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260629
+DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+LOCATION:NT金沢
+SUMMARY:NT金沢2026
+UID:d23eb7fa-0c23-4a77-b145-1fe7fe916fac@d23e.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260306
@@ -42,8 +16,16 @@ DTEND;VALUE=DATE:20260323
 DESCRIPTION:会場: SHUTL（シャトル）\n\nhttps://www.tokyoartbeat.com/events/-/That-Place/shutl/2026-03-06
 LOCATION:SHUTL（シャトル）
 SUMMARY:「あの空間・場所について」
-UID:ef1d8173-b2dc-430b-ac7a-62c310b04dd4@ef1d.org
+UID:67d7f967-1a46-45d5-a4ee-4c6388b62893@67d7.org
 URL:https://www.tokyoartbeat.com/events/-/That-Place/shutl/2026-03-06
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260504
+DESCRIPTION:会場: NT函館mini\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
+LOCATION:NT函館mini
+SUMMARY:NT函館mini2026
+UID:a6e3944c-345d-4f2f-9539-714c36d38373@a6e3.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251018
@@ -51,78 +33,24 @@ DTEND;VALUE=DATE:20260323
 DESCRIPTION:会場: 金沢21世紀美術館\n\nhttps://www.kanazawa21.jp/data_list.php?g=17&d=1833
 LOCATION:石川県金沢市広坂1-2-1
 SUMMARY:江康泉　電気心音
-UID:fbdeca09-c2a7-46c0-a9de-5d331f36f0d4@fbde.org
+UID:5b3d5f6d-b459-47d9-91ca-fa03ad4416dc@5b3d.org
 URL:https://www.kanazawa21.jp/data_list.php?g=17&d=1833
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260627
-DTEND;VALUE=DATE:20260629
-DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
-LOCATION:NT金沢
-SUMMARY:NT金沢2026
-UID:41eb8a35-f2a1-4e1d-a33d-95a6a0d2a08b@41eb.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+DTSTART;VALUE=DATE:20260328
+DESCRIPTION:会場: NT福島\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E7%A6%8F%E5%B3%B62026
+LOCATION:NT福島
+SUMMARY:NT福島2026
+UID:e4b235f2-cc52-4a27-9791-b7528fba39f4@e4b2.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E7%A6%8F%E5%B3%B62026
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260307
-DESCRIPTION:会場: NT松戸\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%BE%E6%88%B82026
-LOCATION:NT松戸
-SUMMARY:NT松戸2026
-UID:f9e1182a-1dcb-4252-9500-7175cd25e813@f9e1.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%BE%E6%88%B82026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260225
-DTEND;VALUE=DATE:20260323
-DESCRIPTION:会場: 東京都写真美術館\n\nhttps://www.tokyoartbeat.com/events/-/Yebisu-International-Festival-for-Art-and-Alternative-Visions-2026-Polyphonic-Voices-Bathed-in-Sunlight-Commission-Project-Tokyo-Museum-Collection/B6131856/2026-02-25
-LOCATION:東京都写真美術館
-SUMMARY:「恵比寿映像祭2026　あなたの音に｜日花聲音｜Polyphonic Voices Bathed in Sunlight コミッション・プロジェクト＆東京都コレクション」
-UID:558eecde-9086-439d-83fa-52ae2a3c1890@558e.org
-URL:https://www.tokyoartbeat.com/events/-/Yebisu-International-Festival-for-Art-and-Alternative-Visions-2026-Polyphonic-Voices-Bathed-in-Sunlight-Commission-Project-Tokyo-Museum-Collection/B6131856/2026-02-25
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251213
-DTEND;VALUE=DATE:20260309
-DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/beyond-embodiment-from-dec-13-2025/
-LOCATION:東京都新宿区西新宿3-20-2 東京オペラシティタワー4F
-SUMMARY:リサーチ・コンプレックス NTT R＆D @ICC「身体性BEYOND」
-UID:dc7c4813-ed8c-4ec3-acfe-c74ab4b6be59@dc7c.org
-URL:https://www.ntticc.or.jp/ja/exhibitions/2025/beyond-embodiment-from-dec-13-2025/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260321
-DESCRIPTION:会場: NT京都\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E4%BA%AC%E9%83%BD2026
-LOCATION:NT京都
-SUMMARY:NT京都2026
-UID:6280c471-e30c-4c8c-b49d-372ccdd3080b@6280.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E4%BA%AC%E9%83%BD2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251006
-DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
-LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
-SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:3763fab8-5d9e-4be0-a3f4-471cf267d72e@3763.org
-URL:https://makezine.jp/event/mft2025/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-LOCATION:SOMPO美術館
-SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:7bc4b07d-3b87-40df-a729-9de1145fa7ca@7bc4.org
-URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251213
-DTEND;VALUE=DATE:20260309
-DESCRIPTION:会場: NTTインターコミュニケーション・センター [ICC]\n\nhttps://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations-screening-program/
-LOCATION:東京都新宿区西新宿3-20-2 東京オペラシティタワー4F
-SUMMARY:上映プログラム
-UID:32025648-c241-4e0f-b492-fbc75eff1477@3202.org
-URL:https://www.ntticc.or.jp/ja/exhibitions/2025/toward-a-mausoleum-of-perception-mikami-seiko-s-Interactive-art-installations-screening-program/
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:会場: 東京ビッグサイト\n\nhttps://www.hakubutufes.info/
+LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
+SUMMARY:【お知らせ】出展募集を2月1日から2月28日まで、公式ホームページにて行います。たくさんのご応募をお待ちしております。次回「博物ふぇすてぃばる！12」の開催日時は、2026年7月19日（日）・20日（月・祝）会場は東京ビッグサイト 南1ホールです。楽しく、熱い2日間を一緒に過ごしませんか？
+UID:332c38c5-8732-44ee-9990-37c799f62bf4@332c.org
+URL:https://www.hakubutufes.info/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260323
@@ -130,24 +58,25 @@ DTEND;VALUE=DATE:20260517
 DESCRIPTION:会場: 京都工芸繊維大学 美術工芸資料館京都\n\nhttps://artscape.jp/exhibitions/63193/
 LOCATION:京都工芸繊維大学 美術工芸資料館京都
 SUMMARY:光安義光と村野藤吾―共振するモダンデザイン―
-UID:27516b06-f92f-4976-aa25-329ec3ddeedc@2751.org
+UID:ac3616c9-5491-4595-8885-230492db65fa@ac36.org
 URL:https://artscape.jp/exhibitions/63193/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260719
-DESCRIPTION:会場: 東京ビッグサイト\n\nhttps://www.hakubutufes.info/
-LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
-SUMMARY:【お知らせ】出展募集を2月1日から2月28日まで、公式ホームページにて行います。たくさんのご応募をお待ちしております。次回「博物ふぇすてぃばる！12」の開催日時は、2026年7月19日（日）・20日（月・祝）会場は東京ビッグサイト 南1ホールです。楽しく、熱い2日間を一緒に過ごしませんか？
-UID:3be5b38c-6184-4f05-ba3e-2329dc6204c3@3be5.org
-URL:https://www.hakubutufes.info/
+DTSTART;VALUE=DATE:20260307
+DESCRIPTION:会場: NT松戸\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%BE%E6%88%B82026
+LOCATION:NT松戸
+SUMMARY:NT松戸2026
+UID:831bc259-486f-4982-9cc8-1dc9576456a2@831b.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%BE%E6%88%B82026
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260328
-DESCRIPTION:会場: NT福島\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E7%A6%8F%E5%B3%B62026
-LOCATION:NT福島
-SUMMARY:NT福島2026
-UID:a5a6d169-2494-4160-ae44-e3ff9f45e75b@a5a6.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E7%A6%8F%E5%B3%B62026
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+LOCATION:SOMPO美術館
+SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
+UID:3b2562e1-6770-424d-b9a5-daf1d017b94b@3b25.org
+URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260303
@@ -155,7 +84,42 @@ DTEND;VALUE=DATE:20260510
 DESCRIPTION:会場: PLAY! MUSEUM\n\nhttps://bijutsutecho.com/exhibitions/17549
 LOCATION:PLAY! MUSEUM
 SUMMARY:生誕100周年記念 安野光雅展
-UID:165f2229-604f-4701-b114-b941cd255d8a@165f.org
+UID:81c7df33-6f23-498b-9549-f881bef99056@81c7.org
 URL:https://bijutsutecho.com/exhibitions/17549
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251006
+DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
+LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
+SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
+UID:8f9c7f1f-6cea-4f28-b934-a860fce69f44@8f9c.org
+URL:https://makezine.jp/event/mft2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260321
+DESCRIPTION:会場: NT京都\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E4%BA%AC%E9%83%BD2026
+LOCATION:NT京都
+SUMMARY:NT京都2026
+UID:b53146ae-96f0-479d-bf32-cf3395ea4d1d@b531.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E4%BA%AC%E9%83%BD2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260225
+DTEND;VALUE=DATE:20260323
+DESCRIPTION:会場: 東京都写真美術館\n\nhttps://www.tokyoartbeat.com/events/-/Yebisu-International-Festival-for-Art-and-Alternative-Visions-2026-Polyphonic-Voices-Bathed-in-Sunlight-Commission-Project-Tokyo-Museum-Collection/B6131856/2026-02-25
+LOCATION:東京都写真美術館
+SUMMARY:「恵比寿映像祭2026　あなたの音に｜日花聲音｜Polyphonic Voices Bathed in Sunlight コミッション・プロジェクト＆東京都コレクション」
+UID:bf579792-4f92-4938-900d-1249ce2c40fd@bf57.org
+URL:https://www.tokyoartbeat.com/events/-/Yebisu-International-Festival-for-Art-and-Alternative-Visions-2026-Polyphonic-Voices-Bathed-in-Sunlight-Commission-Project-Tokyo-Museum-Collection/B6131856/2026-02-25
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260307
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
+LOCATION:アートアジェンダ
+SUMMARY:Noctis：影と光のグラスアート
+UID:2d3520f8-e6e1-4180-8f82-9c34e9e95697@2d35.org
+URL:https://www.artagenda.jp/exhibition/detail/12031
 END:VEVENT
 END:VCALENDAR
