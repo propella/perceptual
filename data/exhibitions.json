@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T09:33:54.927199+00:00",
+  "lastUpdated": "2026-03-11T09:33:18.678812+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -184,22 +184,6 @@
       "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
       "sourceUrl": "https://makezine.jp/event/mft2025/",
       "source": "maker_faire",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
-    },
-    {
-      "id": "661dbbda170c14e7",
-      "title": "NT松戸2026",
-      "description": null,
-      "venue": "NT松戸",
-      "address": null,
-      "startDate": "2026-03-07",
-      "endDate": "2026-03-07",
-      "imageUrl": null,
-      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%BE%E6%88%B82026",
-      "source": "nt",
       "tags": [
         "メイカー",
         "ものづくり"
