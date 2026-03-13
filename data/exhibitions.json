@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T09:33:48.541581+00:00",
+  "lastUpdated": "2026-03-13T09:29:54.831963+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -174,29 +174,16 @@
       ]
     },
     {
-      "id": "811aa705e05951c4",
-      "title": "コレクションの舞台裏　―光をあてる、掘りおこす。収蔵品をめぐる7つの試み",
+      "id": "fbe4b1b22ce9a706",
+      "title": "OPENING INSTALLATION Quiet Underground: Energy, Sound and Time by YOSHIROTTEN",
       "description": null,
-      "venue": "埼玉県立近代美術館埼玉",
+      "venue": "原宿クエスト 地下 THE HALL & TUNNEL（地下1階）",
       "address": null,
-      "startDate": "2026-02-07",
-      "endDate": "2026-05-10",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/01/4d5391b5affebb1bdd5df88b3b29ea24.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/59425/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "53723e2e4e4d0226",
-      "title": "開館50周年記念　ウジェーヌ・ブーダン展ー瞬間の美学、光の探求",
-      "description": null,
-      "venue": "ＳＯＭＰＯ美術館東京",
-      "address": null,
-      "startDate": "2026-04-11",
-      "endDate": "2026-06-21",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/02/a98b1120712ae2558c294773114e59b3.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/62044/",
-      "source": "artscape",
+      "startDate": "2026-03-13",
+      "endDate": "2026-03-28",
+      "imageUrl": "https://bt.imgix.net/exhibition/17648/main/1773244986492_38fa30de9fd04d48e2f2f90d268f2734.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=254,0,3626,2040&v=7",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/17648",
+      "source": "bijutsu_techo",
       "tags": []
     },
     {
