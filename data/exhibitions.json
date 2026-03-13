@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-13T09:29:54.831963+00:00",
+  "lastUpdated": "2026-03-13T11:05:36.100338+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -184,6 +184,19 @@
       "imageUrl": "https://bt.imgix.net/exhibition/17648/main/1773244986492_38fa30de9fd04d48e2f2f90d268f2734.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=254,0,3626,2040&v=7",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17648",
       "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "2cb5a4eb17d271b8",
+      "title": "日本空間デザイン賞2025",
+      "description": null,
+      "venue": "GOOD DESIGN Marunouchi東京",
+      "address": null,
+      "startDate": "2026-03-15",
+      "endDate": "2026-03-25",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/03/395707ef6bc45f924640f2dc42341f3a.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/64171/",
+      "source": "artscape",
       "tags": []
     },
     {
