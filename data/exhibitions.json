@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T09:24:46.221927+00:00",
+  "lastUpdated": "2026-03-16T09:54:27.315653+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -174,6 +174,19 @@
       ]
     },
     {
+      "id": "0dcdae40545bb05b",
+      "title": "三日月兼光と備前の名刀",
+      "description": null,
+      "venue": "名古屋刀剣博物館",
+      "address": null,
+      "startDate": "2026-03-20",
+      "endDate": "2026-05-30",
+      "imageUrl": "https://bt.imgix.net/exhibition/17652/main/1773271577684_ed7f2e18f900850f884ffcd0bad10075.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=155,0,2648,1490&v=5",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/17652",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
       "id": "fbe4b1b22ce9a706",
       "title": "OPENING INSTALLATION Quiet Underground: Energy, Sound and Time by YOSHIROTTEN",
       "description": null,
@@ -184,6 +197,45 @@
       "imageUrl": "https://bt.imgix.net/exhibition/17648/main/1773244986492_38fa30de9fd04d48e2f2f90d268f2734.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=254,0,3626,2040&v=7",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17648",
       "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "baf21d5c81f1a7ae",
+      "title": "親愛なる友 フィンセント～動くゴッホ展",
+      "description": null,
+      "venue": "秋田県立近代美術館秋田",
+      "address": null,
+      "startDate": "2026-04-18",
+      "endDate": "2026-07-20",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/03/c8ff594c6b263aafadead801b6966ee2.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/63930/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "2cb5a4eb17d271b8",
+      "title": "日本空間デザイン賞2025",
+      "description": null,
+      "venue": "GOOD DESIGN Marunouchi東京",
+      "address": null,
+      "startDate": "2026-03-15",
+      "endDate": "2026-03-25",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/03/395707ef6bc45f924640f2dc42341f3a.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/64171/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "64769273dd6dc86d",
+      "title": "三栖右嗣 「あまねく降り注がれる陽光と慈しむ画家の眼差し」",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-03-17",
+      "endDate": "2026-09-13",
+      "imageUrl": "https://www.artagenda.jp/img/event/12189/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12189",
+      "source": "artagenda",
       "tags": []
     },
     {
