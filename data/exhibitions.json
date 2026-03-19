@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-18T09:42:42.403729+00:00",
+  "lastUpdated": "2026-03-19T09:33:38.409327+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -213,19 +213,6 @@
       "tags": []
     },
     {
-      "id": "baf21d5c81f1a7ae",
-      "title": "親愛なる友 フィンセント～動くゴッホ展",
-      "description": null,
-      "venue": "秋田県立近代美術館秋田",
-      "address": null,
-      "startDate": "2026-04-18",
-      "endDate": "2026-07-20",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/03/c8ff594c6b263aafadead801b6966ee2.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/63930/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
       "id": "76bcfa9fe1885d33",
       "title": "開館85周年記念特別展  光琳派  －国宝「燕子花図」と尾形光琳のフォロワーたち",
       "description": null,
@@ -235,19 +222,6 @@
       "endDate": "2026-05-10",
       "imageUrl": "https://www.artagenda.jp/img/event/11722/thumbnail.jpg",
       "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11722",
-      "source": "artagenda",
-      "tags": []
-    },
-    {
-      "id": "64769273dd6dc86d",
-      "title": "三栖右嗣 「あまねく降り注がれる陽光と慈しむ画家の眼差し」",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-03-17",
-      "endDate": "2026-09-13",
-      "imageUrl": "https://www.artagenda.jp/img/event/12189/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12189",
       "source": "artagenda",
       "tags": []
     },
