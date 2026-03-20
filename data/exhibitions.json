@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-19T09:33:38.409327+00:00",
+  "lastUpdated": "2026-03-20T09:31:09.815740+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -184,45 +184,6 @@
       "imageUrl": "https://bt.imgix.net/exhibition/17652/main/1773271577684_ed7f2e18f900850f884ffcd0bad10075.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=155,0,2648,1490&v=9",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17652",
       "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "fbe4b1b22ce9a706",
-      "title": "OPENING INSTALLATION Quiet Underground: Energy, Sound and Time by YOSHIROTTEN",
-      "description": null,
-      "venue": "原宿クエスト 地下 THE HALL & TUNNEL（地下1階）",
-      "address": null,
-      "startDate": "2026-03-13",
-      "endDate": "2026-03-28",
-      "imageUrl": "https://bt.imgix.net/exhibition/17648/main/1773244986492_38fa30de9fd04d48e2f2f90d268f2734.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=254,0,3626,2040&v=7",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/17648",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "38cc4be389791a13",
-      "title": "照明LED化完成企画「新しい光で輝くモノたち」",
-      "description": null,
-      "venue": "鹿児島県歴史・美術センター黎明館鹿児島",
-      "address": null,
-      "startDate": "2026-04-01",
-      "endDate": "2026-04-29",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/432cfb89cc40dc62a6f4996b6da1cb69-849x1200.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/64379/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "76bcfa9fe1885d33",
-      "title": "開館85周年記念特別展  光琳派  －国宝「燕子花図」と尾形光琳のフォロワーたち",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-04-11",
-      "endDate": "2026-05-10",
-      "imageUrl": "https://www.artagenda.jp/img/event/11722/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11722",
-      "source": "artagenda",
       "tags": []
     },
     {
