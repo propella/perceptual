@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-21T09:22:25.782264+00:00",
+  "lastUpdated": "2026-03-22T09:22:56.607792+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -93,22 +93,6 @@
       "tags": []
     },
     {
-      "id": "9d6a5bde0cba8c02",
-      "title": "NT京都2026",
-      "description": null,
-      "venue": "NT京都",
-      "address": null,
-      "startDate": "2026-03-21",
-      "endDate": "2026-03-21",
-      "imageUrl": null,
-      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E4%BA%AC%E9%83%BD2026",
-      "source": "nt",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
-    },
-    {
       "id": "a28b9966f262da79",
       "title": "NT福島2026",
       "description": null,
@@ -174,6 +158,19 @@
       ]
     },
     {
+      "id": "9d57c41d9388a20b",
+      "title": "今村源「光におくれる」",
+      "description": null,
+      "venue": "ギャラリーノマル",
+      "address": null,
+      "startDate": "2026-03-06",
+      "endDate": "2026-04-03",
+      "imageUrl": "https://bt.imgix.net/exhibition/17701/main/1774020185062_b30a21ceeefc0a12022b82d97f8ac464.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=112,0,1884,1060&v=13",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/17701",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
       "id": "0dcdae40545bb05b",
       "title": "三日月兼光と備前の名刀",
       "description": null,
@@ -187,6 +184,45 @@
       "tags": []
     },
     {
+      "id": "fbe4b1b22ce9a706",
+      "title": "OPENING INSTALLATION Quiet Underground: Energy, Sound and Time by YOSHIROTTEN",
+      "description": null,
+      "venue": "原宿クエスト 地下 THE HALL & TUNNEL（地下1階）",
+      "address": null,
+      "startDate": "2026-03-13",
+      "endDate": "2026-03-28",
+      "imageUrl": "https://bt.imgix.net/exhibition/17648/main/1773244986492_38fa30de9fd04d48e2f2f90d268f2734.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=254,0,3626,2040&v=7",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/17648",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "3e63cacc6808522f",
+      "title": "ComoNeプログラム#02 【Audio Game Center + ComoNe】ハッカソン「音からゲームをつくろう！」",
+      "description": null,
+      "venue": "東海国立大学機構 Common Nexus愛知",
+      "address": null,
+      "startDate": "2026-04-11",
+      "endDate": "2026-04-12",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/03/d78b5030a2614994dc9d3cba15b2a7ab-1200x675.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/64694/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "dddadae7beb40677",
+      "title": "島田市博物館分館　収蔵品展　海野光弘　小さな小さな　細部が築く大きな世界",
+      "description": null,
+      "venue": "島田市博物館静岡",
+      "address": null,
+      "startDate": "2026-04-01",
+      "endDate": "2026-06-07",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/01/tiisana.omote_.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/59945/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
       "id": "a5868f178432aee3",
       "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
       "description": null,
@@ -197,6 +233,22 @@
       "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
       "sourceUrl": "https://makezine.jp/event/mft2025/",
       "source": "maker_faire",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
+    },
+    {
+      "id": "9d6a5bde0cba8c02",
+      "title": "NT京都2026",
+      "description": null,
+      "venue": "NT京都",
+      "address": null,
+      "startDate": "2026-03-21",
+      "endDate": "2026-03-21",
+      "imageUrl": null,
+      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E4%BA%AC%E9%83%BD2026",
+      "source": "nt",
       "tags": [
         "メイカー",
         "ものづくり"
