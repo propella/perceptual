@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-22T09:22:56.607792+00:00",
+  "lastUpdated": "2026-03-23T09:53:11.078756+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -15,32 +15,6 @@
       "tags": []
     },
     {
-      "id": "d5c2d2ae83d52272",
-      "title": "「恵比寿映像祭2026　あなたの音に｜日花聲音｜Polyphonic Voices Bathed in Sunlight コミッション・プロジェクト＆東京都コレクション」",
-      "description": null,
-      "venue": "東京都写真美術館",
-      "address": null,
-      "startDate": "2026-02-25",
-      "endDate": "2026-03-22",
-      "imageUrl": "https://images.ctfassets.net/j05yk38inose/import_venue_image__B6131856/7121cde074f0f2868ffda4184753c36d/topmuseum_main.jpg",
-      "sourceUrl": "https://www.tokyoartbeat.com/events/-/Yebisu-International-Festival-for-Art-and-Alternative-Visions-2026-Polyphonic-Voices-Bathed-in-Sunlight-Commission-Project-Tokyo-Museum-Collection/B6131856/2026-02-25",
-      "source": "tokyo_art_beat",
-      "tags": []
-    },
-    {
-      "id": "42e079c7bf8873d8",
-      "title": "「あの空間・場所について」",
-      "description": null,
-      "venue": "SHUTL（シャトル）",
-      "address": null,
-      "startDate": "2026-03-06",
-      "endDate": "2026-03-22",
-      "imageUrl": "https://images.ctfassets.net/j05yk38inose/spBTReWk1jZ5vDQ6RjJs2/e19d63eed46f4afceb485ad5236f18dd/_SNSç___å__ç_ºã__ã__ã__ã__ã__.png",
-      "sourceUrl": "https://www.tokyoartbeat.com/events/-/That-Place/shutl/2026-03-06",
-      "source": "tokyo_art_beat",
-      "tags": []
-    },
-    {
       "id": "057c4ad2ce6e2d7b",
       "title": "生誕100周年記念 安野光雅展",
       "description": null,
@@ -51,19 +25,6 @@
       "imageUrl": "https://bt.imgix.net/exhibition/17549/main/1771880887442_558a9820512ef536cf9177224ac18c23.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,17,3178,1787&v=7",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17549",
       "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "180eb0cdb7515592",
-      "title": "江康泉　電気心音",
-      "description": null,
-      "venue": "金沢21世紀美術館",
-      "address": "石川県金沢市広坂1-2-1",
-      "startDate": "2025-10-18",
-      "endDate": "2026-03-22",
-      "imageUrl": "https://www.kanazawa21.jp/file.php?g=45&d=1833&n=main_image&gp=&lng=&p= ",
-      "sourceUrl": "https://www.kanazawa21.jp/data_list.php?g=17&d=1833",
-      "source": "kanazawa21",
       "tags": []
     },
     {
@@ -197,28 +158,15 @@
       "tags": []
     },
     {
-      "id": "3e63cacc6808522f",
-      "title": "ComoNeプログラム#02 【Audio Game Center + ComoNe】ハッカソン「音からゲームをつくろう！」",
+      "id": "ef2142667a37b1f0",
+      "title": "開館85周年記念特別展　光琳派　国宝『燕子花図屏風』と尾形光琳のフォロワーたち",
       "description": null,
-      "venue": "東海国立大学機構 Common Nexus愛知",
+      "venue": "根津美術館東京",
       "address": null,
       "startDate": "2026-04-11",
-      "endDate": "2026-04-12",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/03/d78b5030a2614994dc9d3cba15b2a7ab-1200x675.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/64694/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "dddadae7beb40677",
-      "title": "島田市博物館分館　収蔵品展　海野光弘　小さな小さな　細部が築く大きな世界",
-      "description": null,
-      "venue": "島田市博物館静岡",
-      "address": null,
-      "startDate": "2026-04-01",
-      "endDate": "2026-06-07",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/01/tiisana.omote_.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/59945/",
+      "endDate": "2026-05-10",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/03/44f021b371717db9d27f08209d635b03.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/64106/",
       "source": "artscape",
       "tags": []
     },
@@ -233,22 +181,6 @@
       "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
       "sourceUrl": "https://makezine.jp/event/mft2025/",
       "source": "maker_faire",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
-    },
-    {
-      "id": "9d6a5bde0cba8c02",
-      "title": "NT京都2026",
-      "description": null,
-      "venue": "NT京都",
-      "address": null,
-      "startDate": "2026-03-21",
-      "endDate": "2026-03-21",
-      "imageUrl": null,
-      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E4%BA%AC%E9%83%BD2026",
-      "source": "nt",
       "tags": [
         "メイカー",
         "ものづくり"
