@@ -6,105 +6,8 @@ DTSTART;VALUE=DATE:20260719
 DESCRIPTION:会場: 東京ビッグサイト\n\nhttps://www.hakubutufes.info/
 LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
 SUMMARY:【お知らせ】出展募集を2月1日から2月28日まで、公式ホームページにて行います。たくさんのご応募をお待ちしております。次回「博物ふぇすてぃばる！12」の開催日時は、2026年7月19日（日）・20日（月・祝）会場は東京ビッグサイト 南1ホールです。楽しく、熱い2日間を一緒に過ごしませんか？
-UID:7d7c9746-387d-4d77-9748-da4e834c45fa@7d7c.org
+UID:a4336d2c-a6c1-4c5c-a3ba-1f4f9ee99f00@a433.org
 URL:https://www.hakubutufes.info/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260328
-DESCRIPTION:会場: NT福島\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E7%A6%8F%E5%B3%B62026
-LOCATION:NT福島
-SUMMARY:NT福島2026
-UID:192d3fd8-52a2-421c-8df0-85eb475daf81@192d.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E7%A6%8F%E5%B3%B62026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260306
-DTEND;VALUE=DATE:20260404
-DESCRIPTION:会場: ギャラリーノマル\n\nhttps://bijutsutecho.com/exhibitions/17701
-LOCATION:ギャラリーノマル
-SUMMARY:今村源「光におくれる」
-UID:cf158e8c-a6d7-4fcc-9059-d3f9b90fa31f@cf15.org
-URL:https://bijutsutecho.com/exhibitions/17701
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260320
-DTEND;VALUE=DATE:20260531
-DESCRIPTION:会場: 名古屋刀剣博物館\n\nhttps://bijutsutecho.com/exhibitions/17652
-LOCATION:名古屋刀剣博物館
-SUMMARY:三日月兼光と備前の名刀
-UID:7be0170a-f223-41d5-af5a-5075c2b66650@7be0.org
-URL:https://bijutsutecho.com/exhibitions/17652
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260504
-DESCRIPTION:会場: NT函館mini\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
-LOCATION:NT函館mini
-SUMMARY:NT函館mini2026
-UID:b8e15385-4777-4cea-ad93-70db8e7ad928@b8e1.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260627
-DTEND;VALUE=DATE:20260629
-DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
-LOCATION:NT金沢
-SUMMARY:NT金沢2026
-UID:2b379b05-889b-4ed1-a271-e30558266dcf@2b37.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251006
-DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
-LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
-SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:c7b74093-a292-4f04-a0fc-57f3fef57cd0@c7b7.org
-URL:https://makezine.jp/event/mft2025/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-LOCATION:SOMPO美術館
-SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:bca8c70a-941e-4d52-b4c0-febbaa2f0d3f@bca8.org
-URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260303
-DTEND;VALUE=DATE:20260510
-DESCRIPTION:会場: PLAY! MUSEUM\n\nhttps://bijutsutecho.com/exhibitions/17549
-LOCATION:PLAY! MUSEUM
-SUMMARY:生誕100周年記念 安野光雅展
-UID:d4729e0e-94f5-41f9-82b0-870578477287@d472.org
-URL:https://bijutsutecho.com/exhibitions/17549
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
-DTEND;VALUE=DATE:20260511
-DESCRIPTION:会場: 根津美術館東京\n\nhttps://artscape.jp/exhibitions/64106/
-LOCATION:根津美術館東京
-SUMMARY:開館85周年記念特別展　光琳派　国宝『燕子花図屏風』と尾形光琳のフォロワーたち
-UID:f87b2c8d-8023-4ae6-bb85-1f9a8e1d4bd6@f87b.org
-URL:https://artscape.jp/exhibitions/64106/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260307
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
-LOCATION:アートアジェンダ
-SUMMARY:Noctis：影と光のグラスアート
-UID:83d69b6c-5f34-4f6e-af0c-3f58fd348127@83d6.org
-URL:https://www.artagenda.jp/exhibition/detail/12031
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260313
-DTEND;VALUE=DATE:20260329
-DESCRIPTION:会場: 原宿クエスト 地下 THE HALL & TUNNEL（地下1階）\n\nhttps://bijutsutecho.com/exhibitions/17648
-LOCATION:原宿クエスト 地下 THE HALL & TUNNEL（地下1階）
-SUMMARY:OPENING INSTALLATION Quiet Underground: Energy\, Sound and Time by YOSHIROTTEN
-UID:645c6bb9-5cbc-425f-9018-2635a942dee5@645c.org
-URL:https://bijutsutecho.com/exhibitions/17648
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260323
@@ -112,7 +15,104 @@ DTEND;VALUE=DATE:20260517
 DESCRIPTION:会場: 京都工芸繊維大学 美術工芸資料館京都\n\nhttps://artscape.jp/exhibitions/63193/
 LOCATION:京都工芸繊維大学 美術工芸資料館京都
 SUMMARY:光安義光と村野藤吾―共振するモダンデザイン―
-UID:e0ab79c0-d50a-4cb9-ab83-a19f10e6630f@e0ab.org
+UID:cdf5d339-0e51-4cca-8dda-df2a369abd4e@cdf5.org
 URL:https://artscape.jp/exhibitions/63193/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260511
+DESCRIPTION:会場: 根津美術館東京\n\nhttps://artscape.jp/exhibitions/64106/
+LOCATION:根津美術館東京
+SUMMARY:開館85周年記念特別展　光琳派　国宝『燕子花図屏風』と尾形光琳のフォロワーたち
+UID:d9f50a7a-859d-4f14-ad03-eea6678f1e68@d9f5.org
+URL:https://artscape.jp/exhibitions/64106/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251006
+DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
+LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
+SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
+UID:762e2491-96be-4e5d-b611-f94c91de0c14@762e.org
+URL:https://makezine.jp/event/mft2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260307
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
+LOCATION:アートアジェンダ
+SUMMARY:Noctis：影と光のグラスアート
+UID:02b7eaa5-09e5-4025-83a3-0bdc8c7b4bf3@02b7.org
+URL:https://www.artagenda.jp/exhibition/detail/12031
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+LOCATION:SOMPO美術館
+SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
+UID:9c11bf85-0087-4d7a-8afb-98ba76927fd5@9c11.org
+URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260629
+DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+LOCATION:NT金沢
+SUMMARY:NT金沢2026
+UID:d886dc1d-389d-4dbe-b776-58dcfdfa708b@d886.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260510
+DESCRIPTION:会場: PLAY! MUSEUM\n\nhttps://bijutsutecho.com/exhibitions/17549
+LOCATION:PLAY! MUSEUM
+SUMMARY:生誕100周年記念 安野光雅展
+UID:16399eac-4517-4e37-bbde-aac3aabbb442@1639.org
+URL:https://bijutsutecho.com/exhibitions/17549
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260328
+DESCRIPTION:会場: NT福島\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E7%A6%8F%E5%B3%B62026
+LOCATION:NT福島
+SUMMARY:NT福島2026
+UID:e4be2b19-88dd-4d96-a722-c29e7eb10ae7@e4be.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E7%A6%8F%E5%B3%B62026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260531
+DESCRIPTION:会場: 名古屋刀剣博物館\n\nhttps://bijutsutecho.com/exhibitions/17652
+LOCATION:名古屋刀剣博物館
+SUMMARY:三日月兼光と備前の名刀
+UID:fb9b3888-35bf-439f-bb94-959260138fd3@fb9b.org
+URL:https://bijutsutecho.com/exhibitions/17652
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260313
+DTEND;VALUE=DATE:20260329
+DESCRIPTION:会場: 原宿クエスト 地下 THE HALL & TUNNEL（地下1階）\n\nhttps://bijutsutecho.com/exhibitions/17648
+LOCATION:原宿クエスト 地下 THE HALL & TUNNEL（地下1階）
+SUMMARY:OPENING INSTALLATION Quiet Underground: Energy\, Sound and Time by YOSHIROTTEN
+UID:dff500dc-9f53-405b-8dae-9be2fd83b0d0@dff5.org
+URL:https://bijutsutecho.com/exhibitions/17648
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260504
+DESCRIPTION:会場: NT函館mini\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
+LOCATION:NT函館mini
+SUMMARY:NT函館mini2026
+UID:e02d476e-a38d-462f-9a00-625436a3cc29@e02d.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260306
+DTEND;VALUE=DATE:20260404
+DESCRIPTION:会場: ギャラリーノマル\n\nhttps://bijutsutecho.com/exhibitions/17701
+LOCATION:ギャラリーノマル
+SUMMARY:今村源「光におくれる」
+UID:964f0d10-84ba-4547-ac8a-336198698599@964f.org
+URL:https://bijutsutecho.com/exhibitions/17701
 END:VEVENT
 END:VCALENDAR
