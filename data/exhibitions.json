@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-25T09:42:59.646975+00:00",
+  "lastUpdated": "2026-03-26T09:51:50.763291+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -109,7 +109,7 @@
       "address": "東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F",
       "startDate": "2026-07-19",
       "endDate": "2026-07-19",
-      "imageUrl": "https://image.jimcdn.com/cdn-cgi/image//app/cms/storage/image/path/s7a4bc3c032178296/backgroundarea/iaa9312233b6a7306/version/1768116813/image.jpg",
+      "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/none/path/s7a4bc3c032178296/backgroundarea/iaa9312233b6a7306/version/1768116813/image.jpg",
       "sourceUrl": "https://www.hakubutufes.info/",
       "source": "hakubutsu_fes",
       "tags": [
@@ -117,45 +117,6 @@
         "ものづくり",
         "博物"
       ]
-    },
-    {
-      "id": "9d57c41d9388a20b",
-      "title": "今村源「光におくれる」",
-      "description": null,
-      "venue": "ギャラリーノマル",
-      "address": null,
-      "startDate": "2026-03-06",
-      "endDate": "2026-04-03",
-      "imageUrl": "https://bt.imgix.net/exhibition/17701/main/1774020185062_b30a21ceeefc0a12022b82d97f8ac464.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=112,0,1884,1060&v=13",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/17701",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "fbe4b1b22ce9a706",
-      "title": "OPENING INSTALLATION Quiet Underground: Energy, Sound and Time by YOSHIROTTEN",
-      "description": null,
-      "venue": "原宿クエスト 地下 THE HALL & TUNNEL（地下1階）",
-      "address": null,
-      "startDate": "2026-03-13",
-      "endDate": "2026-03-28",
-      "imageUrl": "https://bt.imgix.net/exhibition/17648/main/1773244986492_38fa30de9fd04d48e2f2f90d268f2734.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=254,0,3626,2040&v=7",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/17648",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "ef2142667a37b1f0",
-      "title": "開館85周年記念特別展　光琳派　国宝『燕子花図屏風』と尾形光琳のフォロワーたち",
-      "description": null,
-      "venue": "根津美術館東京",
-      "address": null,
-      "startDate": "2026-04-11",
-      "endDate": "2026-05-10",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/03/44f021b371717db9d27f08209d635b03.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/64106/",
-      "source": "artscape",
-      "tags": []
     },
     {
       "id": "70b8b603996a29bd",
