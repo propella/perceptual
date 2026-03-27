@@ -2,22 +2,22 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251006
-DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
-LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
-SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:46641baa-c7c7-4880-ba48-91769e91e4de@4664.org
-URL:https://makezine.jp/event/mft2025/
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260517
+DESCRIPTION:会場: 京都工芸繊維大学 美術工芸資料館京都\n\nhttps://artscape.jp/exhibitions/63193/
+LOCATION:京都工芸繊維大学 美術工芸資料館京都
+SUMMARY:光安義光と村野藤吾―共振するモダンデザイン―
+UID:77c1bf9b-eb86-46ad-87f1-18ead560ffcb@77c1.org
+URL:https://artscape.jp/exhibitions/63193/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260307
+DTSTART;VALUE=DATE:20260425
 DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
-LOCATION:アートアジェンダ
-SUMMARY:Noctis：影と光のグラスアート
-UID:d1be89a7-501c-4406-a202-55abb1cfce8b@d1be.org
-URL:https://www.artagenda.jp/exhibition/detail/12031
+DESCRIPTION:会場: 釧路市立美術館北海道\n\nhttps://artscape.jp/exhibitions/65051/
+LOCATION:釧路市立美術館北海道
+SUMMARY:つちやあゆみ　木と音の美術館
+UID:e089d255-948e-4c89-bdc7-d19e6f5318c3@e089.org
+URL:https://artscape.jp/exhibitions/65051/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260411
@@ -25,51 +25,17 @@ DTEND;VALUE=DATE:20260622
 DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
 LOCATION:SOMPO美術館
 SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:4ce37b04-a6f1-4e14-8b8b-3f20626cf9df@4ce3.org
+UID:96d2b80f-066a-4a60-917f-fbea56825f6a@96d2.org
 URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260504
-DESCRIPTION:会場: NT函館mini\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
-LOCATION:NT函館mini
-SUMMARY:NT函館mini2026
-UID:8e58ed19-f9df-4cf9-b669-804ea92c1101@8e58.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260428
+DTSTART;VALUE=DATE:20260307
 DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/11576
+DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
 LOCATION:アートアジェンダ
-SUMMARY:スウェーデン絵画　北欧の光、日常のかがやき
-UID:fcf8401a-e25f-4b8d-9c3b-b53e2a60149d@fcf8.org
-URL:https://www.artagenda.jp/exhibition/detail/11576
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260328
-DESCRIPTION:会場: NT福島\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E7%A6%8F%E5%B3%B62026
-LOCATION:NT福島
-SUMMARY:NT福島2026
-UID:992600de-83a0-4258-9f57-1ed4936e466f@9926.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E7%A6%8F%E5%B3%B62026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260323
-DTEND;VALUE=DATE:20260517
-DESCRIPTION:会場: 京都工芸繊維大学 美術工芸資料館京都\n\nhttps://artscape.jp/exhibitions/63193/
-LOCATION:京都工芸繊維大学 美術工芸資料館京都
-SUMMARY:光安義光と村野藤吾―共振するモダンデザイン―
-UID:7238f8c2-b024-4b69-92f6-1508d8a1d65a@7238.org
-URL:https://artscape.jp/exhibitions/63193/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260627
-DTEND;VALUE=DATE:20260629
-DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
-LOCATION:NT金沢
-SUMMARY:NT金沢2026
-UID:02b52ae5-4373-4e44-a505-5744c1a88c1e@02b5.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+SUMMARY:Noctis：影と光のグラスアート
+UID:b4415b49-2533-4bdd-93c8-83e98542a524@b441.org
+URL:https://www.artagenda.jp/exhibition/detail/12031
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260303
@@ -77,15 +43,58 @@ DTEND;VALUE=DATE:20260510
 DESCRIPTION:会場: PLAY! MUSEUM\n\nhttps://bijutsutecho.com/exhibitions/17549
 LOCATION:PLAY! MUSEUM
 SUMMARY:生誕100周年記念 安野光雅展
-UID:f63db5fc-7aff-409d-a3f2-ca08cc7fed82@f63d.org
+UID:c17752a8-e51f-4de2-9c3d-822d7c118586@c177.org
 URL:https://bijutsutecho.com/exhibitions/17549
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260328
+DESCRIPTION:会場: NT福島\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E7%A6%8F%E5%B3%B62026
+LOCATION:NT福島
+SUMMARY:NT福島2026
+UID:07e1602a-645d-4fd9-b8b2-c28cd15e3231@07e1.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E7%A6%8F%E5%B3%B62026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260719
 DESCRIPTION:会場: 東京ビッグサイト\n\nhttps://www.hakubutufes.info/
 LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
 SUMMARY:【お知らせ】出展募集を2月1日から2月28日まで、公式ホームページにて行います。たくさんのご応募をお待ちしております。次回「博物ふぇすてぃばる！12」の開催日時は、2026年7月19日（日）・20日（月・祝）会場は東京ビッグサイト 南1ホールです。楽しく、熱い2日間を一緒に過ごしませんか？
-UID:9f119cc0-fdc5-4f12-bb2d-cb33b9a05d4b@9f11.org
+UID:26cff794-4ddb-4ea9-9e21-260b9d25126a@26cf.org
 URL:https://www.hakubutufes.info/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251006
+DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
+LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
+SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
+UID:65faa02e-d044-41a7-88e9-b168df15d4d7@65fa.org
+URL:https://makezine.jp/event/mft2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260423
+DESCRIPTION:会場: Alt_Medium東京\n\nhttps://artscape.jp/exhibitions/65103/
+LOCATION:Alt_Medium東京
+SUMMARY:藤田紅於 個展「緑、泉、丘、光」
+UID:94a62bf3-e1d8-4916-bd60-4b984156ab29@94a6.org
+URL:https://artscape.jp/exhibitions/65103/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260629
+DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+LOCATION:NT金沢
+SUMMARY:NT金沢2026
+UID:7ca55b66-e952-4348-af03-e7135c8e409d@7ca5.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260504
+DESCRIPTION:会場: NT函館mini\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
+LOCATION:NT函館mini
+SUMMARY:NT函館mini2026
+UID:94de95a5-a85f-41e8-8c6f-61b690aa3f12@94de.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
 END:VEVENT
 END:VCALENDAR

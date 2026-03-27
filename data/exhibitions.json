@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26T09:51:50.763291+00:00",
+  "lastUpdated": "2026-03-27T09:44:12.306137+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -119,16 +119,29 @@
       ]
     },
     {
-      "id": "70b8b603996a29bd",
-      "title": "スウェーデン絵画　北欧の光、日常のかがやき",
+      "id": "b2502c2308943d77",
+      "title": "藤田紅於 個展「緑、泉、丘、光」",
       "description": null,
-      "venue": "アートアジェンダ",
+      "venue": "Alt_Medium東京",
       "address": null,
-      "startDate": "2026-04-28",
+      "startDate": "2026-04-10",
+      "endDate": "2026-04-22",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2024/02/202604fujita_main-1200x800.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/65103/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "9d5617f436df63dc",
+      "title": "つちやあゆみ　木と音の美術館",
+      "description": null,
+      "venue": "釧路市立美術館北海道",
+      "address": null,
+      "startDate": "2026-04-25",
       "endDate": "2026-06-21",
-      "imageUrl": "https://www.artagenda.jp/img/event/11576/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11576",
-      "source": "artagenda",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/03/tsuchiyaayumi2026top-1200x900.webp",
+      "sourceUrl": "https://artscape.jp/exhibitions/65051/",
+      "source": "artscape",
       "tags": []
     },
     {
