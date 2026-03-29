@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T09:26:54.909733+00:00",
+  "lastUpdated": "2026-03-29T09:27:52.144127+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -52,22 +52,6 @@
       "sourceUrl": "https://artscape.jp/exhibitions/63193/",
       "source": "artscape",
       "tags": []
-    },
-    {
-      "id": "a28b9966f262da79",
-      "title": "NT福島2026",
-      "description": null,
-      "venue": "NT福島",
-      "address": null,
-      "startDate": "2026-03-28",
-      "endDate": "2026-03-28",
-      "imageUrl": null,
-      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E7%A6%8F%E5%B3%B62026",
-      "source": "nt",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
     },
     {
       "id": "52ddb1d52f474cbb",
