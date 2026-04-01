@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T09:54:41.040039+00:00",
+  "lastUpdated": "2026-04-01T09:58:46.709936+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -20,8 +20,8 @@
       "description": null,
       "venue": "PLAY! MUSEUM",
       "address": null,
-      "startDate": "2026-03-03",
-      "endDate": "2026-05-09",
+      "startDate": "2026-03-04",
+      "endDate": "2026-05-10",
       "imageUrl": "https://bt.imgix.net/exhibition/17549/main/1771880887442_558a9820512ef536cf9177224ac18c23.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,17,3178,1787&v=7",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17549",
       "source": "bijutsu_techo",
@@ -103,6 +103,19 @@
       ]
     },
     {
+      "id": "f4117f5f7194d411",
+      "title": "平 久弥　— 光の境界を描く/ Between Lights",
+      "description": null,
+      "venue": "Yoshiaki Inoue Gallery",
+      "address": null,
+      "startDate": "2026-04-09",
+      "endDate": "2026-04-29",
+      "imageUrl": null,
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/17726",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
       "id": "b2502c2308943d77",
       "title": "藤田紅於 個展「緑、泉、丘、光」",
       "description": null,
@@ -112,19 +125,6 @@
       "endDate": "2026-04-22",
       "imageUrl": "https://artscape.jp/wp-content/uploads/2024/02/202604fujita_main-1200x800.jpg",
       "sourceUrl": "https://artscape.jp/exhibitions/65103/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "9d5617f436df63dc",
-      "title": "つちやあゆみ　木と音の美術館",
-      "description": null,
-      "venue": "釧路市立美術館北海道",
-      "address": null,
-      "startDate": "2026-04-25",
-      "endDate": "2026-06-21",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/03/tsuchiyaayumi2026top-1200x900.webp",
-      "sourceUrl": "https://artscape.jp/exhibitions/65051/",
       "source": "artscape",
       "tags": []
     },
