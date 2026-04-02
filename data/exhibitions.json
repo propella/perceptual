@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T09:58:46.709936+00:00",
+  "lastUpdated": "2026-04-02T09:51:26.946826+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -113,19 +113,6 @@
       "imageUrl": null,
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17726",
       "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "b2502c2308943d77",
-      "title": "藤田紅於 個展「緑、泉、丘、光」",
-      "description": null,
-      "venue": "Alt_Medium東京",
-      "address": null,
-      "startDate": "2026-04-10",
-      "endDate": "2026-04-22",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2024/02/202604fujita_main-1200x800.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/65103/",
-      "source": "artscape",
       "tags": []
     },
     {
