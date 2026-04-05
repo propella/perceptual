@@ -2,12 +2,30 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260621
+DESCRIPTION:会場: ＳＯＭＰＯ美術館\n\nhttps://bijutsutecho.com/exhibitions/17747
+LOCATION:ＳＯＭＰＯ美術館
+SUMMARY:ウジェーヌ・ブーダン展一瞬間の美学、光の探求
+UID:82cbd422-52e9-4903-b25f-5e41ad672bb4@82cb.org
+URL:https://bijutsutecho.com/exhibitions/17747
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260307
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
+LOCATION:アートアジェンダ
+SUMMARY:Noctis：影と光のグラスアート
+UID:5664bcbe-9d69-4da6-a22a-64d87e11b51e@5664.org
+URL:https://www.artagenda.jp/exhibition/detail/12031
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260409
 DTEND;VALUE=DATE:20260430
 DESCRIPTION:会場: Yoshiaki Inoue Gallery\n\nhttps://bijutsutecho.com/exhibitions/17726
 LOCATION:Yoshiaki Inoue Gallery
 SUMMARY:平 久弥　— 光の境界を描く/ Between Lights
-UID:5a445ade-fcb5-49ba-8ed3-db81a7ca799e@5a44.org
+UID:172aa371-a51a-44f6-b774-d394b9e8e9a7@172a.org
 URL:https://bijutsutecho.com/exhibitions/17726
 END:VEVENT
 BEGIN:VEVENT
@@ -16,51 +34,16 @@ DTEND;VALUE=DATE:20251006
 DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
 LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
 SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:9e07018c-3fb5-4259-9c78-31933e4eb79f@9e07.org
+UID:b94d341f-3a46-4417-98e0-c6cc5a417c4e@b94d.org
 URL:https://makezine.jp/event/mft2025/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260719
-DESCRIPTION:会場: 東京ビッグサイト\n\nhttps://www.hakubutufes.info/
-LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
-SUMMARY:【お知らせ】出展募集を2月1日から2月28日まで、公式ホームページにて行います。たくさんのご応募をお待ちしております。次回「博物ふぇすてぃばる！12」の開催日時は、2026年7月19日（日）・20日（月・祝）会場は東京ビッグサイト 南1ホールです。楽しく、熱い2日間を一緒に過ごしませんか？
-UID:8dfa6354-ba10-4e59-afcb-866bf2f6806c@8dfa.org
-URL:https://www.hakubutufes.info/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-LOCATION:SOMPO美術館
-SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:06c024a0-62aa-4856-839f-2ad04f7998c9@06c0.org
-URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260504
 DESCRIPTION:会場: NT函館mini\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
 LOCATION:NT函館mini
 SUMMARY:NT函館mini2026
-UID:fe2f56cf-5302-4ba6-b706-9b12056921a7@fe2f.org
+UID:358b409a-20b4-4510-8133-5898bbc276df@358b.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260627
-DTEND;VALUE=DATE:20260629
-DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
-LOCATION:NT金沢
-SUMMARY:NT金沢2026
-UID:907bb14d-f944-438e-b13c-7a52854206b4@907b.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260410
-DTEND;VALUE=DATE:20260621
-DESCRIPTION:会場: ＳＯＭＰＯ美術館\n\nhttps://bijutsutecho.com/exhibitions/17747
-LOCATION:ＳＯＭＰＯ美術館
-SUMMARY:ウジェーヌ・ブーダン展一瞬間の美学、光の探求
-UID:0e6407e5-b45d-49f4-abca-0bce6e348534@0e64.org
-URL:https://bijutsutecho.com/exhibitions/17747
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260304
@@ -68,17 +51,52 @@ DTEND;VALUE=DATE:20260511
 DESCRIPTION:会場: PLAY! MUSEUM\n\nhttps://bijutsutecho.com/exhibitions/17549
 LOCATION:PLAY! MUSEUM
 SUMMARY:生誕100周年記念 安野光雅展
-UID:5f3fe7e9-e1e6-4e4a-9b29-127a2fafa970@5f3f.org
+UID:ee4bbd76-bbcb-4edc-87e5-36b2b6672237@ee4b.org
 URL:https://bijutsutecho.com/exhibitions/17549
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260307
+DTSTART;VALUE=DATE:20190111
+DTEND;VALUE=DATE:20190210
+DESCRIPTION:会場: TALION GALLERY\n\nhttps://bijutsutecho.com/exhibitions/3276
+LOCATION:TALION GALLERY
+SUMMARY:宮下さゆり「光、密室」
+UID:79b18199-8519-4bcc-84ad-6fb17a6d1f18@79b1.org
+URL:https://bijutsutecho.com/exhibitions/3276
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260411
 DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
-LOCATION:アートアジェンダ
-SUMMARY:Noctis：影と光のグラスアート
-UID:5f468a56-2fbe-4045-967b-d248f67b0e57@5f46.org
-URL:https://www.artagenda.jp/exhibition/detail/12031
+DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+LOCATION:SOMPO美術館
+SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
+UID:684ba041-d42c-41a0-9976-e4a2604ea0bf@684b.org
+URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260629
+DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+LOCATION:NT金沢
+SUMMARY:NT金沢2026
+UID:75ef219f-77c3-4c2e-a37b-94215a542748@75ef.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:会場: 東京ビッグサイト\n\nhttps://www.hakubutufes.info/
+LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
+SUMMARY:【お知らせ】出展募集を2月1日から2月28日まで、公式ホームページにて行います。たくさんのご応募をお待ちしております。次回「博物ふぇすてぃばる！12」の開催日時は、2026年7月19日（日）・20日（月・祝）会場は東京ビッグサイト 南1ホールです。楽しく、熱い2日間を一緒に過ごしませんか？
+UID:d3fe9836-0dc7-4c70-a6de-d1e3a6656357@d3fe.org
+URL:https://www.hakubutufes.info/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260509
+DTEND;VALUE=DATE:20260518
+DESCRIPTION:会場: Gallery NOOOG東京\n\nhttps://artscape.jp/exhibitions/65906/
+LOCATION:Gallery NOOOG東京
+SUMMARY:光のまれびと-早川陽子 個展-
+UID:61afdffa-ebd3-4732-bada-081dee9a32ec@61af.org
+URL:https://artscape.jp/exhibitions/65906/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260323
@@ -86,7 +104,7 @@ DTEND;VALUE=DATE:20260517
 DESCRIPTION:会場: 京都工芸繊維大学 美術工芸資料館京都\n\nhttps://artscape.jp/exhibitions/63193/
 LOCATION:京都工芸繊維大学 美術工芸資料館京都
 SUMMARY:光安義光と村野藤吾―共振するモダンデザイン―
-UID:06638a05-79a2-40c6-a8a0-747111743780@0663.org
+UID:0cba3570-12c1-4728-87c0-49ba7837e06c@0cba.org
 URL:https://artscape.jp/exhibitions/63193/
 END:VEVENT
 END:VCALENDAR
