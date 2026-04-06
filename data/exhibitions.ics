@@ -2,22 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260410
-DTEND;VALUE=DATE:20260621
-DESCRIPTION:会場: ＳＯＭＰＯ美術館\n\nhttps://bijutsutecho.com/exhibitions/17747
-LOCATION:ＳＯＭＰＯ美術館
-SUMMARY:ウジェーヌ・ブーダン展一瞬間の美学、光の探求
-UID:82cbd422-52e9-4903-b25f-5e41ad672bb4@82cb.org
-URL:https://bijutsutecho.com/exhibitions/17747
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260307
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
-LOCATION:アートアジェンダ
-SUMMARY:Noctis：影と光のグラスアート
-UID:5664bcbe-9d69-4da6-a22a-64d87e11b51e@5664.org
-URL:https://www.artagenda.jp/exhibition/detail/12031
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260517
+DESCRIPTION:会場: 京都工芸繊維大学 美術工芸資料館京都\n\nhttps://artscape.jp/exhibitions/63193/
+LOCATION:京都工芸繊維大学 美術工芸資料館京都
+SUMMARY:光安義光と村野藤吾―共振するモダンデザイン―
+UID:6a7029ba-8586-472e-b8ac-17bf2b31aaf1@6a70.org
+URL:https://artscape.jp/exhibitions/63193/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260409
@@ -25,25 +16,8 @@ DTEND;VALUE=DATE:20260430
 DESCRIPTION:会場: Yoshiaki Inoue Gallery\n\nhttps://bijutsutecho.com/exhibitions/17726
 LOCATION:Yoshiaki Inoue Gallery
 SUMMARY:平 久弥　— 光の境界を描く/ Between Lights
-UID:172aa371-a51a-44f6-b774-d394b9e8e9a7@172a.org
+UID:7a7a02bb-675b-4d3f-ad9b-c5ebbe60bc37@7a7a.org
 URL:https://bijutsutecho.com/exhibitions/17726
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251006
-DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
-LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
-SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:b94d341f-3a46-4417-98e0-c6cc5a417c4e@b94d.org
-URL:https://makezine.jp/event/mft2025/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260504
-DESCRIPTION:会場: NT函館mini\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
-LOCATION:NT函館mini
-SUMMARY:NT函館mini2026
-UID:358b409a-20b4-4510-8133-5898bbc276df@358b.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260304
@@ -51,42 +25,24 @@ DTEND;VALUE=DATE:20260511
 DESCRIPTION:会場: PLAY! MUSEUM\n\nhttps://bijutsutecho.com/exhibitions/17549
 LOCATION:PLAY! MUSEUM
 SUMMARY:生誕100周年記念 安野光雅展
-UID:ee4bbd76-bbcb-4edc-87e5-36b2b6672237@ee4b.org
+UID:54ec18a2-a70b-44d6-a568-5c3796a3c688@54ec.org
 URL:https://bijutsutecho.com/exhibitions/17549
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20190111
-DTEND;VALUE=DATE:20190210
-DESCRIPTION:会場: TALION GALLERY\n\nhttps://bijutsutecho.com/exhibitions/3276
-LOCATION:TALION GALLERY
-SUMMARY:宮下さゆり「光、密室」
-UID:79b18199-8519-4bcc-84ad-6fb17a6d1f18@79b1.org
-URL:https://bijutsutecho.com/exhibitions/3276
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
+DTSTART;VALUE=DATE:20260307
 DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-LOCATION:SOMPO美術館
-SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:684ba041-d42c-41a0-9976-e4a2604ea0bf@684b.org
-URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260627
-DTEND;VALUE=DATE:20260629
-DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
-LOCATION:NT金沢
-SUMMARY:NT金沢2026
-UID:75ef219f-77c3-4c2e-a37b-94215a542748@75ef.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
+LOCATION:アートアジェンダ
+SUMMARY:Noctis：影と光のグラスアート
+UID:06c49a15-4564-492b-a5d7-0e0516d59a35@06c4.org
+URL:https://www.artagenda.jp/exhibition/detail/12031
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260719
 DESCRIPTION:会場: 東京ビッグサイト\n\nhttps://www.hakubutufes.info/
 LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
 SUMMARY:【お知らせ】出展募集を2月1日から2月28日まで、公式ホームページにて行います。たくさんのご応募をお待ちしております。次回「博物ふぇすてぃばる！12」の開催日時は、2026年7月19日（日）・20日（月・祝）会場は東京ビッグサイト 南1ホールです。楽しく、熱い2日間を一緒に過ごしませんか？
-UID:d3fe9836-0dc7-4c70-a6de-d1e3a6656357@d3fe.org
+UID:46f0e471-c28c-4777-8f94-d030ae3bbdf9@46f0.org
 URL:https://www.hakubutufes.info/
 END:VEVENT
 BEGIN:VEVENT
@@ -95,16 +51,51 @@ DTEND;VALUE=DATE:20260518
 DESCRIPTION:会場: Gallery NOOOG東京\n\nhttps://artscape.jp/exhibitions/65906/
 LOCATION:Gallery NOOOG東京
 SUMMARY:光のまれびと-早川陽子 個展-
-UID:61afdffa-ebd3-4732-bada-081dee9a32ec@61af.org
+UID:ab2bafdd-78bf-4f4d-bcfa-4790f1b0f10e@ab2b.org
 URL:https://artscape.jp/exhibitions/65906/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260323
-DTEND;VALUE=DATE:20260517
-DESCRIPTION:会場: 京都工芸繊維大学 美術工芸資料館京都\n\nhttps://artscape.jp/exhibitions/63193/
-LOCATION:京都工芸繊維大学 美術工芸資料館京都
-SUMMARY:光安義光と村野藤吾―共振するモダンデザイン―
-UID:0cba3570-12c1-4728-87c0-49ba7837e06c@0cba.org
-URL:https://artscape.jp/exhibitions/63193/
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+LOCATION:SOMPO美術館
+SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
+UID:5ab6b02d-4600-490a-9dfe-ce63f59cbc34@5ab6.org
+URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260504
+DESCRIPTION:会場: NT函館mini\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
+LOCATION:NT函館mini
+SUMMARY:NT函館mini2026
+UID:cb750ddc-b946-44a3-a2c4-8c36fec7ca2f@cb75.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251006
+DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
+LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
+SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
+UID:7f24ad79-5f0d-41d3-8ea4-9da5fc0cd716@7f24.org
+URL:https://makezine.jp/event/mft2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260629
+DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+LOCATION:NT金沢
+SUMMARY:NT金沢2026
+UID:ae18aec7-6332-4f82-bb56-a6c03159efbf@ae18.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260621
+DESCRIPTION:会場: ＳＯＭＰＯ美術館\n\nhttps://bijutsutecho.com/exhibitions/17747
+LOCATION:ＳＯＭＰＯ美術館
+SUMMARY:ウジェーヌ・ブーダン展一瞬間の美学、光の探求
+UID:cb991d71-3c6a-4447-a255-79b44cbfbfcf@cb99.org
+URL:https://bijutsutecho.com/exhibitions/17747
 END:VEVENT
 END:VCALENDAR

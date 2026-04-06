@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T09:30:01.491668+00:00",
+  "lastUpdated": "2026-04-06T09:59:32.115007+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -110,7 +110,7 @@
       "address": null,
       "startDate": "2026-04-10",
       "endDate": "2026-06-20",
-      "imageUrl": "https://bt.imgix.net/exhibition/17747/main/1775183086200_c1562152f5eccd041c8b7ff9c2b5bf85.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=193,0,2592,1458&v=12",
+      "imageUrl": "https://bt.imgix.net/exhibition/17747/main/1775183086200_c1562152f5eccd041c8b7ff9c2b5bf85.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=193,0,2592,1458&v=14",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17747",
       "source": "bijutsu_techo",
       "tags": []
@@ -125,19 +125,6 @@
       "endDate": "2026-04-29",
       "imageUrl": "https://bt.imgix.net/exhibition/17726/main/1775166336149_201d37c0869f21d0b72f9f30be950b66.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,112,2445,1375&v=6",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17726",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "9ab51ff84713e5fe",
-      "title": "宮下さゆり「光、密室」",
-      "description": null,
-      "venue": "TALION GALLERY",
-      "address": null,
-      "startDate": "2019-01-11",
-      "endDate": "2019-02-09",
-      "imageUrl": "https://bt.imgix.net/exhibition/3276/main/1545899652571_716651ca80d5b2a37a3d676d07355905.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=337,0,2808,1580&v=5",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/3276",
       "source": "bijutsu_techo",
       "tags": []
     },
