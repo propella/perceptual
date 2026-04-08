@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T09:58:11.042804+00:00",
+  "lastUpdated": "2026-04-08T09:58:28.886720+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -126,19 +126,6 @@
       "imageUrl": "https://bt.imgix.net/exhibition/17726/main/1775166336149_201d37c0869f21d0b72f9f30be950b66.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,112,2445,1375&v=6",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17726",
       "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "2bf18d7d2af70799",
-      "title": "光のまれびと-早川陽子 個展-",
-      "description": null,
-      "venue": "Gallery NOOOG東京",
-      "address": null,
-      "startDate": "2026-05-09",
-      "endDate": "2026-05-17",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/8fd411df63566844f97ad809aa81c59e-1200x636.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/65906/",
-      "source": "artscape",
       "tags": []
     },
     {
