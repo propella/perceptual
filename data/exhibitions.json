@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T10:00:27.730407+00:00",
+  "lastUpdated": "2026-04-11T09:32:23.331212+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -139,6 +139,19 @@
       "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/Swissnex-Window-From-Heidi-to-High-Tech_Flyer-848x1200.jpg",
       "sourceUrl": "https://artscape.jp/exhibitions/66448/",
       "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "bdbb2e1300d604d0",
+      "title": "佐野美術館創立60周年・三島市制85周年記念　岩合光昭写真展 「ご当地ねこ」",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-04-11",
+      "endDate": "2026-06-28",
+      "imageUrl": "https://www.artagenda.jp/img/event/12041/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12041",
+      "source": "artagenda",
       "tags": []
     },
     {
