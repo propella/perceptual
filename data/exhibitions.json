@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T09:32:23.331212+00:00",
+  "lastUpdated": "2026-04-12T09:37:13.294256+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -116,19 +116,6 @@
       "tags": []
     },
     {
-      "id": "f4117f5f7194d411",
-      "title": "平 久弥　— 光の境界を描く/ Between Lights",
-      "description": null,
-      "venue": "Yoshiaki Inoue Gallery",
-      "address": null,
-      "startDate": "2026-04-09",
-      "endDate": "2026-04-29",
-      "imageUrl": "https://bt.imgix.net/exhibition/17726/main/1775166336149_201d37c0869f21d0b72f9f30be950b66.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,112,2445,1375&v=7",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/17726",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
       "id": "912c34ff1ca20965",
       "title": "Swissnex Window #13：ハイジと共に、テクノロジーの頂へ",
       "description": null,
@@ -139,19 +126,6 @@
       "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/Swissnex-Window-From-Heidi-to-High-Tech_Flyer-848x1200.jpg",
       "sourceUrl": "https://artscape.jp/exhibitions/66448/",
       "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "bdbb2e1300d604d0",
-      "title": "佐野美術館創立60周年・三島市制85周年記念　岩合光昭写真展 「ご当地ねこ」",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-04-11",
-      "endDate": "2026-06-28",
-      "imageUrl": "https://www.artagenda.jp/img/event/12041/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12041",
-      "source": "artagenda",
       "tags": []
     },
     {
