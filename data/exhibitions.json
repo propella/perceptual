@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T10:06:58.323227+00:00",
+  "lastUpdated": "2026-04-15T10:07:45.388849+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -103,6 +103,19 @@
       ]
     },
     {
+      "id": "4060e461754780d7",
+      "title": "スウェーデン絵画　北欧の光、日常のかがやき",
+      "description": null,
+      "venue": "山口県立美術館",
+      "address": null,
+      "startDate": "2026-04-27",
+      "endDate": "2026-06-20",
+      "imageUrl": "https://bt.imgix.net/exhibition/17759/main/1774580442968_3bb4c56a062a12eecfc2ff8a76b6b8c7.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=114,0,3934,2213&v=7",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/17759",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
       "id": "edcabf6e9b0f2a9f",
       "title": "ウジェーヌ・ブーダン展一瞬間の美学、光の探求",
       "description": null,
@@ -113,6 +126,19 @@
       "imageUrl": "https://bt.imgix.net/exhibition/17747/main/1775183086200_c1562152f5eccd041c8b7ff9c2b5bf85.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=193,0,2592,1458&v=14",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17747",
       "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "b3788d012249bb91",
+      "title": "Noctis　影と光のグラスアート",
+      "description": null,
+      "venue": "富山市ガラス美術館富山",
+      "address": null,
+      "startDate": "2026-03-07",
+      "endDate": "2026-06-21",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/cd8ea357bbb6d6b7ed10e2a807ddfffa.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/66018/",
+      "source": "artscape",
       "tags": []
     },
     {
