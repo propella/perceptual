@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T10:07:45.388849+00:00",
+  "lastUpdated": "2026-04-16T10:06:59.140835+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -110,7 +110,7 @@
       "address": null,
       "startDate": "2026-04-27",
       "endDate": "2026-06-20",
-      "imageUrl": "https://bt.imgix.net/exhibition/17759/main/1774580442968_3bb4c56a062a12eecfc2ff8a76b6b8c7.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=114,0,3934,2213&v=7",
+      "imageUrl": "https://bt.imgix.net/exhibition/17759/main/1774580442968_3bb4c56a062a12eecfc2ff8a76b6b8c7.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=114,0,3934,2213&v=11",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17759",
       "source": "bijutsu_techo",
       "tags": []
@@ -126,6 +126,32 @@
       "imageUrl": "https://bt.imgix.net/exhibition/17747/main/1775183086200_c1562152f5eccd041c8b7ff9c2b5bf85.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=193,0,2592,1458&v=14",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17747",
       "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "664649f285da7ea6",
+      "title": "132 5. ISSEY MIYAKE「西村陽一郎　光がふれる、折りとかたち」",
+      "description": null,
+      "venue": "ISSEY MIYAKE GINZA | CUBE東京",
+      "address": null,
+      "startDate": "2026-05-01",
+      "endDate": "2026-06-27",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/1f760ba0806a5d5dcc2bffb7cfded4dc-1.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/66989/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "beb2f3fc491787cb",
+      "title": "132 5. ISSEY MIYAKE「西村陽一郎　光がふれる、折りとかたち」",
+      "description": null,
+      "venue": "ISSEY MIYAKE SEMBA | CREATION SPACE大阪",
+      "address": null,
+      "startDate": "2026-05-01",
+      "endDate": "2026-06-27",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/1f760ba0806a5d5dcc2bffb7cfded4dc.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/66984/",
+      "source": "artscape",
       "tags": []
     },
     {
