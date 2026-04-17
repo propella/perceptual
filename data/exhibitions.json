@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T10:06:59.140835+00:00",
+  "lastUpdated": "2026-04-17T10:04:53.968272+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -103,6 +103,19 @@
       ]
     },
     {
+      "id": "dd89da0e39ca5116",
+      "title": "入江明日香展 2026―月影とまどろみ",
+      "description": null,
+      "venue": "日本橋髙島屋",
+      "address": null,
+      "startDate": "2026-04-21",
+      "endDate": "2026-05-05",
+      "imageUrl": "https://bt.imgix.net/exhibition/17830/main/1776124075928_8c972f0d62190989c7c6f402f87b4970.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,12,1700,956&v=3",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/17830",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
       "id": "4060e461754780d7",
       "title": "スウェーデン絵画　北欧の光、日常のかがやき",
       "description": null,
@@ -123,9 +136,22 @@
       "address": null,
       "startDate": "2026-04-10",
       "endDate": "2026-06-20",
-      "imageUrl": "https://bt.imgix.net/exhibition/17747/main/1775183086200_c1562152f5eccd041c8b7ff9c2b5bf85.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=193,0,2592,1458&v=14",
+      "imageUrl": "https://bt.imgix.net/exhibition/17747/main/1775183086200_c1562152f5eccd041c8b7ff9c2b5bf85.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=193,0,2592,1458&v=15",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17747",
       "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "c46f8330c7a337eb",
+      "title": "三宅章介「潜在空間に生息する昆虫図鑑」　 ーノイズに羽ばたく空蝉(うつせみ）たちー",
+      "description": null,
+      "venue": "galerie 16京都",
+      "address": null,
+      "startDate": "2026-04-28",
+      "endDate": "2026-05-09",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/993c5ea7589ab9d7818a335349c37fee.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/67103/",
+      "source": "artscape",
       "tags": []
     },
     {
@@ -151,19 +177,6 @@
       "endDate": "2026-06-27",
       "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/1f760ba0806a5d5dcc2bffb7cfded4dc.jpg",
       "sourceUrl": "https://artscape.jp/exhibitions/66984/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "b3788d012249bb91",
-      "title": "Noctis　影と光のグラスアート",
-      "description": null,
-      "venue": "富山市ガラス美術館富山",
-      "address": null,
-      "startDate": "2026-03-07",
-      "endDate": "2026-06-21",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/cd8ea357bbb6d6b7ed10e2a807ddfffa.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/66018/",
       "source": "artscape",
       "tags": []
     },
