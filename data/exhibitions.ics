@@ -2,109 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260719
-DESCRIPTION:会場: 東京ビッグサイト\n\nhttps://www.hakubutufes.info/
-LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
-SUMMARY:【お知らせ】出展募集を2月1日から2月28日まで、公式ホームページにて行います。たくさんのご応募をお待ちしております。次回「博物ふぇすてぃばる！12」の開催日時は、2026年7月19日（日）・20日（月・祝）会場は東京ビッグサイト 南1ホールです。楽しく、熱い2日間を一緒に過ごしませんか？
-UID:4f206b35-e25a-4ca0-997e-dafa4c98a360@4f20.org
-URL:https://www.hakubutufes.info/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260421
-DTEND;VALUE=DATE:20260506
-DESCRIPTION:会場: 日本橋髙島屋\n\nhttps://bijutsutecho.com/exhibitions/17830
-LOCATION:日本橋髙島屋
-SUMMARY:入江明日香展 2026―月影とまどろみ
-UID:353788c5-d332-40e0-b303-e0f3accf3166@3537.org
-URL:https://bijutsutecho.com/exhibitions/17830
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260410
-DTEND;VALUE=DATE:20260621
-DESCRIPTION:会場: ＳＯＭＰＯ美術館\n\nhttps://bijutsutecho.com/exhibitions/17747
-LOCATION:ＳＯＭＰＯ美術館
-SUMMARY:ウジェーヌ・ブーダン展一瞬間の美学、光の探求
-UID:18009cc6-4c03-4ea4-a2be-7731436ca615@1800.org
-URL:https://bijutsutecho.com/exhibitions/17747
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260501
-DTEND;VALUE=DATE:20260628
-DESCRIPTION:会場: ISSEY MIYAKE GINZA | CUBE東京\n\nhttps://artscape.jp/exhibitions/66989/
-LOCATION:ISSEY MIYAKE GINZA | CUBE東京
-SUMMARY:132 5. ISSEY MIYAKE「西村陽一郎　光がふれる、折りとかたち」
-UID:7ebb1a6f-66dc-4940-a671-adaf1a8bb6bb@7ebb.org
-URL:https://artscape.jp/exhibitions/66989/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260504
-DESCRIPTION:会場: NT函館mini\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
-LOCATION:NT函館mini
-SUMMARY:NT函館mini2026
-UID:32962b41-012b-441a-9dca-34527109e84e@3296.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-LOCATION:SOMPO美術館
-SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:a643e654-1530-4ffb-a73f-14350cb5cb72@a643.org
-URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260304
-DTEND;VALUE=DATE:20260511
-DESCRIPTION:会場: PLAY! MUSEUM\n\nhttps://bijutsutecho.com/exhibitions/17549
-LOCATION:PLAY! MUSEUM
-SUMMARY:生誕100周年記念 安野光雅展
-UID:d8bdfda7-d01d-44f4-99a9-5d58f2dcaf9c@d8bd.org
-URL:https://bijutsutecho.com/exhibitions/17549
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260428
-DTEND;VALUE=DATE:20260510
-DESCRIPTION:会場: galerie 16京都\n\nhttps://artscape.jp/exhibitions/67103/
-LOCATION:galerie 16京都
-SUMMARY:三宅章介「潜在空間に生息する昆虫図鑑」　 ーノイズに羽ばたく空蝉(うつせみ）たちー
-UID:1ab8d459-4bf0-43a4-84da-920fe1f36dba@1ab8.org
-URL:https://artscape.jp/exhibitions/67103/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260501
-DTEND;VALUE=DATE:20260628
-DESCRIPTION:会場: ISSEY MIYAKE SEMBA | CREATION SPACE大阪\n\nhttps://artscape.jp/exhibitions/66984/
-LOCATION:ISSEY MIYAKE SEMBA | CREATION SPACE大阪
-SUMMARY:132 5. ISSEY MIYAKE「西村陽一郎　光がふれる、折りとかたち」
-UID:c290ab3e-f00e-43e9-b657-08864876f216@c290.org
-URL:https://artscape.jp/exhibitions/66984/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260323
-DTEND;VALUE=DATE:20260517
-DESCRIPTION:会場: 京都工芸繊維大学 美術工芸資料館京都\n\nhttps://artscape.jp/exhibitions/63193/
-LOCATION:京都工芸繊維大学 美術工芸資料館京都
-SUMMARY:光安義光と村野藤吾―共振するモダンデザイン―
-UID:21f8af2c-02bd-4357-ba32-e64b11eda28a@21f8.org
-URL:https://artscape.jp/exhibitions/63193/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260427
-DTEND;VALUE=DATE:20260621
-DESCRIPTION:会場: 山口県立美術館\n\nhttps://bijutsutecho.com/exhibitions/17759
-LOCATION:山口県立美術館
-SUMMARY:スウェーデン絵画　北欧の光、日常のかがやき
-UID:74283c93-52af-4d98-aee7-e5739ef66d72@7428.org
-URL:https://bijutsutecho.com/exhibitions/17759
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260627
 DTEND;VALUE=DATE:20260629
 DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 LOCATION:NT金沢
 SUMMARY:NT金沢2026
-UID:326386b7-9b51-4c85-9dfd-b3418dcd6578@3263.org
+UID:594783a8-900c-4c38-8958-6bc6cf95643b@5947.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 END:VEVENT
 BEGIN:VEVENT
@@ -113,7 +16,7 @@ DTEND;VALUE=DATE:20260622
 DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
 LOCATION:アートアジェンダ
 SUMMARY:Noctis：影と光のグラスアート
-UID:dd0bd3b4-ad59-460d-a10e-aab2304eaeaf@dd0b.org
+UID:1f5e3147-e86c-4ce6-96d9-2320420245d9@1f5e.org
 URL:https://www.artagenda.jp/exhibition/detail/12031
 END:VEVENT
 BEGIN:VEVENT
@@ -122,7 +25,113 @@ DTEND;VALUE=DATE:20251006
 DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
 LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
 SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:8ccd45db-957f-4814-a7f7-c1eab9825563@8ccd.org
+UID:7a9200ca-fe11-4e23-92a9-999d8fae5d45@7a92.org
 URL:https://makezine.jp/event/mft2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260506
+DESCRIPTION:会場: 日本橋髙島屋\n\nhttps://bijutsutecho.com/exhibitions/17830
+LOCATION:日本橋髙島屋
+SUMMARY:入江明日香展 2026―月影とまどろみ
+UID:3e24e784-7f08-4b19-88e2-2386abcc0494@3e24.org
+URL:https://bijutsutecho.com/exhibitions/17830
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260517
+DESCRIPTION:会場: 京都工芸繊維大学 美術工芸資料館京都\n\nhttps://artscape.jp/exhibitions/63193/
+LOCATION:京都工芸繊維大学 美術工芸資料館京都
+SUMMARY:光安義光と村野藤吾―共振するモダンデザイン―
+UID:5051845d-1192-4dd3-8fa4-3df35357a127@5051.org
+URL:https://artscape.jp/exhibitions/63193/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+LOCATION:SOMPO美術館
+SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
+UID:55f0be5d-1410-4497-83dd-3317ebd68340@55f0.org
+URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260428
+DTEND;VALUE=DATE:20260510
+DESCRIPTION:会場: galerie 16京都\n\nhttps://artscape.jp/exhibitions/67103/
+LOCATION:galerie 16京都
+SUMMARY:三宅章介「潜在空間に生息する昆虫図鑑」　 ーノイズに羽ばたく空蝉(うつせみ）たちー
+UID:f7d62a71-3a90-47f4-abaa-201a89bb2411@f7d6.org
+URL:https://artscape.jp/exhibitions/67103/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260504
+DESCRIPTION:会場: NT函館mini\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
+LOCATION:NT函館mini
+SUMMARY:NT函館mini2026
+UID:dffb4c17-ab0e-494c-867d-b943bd24623e@dffb.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260628
+DESCRIPTION:会場: ISSEY MIYAKE SEMBA | CREATION SPACE大阪\n\nhttps://artscape.jp/exhibitions/66984/
+LOCATION:ISSEY MIYAKE SEMBA | CREATION SPACE大阪
+SUMMARY:132 5. ISSEY MIYAKE「西村陽一郎　光がふれる、折りとかたち」
+UID:1aa34dc9-78ea-422f-8a44-3ed1c8ad60fa@1aa3.org
+URL:https://artscape.jp/exhibitions/66984/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260628
+DESCRIPTION:会場: ISSEY MIYAKE GINZA | CUBE東京\n\nhttps://artscape.jp/exhibitions/66989/
+LOCATION:ISSEY MIYAKE GINZA | CUBE東京
+SUMMARY:132 5. ISSEY MIYAKE「西村陽一郎　光がふれる、折りとかたち」
+UID:dc3c290d-3446-4ff1-8882-3eb2f122c389@dc3c.org
+URL:https://artscape.jp/exhibitions/66989/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260418
+DTEND;VALUE=DATE:20260721
+DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/11959
+LOCATION:アートアジェンダ
+SUMMARY:特別展「親愛なる友 フィンセント～動くゴッホ展」
+UID:1de79e4d-08c7-496d-bd94-48907eac0346@1de7.org
+URL:https://www.artagenda.jp/exhibition/detail/11959
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260621
+DESCRIPTION:会場: 山口県立美術館\n\nhttps://bijutsutecho.com/exhibitions/17759
+LOCATION:山口県立美術館
+SUMMARY:スウェーデン絵画　北欧の光、日常のかがやき
+UID:94222da3-2eae-405b-98c0-256ff4f67ad8@9422.org
+URL:https://bijutsutecho.com/exhibitions/17759
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260304
+DTEND;VALUE=DATE:20260511
+DESCRIPTION:会場: PLAY! MUSEUM\n\nhttps://bijutsutecho.com/exhibitions/17549
+LOCATION:PLAY! MUSEUM
+SUMMARY:生誕100周年記念 安野光雅展
+UID:a56d7ff8-7dc3-4256-bee7-c6e352bbc804@a56d.org
+URL:https://bijutsutecho.com/exhibitions/17549
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260621
+DESCRIPTION:会場: ＳＯＭＰＯ美術館\n\nhttps://bijutsutecho.com/exhibitions/17747
+LOCATION:ＳＯＭＰＯ美術館
+SUMMARY:ウジェーヌ・ブーダン展一瞬間の美学、光の探求
+UID:3be9f59a-7be1-4f52-a1ec-1aad7e7ca43d@3be9.org
+URL:https://bijutsutecho.com/exhibitions/17747
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:会場: 東京ビッグサイト\n\nhttps://www.hakubutufes.info/
+LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
+SUMMARY:【お知らせ】出展募集を2月1日から2月28日まで、公式ホームページにて行います。たくさんのご応募をお待ちしております。次回「博物ふぇすてぃばる！12」の開催日時は、2026年7月19日（日）・20日（月・祝）会場は東京ビッグサイト 南1ホールです。楽しく、熱い2日間を一緒に過ごしませんか？
+UID:a7d0e571-2b73-4e61-8c41-90da80bc975a@a7d0.org
+URL:https://www.hakubutufes.info/
 END:VEVENT
 END:VCALENDAR
