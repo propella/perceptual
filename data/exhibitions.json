@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T09:38:04.530731+00:00",
+  "lastUpdated": "2026-04-19T09:39:04.361866+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -142,6 +142,19 @@
       "tags": []
     },
     {
+      "id": "ed00e0a7821bc3b3",
+      "title": "浜口陽三と白倉嘉入展　満ちてくる光",
+      "description": null,
+      "venue": "ミュゼ浜口陽三・ヤマサコレクション東京",
+      "address": null,
+      "startDate": "2026-05-23",
+      "endDate": "2026-08-02",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/chirashi-01.jpeg",
+      "sourceUrl": "https://artscape.jp/exhibitions/67225/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
       "id": "c46f8330c7a337eb",
       "title": "三宅章介「潜在空間に生息する昆虫図鑑」　 ーノイズに羽ばたく空蝉(うつせみ）たちー",
       "description": null,
@@ -178,19 +191,6 @@
       "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/1f760ba0806a5d5dcc2bffb7cfded4dc.jpg",
       "sourceUrl": "https://artscape.jp/exhibitions/66984/",
       "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "89068df5516b4369",
-      "title": "特別展「親愛なる友 フィンセント～動くゴッホ展」",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-04-18",
-      "endDate": "2026-07-20",
-      "imageUrl": "https://www.artagenda.jp/img/event/11959/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11959",
-      "source": "artagenda",
       "tags": []
     },
     {
