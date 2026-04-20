@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T09:39:04.361866+00:00",
+  "lastUpdated": "2026-04-20T10:27:33.650871+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -93,7 +93,7 @@
       "address": "東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F",
       "startDate": "2026-07-19",
       "endDate": "2026-07-19",
-      "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/none/path/s7a4bc3c032178296/backgroundarea/i260d93bb0955046f/version/1775178875/image.jpg",
+      "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/none/path/s7a4bc3c032178296/backgroundarea/i99168deb881dfc22/version/1776666342/image.jpg",
       "sourceUrl": "https://www.hakubutufes.info/",
       "source": "hakubutsu_fes",
       "tags": [
@@ -101,6 +101,19 @@
         "ものづくり",
         "博物"
       ]
+    },
+    {
+      "id": "04fa049385488529",
+      "title": "T-HOUSE New Balance art installation “TIME SCAPE” by DAISUKE YAMAMOTO",
+      "description": null,
+      "venue": "T-HOUSE New Balance",
+      "address": null,
+      "startDate": "2026-04-09",
+      "endDate": "2026-06-08",
+      "imageUrl": "https://bt.imgix.net/exhibition/17863/main/1776440031852_6e74c97db6de26efc5b0c4408db6cbc5.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=55,0,1528,860&v=11",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/17863",
+      "source": "bijutsu_techo",
+      "tags": []
     },
     {
       "id": "dd89da0e39ca5116",
@@ -181,16 +194,16 @@
       "tags": []
     },
     {
-      "id": "beb2f3fc491787cb",
-      "title": "132 5. ISSEY MIYAKE「西村陽一郎　光がふれる、折りとかたち」",
+      "id": "0204859e74b24d4b",
+      "title": "出光真子 おんなのさくひん――ある映像作家の自伝",
       "description": null,
-      "venue": "ISSEY MIYAKE SEMBA | CREATION SPACE大阪",
+      "venue": "アートアジェンダ",
       "address": null,
-      "startDate": "2026-05-01",
-      "endDate": "2026-06-27",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/1f760ba0806a5d5dcc2bffb7cfded4dc.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/66984/",
-      "source": "artscape",
+      "startDate": "2026-06-18",
+      "endDate": "2026-09-21",
+      "imageUrl": "https://www.artagenda.jp/img/event/11967/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11967",
+      "source": "artagenda",
       "tags": []
     },
     {
