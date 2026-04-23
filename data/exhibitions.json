@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T10:10:19.047168+00:00",
+  "lastUpdated": "2026-04-23T10:13:24.022917+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -181,19 +181,6 @@
       "tags": []
     },
     {
-      "id": "ed00e0a7821bc3b3",
-      "title": "浜口陽三と白倉嘉入展　満ちてくる光",
-      "description": null,
-      "venue": "ミュゼ浜口陽三・ヤマサコレクション東京",
-      "address": null,
-      "startDate": "2026-05-23",
-      "endDate": "2026-08-02",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/chirashi-01.jpeg",
-      "sourceUrl": "https://artscape.jp/exhibitions/67225/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
       "id": "f87f748cfbba97ac",
       "title": "もはやない国のかつてない光  東ドイツの女性写真家たち",
       "description": null,
@@ -203,19 +190,6 @@
       "endDate": "2026-08-30",
       "imageUrl": "https://www.artagenda.jp/img/event/12358/thumbnail.jpg",
       "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12358",
-      "source": "artagenda",
-      "tags": []
-    },
-    {
-      "id": "0204859e74b24d4b",
-      "title": "出光真子 おんなのさくひん――ある映像作家の自伝",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-06-18",
-      "endDate": "2026-09-21",
-      "imageUrl": "https://www.artagenda.jp/img/event/11967/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11967",
       "source": "artagenda",
       "tags": []
     },
