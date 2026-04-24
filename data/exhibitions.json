@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T10:13:24.022917+00:00",
+  "lastUpdated": "2026-04-24T10:15:53.038702+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -103,45 +103,6 @@
       ]
     },
     {
-      "id": "04fa049385488529",
-      "title": "T-HOUSE New Balance art installation “TIME SCAPE” by DAISUKE YAMAMOTO",
-      "description": null,
-      "venue": "T-HOUSE New Balance",
-      "address": null,
-      "startDate": "2026-04-09",
-      "endDate": "2026-06-08",
-      "imageUrl": "https://bt.imgix.net/exhibition/17863/main/1776440031852_6e74c97db6de26efc5b0c4408db6cbc5.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=55,0,1528,860&v=11",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/17863",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "dd89da0e39ca5116",
-      "title": "入江明日香展 2026―月影とまどろみ",
-      "description": null,
-      "venue": "日本橋髙島屋",
-      "address": null,
-      "startDate": "2026-04-21",
-      "endDate": "2026-05-05",
-      "imageUrl": "https://bt.imgix.net/exhibition/17830/main/1776124075928_8c972f0d62190989c7c6f402f87b4970.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,12,1700,956&v=3",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/17830",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "4060e461754780d7",
-      "title": "スウェーデン絵画　北欧の光、日常のかがやき",
-      "description": null,
-      "venue": "山口県立美術館",
-      "address": null,
-      "startDate": "2026-04-27",
-      "endDate": "2026-06-20",
-      "imageUrl": "https://bt.imgix.net/exhibition/17759/main/1774580442968_3bb4c56a062a12eecfc2ff8a76b6b8c7.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=114,0,3934,2213&v=11",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/17759",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
       "id": "edcabf6e9b0f2a9f",
       "title": "ウジェーヌ・ブーダン展一瞬間の美学、光の探求",
       "description": null,
@@ -164,19 +125,6 @@
       "endDate": "2026-06-21",
       "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/6bf7d3b9e948317d03e20f4f1b866750-1200x955.jpg",
       "sourceUrl": "https://artscape.jp/exhibitions/67398/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "8ce35ef900189bf0",
-      "title": "「岡本和喜－私とあなたのビジュアル観光旅行－」展",
-      "description": null,
-      "venue": "西脇市岡之山美術館兵庫",
-      "address": null,
-      "startDate": "2026-04-12",
-      "endDate": "2026-07-12",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/04/B2_3-849x1200.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/67323/",
       "source": "artscape",
       "tags": []
     },
