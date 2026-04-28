@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T10:52:53.238314+00:00",
+  "lastUpdated": "2026-04-28T10:53:55.830599+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -116,15 +116,15 @@
       "tags": []
     },
     {
-      "id": "e982407bbaa38302",
-      "title": "特別展「円山応挙　リアルの先へ 空間革命」",
+      "id": "70b8b603996a29bd",
+      "title": "スウェーデン絵画　北欧の光、日常のかがやき",
       "description": null,
       "venue": "アートアジェンダ",
       "address": null,
-      "startDate": "2027-02-06",
-      "endDate": "2027-04-04",
-      "imageUrl": "https://www.artagenda.jp/img/event/12562/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12562",
+      "startDate": "2026-04-28",
+      "endDate": "2026-06-21",
+      "imageUrl": "https://www.artagenda.jp/img/event/11576/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11576",
       "source": "artagenda",
       "tags": []
     },
