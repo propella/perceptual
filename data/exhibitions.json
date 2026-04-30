@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T10:47:22.471649+00:00",
+  "lastUpdated": "2026-04-30T10:45:48.867398+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -110,7 +110,7 @@
       "address": null,
       "startDate": "2026-04-10",
       "endDate": "2026-06-20",
-      "imageUrl": "https://bt.imgix.net/exhibition/17747/main/1775183086200_c1562152f5eccd041c8b7ff9c2b5bf85.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=193,0,2592,1458&v=15",
+      "imageUrl": "https://bt.imgix.net/exhibition/17747/main/1775183086200_c1562152f5eccd041c8b7ff9c2b5bf85.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=193,0,2592,1458&v=16",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17747",
       "source": "bijutsu_techo",
       "tags": []
