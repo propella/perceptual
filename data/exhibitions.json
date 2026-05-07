@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T10:55:44.930072+00:00",
+  "lastUpdated": "2026-05-07T10:59:59.108159+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -123,22 +123,6 @@
       "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
       "sourceUrl": "https://makezine.jp/event/mft2025/",
       "source": "maker_faire",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
-    },
-    {
-      "id": "52ddb1d52f474cbb",
-      "title": "NT函館mini2026",
-      "description": null,
-      "venue": "NT函館mini",
-      "address": null,
-      "startDate": "2026-05-04",
-      "endDate": "2026-05-04",
-      "imageUrl": null,
-      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8mini2026",
-      "source": "nt",
       "tags": [
         "メイカー",
         "ものづくり"
