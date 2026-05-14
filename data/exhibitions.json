@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T11:24:31.779337+00:00",
+  "lastUpdated": "2026-05-14T11:09:18.311036+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -84,6 +84,32 @@
       "imageUrl": "https://bt.imgix.net/exhibition/17987/main/1778458031724_4007c29b6038e03d4aeb8a920209111d.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=344,0,3911,2200&v=3",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/17987",
       "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "b47c323ba6586a8b",
+      "title": "旅する光の切り絵展　〜くうそうって、まほうだよ〜",
+      "description": null,
+      "venue": "長崎歴史文化博物館長崎",
+      "address": null,
+      "startDate": "2026-07-17",
+      "endDate": "2026-09-06",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/05/f046fcb76d0c1eb42ecdbc5a69fdb349.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/68488/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "f01ba27516ebea88",
+      "title": "スウェーデン絵画　北欧の光、日常のかがやき",
+      "description": null,
+      "venue": "山口県立美術館山口",
+      "address": null,
+      "startDate": "2026-04-28",
+      "endDate": "2026-06-21",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/05/33bd1d5ac0e0d837fb8f324d2a31d77a-849x1200.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/68357/",
+      "source": "artscape",
       "tags": []
     },
     {
