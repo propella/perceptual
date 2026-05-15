@@ -2,57 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251006
-DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
-LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
-SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:41318d8a-ddc7-49d7-9479-fa938c1c8db4@4131.org
-URL:https://makezine.jp/event/mft2025/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-LOCATION:SOMPO美術館
-SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:5366e8c9-f179-41ce-b0c3-fcead7ec3269@5366.org
-URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260717
-DTEND;VALUE=DATE:20260907
-DESCRIPTION:会場: 長崎歴史文化博物館長崎\n\nhttps://artscape.jp/exhibitions/68488/
-LOCATION:長崎歴史文化博物館長崎
-SUMMARY:旅する光の切り絵展　〜くうそうって、まほうだよ〜
-UID:e73cba70-b43b-478c-83d6-128f0944b77f@e73c.org
-URL:https://artscape.jp/exhibitions/68488/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260307
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
-LOCATION:アートアジェンダ
-SUMMARY:Noctis：影と光のグラスアート
-UID:5acb296c-ad99-4867-b3a3-19c257ee07f8@5acb.org
-URL:https://www.artagenda.jp/exhibition/detail/12031
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260627
-DTEND;VALUE=DATE:20260629
-DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
-LOCATION:NT金沢
-SUMMARY:NT金沢2026
-UID:61c6ee91-770c-47cf-9681-fc04ace09f14@61c6.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260719
-DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
-LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
-SUMMARY:博物ふぇすてぃばる！12
-UID:4948d839-06c8-44c2-bd47-bad5bcfd3b57@4948.org
-URL:https://www.hakubutufes.info/
+DTSTART;VALUE=DATE:20260511
+DTEND;VALUE=DATE:20260919
+DESCRIPTION:会場: 東海国立大学機構 Common Nexus愛知\n\nhttps://artscape.jp/exhibitions/69269/
+LOCATION:東海国立大学機構 Common Nexus愛知
+SUMMARY:【ComoNeプログラム#02 Hello Human!】 Audio Game Center + ComoNe 音から生まれたゲーム展
+UID:8857772e-af16-45e3-808d-474c2b4e0b46@8857.org
+URL:https://artscape.jp/exhibitions/69269/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260323
@@ -60,8 +16,34 @@ DTEND;VALUE=DATE:20260517
 DESCRIPTION:会場: 京都工芸繊維大学 美術工芸資料館京都\n\nhttps://artscape.jp/exhibitions/63193/
 LOCATION:京都工芸繊維大学 美術工芸資料館京都
 SUMMARY:光安義光と村野藤吾―共振するモダンデザイン―
-UID:5fe6d4ed-99c0-4295-a4bc-909af892ce61@5fe6.org
+UID:d485dbe9-f054-4f1c-ba50-78ac36ffcf25@d485.org
 URL:https://artscape.jp/exhibitions/63193/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251006
+DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
+LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
+SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
+UID:6613cd3f-1faa-4544-b76d-0683a9863768@6613.org
+URL:https://makezine.jp/event/mft2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260629
+DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+LOCATION:NT金沢
+SUMMARY:NT金沢2026
+UID:f53ace8d-46d5-40a3-ab4a-05f64855e7a5@f53a.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
+LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
+SUMMARY:博物ふぇすてぃばる！12
+UID:ba0ded85-d4f6-48be-8672-12e747d6e0b7@ba0d.org
+URL:https://www.hakubutufes.info/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260513
@@ -69,16 +51,25 @@ DTEND;VALUE=DATE:20260525
 DESCRIPTION:会場: PARK GALLERY \n\nhttps://bijutsutecho.com/exhibitions/17987
 LOCATION:PARK GALLERY 
 SUMMARY:Chamiso「ほどいた———線むすびなおした˗ˏˋ光ˎˊ˗」
-UID:5c6cda33-7ed9-40c1-be6e-1e341e5ed4e0@5c6c.org
+UID:08c2ee54-c0e1-4c4d-bb88-909143f8a061@08c2.org
 URL:https://bijutsutecho.com/exhibitions/17987
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260428
+DTSTART;VALUE=DATE:20260411
 DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: 山口県立美術館山口\n\nhttps://artscape.jp/exhibitions/68357/
-LOCATION:山口県立美術館山口
-SUMMARY:スウェーデン絵画　北欧の光、日常のかがやき
-UID:f5ff2ec5-bb72-470c-aa60-7f7c496b6fd9@f5ff.org
-URL:https://artscape.jp/exhibitions/68357/
+DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+LOCATION:SOMPO美術館
+SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
+UID:b858ddd3-819c-40ca-9af1-29b8d8928b12@b858.org
+URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260307
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
+LOCATION:アートアジェンダ
+SUMMARY:Noctis：影と光のグラスアート
+UID:803f7e4e-1db9-4ce2-b3fc-4e01deb7d778@803f.org
+URL:https://www.artagenda.jp/exhibition/detail/12031
 END:VEVENT
 END:VCALENDAR
