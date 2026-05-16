@@ -2,22 +2,40 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260307
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
+LOCATION:アートアジェンダ
+SUMMARY:Noctis：影と光のグラスアート
+UID:266b62d8-b9af-413d-970a-9bb507cc1704@266b.org
+URL:https://www.artagenda.jp/exhibition/detail/12031
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260525
+DESCRIPTION:会場: PARK GALLERY \n\nhttps://bijutsutecho.com/exhibitions/17987
+LOCATION:PARK GALLERY 
+SUMMARY:Chamiso「ほどいた———線むすびなおした˗ˏˋ光ˎˊ˗」
+UID:6715195b-576c-41d3-837f-b4c78f633557@6715.org
+URL:https://bijutsutecho.com/exhibitions/17987
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260919
 DESCRIPTION:会場: 東海国立大学機構 Common Nexus愛知\n\nhttps://artscape.jp/exhibitions/69269/
 LOCATION:東海国立大学機構 Common Nexus愛知
 SUMMARY:【ComoNeプログラム#02 Hello Human!】 Audio Game Center + ComoNe 音から生まれたゲーム展
-UID:8857772e-af16-45e3-808d-474c2b4e0b46@8857.org
+UID:7ace5c7b-b643-4454-ada4-c32885f99351@7ace.org
 URL:https://artscape.jp/exhibitions/69269/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260323
-DTEND;VALUE=DATE:20260517
-DESCRIPTION:会場: 京都工芸繊維大学 美術工芸資料館京都\n\nhttps://artscape.jp/exhibitions/63193/
-LOCATION:京都工芸繊維大学 美術工芸資料館京都
-SUMMARY:光安義光と村野藤吾―共振するモダンデザイン―
-UID:d485dbe9-f054-4f1c-ba50-78ac36ffcf25@d485.org
-URL:https://artscape.jp/exhibitions/63193/
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+LOCATION:SOMPO美術館
+SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
+UID:0c186746-cff3-4459-8813-c13d88c9e547@0c18.org
+URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251004
@@ -25,7 +43,7 @@ DTEND;VALUE=DATE:20251006
 DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
 LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
 SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:6613cd3f-1faa-4544-b76d-0683a9863768@6613.org
+UID:c5b57cc6-183d-4126-b78e-54f338079402@c5b5.org
 URL:https://makezine.jp/event/mft2025/
 END:VEVENT
 BEGIN:VEVENT
@@ -34,42 +52,24 @@ DTEND;VALUE=DATE:20260629
 DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 LOCATION:NT金沢
 SUMMARY:NT金沢2026
-UID:f53ace8d-46d5-40a3-ab4a-05f64855e7a5@f53a.org
+UID:460f74ce-47be-4390-81fa-44069ec355d8@460f.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260517
+DESCRIPTION:会場: 京都工芸繊維大学 美術工芸資料館京都\n\nhttps://artscape.jp/exhibitions/63193/
+LOCATION:京都工芸繊維大学 美術工芸資料館京都
+SUMMARY:光安義光と村野藤吾―共振するモダンデザイン―
+UID:a0f5f24f-edab-4f6c-aa2b-b6bcb1a6f400@a0f5.org
+URL:https://artscape.jp/exhibitions/63193/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260719
 DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
 LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
 SUMMARY:博物ふぇすてぃばる！12
-UID:ba0ded85-d4f6-48be-8672-12e747d6e0b7@ba0d.org
+UID:873cef3c-a98f-4722-aeac-d17b597caa91@873c.org
 URL:https://www.hakubutufes.info/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260513
-DTEND;VALUE=DATE:20260525
-DESCRIPTION:会場: PARK GALLERY \n\nhttps://bijutsutecho.com/exhibitions/17987
-LOCATION:PARK GALLERY 
-SUMMARY:Chamiso「ほどいた———線むすびなおした˗ˏˋ光ˎˊ˗」
-UID:08c2ee54-c0e1-4c4d-bb88-909143f8a061@08c2.org
-URL:https://bijutsutecho.com/exhibitions/17987
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-LOCATION:SOMPO美術館
-SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:b858ddd3-819c-40ca-9af1-29b8d8928b12@b858.org
-URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260307
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
-LOCATION:アートアジェンダ
-SUMMARY:Noctis：影と光のグラスアート
-UID:803f7e4e-1db9-4ce2-b3fc-4e01deb7d778@803f.org
-URL:https://www.artagenda.jp/exhibition/detail/12031
 END:VEVENT
 END:VCALENDAR
