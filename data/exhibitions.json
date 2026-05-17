@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T10:08:22.892564+00:00",
+  "lastUpdated": "2026-05-17T10:17:35.737208+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -25,19 +25,6 @@
       "imageUrl": "https://www.artagenda.jp/img/event/12031/thumbnail.jpg",
       "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12031",
       "source": "artagenda",
-      "tags": []
-    },
-    {
-      "id": "092a251593bf63ab",
-      "title": "光安義光と村野藤吾―共振するモダンデザイン―",
-      "description": null,
-      "venue": "京都工芸繊維大学 美術工芸資料館京都",
-      "address": null,
-      "startDate": "2026-03-23",
-      "endDate": "2026-05-16",
-      "imageUrl": null,
-      "sourceUrl": "https://artscape.jp/exhibitions/63193/",
-      "source": "artscape",
       "tags": []
     },
     {
@@ -98,22 +85,6 @@
       "sourceUrl": "https://artscape.jp/exhibitions/69269/",
       "source": "artscape",
       "tags": []
-    },
-    {
-      "id": "a5868f178432aee3",
-      "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
-      "description": null,
-      "venue": "東京ビッグサイト　西4ホール東京都江東区有明3-11-1",
-      "address": null,
-      "startDate": "2025-10-04",
-      "endDate": "2025-10-05",
-      "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
-      "sourceUrl": "https://makezine.jp/event/mft2025/",
-      "source": "maker_faire",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
     }
   ]
 }
