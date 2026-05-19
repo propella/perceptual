@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T12:20:29.988994+00:00",
+  "lastUpdated": "2026-05-19T11:54:47.712218+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -84,6 +84,19 @@
       "imageUrl": "https://artscape.jp/wp-content/uploads/2026/05/d33a22293efddcf1689973631bfcefde-1200x900.jpg",
       "sourceUrl": "https://artscape.jp/exhibitions/69269/",
       "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "d9ab152e032ef55e",
+      "title": "中日新聞社創業140年記念　スウェーデン絵画　北欧の光、日常のかがやき",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-07-09",
+      "endDate": "2026-10-04",
+      "imageUrl": "https://www.artagenda.jp/img/event/11577/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11577",
+      "source": "artagenda",
       "tags": []
     },
     {
