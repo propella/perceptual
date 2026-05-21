@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T11:43:29.147733+00:00",
+  "lastUpdated": "2026-05-21T12:01:48.880895+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -61,16 +61,16 @@
       ]
     },
     {
-      "id": "cd8cfa10958a7fa8",
-      "title": "Chamiso「ほどいた———線むすびなおした˗ˏˋ光ˎˊ˗」",
+      "id": "f91946baeee23417",
+      "title": "石居麻耶個展 「光跡・航跡・鉱石 ── 日々の光を巡る77のかけら」",
       "description": null,
-      "venue": "PARK GALLERY ",
+      "venue": "Gallery MUMON東京",
       "address": null,
-      "startDate": "2026-05-13",
-      "endDate": "2026-05-24",
-      "imageUrl": "https://bt.imgix.net/exhibition/17987/main/1778458031724_4007c29b6038e03d4aeb8a920209111d.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=344,0,3911,2200&v=3",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/17987",
-      "source": "bijutsu_techo",
+      "startDate": "2026-06-12",
+      "endDate": "2026-06-27",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/05/e246686508932fe7366a59868c9656d2-812x1200.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/69646/",
+      "source": "artscape",
       "tags": []
     },
     {
@@ -84,32 +84,6 @@
       "imageUrl": "https://artscape.jp/wp-content/uploads/2026/05/d33a22293efddcf1689973631bfcefde-1200x900.jpg",
       "sourceUrl": "https://artscape.jp/exhibitions/69269/",
       "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "d9ab152e032ef55e",
-      "title": "中日新聞社創業140年記念　スウェーデン絵画　北欧の光、日常のかがやき",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-07-09",
-      "endDate": "2026-10-04",
-      "imageUrl": "https://www.artagenda.jp/img/event/11577/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11577",
-      "source": "artagenda",
-      "tags": []
-    },
-    {
-      "id": "e4502e4b945a59f5",
-      "title": "フォンタネージ――イタリアの光・心の風景",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-10-17",
-      "endDate": "2027-01-24",
-      "imageUrl": "https://www.artagenda.jp/img/event/11566/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11566",
-      "source": "artagenda",
       "tags": []
     },
     {
