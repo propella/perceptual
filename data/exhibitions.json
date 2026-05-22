@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T12:01:48.880895+00:00",
+  "lastUpdated": "2026-05-22T11:38:23.946532+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -74,16 +74,16 @@
       "tags": []
     },
     {
-      "id": "9131ff6ddd5be2e7",
-      "title": "【ComoNeプログラム#02 Hello Human!】 Audio Game Center + ComoNe 音から生まれたゲーム展",
+      "id": "ca06b11c0ffd6931",
+      "title": "フォンタネージ―イタリアの光・心の風景",
       "description": null,
-      "venue": "東海国立大学機構 Common Nexus愛知",
+      "venue": "アートアジェンダ",
       "address": null,
-      "startDate": "2026-05-11",
-      "endDate": "2026-09-18",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/05/d33a22293efddcf1689973631bfcefde-1200x900.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/69269/",
-      "source": "artscape",
+      "startDate": "2026-07-18",
+      "endDate": "2026-10-04",
+      "imageUrl": "https://www.artagenda.jp/img/event/11729/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11729",
+      "source": "artagenda",
       "tags": []
     },
     {
