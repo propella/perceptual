@@ -7,17 +7,8 @@ DTEND;VALUE=DATE:20261005
 DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/11729
 LOCATION:アートアジェンダ
 SUMMARY:フォンタネージ―イタリアの光・心の風景
-UID:0b7739be-262e-462b-8d6f-c8f6d9515764@0b77.org
+UID:8c354b50-7749-456f-a02d-721eccacdf6d@8c35.org
 URL:https://www.artagenda.jp/exhibition/detail/11729
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-LOCATION:SOMPO美術館
-SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:14c3cfbd-664e-46d5-80be-aa937b66c73d@14c3.org
-URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260612
@@ -25,16 +16,8 @@ DTEND;VALUE=DATE:20260628
 DESCRIPTION:会場: Gallery MUMON東京\n\nhttps://artscape.jp/exhibitions/69646/
 LOCATION:Gallery MUMON東京
 SUMMARY:石居麻耶個展 「光跡・航跡・鉱石 ── 日々の光を巡る77のかけら」
-UID:0d453578-2851-45ad-b00e-b74e1a27d454@0d45.org
+UID:bab14013-c4d3-4aaf-a039-1a41ae1e0cef@bab1.org
 URL:https://artscape.jp/exhibitions/69646/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260719
-DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
-LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
-SUMMARY:博物ふぇすてぃばる！12
-UID:e9e2fdfd-be74-4eef-a728-e89856be832a@e9e2.org
-URL:https://www.hakubutufes.info/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260307
@@ -42,7 +25,7 @@ DTEND;VALUE=DATE:20260622
 DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
 LOCATION:アートアジェンダ
 SUMMARY:Noctis：影と光のグラスアート
-UID:eea85c91-2a06-4b4b-b8d5-f9c09dcf54a7@eea8.org
+UID:0f34eb5c-ecb1-4de5-9681-6fb94f0f6d95@0f34.org
 URL:https://www.artagenda.jp/exhibition/detail/12031
 END:VEVENT
 BEGIN:VEVENT
@@ -51,7 +34,7 @@ DTEND;VALUE=DATE:20260629
 DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 LOCATION:NT金沢
 SUMMARY:NT金沢2026
-UID:c62b774e-04d5-4401-b651-6b7cc14127ee@c62b.org
+UID:e2756d18-1c03-4a86-927d-bd253906688e@e275.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 END:VEVENT
 BEGIN:VEVENT
@@ -60,7 +43,24 @@ DTEND;VALUE=DATE:20251006
 DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
 LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
 SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:ef8a39b3-bc3b-481d-b52d-4d12ca17de47@ef8a.org
+UID:e18f44f4-cff1-4bdd-8e80-1c03739bb33e@e18f.org
 URL:https://makezine.jp/event/mft2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+LOCATION:SOMPO美術館
+SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
+UID:017becb3-4e79-4dca-9d00-d19d2bca4dae@017b.org
+URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
+LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
+SUMMARY:博物ふぇすてぃばる！12
+UID:15b7d431-71d5-4aa4-93a5-a5fd8b72e915@15b7.org
+URL:https://www.hakubutufes.info/
 END:VEVENT
 END:VCALENDAR
