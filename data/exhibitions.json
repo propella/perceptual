@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T12:10:26.932244+00:00",
+  "lastUpdated": "2026-05-28T12:19:05.074908+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -61,42 +61,16 @@
       ]
     },
     {
-      "id": "36541d3be64eb2e6",
-      "title": "旅するこころをのせた 金野弘の観光ポスター",
+      "id": "0b038adcb4579fe0",
+      "title": "MIU（三浦利雄）「その光の先へ ―To the Light Beyond」",
       "description": null,
-      "venue": "京都工芸繊維大学 美術工芸資料館京都",
+      "venue": "gallery UG Fukuoka",
       "address": null,
-      "startDate": "2026-06-01",
-      "endDate": "2026-07-11",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/05/20260601omote-scaled.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/69970/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "238368f11fb4e3cc",
-      "title": "児玉匡平 個展「紙と光庭」",
-      "description": null,
-      "venue": "ART FACTORY城南島東京",
-      "address": null,
-      "startDate": "2026-06-28",
-      "endDate": "2026-07-25",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/05/omo-te-1.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/69801/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "27ae7d326f8813d4",
-      "title": "体験！レトロサウンド―蓄音機で聴くレコード―",
-      "description": null,
-      "venue": "大阪芸術大学博物館大阪",
-      "address": null,
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-13",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/05/d4939feffdba2711cfbf2c2a1f62b78b-849x1200.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/69390/",
-      "source": "artscape",
+      "startDate": "2026-06-02",
+      "endDate": "2026-06-15",
+      "imageUrl": "https://bt.imgix.net/exhibition/18079/main/1779752780286_7da8a0ccf3edcf40c4778409989ecb28.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=25,0,2368,1332&v=3",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18079",
+      "source": "bijutsu_techo",
       "tags": []
     },
     {

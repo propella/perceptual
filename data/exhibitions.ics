@@ -7,61 +7,8 @@ DTEND;VALUE=DATE:20260622
 DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
 LOCATION:アートアジェンダ
 SUMMARY:Noctis：影と光のグラスアート
-UID:2695cb9d-6825-4180-9dd2-a47275229e03@2695.org
+UID:0634ef5d-8afa-4af5-9c66-bb5ed726f2f5@0634.org
 URL:https://www.artagenda.jp/exhibition/detail/12031
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260719
-DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
-LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
-SUMMARY:博物ふぇすてぃばる！12
-UID:1e86828d-f4b0-4017-967c-810d86752d2d@1e86.org
-URL:https://www.hakubutufes.info/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-LOCATION:SOMPO美術館
-SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:42569fd2-b55d-4e97-a658-a89d69f38ab5@4256.org
-URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260711
-DTEND;VALUE=DATE:20260907
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12263
-LOCATION:アートアジェンダ
-SUMMARY:ゲームと美術 信長の野望/コーエーテクモゲームスの野望—インタラクティブ・アートの誕生
-UID:290e6134-2ba7-4040-9ec2-f36de4d2580d@290e.org
-URL:https://www.artagenda.jp/exhibition/detail/12263
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260628
-DTEND;VALUE=DATE:20260726
-DESCRIPTION:会場: ART FACTORY城南島東京\n\nhttps://artscape.jp/exhibitions/69801/
-LOCATION:ART FACTORY城南島東京
-SUMMARY:児玉匡平 個展「紙と光庭」
-UID:02f10696-ec51-4d57-b022-d5f2009ff4c8@02f1.org
-URL:https://artscape.jp/exhibitions/69801/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260601
-DTEND;VALUE=DATE:20260614
-DESCRIPTION:会場: 大阪芸術大学博物館大阪\n\nhttps://artscape.jp/exhibitions/69390/
-LOCATION:大阪芸術大学博物館大阪
-SUMMARY:体験！レトロサウンド―蓄音機で聴くレコード―
-UID:120c68d8-6589-4614-a8ec-c2956ec984b0@120c.org
-URL:https://artscape.jp/exhibitions/69390/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260627
-DTEND;VALUE=DATE:20260629
-DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
-LOCATION:NT金沢
-SUMMARY:NT金沢2026
-UID:9175179b-1127-491b-9718-8ebd4d9a9a79@9175.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251004
@@ -69,16 +16,51 @@ DTEND;VALUE=DATE:20251006
 DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
 LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
 SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:79abf65c-150c-4c0f-a687-7c3c324b9991@79ab.org
+UID:b6bece4c-8298-44a3-b06c-e71434c6eaef@b6be.org
 URL:https://makezine.jp/event/mft2025/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260601
-DTEND;VALUE=DATE:20260712
-DESCRIPTION:会場: 京都工芸繊維大学 美術工芸資料館京都\n\nhttps://artscape.jp/exhibitions/69970/
-LOCATION:京都工芸繊維大学 美術工芸資料館京都
-SUMMARY:旅するこころをのせた 金野弘の観光ポスター
-UID:af30b6fa-e76a-4083-8677-88bd5ff91657@af30.org
-URL:https://artscape.jp/exhibitions/69970/
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
+LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
+SUMMARY:博物ふぇすてぃばる！12
+UID:92b155dc-50c3-49f8-97ac-24aab51a6545@92b1.org
+URL:https://www.hakubutufes.info/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260907
+DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12263
+LOCATION:アートアジェンダ
+SUMMARY:ゲームと美術 信長の野望/コーエーテクモゲームスの野望—インタラクティブ・アートの誕生
+UID:9b27ec0e-38ce-4314-83a9-cf4b0b25d311@9b27.org
+URL:https://www.artagenda.jp/exhibition/detail/12263
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+LOCATION:SOMPO美術館
+SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
+UID:f40ec7df-b47f-46ab-861e-2d1509b9df3f@f40e.org
+URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260616
+DESCRIPTION:会場: gallery UG Fukuoka\n\nhttps://bijutsutecho.com/exhibitions/18079
+LOCATION:gallery UG Fukuoka
+SUMMARY:MIU（三浦利雄）「その光の先へ ―To the Light Beyond」
+UID:40eee4ec-d4ba-4cc5-a9d8-ca9da395c8f9@40ee.org
+URL:https://bijutsutecho.com/exhibitions/18079
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260629
+DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+LOCATION:NT金沢
+SUMMARY:NT金沢2026
+UID:3be5e5bb-a716-4089-b248-e7b7e68f4a65@3be5.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 END:VEVENT
 END:VCALENDAR
