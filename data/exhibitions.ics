@@ -2,29 +2,38 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260629
+DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+LOCATION:NT金沢
+SUMMARY:NT金沢2026
+UID:64a007b3-6000-466c-8f8d-4e440fe97c4c@64a0.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260616
+DESCRIPTION:会場: gallery UG Fukuoka\n\nhttps://bijutsutecho.com/exhibitions/18079
+LOCATION:gallery UG Fukuoka
+SUMMARY:MIU（三浦利雄）「その光の先へ ―To the Light Beyond」
+UID:abbf8f9e-70a6-4063-850c-2835b21fa745@abbf.org
+URL:https://bijutsutecho.com/exhibitions/18079
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260307
 DTEND;VALUE=DATE:20260622
 DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
 LOCATION:アートアジェンダ
 SUMMARY:Noctis：影と光のグラスアート
-UID:0634ef5d-8afa-4af5-9c66-bb5ed726f2f5@0634.org
+UID:b0e5dcf5-5e03-447e-a1d0-8f43dd11a41a@b0e5.org
 URL:https://www.artagenda.jp/exhibition/detail/12031
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251006
-DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
-LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
-SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:b6bece4c-8298-44a3-b06c-e71434c6eaef@b6be.org
-URL:https://makezine.jp/event/mft2025/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260719
 DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
 LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
 SUMMARY:博物ふぇすてぃばる！12
-UID:92b155dc-50c3-49f8-97ac-24aab51a6545@92b1.org
+UID:62a8c80e-d517-493c-85e6-1625087ecfea@62a8.org
 URL:https://www.hakubutufes.info/
 END:VEVENT
 BEGIN:VEVENT
@@ -33,8 +42,25 @@ DTEND;VALUE=DATE:20260907
 DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12263
 LOCATION:アートアジェンダ
 SUMMARY:ゲームと美術 信長の野望/コーエーテクモゲームスの野望—インタラクティブ・アートの誕生
-UID:9b27ec0e-38ce-4314-83a9-cf4b0b25d311@9b27.org
+UID:f6ccf2ea-e743-4c3a-b438-ca21cf685080@f6cc.org
 URL:https://www.artagenda.jp/exhibition/detail/12263
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251006
+DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
+LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
+SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
+UID:0b8ceecc-ba38-4a95-ad40-8d2d0e2e7aa7@0b8c.org
+URL:https://makezine.jp/event/mft2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:515fd76b-9ca1-431d-a017-7b2f1be4aa87@515f.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260411
@@ -42,25 +68,7 @@ DTEND;VALUE=DATE:20260622
 DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
 LOCATION:SOMPO美術館
 SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:f40ec7df-b47f-46ab-861e-2d1509b9df3f@f40e.org
+UID:44bfb1f7-c0de-43db-acd0-9abd059b9e1f@44bf.org
 URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260602
-DTEND;VALUE=DATE:20260616
-DESCRIPTION:会場: gallery UG Fukuoka\n\nhttps://bijutsutecho.com/exhibitions/18079
-LOCATION:gallery UG Fukuoka
-SUMMARY:MIU（三浦利雄）「その光の先へ ―To the Light Beyond」
-UID:40eee4ec-d4ba-4cc5-a9d8-ca9da395c8f9@40ee.org
-URL:https://bijutsutecho.com/exhibitions/18079
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260627
-DTEND;VALUE=DATE:20260629
-DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
-LOCATION:NT金沢
-SUMMARY:NT金沢2026
-UID:3be5e5bb-a716-4089-b248-e7b7e68f4a65@3be5.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 END:VEVENT
 END:VCALENDAR
