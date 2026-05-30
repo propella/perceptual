@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T12:01:35.366383+00:00",
+  "lastUpdated": "2026-05-30T10:43:15.978277+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -74,16 +74,42 @@
       "tags": []
     },
     {
-      "id": "0de9bb31e1f521d0",
-      "title": "ゲームと美術 信長の野望/コーエーテクモゲームスの野望—インタラクティブ・アートの誕生",
+      "id": "36541d3be64eb2e6",
+      "title": "旅するこころをのせた 金野弘の観光ポスター",
       "description": null,
-      "venue": "アートアジェンダ",
+      "venue": "京都工芸繊維大学 美術工芸資料館京都",
       "address": null,
-      "startDate": "2026-07-11",
-      "endDate": "2026-09-06",
-      "imageUrl": "https://www.artagenda.jp/img/event/12263/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12263",
-      "source": "artagenda",
+      "startDate": "2026-06-01",
+      "endDate": "2026-07-11",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/05/20260601omote-scaled.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/69970/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "238368f11fb4e3cc",
+      "title": "児玉匡平 個展「紙と光庭」",
+      "description": null,
+      "venue": "ART FACTORY城南島東京",
+      "address": null,
+      "startDate": "2026-06-28",
+      "endDate": "2026-07-25",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/05/omo-te-1.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/69801/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "27ae7d326f8813d4",
+      "title": "体験！レトロサウンド―蓄音機で聴くレコード―",
+      "description": null,
+      "venue": "大阪芸術大学博物館大阪",
+      "address": null,
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-13",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/05/d4939feffdba2711cfbf2c2a1f62b78b-849x1200.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/69390/",
+      "source": "artscape",
       "tags": []
     },
     {
