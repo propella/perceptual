@@ -2,13 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260602
-DTEND;VALUE=DATE:20260616
-DESCRIPTION:会場: gallery UG Fukuoka\n\nhttps://bijutsutecho.com/exhibitions/18079
-LOCATION:gallery UG Fukuoka
-SUMMARY:MIU（三浦利雄）「その光の先へ ―To the Light Beyond」
-UID:41d5d1ec-9e3c-47cb-b555-3cb04ea7667b@41d5.org
-URL:https://bijutsutecho.com/exhibitions/18079
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:0de8c945-1c27-42f8-ac02-def94304f0ed@0de8.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251006
+DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
+LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
+SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
+UID:45654bbe-244b-4045-b045-968b737ba8d7@4565.org
+URL:https://makezine.jp/event/mft2025/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260307
@@ -16,16 +24,17 @@ DTEND;VALUE=DATE:20260622
 DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
 LOCATION:アートアジェンダ
 SUMMARY:Noctis：影と光のグラスアート
-UID:13ca3a71-5f41-4a8f-b63a-e48a672032a5@13ca.org
+UID:6678d0e2-a789-466f-b23c-22814ab9bf2f@6678.org
 URL:https://www.artagenda.jp/exhibition/detail/12031
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260719
-DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
-LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
-SUMMARY:博物ふぇすてぃばる！12
-UID:39744056-731d-4b7e-bbdb-04ca27a4cdfa@3974.org
-URL:https://www.hakubutufes.info/
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260616
+DESCRIPTION:会場: gallery UG Fukuoka\n\nhttps://bijutsutecho.com/exhibitions/18079
+LOCATION:gallery UG Fukuoka
+SUMMARY:MIU（三浦利雄）「その光の先へ ―To the Light Beyond」
+UID:204e67a9-e2ea-4592-8980-ac761035fc6d@204e.org
+URL:https://bijutsutecho.com/exhibitions/18079
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260411
@@ -33,7 +42,7 @@ DTEND;VALUE=DATE:20260622
 DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
 LOCATION:SOMPO美術館
 SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:702b1433-3c47-4130-ba75-1b540acb4675@702b.org
+UID:26fa790b-db1c-4b88-a650-c30d8206fa52@26fa.org
 URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
 END:VEVENT
 BEGIN:VEVENT
@@ -42,33 +51,15 @@ DTEND;VALUE=DATE:20260629
 DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 LOCATION:NT金沢
 SUMMARY:NT金沢2026
-UID:d656dacc-b5b1-4339-b170-5b59b7b76fd7@d656.org
+UID:92d84a35-8140-4dae-9b01-f458bd62449d@92d8.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251006
-DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
-LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
-SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:f4b855b5-d11e-4cc9-a0ce-1d4049fddcdd@f4b8.org
-URL:https://makezine.jp/event/mft2025/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261108
-DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-LOCATION:NTいわて
-SUMMARY:NTいわて2026
-UID:04439ff3-b58e-4e07-8987-1cf92660bc01@0443.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260608
-DTEND;VALUE=DATE:20260717
-DESCRIPTION:会場: 京都工芸繊維大学 美術工芸資料館京都\n\nhttps://artscape.jp/exhibitions/70434/
-LOCATION:京都工芸繊維大学 美術工芸資料館京都
-SUMMARY:Violaine Vieillefond展―万物流転　水の音・色・紋
-UID:86883aaf-83ca-464b-9505-f29f24ddf82f@8688.org
-URL:https://artscape.jp/exhibitions/70434/
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
+LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
+SUMMARY:博物ふぇすてぃばる！12
+UID:e612f36b-37ba-419c-aa0c-88818c0aa08d@e612.org
+URL:https://www.hakubutufes.info/
 END:VEVENT
 END:VCALENDAR
