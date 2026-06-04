@@ -2,30 +2,47 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-LOCATION:SOMPO美術館
-SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:f7d8aaf1-4d54-4111-9972-3bfc65932f5b@f7d8.org
-URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260629
+DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+LOCATION:NT金沢
+SUMMARY:NT金沢2026
+UID:a1048418-f359-46ad-b5a4-7eb49ccb4bea@a104.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:ea620e05-5edc-4c2e-8858-93b543dd0aef@ea62.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260719
 DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
 LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
 SUMMARY:博物ふぇすてぃばる！12
-UID:4fcc3710-2be7-49bc-9da2-688482052f3e@4fcc.org
+UID:94f1431f-36c7-48fb-8106-c759701736a1@94f1.org
 URL:https://www.hakubutufes.info/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260627
-DTEND;VALUE=DATE:20260629
-DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
-LOCATION:NT金沢
-SUMMARY:NT金沢2026
-UID:7dff4b66-e761-47a7-a700-87008a2ea97c@7dff.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+LOCATION:SOMPO美術館
+SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
+UID:bc587848-37cd-42ab-b816-c0101347e8c8@bc58.org
+URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260616
+DESCRIPTION:会場: gallery UG Fukuoka\n\nhttps://bijutsutecho.com/exhibitions/18079
+LOCATION:gallery UG Fukuoka
+SUMMARY:MIU（三浦利雄）「その光の先へ ―To the Light Beyond」
+UID:b2802c95-f4b6-4131-bd04-089d3b8e08c5@b280.org
+URL:https://bijutsutecho.com/exhibitions/18079
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251004
@@ -33,7 +50,7 @@ DTEND;VALUE=DATE:20251006
 DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
 LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
 SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:e105f24c-6d20-440d-8e3d-f20ed8525863@e105.org
+UID:71cb74ca-82b3-4afe-b150-e4ea3a4cbece@71cb.org
 URL:https://makezine.jp/event/mft2025/
 END:VEVENT
 BEGIN:VEVENT
@@ -42,24 +59,7 @@ DTEND;VALUE=DATE:20260622
 DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
 LOCATION:アートアジェンダ
 SUMMARY:Noctis：影と光のグラスアート
-UID:eed00c7a-c8b2-4dfb-b15d-c77c0a2fb322@eed0.org
+UID:30d1a0f6-7b52-4127-8df3-4b54f6c06b36@30d1.org
 URL:https://www.artagenda.jp/exhibition/detail/12031
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260602
-DTEND;VALUE=DATE:20260616
-DESCRIPTION:会場: gallery UG Fukuoka\n\nhttps://bijutsutecho.com/exhibitions/18079
-LOCATION:gallery UG Fukuoka
-SUMMARY:MIU（三浦利雄）「その光の先へ ―To the Light Beyond」
-UID:e1f5079f-bf9f-45f6-aeb3-7ede744968de@e1f5.org
-URL:https://bijutsutecho.com/exhibitions/18079
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261108
-DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-LOCATION:NTいわて
-SUMMARY:NTいわて2026
-UID:ac4c6153-1156-495f-9329-6fc88bcf0c16@ac4c.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 END:VCALENDAR
