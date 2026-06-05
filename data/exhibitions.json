@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T11:44:24.354129+00:00",
+  "lastUpdated": "2026-06-05T11:56:14.011751+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -61,6 +61,19 @@
       ]
     },
     {
+      "id": "8d4fc47568063b5e",
+      "title": "もはやない国のかつてない光　東ドイツの女性写真家たち",
+      "description": null,
+      "venue": "神奈川県立近代美術館 葉山",
+      "address": null,
+      "startDate": "2026-06-12",
+      "endDate": "2026-08-29",
+      "imageUrl": "https://bt.imgix.net/exhibition/18089/main/1779799658082_4faca2356ef8f4f7be20d283cbbd5c48.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=276,0,3850,2166&v=9",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18089",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
       "id": "0b038adcb4579fe0",
       "title": "MIU（三浦利雄）「その光の先へ ―To the Light Beyond」",
       "description": null,
@@ -74,6 +87,19 @@
       "tags": []
     },
     {
+      "id": "dc3fc0791a9666bb",
+      "title": "Violaine Vieillefond展―万物流転　水の音・色・紋",
+      "description": null,
+      "venue": "京都工芸繊維大学 美術工芸資料館京都",
+      "address": null,
+      "startDate": "2026-06-08",
+      "endDate": "2026-07-16",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/06/20260608omote-scaled.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/70434/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
       "id": "a5868f178432aee3",
       "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
       "description": null,
@@ -84,6 +110,22 @@
       "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
       "sourceUrl": "https://makezine.jp/event/mft2025/",
       "source": "maker_faire",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
+    },
+    {
+      "id": "bbef516d858e02eb",
+      "title": "NT湘南2026",
+      "description": null,
+      "venue": "NT湘南",
+      "address": null,
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "imageUrl": null,
+      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026",
+      "source": "nt",
       "tags": [
         "メイカー",
         "ものづくり"
