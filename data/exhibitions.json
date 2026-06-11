@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T12:12:51.376206+00:00",
+  "lastUpdated": "2026-06-11T12:37:13.187030+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -61,6 +61,32 @@
       ]
     },
     {
+      "id": "425a119dfe077cbc",
+      "title": "出光真子 おんなのさくひん――ある映像作家の自伝",
+      "description": null,
+      "venue": "東京都写真美術館",
+      "address": null,
+      "startDate": "2026-06-17",
+      "endDate": "2026-09-20",
+      "imageUrl": "https://bt.imgix.net/exhibition/18157/main/1781125008538_405c3f425e93b565368c5900362ca330.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=97,0,924,520&v=5",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18157",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "15b6ee5bc738afd4",
+      "title": "光の後始末〈ep.2〉揚妻博之・尾関諒による二人展",
+      "description": null,
+      "venue": "スプラウト・キュレーション六本木",
+      "address": null,
+      "startDate": "2026-06-19",
+      "endDate": "2026-07-31",
+      "imageUrl": null,
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18162",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
       "id": "8d4fc47568063b5e",
       "title": "もはやない国のかつてない光　東ドイツの女性写真家たち",
       "description": null,
@@ -70,19 +96,6 @@
       "endDate": "2026-08-29",
       "imageUrl": "https://bt.imgix.net/exhibition/18089/main/1780887527129_ecb989161edfa3f51748d5f9d4f980c3.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=270,0,4064,2286&v=14",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18089",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "0b038adcb4579fe0",
-      "title": "MIU（三浦利雄）「その光の先へ ―To the Light Beyond」",
-      "description": null,
-      "venue": "gallery UG Fukuoka",
-      "address": null,
-      "startDate": "2026-06-02",
-      "endDate": "2026-06-15",
-      "imageUrl": "https://bt.imgix.net/exhibition/18079/main/1779752780286_7da8a0ccf3edcf40c4778409989ecb28.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=25,0,2368,1332&v=3",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18079",
       "source": "bijutsu_techo",
       "tags": []
     },
