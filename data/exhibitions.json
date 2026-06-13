@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T12:11:39.077390+00:00",
+  "lastUpdated": "2026-06-13T11:08:43.749138+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -97,6 +97,32 @@
       "imageUrl": "https://bt.imgix.net/exhibition/18089/main/1780887527129_ecb989161edfa3f51748d5f9d4f980c3.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=270,0,4064,2286&v=14",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18089",
       "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "f87f748cfbba97ac",
+      "title": "もはやない国のかつてない光  東ドイツの女性写真家たち",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-06-13",
+      "endDate": "2026-08-30",
+      "imageUrl": "https://www.artagenda.jp/img/event/12358/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12358",
+      "source": "artagenda",
+      "tags": []
+    },
+    {
+      "id": "a8b2ca915641a7d7",
+      "title": "ジャム・セッション 石橋財団コレクション×藤井光 WHOSE LIGHT? —だれのひかりか",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-10-24",
+      "endDate": "2027-01-31",
+      "imageUrl": "https://www.artagenda.jp/img/event/11501/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11501",
+      "source": "artagenda",
       "tags": []
     },
     {
