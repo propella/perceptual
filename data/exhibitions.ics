@@ -2,13 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260627
-DTEND;VALUE=DATE:20260629
-DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
-LOCATION:NT金沢
-SUMMARY:NT金沢2026
-UID:2860e066-6e54-4946-a72e-067adbf6ca5d@2860.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260921
+DESCRIPTION:会場: 東京都写真美術館\n\nhttps://bijutsutecho.com/exhibitions/18157
+LOCATION:東京都写真美術館
+SUMMARY:出光真子 おんなのさくひん――ある映像作家の自伝
+UID:9a23fbc2-f5bb-4bb3-934d-98bca62ab9c5@9a23.org
+URL:https://bijutsutecho.com/exhibitions/18157
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260307
@@ -16,34 +16,8 @@ DTEND;VALUE=DATE:20260622
 DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
 LOCATION:アートアジェンダ
 SUMMARY:Noctis：影と光のグラスアート
-UID:fd6f908d-2eae-4ca8-af51-33cfa291796e@fd6f.org
+UID:78eb4b07-dc99-49d5-a308-98970273aedb@78eb.org
 URL:https://www.artagenda.jp/exhibition/detail/12031
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260619
-DTEND;VALUE=DATE:20260801
-DESCRIPTION:会場: スプラウト・キュレーション六本木\n\nhttps://bijutsutecho.com/exhibitions/18162
-LOCATION:スプラウト・キュレーション六本木
-SUMMARY:光の後始末〈ep.2〉揚妻博之・尾関諒による二人展
-UID:d33a1b24-55c1-4c30-bea7-27b8aac64e23@d33a.org
-URL:https://bijutsutecho.com/exhibitions/18162
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260613
-DTEND;VALUE=DATE:20260831
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12358
-LOCATION:アートアジェンダ
-SUMMARY:もはやない国のかつてない光  東ドイツの女性写真家たち
-UID:e255f1e8-7557-456d-b461-0dd2357e38ae@e255.org
-URL:https://www.artagenda.jp/exhibition/detail/12358
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261108
-DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-LOCATION:NTいわて
-SUMMARY:NTいわて2026
-UID:6ad9b9e5-b4e4-4e03-b25e-d3c9b0e68199@6ad9.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251004
@@ -51,7 +25,7 @@ DTEND;VALUE=DATE:20251006
 DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
 LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
 SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:77c1fcf4-d5b3-4e70-ade2-8a14ebf102fa@77c1.org
+UID:e76e29ed-dc69-4ce7-8054-e81a901ce77c@e76e.org
 URL:https://makezine.jp/event/mft2025/
 END:VEVENT
 BEGIN:VEVENT
@@ -59,43 +33,8 @@ DTSTART;VALUE=DATE:20260719
 DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
 LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
 SUMMARY:博物ふぇすてぃばる！12
-UID:9c703df9-e1a0-487d-ad99-46a7b598ec1b@9c70.org
+UID:b8506f80-5cfb-4e24-b5b9-34407d40a50c@b850.org
 URL:https://www.hakubutufes.info/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260612
-DTEND;VALUE=DATE:20260830
-DESCRIPTION:会場: 神奈川県立近代美術館 葉山\n\nhttps://bijutsutecho.com/exhibitions/18089
-LOCATION:神奈川県立近代美術館 葉山
-SUMMARY:もはやない国のかつてない光　東ドイツの女性写真家たち
-UID:21997317-f1ed-4c18-ad48-320706fd5fff@2199.org
-URL:https://bijutsutecho.com/exhibitions/18089
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261107
-DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-LOCATION:NT湘南
-SUMMARY:NT湘南2026
-UID:d59ed59a-a7e1-4c4c-bf22-ec4d4616a082@d59e.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260617
-DTEND;VALUE=DATE:20260921
-DESCRIPTION:会場: 東京都写真美術館\n\nhttps://bijutsutecho.com/exhibitions/18157
-LOCATION:東京都写真美術館
-SUMMARY:出光真子 おんなのさくひん――ある映像作家の自伝
-UID:1b7e5668-45d0-4d4e-9cf4-163b24cd61f3@1b7e.org
-URL:https://bijutsutecho.com/exhibitions/18157
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-LOCATION:SOMPO美術館
-SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:f43b3790-6ad9-4c40-a690-0c9ebc2f6d08@f43b.org
-URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261024
@@ -103,7 +42,68 @@ DTEND;VALUE=DATE:20270201
 DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/11501
 LOCATION:アートアジェンダ
 SUMMARY:ジャム・セッション 石橋財団コレクション×藤井光 WHOSE LIGHT? —だれのひかりか
-UID:995c4eb3-5320-48a6-b9ac-3cf34e106e30@995c.org
+UID:3a654dea-24a1-429b-86f9-7f0280c1fde2@3a65.org
 URL:https://www.artagenda.jp/exhibition/detail/11501
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+LOCATION:SOMPO美術館
+SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
+UID:b9cdd46c-db92-4340-b4ce-ea3a3da60333@b9cd.org
+URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260801
+DESCRIPTION:会場: スプラウト・キュレーション六本木\n\nhttps://bijutsutecho.com/exhibitions/18162
+LOCATION:スプラウト・キュレーション六本木
+SUMMARY:光の後始末〈ep.2〉揚妻博之・尾関諒による二人展
+UID:ea3ccf4d-1d7e-4abf-b9eb-ca44ba488f1c@ea3c.org
+URL:https://bijutsutecho.com/exhibitions/18162
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260629
+DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+LOCATION:NT金沢
+SUMMARY:NT金沢2026
+UID:e19168ca-505b-48cf-af79-301765d8ab26@e191.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:60b67340-33f8-48d8-bad5-db8af1cba519@60b6.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260830
+DESCRIPTION:会場: 神奈川県立近代美術館 葉山\n\nhttps://bijutsutecho.com/exhibitions/18089
+LOCATION:神奈川県立近代美術館 葉山
+SUMMARY:もはやない国のかつてない光　東ドイツの女性写真家たち
+UID:28d96856-289e-457f-b94e-868cd1f3d2c3@28d9.org
+URL:https://bijutsutecho.com/exhibitions/18089
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260831
+DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12358
+LOCATION:アートアジェンダ
+SUMMARY:もはやない国のかつてない光  東ドイツの女性写真家たち
+UID:7f2ee167-4b3a-4215-99c4-0b90fc93c84a@7f2e.org
+URL:https://www.artagenda.jp/exhibition/detail/12358
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261107
+DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+LOCATION:NT湘南
+SUMMARY:NT湘南2026
+UID:6e4b2f73-d88e-47d5-a431-b174b680619b@6e4b.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
 END:VEVENT
 END:VCALENDAR
