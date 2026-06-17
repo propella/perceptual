@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T13:22:35.763381+00:00",
+  "lastUpdated": "2026-06-17T12:45:05.416469+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -74,30 +74,20 @@
       "tags": []
     },
     {
-      "id": "d8302d85525db488",
-      "title": "第28回亀倉雄策賞受賞記念展　田部井美奈「光と図形」",
+      "id": "a5868f178432aee3",
+      "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
       "description": null,
-      "venue": "GOOD DESIGN Marunouchi東京",
+      "venue": "東京ビッグサイト　西4ホール東京都江東区有明3-11-1",
       "address": null,
-      "startDate": "2026-06-30",
-      "endDate": "2026-07-13",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/06/8994503e13b430e33da8d7fa3d364c93-1200x900.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/71662/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "f87f748cfbba97ac",
-      "title": "もはやない国のかつてない光  東ドイツの女性写真家たち",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-06-13",
-      "endDate": "2026-08-30",
-      "imageUrl": "https://www.artagenda.jp/img/event/12358/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12358",
-      "source": "artagenda",
-      "tags": []
+      "startDate": "2025-10-04",
+      "endDate": "2025-10-05",
+      "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
+      "sourceUrl": "https://makezine.jp/event/mft2025/",
+      "source": "maker_faire",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
     },
     {
       "id": "bbef516d858e02eb",
