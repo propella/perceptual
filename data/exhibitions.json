@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T12:45:05.416469+00:00",
+  "lastUpdated": "2026-06-18T12:17:12.234878+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -71,6 +71,19 @@
       "imageUrl": "https://bt.imgix.net/exhibition/18200/main/1781232253401_2a61ee72b16ddc3c5354b403ad40f29d.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=7,0,1048,590&v=7",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18200",
       "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "0204859e74b24d4b",
+      "title": "出光真子 おんなのさくひん――ある映像作家の自伝",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-06-18",
+      "endDate": "2026-09-21",
+      "imageUrl": "https://www.artagenda.jp/img/event/11967/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11967",
+      "source": "artagenda",
       "tags": []
     },
     {
