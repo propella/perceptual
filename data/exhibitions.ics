@@ -2,13 +2,30 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260611
-DTEND;VALUE=DATE:20260704
-DESCRIPTION:会場: メグミオギタギャラリー\n\nhttps://bijutsutecho.com/exhibitions/18200
-LOCATION:メグミオギタギャラリー
-SUMMARY:蝸牛あや「ここにある光」
-UID:b91e5c76-2af0-40fb-af92-a6ca20870c38@b91e.org
-URL:https://bijutsutecho.com/exhibitions/18200
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260831
+DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12666
+LOCATION:アートアジェンダ
+SUMMARY:夢二郷土美術館創立60周年　夢二と音楽とデザイン
+UID:ed59d9a4-8ecf-49b9-8d5a-a21a788f2450@ed59.org
+URL:https://www.artagenda.jp/exhibition/detail/12666
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260802
+DESCRIPTION:会場: ミュゼ浜口陽三・ヤマサコレクション\n\nhttps://bijutsutecho.com/exhibitions/18236
+LOCATION:ミュゼ浜口陽三・ヤマサコレクション
+SUMMARY:浜口陽三と白倉嘉入展 満ちてくる光
+UID:4a9a044f-c31e-44e3-9781-88ffdefa341c@4a9a.org
+URL:https://bijutsutecho.com/exhibitions/18236
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
+LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
+SUMMARY:博物ふぇすてぃばる！12
+UID:62def243-4603-4db6-a27e-0334acba19ee@62de.org
+URL:https://www.hakubutufes.info/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260627
@@ -16,17 +33,25 @@ DTEND;VALUE=DATE:20260629
 DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 LOCATION:NT金沢
 SUMMARY:NT金沢2026
-UID:caad6c5c-b49a-471f-9b30-c90dc34ea3b2@caad.org
+UID:67cc9b00-ad83-4a1d-9c6c-5bb252bacee1@67cc.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
-LOCATION:SOMPO美術館
-SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
-UID:43dfaa80-0839-4ebd-92fc-f80c8e91dd99@43df.org
-URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260704
+DESCRIPTION:会場: メグミオギタギャラリー\n\nhttps://bijutsutecho.com/exhibitions/18200
+LOCATION:メグミオギタギャラリー
+SUMMARY:蝸牛あや「ここにある光」
+UID:e292037d-40c5-4b79-83eb-959585b1b4b9@e292.org
+URL:https://bijutsutecho.com/exhibitions/18200
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261107
+DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+LOCATION:NT湘南
+SUMMARY:NT湘南2026
+UID:3999aca4-9a59-477e-8f09-23e70e357048@3999.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251004
@@ -34,41 +59,8 @@ DTEND;VALUE=DATE:20251006
 DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
 LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
 SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:bc358265-0932-4678-8246-e7bc8411d61a@bc35.org
+UID:9fa3e5d5-a58e-4505-9dba-5c81501f0341@9fa3.org
 URL:https://makezine.jp/event/mft2025/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261108
-DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-LOCATION:NTいわて
-SUMMARY:NTいわて2026
-UID:3dca9d72-3b4a-4ee9-ade3-dd5d822eafe6@3dca.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260307
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
-LOCATION:アートアジェンダ
-SUMMARY:Noctis：影と光のグラスアート
-UID:8d4a0abe-09c5-4266-831e-e7bb30abf772@8d4a.org
-URL:https://www.artagenda.jp/exhibition/detail/12031
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260719
-DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
-LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
-SUMMARY:博物ふぇすてぃばる！12
-UID:d0b7685f-e8b8-4f2a-b48c-01ade5623186@d0b7.org
-URL:https://www.hakubutufes.info/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261107
-DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-LOCATION:NT湘南
-SUMMARY:NT湘南2026
-UID:9e6a00af-705c-471d-aa0e-4ac069d82a8a@9e6a.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260618
@@ -76,7 +68,42 @@ DTEND;VALUE=DATE:20260922
 DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/11967
 LOCATION:アートアジェンダ
 SUMMARY:出光真子 おんなのさくひん――ある映像作家の自伝
-UID:6242c330-89e9-4f33-adce-370abc167552@6242.org
+UID:be267320-c5b5-4925-b7ef-750afa5eec33@be26.org
 URL:https://www.artagenda.jp/exhibition/detail/11967
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:d1b1a502-92cf-4d6e-9365-2d9bbc260e89@d1b1.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: SOMPO美術館\n\nhttps://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+LOCATION:SOMPO美術館
+SUMMARY:「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」
+UID:9c3e0bab-f9e4-4f70-815a-55b19430ec94@9c3e.org
+URL:https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20261005
+DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/11729
+LOCATION:アートアジェンダ
+SUMMARY:フォンタネージ―イタリアの光・心の風景
+UID:cfd97969-ef31-447f-ae2d-d2fa0457a6c5@cfd9.org
+URL:https://www.artagenda.jp/exhibition/detail/11729
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260307
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12031
+LOCATION:アートアジェンダ
+SUMMARY:Noctis：影と光のグラスアート
+UID:7cd35149-17d4-41f8-8331-8bd9e69c01b8@7cd3.org
+URL:https://www.artagenda.jp/exhibition/detail/12031
 END:VEVENT
 END:VCALENDAR

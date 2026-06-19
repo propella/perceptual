@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T12:17:12.234878+00:00",
+  "lastUpdated": "2026-06-19T12:40:18.534501+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -61,6 +61,19 @@
       ]
     },
     {
+      "id": "c3a7e5fb6177b9da",
+      "title": "浜口陽三と白倉嘉入展 満ちてくる光",
+      "description": null,
+      "venue": "ミュゼ浜口陽三・ヤマサコレクション",
+      "address": null,
+      "startDate": "2026-05-22",
+      "endDate": "2026-08-01",
+      "imageUrl": "https://bt.imgix.net/exhibition/18236/main/1781844261425_a5ad82b5229d9a7ca6455a82e55ce008.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=512,0,7655,4306&v=15",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18236",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
       "id": "fcca02ae14d70745",
       "title": "蝸牛あや「ここにある光」",
       "description": null,
@@ -71,6 +84,32 @@
       "imageUrl": "https://bt.imgix.net/exhibition/18200/main/1781232253401_2a61ee72b16ddc3c5354b403ad40f29d.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=7,0,1048,590&v=7",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18200",
       "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "ca06b11c0ffd6931",
+      "title": "フォンタネージ―イタリアの光・心の風景",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-07-18",
+      "endDate": "2026-10-04",
+      "imageUrl": "https://www.artagenda.jp/img/event/11729/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11729",
+      "source": "artagenda",
+      "tags": []
+    },
+    {
+      "id": "f8f92a4095ef2e8d",
+      "title": "夢二郷土美術館創立60周年　夢二と音楽とデザイン",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-06-26",
+      "endDate": "2026-08-30",
+      "imageUrl": "https://www.artagenda.jp/img/event/12666/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12666",
+      "source": "artagenda",
       "tags": []
     },
     {
