@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T12:40:18.534501+00:00",
+  "lastUpdated": "2026-06-20T11:07:32.053433+00:00",
   "exhibitions": [
     {
       "id": "a94ed52ca18bc4ea",
@@ -68,7 +68,7 @@
       "address": null,
       "startDate": "2026-05-22",
       "endDate": "2026-08-01",
-      "imageUrl": "https://bt.imgix.net/exhibition/18236/main/1781844261425_a5ad82b5229d9a7ca6455a82e55ce008.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=512,0,7655,4306&v=15",
+      "imageUrl": "https://bt.imgix.net/exhibition/18236/main/1781844261425_a5ad82b5229d9a7ca6455a82e55ce008.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=512,0,7655,4306&v=16",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18236",
       "source": "bijutsu_techo",
       "tags": []
@@ -96,32 +96,6 @@
       "endDate": "2026-10-04",
       "imageUrl": "https://www.artagenda.jp/img/event/11729/thumbnail.jpg",
       "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11729",
-      "source": "artagenda",
-      "tags": []
-    },
-    {
-      "id": "f8f92a4095ef2e8d",
-      "title": "夢二郷土美術館創立60周年　夢二と音楽とデザイン",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-06-26",
-      "endDate": "2026-08-30",
-      "imageUrl": "https://www.artagenda.jp/img/event/12666/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12666",
-      "source": "artagenda",
-      "tags": []
-    },
-    {
-      "id": "0204859e74b24d4b",
-      "title": "出光真子 おんなのさくひん――ある映像作家の自伝",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-06-18",
-      "endDate": "2026-09-21",
-      "imageUrl": "https://www.artagenda.jp/img/event/11967/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11967",
       "source": "artagenda",
       "tags": []
     },
