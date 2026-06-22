@@ -1,32 +1,6 @@
 {
-  "lastUpdated": "2026-06-21T11:38:50.535239+00:00",
+  "lastUpdated": "2026-06-22T14:23:49.570618+00:00",
   "exhibitions": [
-    {
-      "id": "a94ed52ca18bc4ea",
-      "title": "「開館50周年記念  ウジェーヌ・ブーダン展―瞬間の美学、光の探求」",
-      "description": null,
-      "venue": "SOMPO美術館",
-      "address": null,
-      "startDate": "2026-04-11",
-      "endDate": "2026-06-21",
-      "imageUrl": "https://images.ctfassets.net/j05yk38inose/6MuXksBHnXBVQU2WUdQQJc/95a63391a135e912cedea7c309a6715d/unnamed.jpg",
-      "sourceUrl": "https://www.tokyoartbeat.com/events/-/The-50th-Year-of-the-Sompo-Museum-of-Art-Eugene-Boudin/9-FE-5-F8-B4/2026-04-11",
-      "source": "tokyo_art_beat",
-      "tags": []
-    },
-    {
-      "id": "ad75a2f3c64d9355",
-      "title": "Noctis：影と光のグラスアート",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-03-07",
-      "endDate": "2026-06-21",
-      "imageUrl": "https://www.artagenda.jp/img/event/12031/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12031",
-      "source": "artagenda",
-      "tags": []
-    },
     {
       "id": "1fbd55bd788af3c9",
       "title": "NT金沢2026",
