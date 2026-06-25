@@ -2,21 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261108
-DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-LOCATION:NTいわて
-SUMMARY:NTいわて2026
-UID:f6f6f1ff-f680-4159-8793-3c62cbbd0db2@f6f6.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260627
-DTEND;VALUE=DATE:20260629
-DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
-LOCATION:NT金沢
-SUMMARY:NT金沢2026
-UID:2af0e469-619c-44bc-8446-4da9d27db78f@2af0.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
+LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
+SUMMARY:博物ふぇすてぃばる！12
+UID:f791fe97-1308-4464-bf09-82fca6a2c8c4@f791.org
+URL:https://www.hakubutufes.info/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251004
@@ -24,17 +15,17 @@ DTEND;VALUE=DATE:20251006
 DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
 LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
 SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:c09872f6-0941-4caa-b494-beab7a282570@c098.org
+UID:dad6ea25-028b-4fbe-a196-62a3135fa6f0@dad6.org
 URL:https://makezine.jp/event/mft2025/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260713
-DTEND;VALUE=DATE:20261212
-DESCRIPTION:会場: 高砂コレクション®ギャラリー東京\n\nhttps://artscape.jp/exhibitions/71963/
-LOCATION:高砂コレクション®ギャラリー東京
-SUMMARY:光と香り―ガラス香水瓶コレクション展
-UID:864576be-9ad8-48a1-ad5b-1263f068189a@8645.org
-URL:https://artscape.jp/exhibitions/71963/
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260629
+DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+LOCATION:NT金沢
+SUMMARY:NT金沢2026
+UID:564966ec-29df-4d3c-9d23-e8d99c1b6e5f@5649.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260617
@@ -42,7 +33,7 @@ DTEND;VALUE=DATE:20260921
 DESCRIPTION:会場: 東京都写真美術館\n\nhttps://bijutsutecho.com/exhibitions/18157
 LOCATION:東京都写真美術館
 SUMMARY:出光真子　おんなのさくひん――ある映像作家の自伝
-UID:46dc8b10-5c3f-417d-923d-15cdd467a6ab@46dc.org
+UID:149574cc-cc8d-412f-b67b-e1471f5a30d9@1495.org
 URL:https://bijutsutecho.com/exhibitions/18157
 END:VEVENT
 BEGIN:VEVENT
@@ -51,7 +42,7 @@ DTEND;VALUE=DATE:20260802
 DESCRIPTION:会場: ミュゼ浜口陽三・ヤマサコレクション\n\nhttps://bijutsutecho.com/exhibitions/18236
 LOCATION:ミュゼ浜口陽三・ヤマサコレクション
 SUMMARY:浜口陽三と白倉嘉入展 満ちてくる光
-UID:2c2d312d-3073-4e38-aefa-9807565b9ca6@2c2d.org
+UID:d377f05b-c3c8-4010-a42a-b44b3aa49a83@d377.org
 URL:https://bijutsutecho.com/exhibitions/18236
 END:VEVENT
 BEGIN:VEVENT
@@ -59,24 +50,24 @@ DTSTART;VALUE=DATE:20261107
 DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
 LOCATION:NT湘南
 SUMMARY:NT湘南2026
-UID:e0490614-ea0f-4332-b246-c888b34d9a10@e049.org
+UID:23113491-05d8-4ed0-91a6-ab678635544d@2311.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260829
-DTEND;VALUE=DATE:20261207
-DESCRIPTION:会場: 東京都現代美術館東京\n\nhttps://artscape.jp/exhibitions/72136/
-LOCATION:東京都現代美術館東京
-SUMMARY:多田美波―光、凛と ゆれる
-UID:67d8078a-4500-4f06-8ce0-82c7115771ea@67d8.org
-URL:https://artscape.jp/exhibitions/72136/
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:4998e6d9-b7a2-4471-89d2-f13e03c1082d@4998.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260719
-DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
-LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
-SUMMARY:博物ふぇすてぃばる！12
-UID:88a0bbdd-3345-4e7e-bfc1-65627587b680@88a0.org
-URL:https://www.hakubutufes.info/
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20261212
+DESCRIPTION:会場: 高砂コレクション®ギャラリー東京\n\nhttps://artscape.jp/exhibitions/71963/
+LOCATION:高砂コレクション®ギャラリー東京
+SUMMARY:光と香り―ガラス香水瓶コレクション展
+UID:35d4a4aa-46e2-4e94-bf52-251173a50841@35d4.org
+URL:https://artscape.jp/exhibitions/71963/
 END:VEVENT
 END:VCALENDAR
