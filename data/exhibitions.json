@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T11:32:26.620004+00:00",
+  "lastUpdated": "2026-06-26T11:38:16.492049+00:00",
   "exhibitions": [
     {
       "id": "1fbd55bd788af3c9",
@@ -33,6 +33,19 @@
         "ものづくり",
         "博物"
       ]
+    },
+    {
+      "id": "37c8dd527fb00602",
+      "title": "ふれる光 三輪途道",
+      "description": null,
+      "venue": "奈良県立美術館ギャラリー",
+      "address": null,
+      "startDate": "2026-06-26",
+      "endDate": "2026-08-22",
+      "imageUrl": null,
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18258",
+      "source": "bijutsu_techo",
+      "tags": []
     },
     {
       "id": "c3a7e5fb6177b9da",
@@ -71,6 +84,19 @@
       "imageUrl": "https://artscape.jp/wp-content/themes/artscape/images/dummy.png",
       "sourceUrl": "https://artscape.jp/exhibitions/71963/",
       "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "f8f92a4095ef2e8d",
+      "title": "夢二郷土美術館創立60周年　夢二と音楽とデザイン",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-06-26",
+      "endDate": "2026-08-30",
+      "imageUrl": "https://www.artagenda.jp/img/event/12666/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12666",
+      "source": "artagenda",
       "tags": []
     },
     {
