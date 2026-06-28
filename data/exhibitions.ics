@@ -2,30 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260626
-DTEND;VALUE=DATE:20260823
-DESCRIPTION:会場: 奈良県立美術館ギャラリー\n\nhttps://bijutsutecho.com/exhibitions/18258
-LOCATION:奈良県立美術館ギャラリー
-SUMMARY:ふれる光 三輪途道
-UID:075b6084-5ce8-44b5-9716-aec08451f8bc@075b.org
-URL:https://bijutsutecho.com/exhibitions/18258
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260719
-DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
-LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
-SUMMARY:博物ふぇすてぃばる！12
-UID:d8f5f3a8-6a5f-41df-8d36-b49718f28788@d8f5.org
-URL:https://www.hakubutufes.info/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260522
-DTEND;VALUE=DATE:20260802
-DESCRIPTION:会場: ミュゼ浜口陽三・ヤマサコレクション\n\nhttps://bijutsutecho.com/exhibitions/18236
-LOCATION:ミュゼ浜口陽三・ヤマサコレクション
-SUMMARY:浜口陽三と白倉嘉入展 満ちてくる光
-UID:329a42d2-7095-418b-94e4-1069069786d2@329a.org
-URL:https://bijutsutecho.com/exhibitions/18236
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260921
+DESCRIPTION:会場: 東京都写真美術館\n\nhttps://bijutsutecho.com/exhibitions/18157
+LOCATION:東京都写真美術館
+SUMMARY:出光真子　おんなのさくひん――ある映像作家の自伝
+UID:26f9e9ef-23c9-493a-b4b9-b83322045f6d@26f9.org
+URL:https://bijutsutecho.com/exhibitions/18157
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260627
@@ -33,42 +16,50 @@ DTEND;VALUE=DATE:20260629
 DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 LOCATION:NT金沢
 SUMMARY:NT金沢2026
-UID:b861ddcb-abc0-4280-b509-de6d68e4102b@b861.org
+UID:ac8bf3eb-7899-4176-a5cb-ab454250c530@ac8b.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
+LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
+SUMMARY:博物ふぇすてぃばる！12
+UID:539cfdd8-e389-419c-a5f4-1fba89188345@539c.org
+URL:https://www.hakubutufes.info/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261108
 DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 LOCATION:NTいわて
 SUMMARY:NTいわて2026
-UID:03d41dfb-4a47-46e3-a3b5-df0bc55684a9@03d4.org
+UID:adc09dfc-d086-4ee6-98af-392528feed98@adc0.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260617
-DTEND;VALUE=DATE:20260921
-DESCRIPTION:会場: 東京都写真美術館\n\nhttps://bijutsutecho.com/exhibitions/18157
-LOCATION:東京都写真美術館
-SUMMARY:出光真子　おんなのさくひん――ある映像作家の自伝
-UID:eef0e168-923f-40aa-b5ae-6baa8b82a29a@eef0.org
-URL:https://bijutsutecho.com/exhibitions/18157
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251006
-DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
-LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
-SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:f5cfe050-1f9f-42a5-ab1c-684fc44ab466@f5cf.org
-URL:https://makezine.jp/event/mft2025/
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+DESCRIPTION:会場: NT東京\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
+LOCATION:NT東京
+SUMMARY:NT東京2026
+UID:74c3bf37-d709-4a39-871a-44f0a4167d4a@74c3.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261107
 DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
 LOCATION:NT湘南
 SUMMARY:NT湘南2026
-UID:c6f37095-9112-46c4-b1ab-21a206afb822@c6f3.org
+UID:9da2e03d-f242-4680-b65c-b8aebed25d5a@9da2.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260802
+DESCRIPTION:会場: ミュゼ浜口陽三・ヤマサコレクション\n\nhttps://bijutsutecho.com/exhibitions/18236
+LOCATION:ミュゼ浜口陽三・ヤマサコレクション
+SUMMARY:浜口陽三と白倉嘉入展 満ちてくる光
+UID:9bd0b707-d82a-4994-93a6-b85e39953c6f@9bd0.org
+URL:https://bijutsutecho.com/exhibitions/18236
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260713
@@ -76,7 +67,25 @@ DTEND;VALUE=DATE:20261212
 DESCRIPTION:会場: 高砂コレクション®ギャラリー東京\n\nhttps://artscape.jp/exhibitions/71963/
 LOCATION:高砂コレクション®ギャラリー東京
 SUMMARY:光と香り―ガラス香水瓶コレクション展
-UID:c5c05f97-5fb2-4ab3-8353-0b7454e10c19@c5c0.org
+UID:802612fe-46b3-496b-91fd-c6b9f9097885@8026.org
 URL:https://artscape.jp/exhibitions/71963/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260823
+DESCRIPTION:会場: 奈良県立美術館ギャラリー\n\nhttps://bijutsutecho.com/exhibitions/18258
+LOCATION:奈良県立美術館ギャラリー
+SUMMARY:奈良ゆかりの現代作家展　ふれる光　三輪途道
+UID:ade97ade-fd6e-4bf2-a4e4-6d42b20c11c7@ade9.org
+URL:https://bijutsutecho.com/exhibitions/18258
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251006
+DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
+LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
+SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
+UID:7e910bd4-4c87-4038-be1d-244248528505@7e91.org
+URL:https://makezine.jp/event/mft2025/
 END:VEVENT
 END:VCALENDAR

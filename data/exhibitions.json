@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T10:53:08.953594+00:00",
+  "lastUpdated": "2026-06-28T10:57:58.714534+00:00",
   "exhibitions": [
     {
       "id": "1fbd55bd788af3c9",
@@ -35,8 +35,8 @@
       ]
     },
     {
-      "id": "37c8dd527fb00602",
-      "title": "ふれる光 三輪途道",
+      "id": "7989707adf814afb",
+      "title": "奈良ゆかりの現代作家展　ふれる光　三輪途道",
       "description": null,
       "venue": "奈良県立美術館ギャラリー",
       "address": null,
@@ -97,6 +97,22 @@
       "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
       "sourceUrl": "https://makezine.jp/event/mft2025/",
       "source": "maker_faire",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
+    },
+    {
+      "id": "97cd896f6a52e6db",
+      "title": "NT東京2026",
+      "description": null,
+      "venue": "NT東京",
+      "address": null,
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-04",
+      "imageUrl": null,
+      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026",
+      "source": "nt",
       "tags": [
         "メイカー",
         "ものづくり"
