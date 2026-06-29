@@ -1,22 +1,6 @@
 {
-  "lastUpdated": "2026-06-28T10:57:58.714534+00:00",
+  "lastUpdated": "2026-06-29T12:55:52.454225+00:00",
   "exhibitions": [
-    {
-      "id": "1fbd55bd788af3c9",
-      "title": "NT金沢2026",
-      "description": null,
-      "venue": "NT金沢",
-      "address": null,
-      "startDate": "2026-06-27",
-      "endDate": "2026-06-28",
-      "imageUrl": null,
-      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026",
-      "source": "nt",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
-    },
     {
       "id": "fd44cceb9d58fb76",
       "title": "博物ふぇすてぃばる！12",
@@ -48,19 +32,6 @@
       "tags": []
     },
     {
-      "id": "c3a7e5fb6177b9da",
-      "title": "浜口陽三と白倉嘉入展 満ちてくる光",
-      "description": null,
-      "venue": "ミュゼ浜口陽三・ヤマサコレクション",
-      "address": null,
-      "startDate": "2026-05-22",
-      "endDate": "2026-08-01",
-      "imageUrl": "https://bt.imgix.net/exhibition/18236/main/1781844261425_a5ad82b5229d9a7ca6455a82e55ce008.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=512,0,7655,4306&v=16",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18236",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
       "id": "1715b3f8e9474e3a",
       "title": "出光真子　おんなのさくひん――ある映像作家の自伝",
       "description": null,
@@ -87,16 +58,16 @@
       "tags": []
     },
     {
-      "id": "a5868f178432aee3",
-      "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
+      "id": "1fbd55bd788af3c9",
+      "title": "NT金沢2026",
       "description": null,
-      "venue": "東京ビッグサイト　西4ホール東京都江東区有明3-11-1",
+      "venue": "NT金沢",
       "address": null,
-      "startDate": "2025-10-04",
-      "endDate": "2025-10-05",
-      "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
-      "sourceUrl": "https://makezine.jp/event/mft2025/",
-      "source": "maker_faire",
+      "startDate": "2026-06-27",
+      "endDate": "2026-06-28",
+      "imageUrl": null,
+      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026",
+      "source": "nt",
       "tags": [
         "メイカー",
         "ものづくり"
