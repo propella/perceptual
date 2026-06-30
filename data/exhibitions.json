@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T12:55:52.454225+00:00",
+  "lastUpdated": "2026-06-30T11:38:33.820233+00:00",
   "exhibitions": [
     {
       "id": "fd44cceb9d58fb76",
@@ -45,17 +45,20 @@
       "tags": []
     },
     {
-      "id": "7ce6860996cf8e98",
-      "title": "光と香り―ガラス香水瓶コレクション展",
+      "id": "a5868f178432aee3",
+      "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
       "description": null,
-      "venue": "高砂コレクション®ギャラリー東京",
+      "venue": "東京ビッグサイト　西4ホール東京都江東区有明3-11-1",
       "address": null,
-      "startDate": "2026-07-13",
-      "endDate": "2026-12-11",
-      "imageUrl": "https://artscape.jp/wp-content/themes/artscape/images/dummy.png",
-      "sourceUrl": "https://artscape.jp/exhibitions/71963/",
-      "source": "artscape",
-      "tags": []
+      "startDate": "2025-10-04",
+      "endDate": "2025-10-05",
+      "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
+      "sourceUrl": "https://makezine.jp/event/mft2025/",
+      "source": "maker_faire",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
     },
     {
       "id": "1fbd55bd788af3c9",
