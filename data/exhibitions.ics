@@ -2,12 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260719
-DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
-LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
-SUMMARY:博物ふぇすてぃばる！12
-UID:1986eaf6-f349-4ec6-8bfb-636c2a0283ac@1986.org
-URL:https://www.hakubutufes.info/
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260823
+DESCRIPTION:会場: 奈良県立美術館ギャラリー\n\nhttps://bijutsutecho.com/exhibitions/18258
+LOCATION:奈良県立美術館ギャラリー
+SUMMARY:奈良ゆかりの現代作家展　ふれる光　三輪途道
+UID:423a301c-c516-49e4-9c31-fad2d0cfcba8@423a.org
+URL:https://bijutsutecho.com/exhibitions/18258
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260617
@@ -15,26 +16,16 @@ DTEND;VALUE=DATE:20260921
 DESCRIPTION:会場: 東京都写真美術館\n\nhttps://bijutsutecho.com/exhibitions/18157
 LOCATION:東京都写真美術館
 SUMMARY:出光真子　おんなのさくひん――ある映像作家の自伝
-UID:fb19af17-faf9-4cf8-b78c-1c077e7c6335@fb19.org
+UID:aed97a8a-adeb-41d6-84fc-abab7c6e8b5a@aed9.org
 URL:https://bijutsutecho.com/exhibitions/18157
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260626
-DTEND;VALUE=DATE:20260823
-DESCRIPTION:会場: 奈良県立美術館ギャラリー\n\nhttps://bijutsutecho.com/exhibitions/18258
-LOCATION:奈良県立美術館ギャラリー
-SUMMARY:奈良ゆかりの現代作家展　ふれる光　三輪途道
-UID:277cf81a-7991-424e-bba7-899793ab573a@277c.org
-URL:https://bijutsutecho.com/exhibitions/18258
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251006
-DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
-LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
-SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:3ed4e4fa-03df-4cbe-8276-9cb3ddc98bb0@3ed4.org
-URL:https://makezine.jp/event/mft2025/
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
+LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
+SUMMARY:博物ふぇすてぃばる！12
+UID:3a16d454-241c-4ca1-b89e-076061308663@3a16.org
+URL:https://www.hakubutufes.info/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261003
@@ -42,7 +33,7 @@ DTEND;VALUE=DATE:20261005
 DESCRIPTION:会場: NT東京\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
 LOCATION:NT東京
 SUMMARY:NT東京2026
-UID:2b27ffe3-871f-4df3-979f-ce4ca4b4ded3@2b27.org
+UID:0e11e72d-4eb4-4a95-9cef-3de3f98baa0f@0e11.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
 END:VEVENT
 BEGIN:VEVENT
@@ -50,16 +41,8 @@ DTSTART;VALUE=DATE:20261107
 DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
 LOCATION:NT湘南
 SUMMARY:NT湘南2026
-UID:dab28ea4-9940-4b6c-9388-235c7a6439d0@dab2.org
+UID:4416b694-37d9-4f69-aa29-eb78b64ec3ed@4416.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261108
-DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-LOCATION:NTいわて
-SUMMARY:NTいわて2026
-UID:e839f3ca-e966-4261-a6a7-87333d1eb74d@e839.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260627
@@ -67,7 +50,24 @@ DTEND;VALUE=DATE:20260629
 DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 LOCATION:NT金沢
 SUMMARY:NT金沢2026
-UID:dbfb9fb0-2bac-4aaa-85df-1abc94707e67@dbfb.org
+UID:1cb6bfb6-f6d4-49b6-ad88-5fdb2726883d@1cb6.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251006
+DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
+LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
+SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
+UID:5e1976b1-6338-4a27-9b91-5d64c259ecfb@5e19.org
+URL:https://makezine.jp/event/mft2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:e6a5593d-8f66-4bdd-aa58-9be0dfb07258@e6a5.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 END:VCALENDAR
