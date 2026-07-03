@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T11:26:13.637624+00:00",
+  "lastUpdated": "2026-07-03T11:25:30.913050+00:00",
   "exhibitions": [
     {
       "id": "fd44cceb9d58fb76",
@@ -43,48 +43,6 @@
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18157",
       "source": "bijutsu_techo",
       "tags": []
-    },
-    {
-      "id": "da80b6c2c08d9e60",
-      "title": "黒尾宏光 個展「単純化と装飾性」",
-      "description": null,
-      "venue": "KOKU 現代アートギャラリー岐阜",
-      "address": null,
-      "startDate": "2026-07-05",
-      "endDate": "2026-08-02",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/07/KokuArtGallery_2026-07.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/73044/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "41233e28f0527d0b",
-      "title": "親愛なる友 フィンセント 動くゴッホ展",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-07-25",
-      "endDate": "2026-09-06",
-      "imageUrl": "https://www.artagenda.jp/img/event/12434/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12434",
-      "source": "artagenda",
-      "tags": []
-    },
-    {
-      "id": "a5868f178432aee3",
-      "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
-      "description": null,
-      "venue": "東京ビッグサイト　西4ホール東京都江東区有明3-11-1",
-      "address": null,
-      "startDate": "2025-10-04",
-      "endDate": "2025-10-05",
-      "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
-      "sourceUrl": "https://makezine.jp/event/mft2025/",
-      "source": "maker_faire",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
     },
     {
       "id": "1fbd55bd788af3c9",

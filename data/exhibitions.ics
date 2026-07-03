@@ -7,25 +7,8 @@ DTEND;VALUE=DATE:20261005
 DESCRIPTION:会場: NT東京\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
 LOCATION:NT東京
 SUMMARY:NT東京2026
-UID:bd77ea6f-0712-4bff-9476-67087b77003d@bd77.org
+UID:7cb46d05-7020-4409-9fcd-3e323ee800fb@7cb4.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260719
-DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
-LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
-SUMMARY:博物ふぇすてぃばる！12
-UID:dab60a9d-5ec9-4724-9196-2d5394f7c0da@dab6.org
-URL:https://www.hakubutufes.info/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260705
-DTEND;VALUE=DATE:20260803
-DESCRIPTION:会場: KOKU 現代アートギャラリー岐阜\n\nhttps://artscape.jp/exhibitions/73044/
-LOCATION:KOKU 現代アートギャラリー岐阜
-SUMMARY:黒尾宏光 個展「単純化と装飾性」
-UID:33b2adb0-3b53-44bb-8010-a0b81bd60252@33b2.org
-URL:https://artscape.jp/exhibitions/73044/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260626
@@ -33,16 +16,8 @@ DTEND;VALUE=DATE:20260823
 DESCRIPTION:会場: 奈良県立美術館ギャラリー\n\nhttps://bijutsutecho.com/exhibitions/18258
 LOCATION:奈良県立美術館ギャラリー
 SUMMARY:奈良ゆかりの現代作家展　ふれる光　三輪途道
-UID:60c8a0c3-4bdf-4e82-983e-2915cca019b1@60c8.org
+UID:e54a975f-ca99-48b6-99bd-70612114c56a@e54a.org
 URL:https://bijutsutecho.com/exhibitions/18258
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261108
-DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-LOCATION:NTいわて
-SUMMARY:NTいわて2026
-UID:691eec7a-761a-4140-8d68-7a7c76e3332f@691e.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260627
@@ -50,17 +25,32 @@ DTEND;VALUE=DATE:20260629
 DESCRIPTION:会場: NT金沢\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 LOCATION:NT金沢
 SUMMARY:NT金沢2026
-UID:3be789dc-3098-4858-8d29-63414127b9cb@3be7.org
+UID:af7bbfd7-d8f8-43f8-b768-69f67398528f@af7b.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251006
-DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
-LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
-SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:2821d566-8802-4963-b004-74cd5f700802@2821.org
-URL:https://makezine.jp/event/mft2025/
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
+LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
+SUMMARY:博物ふぇすてぃばる！12
+UID:1b7432ab-a47f-4a51-bc52-2a93b2bd4c38@1b74.org
+URL:https://www.hakubutufes.info/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261107
+DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+LOCATION:NT湘南
+SUMMARY:NT湘南2026
+UID:b69b9815-6dad-44b4-9496-199c896485df@b69b.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:6a44828a-02b6-41ed-918a-c73a2696d975@6a44.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260617
@@ -68,24 +58,7 @@ DTEND;VALUE=DATE:20260921
 DESCRIPTION:会場: 東京都写真美術館\n\nhttps://bijutsutecho.com/exhibitions/18157
 LOCATION:東京都写真美術館
 SUMMARY:出光真子　おんなのさくひん――ある映像作家の自伝
-UID:8f11e65f-3beb-4d45-a2ee-816a2f4313ba@8f11.org
+UID:ca6d266d-023f-4776-89a3-4f6bad324a48@ca6d.org
 URL:https://bijutsutecho.com/exhibitions/18157
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261107
-DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-LOCATION:NT湘南
-SUMMARY:NT湘南2026
-UID:35fe018a-ce7a-457f-8f31-afbc9b44259a@35fe.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260725
-DTEND;VALUE=DATE:20260907
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12434
-LOCATION:アートアジェンダ
-SUMMARY:親愛なる友 フィンセント 動くゴッホ展
-UID:4356a86c-84c6-43ea-b5cc-a032be6609a1@4356.org
-URL:https://www.artagenda.jp/exhibition/detail/12434
 END:VEVENT
 END:VCALENDAR
