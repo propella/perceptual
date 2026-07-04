@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T11:25:30.913050+00:00",
+  "lastUpdated": "2026-07-04T10:48:18.377438+00:00",
   "exhibitions": [
     {
       "id": "fd44cceb9d58fb76",
@@ -43,6 +43,35 @@
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18157",
       "source": "bijutsu_techo",
       "tags": []
+    },
+    {
+      "id": "3a519a210091e484",
+      "title": "テオ・ヤンセン展",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-07-04",
+      "endDate": "2026-09-23",
+      "imageUrl": "https://www.artagenda.jp/img/event/12304/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12304",
+      "source": "artagenda",
+      "tags": []
+    },
+    {
+      "id": "a5868f178432aee3",
+      "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
+      "description": null,
+      "venue": "東京ビッグサイト　西4ホール東京都江東区有明3-11-1",
+      "address": null,
+      "startDate": "2025-10-04",
+      "endDate": "2025-10-05",
+      "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
+      "sourceUrl": "https://makezine.jp/event/mft2025/",
+      "source": "maker_faire",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
     },
     {
       "id": "1fbd55bd788af3c9",
