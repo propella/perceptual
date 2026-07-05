@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T10:48:18.377438+00:00",
+  "lastUpdated": "2026-07-05T10:58:04.460911+00:00",
   "exhibitions": [
     {
       "id": "fd44cceb9d58fb76",
@@ -45,15 +45,28 @@
       "tags": []
     },
     {
-      "id": "3a519a210091e484",
-      "title": "テオ・ヤンセン展",
+      "id": "da80b6c2c08d9e60",
+      "title": "黒尾宏光 個展「単純化と装飾性」",
+      "description": null,
+      "venue": "KOKU 現代アートギャラリー岐阜",
+      "address": null,
+      "startDate": "2026-07-05",
+      "endDate": "2026-08-02",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/07/KokuArtGallery_2026-07.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/73044/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "1ad5ddfcb54fa9a4",
+      "title": "特別展　中谷ミチコ　影とぽっこり",
       "description": null,
       "venue": "アートアジェンダ",
       "address": null,
       "startDate": "2026-07-04",
-      "endDate": "2026-09-23",
-      "imageUrl": "https://www.artagenda.jp/img/event/12304/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12304",
+      "endDate": "2026-08-23",
+      "imageUrl": "https://www.artagenda.jp/img/event/12201/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12201",
       "source": "artagenda",
       "tags": []
     },
@@ -68,22 +81,6 @@
       "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
       "sourceUrl": "https://makezine.jp/event/mft2025/",
       "source": "maker_faire",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
-    },
-    {
-      "id": "1fbd55bd788af3c9",
-      "title": "NT金沢2026",
-      "description": null,
-      "venue": "NT金沢",
-      "address": null,
-      "startDate": "2026-06-27",
-      "endDate": "2026-06-28",
-      "imageUrl": null,
-      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E9%87%91%E6%B2%A22026",
-      "source": "nt",
       "tags": [
         "メイカー",
         "ものづくり"
