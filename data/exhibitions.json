@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T10:58:04.460911+00:00",
+  "lastUpdated": "2026-07-06T12:35:11.761549+00:00",
   "exhibitions": [
     {
       "id": "fd44cceb9d58fb76",
@@ -17,19 +17,6 @@
         "ものづくり",
         "博物"
       ]
-    },
-    {
-      "id": "7989707adf814afb",
-      "title": "奈良ゆかりの現代作家展　ふれる光　三輪途道",
-      "description": null,
-      "venue": "奈良県立美術館ギャラリー",
-      "address": null,
-      "startDate": "2026-06-26",
-      "endDate": "2026-08-22",
-      "imageUrl": null,
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18258",
-      "source": "bijutsu_techo",
-      "tags": []
     },
     {
       "id": "1715b3f8e9474e3a",
