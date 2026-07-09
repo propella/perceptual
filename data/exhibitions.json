@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T10:53:46.120844+00:00",
+  "lastUpdated": "2026-07-09T11:43:26.979449+00:00",
   "exhibitions": [
     {
       "id": "fd44cceb9d58fb76",
@@ -32,6 +32,19 @@
       "tags": []
     },
     {
+      "id": "d9ab152e032ef55e",
+      "title": "中日新聞社創業140年記念　スウェーデン絵画　北欧の光、日常のかがやき",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-07-09",
+      "endDate": "2026-10-04",
+      "imageUrl": "https://www.artagenda.jp/img/event/11577/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11577",
+      "source": "artagenda",
+      "tags": []
+    },
+    {
       "id": "a5868f178432aee3",
       "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
       "description": null,
@@ -42,6 +55,22 @@
       "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
       "sourceUrl": "https://makezine.jp/event/mft2025/",
       "source": "maker_faire",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
+    },
+    {
+      "id": "4a077c4e8b38a1c0",
+      "title": "NTShenzhen2026",
+      "description": null,
+      "venue": "NTShenzhen",
+      "address": null,
+      "startDate": "2026-12-12",
+      "endDate": "2026-12-13",
+      "imageUrl": null,
+      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NTShenzhen2026",
+      "source": "nt",
       "tags": [
         "メイカー",
         "ものづくり"
