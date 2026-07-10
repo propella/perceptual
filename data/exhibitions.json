@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T11:43:26.979449+00:00",
+  "lastUpdated": "2026-07-10T11:42:45.508252+00:00",
   "exhibitions": [
     {
       "id": "fd44cceb9d58fb76",
@@ -32,16 +32,16 @@
       "tags": []
     },
     {
-      "id": "d9ab152e032ef55e",
-      "title": "中日新聞社創業140年記念　スウェーデン絵画　北欧の光、日常のかがやき",
+      "id": "ff594222bd93f463",
+      "title": "フォンタネージ—イタリアの光・心の風景",
       "description": null,
-      "venue": "アートアジェンダ",
+      "venue": "京都国立近代美術館京都",
       "address": null,
-      "startDate": "2026-07-09",
+      "startDate": "2026-07-18",
       "endDate": "2026-10-04",
-      "imageUrl": "https://www.artagenda.jp/img/event/11577/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11577",
-      "source": "artagenda",
+      "imageUrl": null,
+      "sourceUrl": "https://artscape.jp/exhibitions/68420/",
+      "source": "artscape",
       "tags": []
     },
     {
