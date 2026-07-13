@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T10:18:23.331964+00:00",
+  "lastUpdated": "2026-07-13T11:49:05.211337+00:00",
   "exhibitions": [
     {
       "id": "fd44cceb9d58fb76",
@@ -29,32 +29,6 @@
       "imageUrl": "https://bt.imgix.net/exhibition/18157/main/1781125008538_405c3f425e93b565368c5900362ca330.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=97,0,924,520&v=14",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18157",
       "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "ff594222bd93f463",
-      "title": "フォンタネージ—イタリアの光・心の風景",
-      "description": null,
-      "venue": "京都国立近代美術館京都",
-      "address": null,
-      "startDate": "2026-07-18",
-      "endDate": "2026-10-04",
-      "imageUrl": null,
-      "sourceUrl": "https://artscape.jp/exhibitions/68420/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "0de9bb31e1f521d0",
-      "title": "ゲームと美術 信長の野望/コーエーテクモゲームスの野望—インタラクティブ・アートの誕生",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-07-11",
-      "endDate": "2026-09-06",
-      "imageUrl": "https://www.artagenda.jp/img/event/12263/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12263",
-      "source": "artagenda",
       "tags": []
     },
     {
