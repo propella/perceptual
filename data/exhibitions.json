@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T10:41:40.166840+00:00",
+  "lastUpdated": "2026-07-16T10:48:59.337537+00:00",
   "exhibitions": [
     {
       "id": "fd44cceb9d58fb76",
@@ -19,6 +19,19 @@
       ]
     },
     {
+      "id": "7eecb21657d8babb",
+      "title": "フォンタネージ―イタリアの光・心の風景",
+      "description": null,
+      "venue": "京都国立近代美術館",
+      "address": null,
+      "startDate": "2026-07-17",
+      "endDate": "2026-10-03",
+      "imageUrl": "https://bt.imgix.net/exhibition/18363/main/1783755823444_d8512c5cf9bb03b8bf6ff8ba7ad6b185.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=11,0,3176,1787&v=4",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18363",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
       "id": "1715b3f8e9474e3a",
       "title": "出光真子　おんなのさくひん――ある映像作家の自伝",
       "description": null,
@@ -32,16 +45,29 @@
       "tags": []
     },
     {
-      "id": "c5bd2fbff6d26ee3",
-      "title": "生誕100周年記念　安野光雅展",
+      "id": "80229f69158b1bf3",
+      "title": "炭・光・空間表現をテーマにしたグループ展「自然のデザイン」を7月23日より開催｜Seibundo Gallery",
       "description": null,
-      "venue": "アートアジェンダ",
+      "venue": "Seibundo Gallery東京",
       "address": null,
-      "startDate": "2027-07-03",
-      "endDate": "2027-09-05",
-      "imageUrl": "https://www.artagenda.jp/img/event/12706/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12706",
-      "source": "artagenda",
+      "startDate": "2026-07-23",
+      "endDate": "2026-08-16",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/07/main-4-1200x785.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/74145/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "334162023e531c4a",
+      "title": "テオ・ヤンセン展",
+      "description": null,
+      "venue": "富山県美術館富山",
+      "address": null,
+      "startDate": "2026-07-04",
+      "endDate": "2026-09-23",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/07/theo_jansen-toyama-e1783938875167.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/73021/",
+      "source": "artscape",
       "tags": []
     },
     {
