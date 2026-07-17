@@ -2,56 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260704
-DTEND;VALUE=DATE:20260924
-DESCRIPTION:会場: 富山県美術館富山\n\nhttps://artscape.jp/exhibitions/73021/
-LOCATION:富山県美術館富山
-SUMMARY:テオ・ヤンセン展
-UID:99d1e9ab-91d7-49d2-b2bf-727536e0a029@99d1.org
-URL:https://artscape.jp/exhibitions/73021/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261108
-DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-LOCATION:NTいわて
-SUMMARY:NTいわて2026
-UID:21ec3666-881d-43d7-9e59-f0603bdb48ee@21ec.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261005
-DESCRIPTION:会場: NT東京\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
-LOCATION:NT東京
-SUMMARY:NT東京2026
-UID:cb341e6d-42b2-4629-a093-50b2ea3f7961@cb34.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261107
-DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-LOCATION:NT湘南
-SUMMARY:NT湘南2026
-UID:d362fa45-2954-4996-86f9-b206d4d0b5dd@d362.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260617
-DTEND;VALUE=DATE:20260921
-DESCRIPTION:会場: 東京都写真美術館\n\nhttps://bijutsutecho.com/exhibitions/18157
-LOCATION:東京都写真美術館
-SUMMARY:出光真子　おんなのさくひん――ある映像作家の自伝
-UID:6e6895c7-a448-42b8-9897-14ccd431ee7f@6e68.org
-URL:https://bijutsutecho.com/exhibitions/18157
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261214
-DESCRIPTION:会場: NTShenzhen\n\nhttps://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
-LOCATION:NTShenzhen
-SUMMARY:NTShenzhen2026
-UID:dd66fbe8-e087-4b6b-9119-9dd9d6c21980@dd66.org
-URL:https://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260817
+DESCRIPTION:会場: Seibundo Gallery東京\n\nhttps://artscape.jp/exhibitions/74145/
+LOCATION:Seibundo Gallery東京
+SUMMARY:炭・光・空間表現をテーマにしたグループ展「自然のデザイン」を7月23日より開催｜Seibundo Gallery
+UID:5178b2bb-1112-4314-a846-464ac74b70a5@5178.org
+URL:https://artscape.jp/exhibitions/74145/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251004
@@ -59,8 +16,24 @@ DTEND;VALUE=DATE:20251006
 DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
 LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
 SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:ca4e7612-6b8e-4932-af14-bbd2284ebf48@ca4e.org
+UID:bdf9c992-1496-495f-988f-51673488e7cf@bdf9.org
 URL:https://makezine.jp/event/mft2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
+LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
+SUMMARY:博物ふぇすてぃばる！12
+UID:a7f9dda9-f313-446b-821f-bbf74fcdaa4f@a7f9.org
+URL:https://www.hakubutufes.info/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261107
+DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+LOCATION:NT湘南
+SUMMARY:NT湘南2026
+UID:a5a896f5-e235-4d2b-bb36-70d0dd8f8e5e@a5a8.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261114
@@ -68,25 +41,34 @@ DTEND;VALUE=DATE:20261116
 DESCRIPTION:会場: NT名古屋\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
 LOCATION:NT名古屋
 SUMMARY:NT名古屋2026
-UID:f20dcd8d-ce43-4527-b966-5bd5857a3af7@f20d.org
+UID:de02e5ed-93a6-40f1-b144-79a555e8cae2@de02.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260719
-DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
-LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
-SUMMARY:博物ふぇすてぃばる！12
-UID:f6f34b56-07ba-4b47-bcb7-ed05a14bb6e5@f6f3.org
-URL:https://www.hakubutufes.info/
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260921
+DESCRIPTION:会場: 東京都写真美術館\n\nhttps://bijutsutecho.com/exhibitions/18157
+LOCATION:東京都写真美術館
+SUMMARY:出光真子　おんなのさくひん――ある映像作家の自伝
+UID:aaddf1a8-cd0f-40cb-b8ee-9ad0fd6ccc09@aadd.org
+URL:https://bijutsutecho.com/exhibitions/18157
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260723
-DTEND;VALUE=DATE:20260817
-DESCRIPTION:会場: Seibundo Gallery東京\n\nhttps://artscape.jp/exhibitions/74145/
-LOCATION:Seibundo Gallery東京
-SUMMARY:炭・光・空間表現をテーマにしたグループ展「自然のデザイン」を7月23日より開催｜Seibundo Gallery
-UID:f71466be-6fbb-4d6f-9abe-0b808fdc3398@f714.org
-URL:https://artscape.jp/exhibitions/74145/
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+DESCRIPTION:会場: NT東京\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
+LOCATION:NT東京
+SUMMARY:NT東京2026
+UID:ff325c58-1bb8-45cb-b10e-17d646f9fa90@ff32.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:2945f3e4-5dc4-4a91-9578-efaf3dd9995a@2945.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260717
@@ -94,7 +76,16 @@ DTEND;VALUE=DATE:20261004
 DESCRIPTION:会場: 京都国立近代美術館\n\nhttps://bijutsutecho.com/exhibitions/18363
 LOCATION:京都国立近代美術館
 SUMMARY:フォンタネージ―イタリアの光・心の風景
-UID:a27abc59-52fe-4816-976a-85bf8d070d18@a27a.org
+UID:51902d9f-356d-4b49-b9a5-63ae29693911@5190.org
 URL:https://bijutsutecho.com/exhibitions/18363
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:会場: NTShenzhen\n\nhttps://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
+LOCATION:NTShenzhen
+SUMMARY:NTShenzhen2026
+UID:01d0c458-7451-43a6-af3a-44c1b1fff58d@01d0.org
+URL:https://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
 END:VEVENT
 END:VCALENDAR

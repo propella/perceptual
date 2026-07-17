@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T10:48:59.337537+00:00",
+  "lastUpdated": "2026-07-17T10:29:41.896405+00:00",
   "exhibitions": [
     {
       "id": "fd44cceb9d58fb76",
@@ -54,19 +54,6 @@
       "endDate": "2026-08-16",
       "imageUrl": "https://artscape.jp/wp-content/uploads/2026/07/main-4-1200x785.jpg",
       "sourceUrl": "https://artscape.jp/exhibitions/74145/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "334162023e531c4a",
-      "title": "テオ・ヤンセン展",
-      "description": null,
-      "venue": "富山県美術館富山",
-      "address": null,
-      "startDate": "2026-07-04",
-      "endDate": "2026-09-23",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/07/theo_jansen-toyama-e1783938875167.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/73021/",
       "source": "artscape",
       "tags": []
     },
