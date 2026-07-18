@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T10:29:41.896405+00:00",
+  "lastUpdated": "2026-07-18T10:08:38.676037+00:00",
   "exhibitions": [
     {
       "id": "fd44cceb9d58fb76",
@@ -55,6 +55,19 @@
       "imageUrl": "https://artscape.jp/wp-content/uploads/2026/07/main-4-1200x785.jpg",
       "sourceUrl": "https://artscape.jp/exhibitions/74145/",
       "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "ca06b11c0ffd6931",
+      "title": "フォンタネージ―イタリアの光・心の風景",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-07-18",
+      "endDate": "2026-10-04",
+      "imageUrl": "https://www.artagenda.jp/img/event/11729/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11729",
+      "source": "artagenda",
       "tags": []
     },
     {
