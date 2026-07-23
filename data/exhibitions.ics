@@ -2,38 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260719
-DESCRIPTION:会場: 東京ビッグサイトにて開催！出展ブース数は過去最大の650以上物販ブース・ワークショップブースアウトリーチブースなど盛りだくさん！楽しく\n\nhttps://www.hakubutufes.info/
-LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
-SUMMARY:博物ふぇすてぃばる！12
-UID:c93f8210-93e1-4212-976d-4d2e6baca655@c93f.org
-URL:https://www.hakubutufes.info/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260617
-DTEND;VALUE=DATE:20260921
-DESCRIPTION:会場: 東京都写真美術館\n\nhttps://bijutsutecho.com/exhibitions/18157
-LOCATION:東京都写真美術館
-SUMMARY:出光真子　おんなのさくひん――ある映像作家の自伝
-UID:e93ea697-81c4-47c6-802b-c8941f9660b3@e93e.org
-URL:https://bijutsutecho.com/exhibitions/18157
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261108
-DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-LOCATION:NTいわて
-SUMMARY:NTいわて2026
-UID:5cebaaea-bd5d-4474-8cc1-a0ed03ef2cd8@5ceb.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261005
-DESCRIPTION:会場: NT東京\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
-LOCATION:NT東京
-SUMMARY:NT東京2026
-UID:40e724e0-2a16-4ea5-8104-85faf0b24e6a@40e7.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251006
+DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
+LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
+SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
+UID:ab298eaf-1753-4cc5-a9f9-2fc485906204@ab29.org
+URL:https://makezine.jp/event/mft2025/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260717
@@ -41,35 +16,8 @@ DTEND;VALUE=DATE:20261004
 DESCRIPTION:会場: 京都国立近代美術館\n\nhttps://bijutsutecho.com/exhibitions/18363
 LOCATION:京都国立近代美術館
 SUMMARY:フォンタネージ―イタリアの光・心の風景
-UID:dfd7fc7e-d93b-446b-b3ef-7467f751bdcb@dfd7.org
+UID:32eebbaf-9f70-46e6-87e9-09aca0246787@32ee.org
 URL:https://bijutsutecho.com/exhibitions/18363
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:会場: NT名古屋\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
-LOCATION:NT名古屋
-SUMMARY:NT名古屋2026
-UID:3ad3a03a-0924-4c79-b03e-eb0527f1eb95@3ad3.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260717
-DTEND;VALUE=DATE:20260726
-DESCRIPTION:会場: LE METTÉ GALLERY\n\nhttps://bijutsutecho.com/exhibitions/18400
-LOCATION:LE METTÉ GALLERY
-SUMMARY:大山菜々子 個展「残光のかたち」
-UID:5f519d70-a16c-4c3b-996a-d111253da936@5f51.org
-URL:https://bijutsutecho.com/exhibitions/18400
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251006
-DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
-LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
-SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:46d9f1f6-f7f3-418c-b172-04974cda4b6e@46d9.org
-URL:https://makezine.jp/event/mft2025/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261212
@@ -77,8 +25,33 @@ DTEND;VALUE=DATE:20261214
 DESCRIPTION:会場: NTShenzhen\n\nhttps://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
 LOCATION:NTShenzhen
 SUMMARY:NTShenzhen2026
-UID:9429930a-d388-4307-ac80-ba68d2e33a8d@9429.org
+UID:da336648-7ede-4516-890c-e55d8ab78d52@da33.org
 URL:https://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:ad247860-3536-4b12-a856-226e603bfe79@ad24.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:会場: 20日(月・祝)東京ビッグサイト南1ホール\n\nhttps://www.hakubutufes.info/
+LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
+SUMMARY:博物ふぇすてぃばる！12終了致しました！沢山のご来場、誠にありがとうございました！皆様の知的好奇心を満たすことが出来ましたでしょうか？またお会いしましょう♪
+UID:3b2edd2d-8c58-4196-99f9-7f6a83aa14cb@3b2e.org
+URL:https://www.hakubutufes.info/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:会場: NT名古屋\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
+LOCATION:NT名古屋
+SUMMARY:NT名古屋2026
+UID:12ca2c92-bc4f-4dbf-a50e-a687bc9729f3@12ca.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260718
@@ -86,7 +59,7 @@ DTEND;VALUE=DATE:20261005
 DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/11729
 LOCATION:アートアジェンダ
 SUMMARY:フォンタネージ―イタリアの光・心の風景
-UID:ca13b4ca-5e14-4208-99fd-580185cfb789@ca13.org
+UID:022275a2-e753-4cef-9371-d87fc7d45115@0222.org
 URL:https://www.artagenda.jp/exhibition/detail/11729
 END:VEVENT
 BEGIN:VEVENT
@@ -94,7 +67,34 @@ DTSTART;VALUE=DATE:20261107
 DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
 LOCATION:NT湘南
 SUMMARY:NT湘南2026
-UID:b9446b4a-9249-4f95-92ee-fc8d8582eb8a@b944.org
+UID:dc7429c5-2679-446b-8cca-d3f548270d60@dc74.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+DESCRIPTION:会場: NT東京\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
+LOCATION:NT東京
+SUMMARY:NT東京2026
+UID:da2fee74-c7b7-42f1-9349-fc6950861165@da2f.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260921
+DESCRIPTION:会場: 東京都写真美術館\n\nhttps://bijutsutecho.com/exhibitions/18157
+LOCATION:東京都写真美術館
+SUMMARY:出光真子　おんなのさくひん――ある映像作家の自伝
+UID:d4f627a1-b57f-4eb9-8993-3dea1dbf6f41@d4f6.org
+URL:https://bijutsutecho.com/exhibitions/18157
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260726
+DESCRIPTION:会場: LE METTÉ GALLERY\n\nhttps://bijutsutecho.com/exhibitions/18400
+LOCATION:LE METTÉ GALLERY
+SUMMARY:大山菜々子 個展「残光のかたち」
+UID:0d0c13e8-7443-491a-b1c7-976fd62d03c5@0d0c.org
+URL:https://bijutsutecho.com/exhibitions/18400
 END:VEVENT
 END:VCALENDAR
