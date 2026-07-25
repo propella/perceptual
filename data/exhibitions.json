@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T10:53:32.802637+00:00",
+  "lastUpdated": "2026-07-25T10:20:14.019233+00:00",
   "exhibitions": [
     {
       "id": "8a77c3076af04b73",
@@ -41,29 +41,16 @@
       "tags": []
     },
     {
-      "id": "d2376da068a48eeb",
-      "title": "〈コレクション展〉pook 光ゆうらん－触れる・眺める・光のデジタルアート",
+      "id": "41233e28f0527d0b",
+      "title": "親愛なる友 フィンセント 動くゴッホ展",
       "description": null,
-      "venue": "鳥取県立美術館鳥取",
+      "venue": "アートアジェンダ",
       "address": null,
-      "startDate": "2026-07-14",
-      "endDate": "2026-10-07",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/07/pook_banner-1200x800.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/74607/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "4f349098d25805c4",
-      "title": "はり絵、はり子と消しゴムはんこ 　横手順子のてしごと空間",
-      "description": null,
-      "venue": "長島美術館鹿児島",
-      "address": null,
-      "startDate": "2026-07-18",
-      "endDate": "2026-09-13",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/07/4473b56f69b4102bfb6480957ec7cdf3.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/74510/",
-      "source": "artscape",
+      "startDate": "2026-07-25",
+      "endDate": "2026-09-06",
+      "imageUrl": "https://www.artagenda.jp/img/event/12434/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12434",
+      "source": "artagenda",
       "tags": []
     },
     {
