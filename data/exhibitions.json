@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T10:20:14.019233+00:00",
+  "lastUpdated": "2026-07-26T10:28:30.751073+00:00",
   "exhibitions": [
     {
       "id": "8a77c3076af04b73",
@@ -38,6 +38,32 @@
       "imageUrl": "https://bt.imgix.net/exhibition/18157/main/1781125008538_405c3f425e93b565368c5900362ca330.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=97,0,924,520&v=14",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18157",
       "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "d2376da068a48eeb",
+      "title": "〈コレクション展〉pook 光ゆうらん－触れる・眺める・光のデジタルアート",
+      "description": null,
+      "venue": "鳥取県立美術館鳥取",
+      "address": null,
+      "startDate": "2026-07-14",
+      "endDate": "2026-10-07",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/07/pook_banner-1200x800.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/74607/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "4f349098d25805c4",
+      "title": "はり絵、はり子と消しゴムはんこ 　横手順子のてしごと空間",
+      "description": null,
+      "venue": "長島美術館鹿児島",
+      "address": null,
+      "startDate": "2026-07-18",
+      "endDate": "2026-09-13",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/07/4473b56f69b4102bfb6480957ec7cdf3.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/74510/",
+      "source": "artscape",
       "tags": []
     },
     {
