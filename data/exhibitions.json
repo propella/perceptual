@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T12:09:37.405220+00:00",
+  "lastUpdated": "2026-07-28T11:08:59.210076+00:00",
   "exhibitions": [
     {
       "id": "7eecb21657d8babb",
@@ -25,6 +25,32 @@
       "imageUrl": "https://bt.imgix.net/exhibition/18157/main/1781125008538_405c3f425e93b565368c5900362ca330.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=97,0,924,520&v=14",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18157",
       "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "9826da1a1de01f4f",
+      "title": "海洋プラスチックの由来と影響 ー総合知で捉える地球規模の課題ー展",
+      "description": null,
+      "venue": "フジイギャラリー福岡",
+      "address": null,
+      "startDate": "2026-08-01",
+      "endDate": "2026-10-02",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/08/53d9544262ecae8f4899ca8fac886fc0-1200x667.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/4176/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "d2376da068a48eeb",
+      "title": "〈コレクション展〉pook 光ゆうらん－触れる・眺める・光のデジタルアート",
+      "description": null,
+      "venue": "鳥取県立美術館鳥取",
+      "address": null,
+      "startDate": "2026-07-14",
+      "endDate": "2026-10-07",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/07/pook_banner-1200x800.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/74607/",
+      "source": "artscape",
       "tags": []
     },
     {
