@@ -1,6 +1,19 @@
 {
-  "lastUpdated": "2026-07-29T11:13:33.054289+00:00",
+  "lastUpdated": "2026-07-30T10:58:09.347185+00:00",
   "exhibitions": [
+    {
+      "id": "f4aaf68714a9daf8",
+      "title": "Co-Program Reframed: 飛光、飛光",
+      "description": null,
+      "venue": "京都芸術センター",
+      "address": null,
+      "startDate": "2026-07-31",
+      "endDate": "2026-08-22",
+      "imageUrl": "https://bt.imgix.net/exhibition/18440/main/1785282470728_88abb77bf503e47d0018b39eef5b7017.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,0,1924,1082&v=4",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18440",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
     {
       "id": "4ff2066d8badd67a",
       "title": "ウジェーヌ・ブーダン展　瞬間の美学、光の探求",
@@ -11,19 +24,6 @@
       "endDate": "2026-08-29",
       "imageUrl": "https://bt.imgix.net/exhibition/18432/main/1784899591202_1220965e3ed00bb7d113bc2c3fe58bd0.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=107,0,1784,1004&v=18",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18432",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "234a815178feb9af",
-      "title": "小野忠弘展　創作の軌跡、新しい光",
-      "description": null,
-      "venue": "福井県立美術館",
-      "address": null,
-      "startDate": "2026-07-17",
-      "endDate": "2026-08-29",
-      "imageUrl": null,
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18437",
       "source": "bijutsu_techo",
       "tags": []
     },

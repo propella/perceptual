@@ -2,30 +2,56 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261107
+DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+LOCATION:NT湘南
+SUMMARY:NT湘南2026
+UID:a241b6e0-2747-45b4-82f0-a308fc86436e@a241.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260719
 DESCRIPTION:会場: 20日(月・祝)東京ビッグサイト南1ホール\n\nhttps://www.hakubutufes.info/
 LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
 SUMMARY:博物ふぇすてぃばる！12終了致しました！沢山のご来場、誠にありがとうございました！皆様の知的好奇心を満たすことが出来ましたでしょうか？またお会いしましょう♪
-UID:e19d98c0-b743-44b2-ae21-3b43e718eaed@e19d.org
+UID:2dc6c6d2-dd30-45b8-8687-c8317a26dcc0@2dc6.org
 URL:https://www.hakubutufes.info/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260717
-DTEND;VALUE=DATE:20260830
-DESCRIPTION:会場: 福井県立美術館\n\nhttps://bijutsutecho.com/exhibitions/18437
-LOCATION:福井県立美術館
-SUMMARY:小野忠弘展　創作の軌跡、新しい光
-UID:688036cf-f09b-4662-90d8-f44a0e9a8ff3@6880.org
-URL:https://bijutsutecho.com/exhibitions/18437
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20261003
+DESCRIPTION:会場: フジイギャラリー福岡\n\nhttps://artscape.jp/exhibitions/4176/
+LOCATION:フジイギャラリー福岡
+SUMMARY:海洋プラスチックの由来と影響 ー総合知で捉える地球規模の課題ー展
+UID:480f9622-aace-4f04-a3f8-cce9cdd3044f@480f.org
+URL:https://artscape.jp/exhibitions/4176/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261214
-DESCRIPTION:会場: NTShenzhen\n\nhttps://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
-LOCATION:NTShenzhen
-SUMMARY:NTShenzhen2026
-UID:2f8594ae-e215-456f-8a55-4294ee32c89a@2f85.org
-URL:https://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260823
+DESCRIPTION:会場: 京都芸術センター\n\nhttps://bijutsutecho.com/exhibitions/18440
+LOCATION:京都芸術センター
+SUMMARY:Co-Program Reframed: 飛光、飛光
+UID:61daf716-3874-4b24-a350-a4eb27ebedba@61da.org
+URL:https://bijutsutecho.com/exhibitions/18440
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+DESCRIPTION:会場: NT東京\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
+LOCATION:NT東京
+SUMMARY:NT東京2026
+UID:f1c92498-4caa-4955-bdcf-8134aae482e7@f1c9.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:会場: NT名古屋\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
+LOCATION:NT名古屋
+SUMMARY:NT名古屋2026
+UID:f6d1f2bf-398e-45ab-9505-3236ccaa8aab@f6d1.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260905
@@ -33,7 +59,7 @@ DTEND;VALUE=DATE:20261005
 DESCRIPTION:会場: ギャラリー1045富山富山\n\nhttps://artscape.jp/exhibitions/74734/
 LOCATION:ギャラリー1045富山富山
 SUMMARY:中村明×光明制作所展　光明プリズム 解像スペクトル
-UID:24ce000e-3ce8-4101-a976-45850e4eb995@24ce.org
+UID:7bab68c4-34cd-4e7d-a993-305f48f9ea7d@7bab.org
 URL:https://artscape.jp/exhibitions/74734/
 END:VEVENT
 BEGIN:VEVENT
@@ -42,7 +68,7 @@ DTEND;VALUE=DATE:20260830
 DESCRIPTION:会場: 松本市美術館\n\nhttps://bijutsutecho.com/exhibitions/18432
 LOCATION:松本市美術館
 SUMMARY:ウジェーヌ・ブーダン展　瞬間の美学、光の探求
-UID:21aad8df-6c92-42f0-b85a-06f5a4a6ec72@21aa.org
+UID:eba6c777-cfbd-427c-a091-704e7416a4b0@eba6.org
 URL:https://bijutsutecho.com/exhibitions/18432
 END:VEVENT
 BEGIN:VEVENT
@@ -51,43 +77,25 @@ DTEND;VALUE=DATE:20251006
 DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
 LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
 SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:31bc5830-007e-4ee5-a112-26966617f6fd@31bc.org
+UID:e8c43ee2-9efe-4140-8514-b0380069636e@e8c4.org
 URL:https://makezine.jp/event/mft2025/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261005
-DESCRIPTION:会場: NT東京\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
-LOCATION:NT東京
-SUMMARY:NT東京2026
-UID:72fdb1cd-c58a-484e-a4d7-dd1d7613a812@72fd.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:ebb7c21c-491d-4563-914f-9d8e3273c7f5@ebb7.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261107
-DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-LOCATION:NT湘南
-SUMMARY:NT湘南2026
-UID:c5ea8a87-a40f-4447-9e28-4a3d9dc1cd0c@c5ea.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:会場: NT名古屋\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
-LOCATION:NT名古屋
-SUMMARY:NT名古屋2026
-UID:d0d3857a-8358-47f9-aa44-59f6c0e21cbf@d0d3.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260801
-DTEND;VALUE=DATE:20261003
-DESCRIPTION:会場: フジイギャラリー福岡\n\nhttps://artscape.jp/exhibitions/4176/
-LOCATION:フジイギャラリー福岡
-SUMMARY:海洋プラスチックの由来と影響 ー総合知で捉える地球規模の課題ー展
-UID:eaaf19e1-721a-4137-82f4-c468c95ea3e1@eaaf.org
-URL:https://artscape.jp/exhibitions/4176/
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:会場: NTShenzhen\n\nhttps://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
+LOCATION:NTShenzhen
+SUMMARY:NTShenzhen2026
+UID:14a957ed-1db2-45d5-9f5f-b8590a458710@14a9.org
+URL:https://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260617
@@ -95,15 +103,7 @@ DTEND;VALUE=DATE:20260921
 DESCRIPTION:会場: 東京都写真美術館\n\nhttps://bijutsutecho.com/exhibitions/18157
 LOCATION:東京都写真美術館
 SUMMARY:出光真子　おんなのさくひん――ある映像作家の自伝
-UID:e090db69-9920-4b12-82ff-47a571205afb@e090.org
+UID:89a62cd7-a524-4ae6-821d-9e1fe32525a8@89a6.org
 URL:https://bijutsutecho.com/exhibitions/18157
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261108
-DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-LOCATION:NTいわて
-SUMMARY:NTいわて2026
-UID:a4a73b08-e144-4b93-aaad-f75a48640b23@a4a7.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 END:VCALENDAR
