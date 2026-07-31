@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T10:58:09.347185+00:00",
+  "lastUpdated": "2026-07-31T11:17:21.788252+00:00",
   "exhibitions": [
     {
       "id": "f4aaf68714a9daf8",
@@ -11,6 +11,19 @@
       "endDate": "2026-08-22",
       "imageUrl": "https://bt.imgix.net/exhibition/18440/main/1785282470728_88abb77bf503e47d0018b39eef5b7017.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,0,1924,1082&v=4",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18440",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "619ea253b1219db1",
+      "title": "撮影：竹久直樹",
+      "description": null,
+      "venue": "POST",
+      "address": null,
+      "startDate": "2026-07-31",
+      "endDate": "2026-08-22",
+      "imageUrl": "https://bt.imgix.net/exhibition/18441/main/1785283068074_03ab8f7e6cd51d001795c12a0fb1e722.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=126,0,5546,3120&v=3",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18441",
       "source": "bijutsu_techo",
       "tags": []
     },
@@ -54,33 +67,17 @@
       "tags": []
     },
     {
-      "id": "9826da1a1de01f4f",
-      "title": "海洋プラスチックの由来と影響 ー総合知で捉える地球規模の課題ー展",
+      "id": "13028ba5e1b7ac9f",
+      "title": "特別展「石川賢治月光写真展　月光浴　月夜の晩に」",
       "description": null,
-      "venue": "フジイギャラリー福岡",
+      "venue": "アートアジェンダ",
       "address": null,
-      "startDate": "2026-08-01",
-      "endDate": "2026-10-02",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/08/53d9544262ecae8f4899ca8fac886fc0-1200x667.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/4176/",
-      "source": "artscape",
+      "startDate": "2026-09-19",
+      "endDate": "2026-10-25",
+      "imageUrl": "https://www.artagenda.jp/img/event/12659/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12659",
+      "source": "artagenda",
       "tags": []
-    },
-    {
-      "id": "a5868f178432aee3",
-      "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
-      "description": null,
-      "venue": "東京ビッグサイト　西4ホール東京都江東区有明3-11-1",
-      "address": null,
-      "startDate": "2025-10-04",
-      "endDate": "2025-10-05",
-      "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
-      "sourceUrl": "https://makezine.jp/event/mft2025/",
-      "source": "maker_faire",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
     },
     {
       "id": "97cd896f6a52e6db",
