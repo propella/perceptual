@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T10:26:24.945039+00:00",
+  "lastUpdated": "2026-08-02T10:24:40.558130+00:00",
   "exhibitions": [
     {
       "id": "f4aaf68714a9daf8",
@@ -54,16 +54,16 @@
       "tags": []
     },
     {
-      "id": "08f3f59721431cee",
-      "title": "中村明×光明制作所展　光明プリズム 解像スペクトル",
+      "id": "13028ba5e1b7ac9f",
+      "title": "特別展「石川賢治月光写真展　月光浴　月夜の晩に」",
       "description": null,
-      "venue": "ギャラリー1045富山富山",
+      "venue": "アートアジェンダ",
       "address": null,
-      "startDate": "2026-09-05",
-      "endDate": "2026-10-04",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/07/77cac09d0d15310b9c2cf61e9379fe24-857x1200.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/74734/",
-      "source": "artscape",
+      "startDate": "2026-09-19",
+      "endDate": "2026-10-25",
+      "imageUrl": "https://www.artagenda.jp/img/event/12659/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12659",
+      "source": "artagenda",
       "tags": []
     },
     {
