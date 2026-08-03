@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T10:24:40.558130+00:00",
+  "lastUpdated": "2026-08-03T12:11:45.913345+00:00",
   "exhibitions": [
     {
       "id": "f4aaf68714a9daf8",
@@ -24,19 +24,6 @@
       "endDate": "2026-08-22",
       "imageUrl": "https://bt.imgix.net/exhibition/18441/main/1785283068074_03ab8f7e6cd51d001795c12a0fb1e722.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=126,0,5546,3120&v=3",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18441",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "4ff2066d8badd67a",
-      "title": "ウジェーヌ・ブーダン展　瞬間の美学、光の探求",
-      "description": null,
-      "venue": "松本市美術館",
-      "address": null,
-      "startDate": "2026-07-06",
-      "endDate": "2026-08-29",
-      "imageUrl": "https://bt.imgix.net/exhibition/18432/main/1784899591202_1220965e3ed00bb7d113bc2c3fe58bd0.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=107,0,1784,1004&v=18",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18432",
       "source": "bijutsu_techo",
       "tags": []
     },
