@@ -1,6 +1,19 @@
 {
-  "lastUpdated": "2026-08-03T12:11:45.913345+00:00",
+  "lastUpdated": "2026-08-04T11:13:55.868890+00:00",
   "exhibitions": [
+    {
+      "id": "a7105000dd90c4fe",
+      "title": "多田美波―光、凛と ゆれる",
+      "description": null,
+      "venue": "東京都現代美術館",
+      "address": null,
+      "startDate": "2026-08-28",
+      "endDate": "2026-12-05",
+      "imageUrl": "https://bt.imgix.net/exhibition/18497/main/1785464017380_e8d2bffdcf512d8bc27284f04bc605b2.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=311,0,4177,2350&v=4",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18497",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
     {
       "id": "f4aaf68714a9daf8",
       "title": "Co-Program Reframed: 飛光、飛光",
@@ -38,19 +51,6 @@
       "imageUrl": "https://bt.imgix.net/exhibition/18157/main/1781125008538_405c3f425e93b565368c5900362ca330.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=97,0,924,520&v=14",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18157",
       "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "13028ba5e1b7ac9f",
-      "title": "特別展「石川賢治月光写真展　月光浴　月夜の晩に」",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-09-19",
-      "endDate": "2026-10-25",
-      "imageUrl": "https://www.artagenda.jp/img/event/12659/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12659",
-      "source": "artagenda",
       "tags": []
     },
     {
