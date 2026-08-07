@@ -1,6 +1,19 @@
 {
-  "lastUpdated": "2026-08-06T11:12:04.184497+00:00",
+  "lastUpdated": "2026-08-07T09:48:39.772126+00:00",
   "exhibitions": [
+    {
+      "id": "a4dac06ac06886d9",
+      "title": "秋山珠里・服部憲明による二人展「光の後始末〈ep.3〉」",
+      "description": null,
+      "venue": "Gallery 舞台裏",
+      "address": null,
+      "startDate": "2026-08-04",
+      "endDate": "2026-08-29",
+      "imageUrl": "https://bt.imgix.net/exhibition/18535/main/1785994186332_cd58fe52a4947ad235bf1c220423c3b8.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=286,0,4675,2630&v=13",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18535",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
     {
       "id": "a7105000dd90c4fe",
       "title": "多田美波―光、凛と ゆれる",
@@ -15,32 +28,6 @@
       "tags": []
     },
     {
-      "id": "f4aaf68714a9daf8",
-      "title": "Co-Program Reframed: 飛光、飛光",
-      "description": null,
-      "venue": "京都芸術センター",
-      "address": null,
-      "startDate": "2026-07-31",
-      "endDate": "2026-08-22",
-      "imageUrl": "https://bt.imgix.net/exhibition/18440/main/1785282470728_88abb77bf503e47d0018b39eef5b7017.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=0,0,1924,1082&v=4",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18440",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "619ea253b1219db1",
-      "title": "撮影：竹久直樹",
-      "description": null,
-      "venue": "POST",
-      "address": null,
-      "startDate": "2026-07-31",
-      "endDate": "2026-08-22",
-      "imageUrl": "https://bt.imgix.net/exhibition/18441/main/1785283068074_03ab8f7e6cd51d001795c12a0fb1e722.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=126,0,5546,3120&v=3",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18441",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
       "id": "1715b3f8e9474e3a",
       "title": "出光真子　おんなのさくひん――ある映像作家の自伝",
       "description": null,
@@ -51,6 +38,19 @@
       "imageUrl": "https://bt.imgix.net/exhibition/18157/main/1781125008538_405c3f425e93b565368c5900362ca330.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=97,0,924,520&v=14",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18157",
       "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "5faca5c2cbcf6bb0",
+      "title": "MOTコレクション　いつかの光を今みている",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-09-19",
+      "endDate": "2027-01-06",
+      "imageUrl": "https://www.artagenda.jp/img/event/12749/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12749",
+      "source": "artagenda",
       "tags": []
     },
     {
