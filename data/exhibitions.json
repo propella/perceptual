@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T09:27:53.915071+00:00",
+  "lastUpdated": "2026-08-10T10:07:55.368339+00:00",
   "exhibitions": [
     {
       "id": "a4dac06ac06886d9",
@@ -41,15 +41,15 @@
       "tags": []
     },
     {
-      "id": "5faca5c2cbcf6bb0",
-      "title": "MOTコレクション　いつかの光を今みている",
+      "id": "4330ac2bc02dc054",
+      "title": "芸工展2026「観音圖■相澤哲也▲溝口泰信●丸井金猊」",
       "description": null,
       "venue": "アートアジェンダ",
       "address": null,
-      "startDate": "2026-09-19",
-      "endDate": "2027-01-06",
-      "imageUrl": "https://www.artagenda.jp/img/event/12749/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12749",
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-31",
+      "imageUrl": "https://www.artagenda.jp/img/event/12754/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12754",
       "source": "artagenda",
       "tags": []
     },
