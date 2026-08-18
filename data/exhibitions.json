@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T09:29:20.305257+00:00",
+  "lastUpdated": "2026-08-18T09:21:32.428051+00:00",
   "exhibitions": [
     {
       "id": "a4dac06ac06886d9",
@@ -41,16 +41,16 @@
       "tags": []
     },
     {
-      "id": "a5452fd6853cb205",
-      "title": "山内光枝展　潮ノ記",
+      "id": "e4502e4b945a59f5",
+      "title": "フォンタネージ――イタリアの光・心の風景",
       "description": null,
-      "venue": "福岡市美術館福岡",
+      "venue": "アートアジェンダ",
       "address": null,
-      "startDate": "2026-09-08",
-      "endDate": "2026-12-20",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/08/yamauchi-flyer_page-0001-849x1200.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/75953/",
-      "source": "artscape",
+      "startDate": "2026-10-17",
+      "endDate": "2027-01-24",
+      "imageUrl": "https://www.artagenda.jp/img/event/11566/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11566",
+      "source": "artagenda",
       "tags": []
     },
     {
@@ -65,22 +65,6 @@
       "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12746",
       "source": "artagenda",
       "tags": []
-    },
-    {
-      "id": "a5868f178432aee3",
-      "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
-      "description": null,
-      "venue": "東京ビッグサイト　西4ホール東京都江東区有明3-11-1",
-      "address": null,
-      "startDate": "2025-10-04",
-      "endDate": "2025-10-05",
-      "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
-      "sourceUrl": "https://makezine.jp/event/mft2025/",
-      "source": "maker_faire",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
     },
     {
       "id": "97cd896f6a52e6db",
