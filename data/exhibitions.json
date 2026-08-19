@@ -1,6 +1,19 @@
 {
-  "lastUpdated": "2026-08-18T09:21:32.428051+00:00",
+  "lastUpdated": "2026-08-19T09:27:48.835783+00:00",
   "exhibitions": [
+    {
+      "id": "9cb4b2199c75c75a",
+      "title": "加納光於展《初期銅版画―1956年「鳥」から1963年「HYPNOS」まで》",
+      "description": null,
+      "venue": "ギャルリプチボワ",
+      "address": null,
+      "startDate": "2026-08-16",
+      "endDate": "2026-09-04",
+      "imageUrl": "https://bt.imgix.net/exhibition/18572/main/1787062660623_c013434e7ee37bba9d69196249885116.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=144,0,1882,1059&v=8",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18572",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
     {
       "id": "a4dac06ac06886d9",
       "title": "秋山珠里・服部憲明による二人展「光の後始末〈ep.3〉」",
@@ -54,17 +67,20 @@
       "tags": []
     },
     {
-      "id": "5e22743ddeba31de",
-      "title": "印象派の先駆者　ウジェーヌ・ブーダン展 ―瞬間の美学、光の探求",
+      "id": "a5868f178432aee3",
+      "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
       "description": null,
-      "venue": "アートアジェンダ",
+      "venue": "東京ビッグサイト　西4ホール東京都江東区有明3-11-1",
       "address": null,
-      "startDate": "2026-09-12",
-      "endDate": "2026-11-03",
-      "imageUrl": "https://www.artagenda.jp/img/event/12746/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12746",
-      "source": "artagenda",
-      "tags": []
+      "startDate": "2025-10-04",
+      "endDate": "2025-10-05",
+      "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
+      "sourceUrl": "https://makezine.jp/event/mft2025/",
+      "source": "maker_faire",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
     },
     {
       "id": "97cd896f6a52e6db",
