@@ -1,6 +1,19 @@
 {
-  "lastUpdated": "2026-08-20T09:22:42.735525+00:00",
+  "lastUpdated": "2026-08-21T09:24:57.240577+00:00",
   "exhibitions": [
+    {
+      "id": "94040d8c270b94b9",
+      "title": "綿引展子「光がいちはやくなぞる道」",
+      "description": null,
+      "venue": "ホワイトストーンギャラリー 銀座新館",
+      "address": null,
+      "startDate": "2026-09-09",
+      "endDate": "2026-10-02",
+      "imageUrl": "https://bt.imgix.net/exhibition/18576/main/1787207932744_ac13fdbc4d261572e7a4a82dcb144e87.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=7,0,1048,590&v=2",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18576",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
     {
       "id": "9cb4b2199c75c75a",
       "title": "加納光於展《初期銅版画―1956年「鳥」から1963年「HYPNOS」まで》",
@@ -54,16 +67,29 @@
       "tags": []
     },
     {
-      "id": "e4502e4b945a59f5",
-      "title": "フォンタネージ――イタリアの光・心の風景",
+      "id": "4adbaea5457aa1fe",
+      "title": "綿引展子『光がいちはやくなぞる道』",
       "description": null,
-      "venue": "アートアジェンダ",
+      "venue": "ホワイトストーンギャラリー銀座新館東京",
       "address": null,
-      "startDate": "2026-10-17",
-      "endDate": "2027-01-24",
-      "imageUrl": "https://www.artagenda.jp/img/event/11566/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11566",
-      "source": "artagenda",
+      "startDate": "2026-09-10",
+      "endDate": "2026-10-03",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/08/ArtScape_Nobuko-Watabiki_20260910-tyo-n-849x1200.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/76714/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "016ea3c3a6fbbd8f",
+      "title": "【11/14】特別対談：鈴木昭男＋水沢 勉「ば　と　からだ　と　ひびき」",
+      "description": null,
+      "venue": "鳥取県立美術館鳥取",
+      "address": null,
+      "startDate": "2026-09-06",
+      "endDate": "2026-09-06",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/08/2609006_event.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/76672/",
+      "source": "artscape",
       "tags": []
     },
     {
