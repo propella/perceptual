@@ -1,6 +1,19 @@
 {
-  "lastUpdated": "2026-08-25T09:24:22.286382+00:00",
+  "lastUpdated": "2026-08-26T09:29:53.714517+00:00",
   "exhibitions": [
+    {
+      "id": "8035fd63cb42f3df",
+      "title": "米村竜光「TEKU · MAKU · MAYAKON」",
+      "description": null,
+      "venue": "MORI YU GALLERY KYOTO",
+      "address": null,
+      "startDate": "2026-08-21",
+      "endDate": "2026-09-12",
+      "imageUrl": "https://bt.imgix.net/exhibition/18599/main/1787720372767_931247624e9a128df1760caee88e9ed9.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=137,0,2684,1510&v=9",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18599",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
     {
       "id": "94040d8c270b94b9",
       "title": "綿引展子「光がいちはやくなぞる道」",
@@ -64,19 +77,6 @@
       "imageUrl": "https://bt.imgix.net/exhibition/18157/main/1781125008538_405c3f425e93b565368c5900362ca330.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=97,0,924,520&v=15",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18157",
       "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "5efc27861fa5dbae",
-      "title": "庄島歩音 個展『Storytelling』",
-      "description": null,
-      "venue": "Sprout Books and Art東京",
-      "address": null,
-      "startDate": "2026-09-12",
-      "endDate": "2026-09-27",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/08/dd16c939a727240337bdc777f9ad5625-828x1200.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/76526/",
-      "source": "artscape",
       "tags": []
     },
     {
