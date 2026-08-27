@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T09:29:53.714517+00:00",
+  "lastUpdated": "2026-08-27T19:19:49.527065+00:00",
   "exhibitions": [
     {
       "id": "8035fd63cb42f3df",
@@ -9,7 +9,7 @@
       "address": null,
       "startDate": "2026-08-21",
       "endDate": "2026-09-12",
-      "imageUrl": "https://bt.imgix.net/exhibition/18599/main/1787720372767_931247624e9a128df1760caee88e9ed9.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=137,0,2684,1510&v=9",
+      "imageUrl": "https://bt.imgix.net/exhibition/18599/main/1787720372767_931247624e9a128df1760caee88e9ed9.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=137,0,2684,1510&v=11",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18599",
       "source": "bijutsu_techo",
       "tags": []
@@ -80,20 +80,30 @@
       "tags": []
     },
     {
-      "id": "a5868f178432aee3",
-      "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
+      "id": "e77fc6ec41ae4193",
+      "title": "特別展「石川賢治月光写真展　月光浴　月夜の晩に」",
       "description": null,
-      "venue": "東京ビッグサイト　西4ホール東京都江東区有明3-11-1",
+      "venue": "福岡市科学館福岡",
       "address": null,
-      "startDate": "2025-10-04",
-      "endDate": "2025-10-05",
-      "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
-      "sourceUrl": "https://makezine.jp/event/mft2025/",
-      "source": "maker_faire",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
+      "startDate": "2026-09-19",
+      "endDate": "2026-10-25",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/08/8dea046cf7dd1cb1b1ab79fa42129492-849x1200.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/77119/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "957c6731398a9a99",
+      "title": "伊藤誠　遅延幾何学―夢を見るための機械Ⅱ  / ITO Makoto Delayed Geometry；Apparatus for Dreaming 2",
+      "description": null,
+      "venue": "小山市立車屋美術館栃木",
+      "address": null,
+      "startDate": "2026-09-19",
+      "endDate": "2026-12-06",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/08/mi_dg_flyer_260807-848x1200.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/77065/",
+      "source": "artscape",
+      "tags": []
     },
     {
       "id": "97cd896f6a52e6db",
