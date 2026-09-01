@@ -1,6 +1,19 @@
 {
-  "lastUpdated": "2026-08-31T16:28:35.017864+00:00",
+  "lastUpdated": "2026-09-01T13:46:10.256741+00:00",
   "exhibitions": [
+    {
+      "id": "63d7431a05b4381a",
+      "title": "光の後始末〈ep.４〉by Sprout Curation",
+      "description": null,
+      "venue": "CADAN大手町",
+      "address": null,
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-18",
+      "imageUrl": "https://bt.imgix.net/exhibition/18617/main/1788212450224_16e1a8f486377100e2d4e35be0bd68db.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=31,0,1955,1100&v=2",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18617",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
     {
       "id": "f64a7ef6af492402",
       "title": "楽しむスケッチ——台湾近代美術の光景を訪ねて",
@@ -90,32 +103,6 @@
       "imageUrl": "https://bt.imgix.net/exhibition/18157/main/1781125008538_405c3f425e93b565368c5900362ca330.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=97,0,924,520&v=15",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18157",
       "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "e77fc6ec41ae4193",
-      "title": "特別展「石川賢治月光写真展　月光浴　月夜の晩に」",
-      "description": null,
-      "venue": "福岡市科学館福岡",
-      "address": null,
-      "startDate": "2026-09-19",
-      "endDate": "2026-10-25",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/08/8dea046cf7dd1cb1b1ab79fa42129492-849x1200.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/77119/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "957c6731398a9a99",
-      "title": "伊藤誠　遅延幾何学―夢を見るための機械Ⅱ  / ITO Makoto Delayed Geometry；Apparatus for Dreaming 2",
-      "description": null,
-      "venue": "小山市立車屋美術館栃木",
-      "address": null,
-      "startDate": "2026-09-19",
-      "endDate": "2026-12-06",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/08/mi_dg_flyer_260807-848x1200.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/77065/",
-      "source": "artscape",
       "tags": []
     },
     {
