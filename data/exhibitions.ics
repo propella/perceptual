@@ -2,65 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260909
-DTEND;VALUE=DATE:20261003
-DESCRIPTION:会場: ホワイトストーンギャラリー 銀座新館\n\nhttps://bijutsutecho.com/exhibitions/18576
-LOCATION:ホワイトストーンギャラリー 銀座新館
-SUMMARY:綿引展子「光がいちはやくなぞる道」
-UID:4791ea6b-59c0-44d2-b34a-175c988a81a2@4791.org
-URL:https://bijutsutecho.com/exhibitions/18576
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261107
-DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-LOCATION:NT湘南
-SUMMARY:NT湘南2026
-UID:e117fa47-c3e7-43e1-9abf-4025ed96b2a5@e117.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261108
-DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-LOCATION:NTいわて
-SUMMARY:NTいわて2026
-UID:8714b9b7-9874-456a-ac8a-ea485a4e77d2@8714.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260823
-DTEND;VALUE=DATE:20260912
-DESCRIPTION:会場: ギャルリー東京ユマニテ\n\nhttps://bijutsutecho.com/exhibitions/18604
-LOCATION:ギャルリー東京ユマニテ
-SUMMARY:加納光於　KANO Mitsuo　《鏡と雷鳴》　《粒子と雷鳴》　《雷鳴の頸飾り》
-UID:32f1bb35-1501-40f1-9133-4e8e459a2692@32f1.org
-URL:https://bijutsutecho.com/exhibitions/18604
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260905
-DESCRIPTION:会場: ギャルリプチボワ\n\nhttps://bijutsutecho.com/exhibitions/18572
-LOCATION:ギャルリプチボワ
-SUMMARY:加納光於展《初期銅版画―1956年「鳥」から1963年「HYPNOS」まで》
-UID:c1db584f-1246-4eef-ae63-f24ffd2c2f37@c1db.org
-URL:https://bijutsutecho.com/exhibitions/18572
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260917
 DESCRIPTION:会場: 思文閣銀座\n\nhttps://bijutsutecho.com/exhibitions/18614
 LOCATION:思文閣銀座
 SUMMARY:楽しむスケッチ——台湾近代美術の光景を訪ねて
-UID:eeb1ca91-505d-4ac3-b13e-8169de021d52@eeb1.org
+UID:fd9f9fad-3fbe-4c96-bd1c-706a9bd67ae4@fd9f.org
 URL:https://bijutsutecho.com/exhibitions/18614
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260831
-DTEND;VALUE=DATE:20260919
-DESCRIPTION:会場: CADAN 大手町\n\nhttps://bijutsutecho.com/exhibitions/18617
-LOCATION:CADAN 大手町
-SUMMARY:光の後始末〈ep.４〉by Sprout Curation
-UID:9e34bd75-be02-421f-ae2b-6449f3941d97@9e34.org
-URL:https://bijutsutecho.com/exhibitions/18617
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261212
@@ -68,35 +16,8 @@ DTEND;VALUE=DATE:20261214
 DESCRIPTION:会場: NTShenzhen\n\nhttps://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
 LOCATION:NTShenzhen
 SUMMARY:NTShenzhen2026
-UID:4f3b330b-6f08-4982-9fe2-fa96251dbe62@4f3b.org
+UID:dbff7f1f-f1bb-4668-a415-ee0e911ee97b@dbff.org
 URL:https://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:会場: NT名古屋\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
-LOCATION:NT名古屋
-SUMMARY:NT名古屋2026
-UID:0febe694-540c-40f3-b3df-00042fe7432c@0feb.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260617
-DTEND;VALUE=DATE:20260921
-DESCRIPTION:会場: 東京都写真美術館\n\nhttps://bijutsutecho.com/exhibitions/18157
-LOCATION:東京都写真美術館
-SUMMARY:出光真子　おんなのさくひん――ある映像作家の自伝
-UID:a261bf5a-6dbb-4926-be3d-e7872230d02a@a261.org
-URL:https://bijutsutecho.com/exhibitions/18157
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20261206
-DESCRIPTION:会場: 東京都現代美術館\n\nhttps://bijutsutecho.com/exhibitions/18497
-LOCATION:東京都現代美術館
-SUMMARY:多田美波―光、凛と ゆれる
-UID:c78240ab-c83a-4b67-aba1-5facf2d6c630@c782.org
-URL:https://bijutsutecho.com/exhibitions/18497
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261003
@@ -104,17 +25,26 @@ DTEND;VALUE=DATE:20261005
 DESCRIPTION:会場: NT東京\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
 LOCATION:NT東京
 SUMMARY:NT東京2026
-UID:905bd013-abdb-4cad-92ba-3499a7a4fd14@905b.org
+UID:3bfbf1d4-b957-48c9-b5ce-6ec8721e3724@3bfb.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251006
-DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
-LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
-SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:640d3fff-67dc-4a45-9441-e32e56a85fe2@640d.org
-URL:https://makezine.jp/event/mft2025/
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:会場: NT名古屋\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
+LOCATION:NT名古屋
+SUMMARY:NT名古屋2026
+UID:efa7aa81-093a-4489-8c16-57a65a854d0b@efa7.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260912
+DESCRIPTION:会場: ギャルリー東京ユマニテ\n\nhttps://bijutsutecho.com/exhibitions/18604
+LOCATION:ギャルリー東京ユマニテ
+SUMMARY:加納光於　KANO Mitsuo　《鏡と雷鳴》　《粒子と雷鳴》　《雷鳴の頸飾り》
+UID:94c6df77-5646-43d2-ab48-391be41ce97f@94c6.org
+URL:https://bijutsutecho.com/exhibitions/18604
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260821
@@ -122,15 +52,85 @@ DTEND;VALUE=DATE:20260913
 DESCRIPTION:会場: MORI YU GALLERY KYOTO\n\nhttps://bijutsutecho.com/exhibitions/18599
 LOCATION:MORI YU GALLERY KYOTO
 SUMMARY:米村竜光「TEKU · MAKU · MAYAKON」
-UID:17e8537d-6caa-4102-b535-fd1e57478c91@17e8.org
+UID:25f6479b-9aff-4025-aa5a-b91531b21e96@25f6.org
 URL:https://bijutsutecho.com/exhibitions/18599
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260921
+DESCRIPTION:会場: 東京都写真美術館\n\nhttps://bijutsutecho.com/exhibitions/18157
+LOCATION:東京都写真美術館
+SUMMARY:出光真子　おんなのさくひん――ある映像作家の自伝
+UID:3b2e41b5-5297-4083-a4dc-5483d5778b2c@3b2e.org
+URL:https://bijutsutecho.com/exhibitions/18157
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:19ad7130-95fd-48c7-87ff-057da5204bdb@19ad.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260719
 DESCRIPTION:会場: 20日(月・祝)東京ビッグサイト南1ホール\n\nhttps://www.hakubutufes.info/
 LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
 SUMMARY:博物ふぇすてぃばる！12終了致しました！沢山のご来場、誠にありがとうございました！皆様の知的好奇心を満たすことが出来ましたでしょうか？またお会いしましょう♪
-UID:c0b18568-dd08-486b-b935-5ee71f996f69@c0b1.org
+UID:cf3645f6-37d9-4e00-92fe-2bcdffbd4f6c@cf36.org
 URL:https://www.hakubutufes.info/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20261206
+DESCRIPTION:会場: 東京都現代美術館\n\nhttps://bijutsutecho.com/exhibitions/18497
+LOCATION:東京都現代美術館
+SUMMARY:多田美波―光、凛と ゆれる
+UID:10093d50-3397-41cd-a35f-6de11de52a0c@1009.org
+URL:https://bijutsutecho.com/exhibitions/18497
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251006
+DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
+LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
+SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
+UID:72d7cbfb-3d7a-442e-b99a-825b08ee8386@72d7.org
+URL:https://makezine.jp/event/mft2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260905
+DESCRIPTION:会場: ギャルリプチボワ\n\nhttps://bijutsutecho.com/exhibitions/18572
+LOCATION:ギャルリプチボワ
+SUMMARY:加納光於展《初期銅版画―1956年「鳥」から1963年「HYPNOS」まで》
+UID:b1fb0597-0bcb-44bd-8da3-d638175c0420@b1fb.org
+URL:https://bijutsutecho.com/exhibitions/18572
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261107
+DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+LOCATION:NT湘南
+SUMMARY:NT湘南2026
+UID:fc509f64-5b9f-48b2-9ac1-34101e92743f@fc50.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20261003
+DESCRIPTION:会場: ホワイトストーンギャラリー 銀座新館\n\nhttps://bijutsutecho.com/exhibitions/18576
+LOCATION:ホワイトストーンギャラリー 銀座新館
+SUMMARY:綿引展子「光がいちはやくなぞる道」
+UID:c8a7f14c-1188-447a-bdab-75cffc1a0946@c8a7.org
+URL:https://bijutsutecho.com/exhibitions/18576
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260919
+DESCRIPTION:会場: CADAN 大手町\n\nhttps://bijutsutecho.com/exhibitions/18617
+LOCATION:CADAN 大手町
+SUMMARY:光の後始末〈ep.４〉by Sprout Curation
+UID:b84cb84f-0d16-4077-acd0-e0dca15944d5@b84c.org
+URL:https://bijutsutecho.com/exhibitions/18617
 END:VEVENT
 END:VCALENDAR
