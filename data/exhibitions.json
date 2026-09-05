@@ -1,6 +1,19 @@
 {
-  "lastUpdated": "2026-09-04T13:00:11.780341+00:00",
+  "lastUpdated": "2026-09-05T12:12:33.163139+00:00",
   "exhibitions": [
+    {
+      "id": "22ad1cab17febd1a",
+      "title": "島田章三展　空間の中の人のかたち、日常の中の人のかたち",
+      "description": null,
+      "venue": "横須賀美術館",
+      "address": null,
+      "startDate": "2026-09-04",
+      "endDate": "2026-11-02",
+      "imageUrl": null,
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18629",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
     {
       "id": "526b75ed85402231",
       "title": "光の後始末〈ep.４〉by Sprout Curation",
@@ -37,45 +50,6 @@
       "endDate": "2026-09-11",
       "imageUrl": "https://bt.imgix.net/exhibition/18604/main/1787892619242_7d9140a484c403e3f9192ea76d4c970f.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=242,0,3637,2046&v=12",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18604",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "8035fd63cb42f3df",
-      "title": "米村竜光「TEKU · MAKU · MAYAKON」",
-      "description": null,
-      "venue": "MORI YU GALLERY KYOTO",
-      "address": null,
-      "startDate": "2026-08-21",
-      "endDate": "2026-09-12",
-      "imageUrl": "https://bt.imgix.net/exhibition/18599/main/1787720372767_931247624e9a128df1760caee88e9ed9.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=137,0,2684,1510&v=11",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18599",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "94040d8c270b94b9",
-      "title": "綿引展子「光がいちはやくなぞる道」",
-      "description": null,
-      "venue": "ホワイトストーンギャラリー 銀座新館",
-      "address": null,
-      "startDate": "2026-09-09",
-      "endDate": "2026-10-02",
-      "imageUrl": "https://bt.imgix.net/exhibition/18576/main/1787207932744_ac13fdbc4d261572e7a4a82dcb144e87.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=7,0,1048,590&v=2",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18576",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "9cb4b2199c75c75a",
-      "title": "加納光於展《初期銅版画―1956年「鳥」から1963年「HYPNOS」まで》",
-      "description": null,
-      "venue": "ギャルリプチボワ",
-      "address": null,
-      "startDate": "2026-08-16",
-      "endDate": "2026-09-04",
-      "imageUrl": "https://bt.imgix.net/exhibition/18572/main/1787062660623_c013434e7ee37bba9d69196249885116.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=144,0,1882,1059&v=8",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18572",
       "source": "bijutsu_techo",
       "tags": []
     },
