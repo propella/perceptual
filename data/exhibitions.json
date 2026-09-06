@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T12:12:33.163139+00:00",
+  "lastUpdated": "2026-09-06T12:27:01.901500+00:00",
   "exhibitions": [
     {
       "id": "22ad1cab17febd1a",
@@ -50,6 +50,19 @@
       "endDate": "2026-09-11",
       "imageUrl": "https://bt.imgix.net/exhibition/18604/main/1787892619242_7d9140a484c403e3f9192ea76d4c970f.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=242,0,3637,2046&v=12",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18604",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "8035fd63cb42f3df",
+      "title": "米村竜光「TEKU · MAKU · MAYAKON」",
+      "description": null,
+      "venue": "MORI YU GALLERY KYOTO",
+      "address": null,
+      "startDate": "2026-08-21",
+      "endDate": "2026-09-12",
+      "imageUrl": "https://bt.imgix.net/exhibition/18599/main/1787720372767_931247624e9a128df1760caee88e9ed9.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=137,0,2684,1510&v=11",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18599",
       "source": "bijutsu_techo",
       "tags": []
     },
