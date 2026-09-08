@@ -1,6 +1,32 @@
 {
-  "lastUpdated": "2026-09-07T14:33:25.846759+00:00",
+  "lastUpdated": "2026-09-08T13:09:02.028209+00:00",
   "exhibitions": [
+    {
+      "id": "03c3181b1206fa25",
+      "title": "Rhizomatiks「After Understanding」",
+      "description": null,
+      "venue": "KOTARO NUKAGA 天王洲",
+      "address": null,
+      "startDate": "2026-09-11",
+      "endDate": "2026-10-16",
+      "imageUrl": "https://bt.imgix.net/exhibition/18665/main/1788569819972_c86f654420530307bdc445ae6d2f1aa4.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=101,0,2693,1515&v=5",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18665",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "c2d877360a2fd264",
+      "title": "蜷川実花展 はじまりの光",
+      "description": null,
+      "venue": "川口市立美術館",
+      "address": null,
+      "startDate": "2026-09-11",
+      "endDate": "2026-11-28",
+      "imageUrl": "https://bt.imgix.net/exhibition/18676/main/1788736376173_014bb7e35151328b4fb3b6eb1351e587.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=119,0,3761,2116&v=3",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18676",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
     {
       "id": "22ad1cab17febd1a",
       "title": "島田章三展　空間の中の人のかたち、日常の中の人のかたち",
@@ -11,45 +37,6 @@
       "endDate": "2026-11-02",
       "imageUrl": null,
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18629",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "526b75ed85402231",
-      "title": "光の後始末〈ep.４〉by Sprout Curation",
-      "description": null,
-      "venue": "CADAN 大手町",
-      "address": null,
-      "startDate": "2026-08-31",
-      "endDate": "2026-09-18",
-      "imageUrl": "https://bt.imgix.net/exhibition/18617/main/1788212450224_16e1a8f486377100e2d4e35be0bd68db.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=31,0,1955,1100&v=5",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18617",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "f64a7ef6af492402",
-      "title": "楽しむスケッチ——台湾近代美術の光景を訪ねて",
-      "description": null,
-      "venue": "思文閣銀座",
-      "address": null,
-      "startDate": "2026-08-27",
-      "endDate": "2026-09-16",
-      "imageUrl": "https://bt.imgix.net/exhibition/18614/main/1788104942791_f675e46c7fcfbe4469cb357a55f90e61.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=41,0,1416,797&v=10",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18614",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "415240b33edfdb13",
-      "title": "加納光於　KANO Mitsuo　《鏡と雷鳴》　《粒子と雷鳴》　《雷鳴の頸飾り》",
-      "description": null,
-      "venue": "ギャルリー東京ユマニテ",
-      "address": null,
-      "startDate": "2026-08-23",
-      "endDate": "2026-09-11",
-      "imageUrl": "https://bt.imgix.net/exhibition/18604/main/1787892619242_7d9140a484c403e3f9192ea76d4c970f.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=242,0,3637,2046&v=12",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18604",
       "source": "bijutsu_techo",
       "tags": []
     },
