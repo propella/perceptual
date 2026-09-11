@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T13:12:13.912650+00:00",
+  "lastUpdated": "2026-09-11T13:05:41.561571+00:00",
   "exhibitions": [
     {
       "id": "03c3181b1206fa25",
@@ -15,14 +15,14 @@
       "tags": []
     },
     {
-      "id": "c2d877360a2fd264",
-      "title": "蜷川実花展 はじまりの光",
+      "id": "dcfdcf6b099d7e99",
+      "title": "蜷川実花展　はじまりの光",
       "description": null,
       "venue": "川口市立美術館",
       "address": null,
       "startDate": "2026-09-11",
       "endDate": "2026-11-28",
-      "imageUrl": "https://bt.imgix.net/exhibition/18676/main/1788736376173_014bb7e35151328b4fb3b6eb1351e587.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=119,0,3761,2116&v=3",
+      "imageUrl": "https://bt.imgix.net/exhibition/18676/main/1788736376173_014bb7e35151328b4fb3b6eb1351e587.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=119,0,3761,2116&v=6",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18676",
       "source": "bijutsu_techo",
       "tags": []
@@ -67,28 +67,15 @@
       "tags": []
     },
     {
-      "id": "8cfae0ca4164ae3d",
-      "title": "出光美術館名品展　出光佐三のこころ ー美を守り、未来へつなぐ",
+      "id": "5bd35aad592a88c0",
+      "title": "片岡純也+岩竹理恵 「カエルの痙攣、レモンの光 ： 位相する運動」",
       "description": null,
       "venue": "アートアジェンダ",
       "address": null,
-      "startDate": "2026-11-13",
-      "endDate": "2027-01-11",
-      "imageUrl": "https://www.artagenda.jp/img/event/11909/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11909",
-      "source": "artagenda",
-      "tags": []
-    },
-    {
-      "id": "e29a9933a1f779d0",
-      "title": "動く！展 ―光と音と運動の芸術",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-10-10",
-      "endDate": "2026-11-29",
-      "imageUrl": "https://www.artagenda.jp/img/event/12248/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12248",
+      "startDate": "2026-09-05",
+      "endDate": "2026-11-15",
+      "imageUrl": "https://www.artagenda.jp/img/event/12794/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12794",
       "source": "artagenda",
       "tags": []
     },
