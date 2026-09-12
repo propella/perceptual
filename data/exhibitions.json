@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T13:05:41.561571+00:00",
+  "lastUpdated": "2026-09-12T12:29:30.912055+00:00",
   "exhibitions": [
     {
       "id": "03c3181b1206fa25",
@@ -67,15 +67,28 @@
       "tags": []
     },
     {
-      "id": "5bd35aad592a88c0",
-      "title": "片岡純也+岩竹理恵 「カエルの痙攣、レモンの光 ： 位相する運動」",
+      "id": "101dce703a8a890c",
+      "title": "アジア美術の歩き方　南アジア特別編　対立の先へ―光の水脈をめぐる旅",
+      "description": null,
+      "venue": "福岡アジア美術館福岡",
+      "address": null,
+      "startDate": "2026-09-19",
+      "endDate": "2027-01-11",
+      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/09/2609_o_24.jpg",
+      "sourceUrl": "https://artscape.jp/exhibitions/78341/",
+      "source": "artscape",
+      "tags": []
+    },
+    {
+      "id": "5e22743ddeba31de",
+      "title": "印象派の先駆者　ウジェーヌ・ブーダン展 ―瞬間の美学、光の探求",
       "description": null,
       "venue": "アートアジェンダ",
       "address": null,
-      "startDate": "2026-09-05",
-      "endDate": "2026-11-15",
-      "imageUrl": "https://www.artagenda.jp/img/event/12794/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12794",
+      "startDate": "2026-09-12",
+      "endDate": "2026-11-03",
+      "imageUrl": "https://www.artagenda.jp/img/event/12746/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12746",
       "source": "artagenda",
       "tags": []
     },
