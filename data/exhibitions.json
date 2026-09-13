@@ -1,6 +1,19 @@
 {
-  "lastUpdated": "2026-09-12T12:29:30.912055+00:00",
+  "lastUpdated": "2026-09-13T13:30:53.292812+00:00",
   "exhibitions": [
+    {
+      "id": "931e1ebd773cf0c8",
+      "title": "伊藤誠　遅延幾何学―夢を見るための機械2―",
+      "description": null,
+      "venue": "小山市立車屋美術館",
+      "address": null,
+      "startDate": "2026-09-18",
+      "endDate": "2026-12-05",
+      "imageUrl": "https://bt.imgix.net/exhibition/18710/main/1789085743456_f48b936560f0208bc8eea10b3f43df47.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=475,0,3948,2221&v=6",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18710",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
     {
       "id": "03c3181b1206fa25",
       "title": "Rhizomatiks「After Understanding」",
