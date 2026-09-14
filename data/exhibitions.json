@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T13:30:53.292812+00:00",
+  "lastUpdated": "2026-09-14T15:21:09.643534+00:00",
   "exhibitions": [
     {
       "id": "931e1ebd773cf0c8",
@@ -24,32 +24,6 @@
       "endDate": "2026-10-16",
       "imageUrl": "https://bt.imgix.net/exhibition/18665/main/1788569819972_c86f654420530307bdc445ae6d2f1aa4.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=101,0,2693,1515&v=5",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18665",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "dcfdcf6b099d7e99",
-      "title": "蜷川実花展　はじまりの光",
-      "description": null,
-      "venue": "川口市立美術館",
-      "address": null,
-      "startDate": "2026-09-11",
-      "endDate": "2026-11-28",
-      "imageUrl": "https://bt.imgix.net/exhibition/18676/main/1788736376173_014bb7e35151328b4fb3b6eb1351e587.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=119,0,3761,2116&v=6",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18676",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "22ad1cab17febd1a",
-      "title": "島田章三展　空間の中の人のかたち、日常の中の人のかたち",
-      "description": null,
-      "venue": "横須賀美術館",
-      "address": null,
-      "startDate": "2026-09-04",
-      "endDate": "2026-11-02",
-      "imageUrl": null,
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18629",
       "source": "bijutsu_techo",
       "tags": []
     },
