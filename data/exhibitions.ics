@@ -2,82 +2,29 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261214
-DESCRIPTION:会場: NTShenzhen\n\nhttps://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
-LOCATION:NTShenzhen
-SUMMARY:NTShenzhen2026
-UID:67525270-c4bb-4a64-a61b-0a2f582e8a80@6752.org
-URL:https://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20261206
-DESCRIPTION:会場: 東京都現代美術館\n\nhttps://bijutsutecho.com/exhibitions/18497
-LOCATION:東京都現代美術館
-SUMMARY:多田美波―光、凛と ゆれる
-UID:c78557f0-54dd-415e-ae7e-bf541a5ab8dd@c785.org
-URL:https://bijutsutecho.com/exhibitions/18497
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261005
-DESCRIPTION:会場: NT東京\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
-LOCATION:NT東京
-SUMMARY:NT東京2026
-UID:326a17da-dddd-410a-9ae0-69b6b1756021@326a.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261107
-DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-LOCATION:NT湘南
-SUMMARY:NT湘南2026
-UID:bdeb7e74-5eed-44cc-a579-f28bc3d48f95@bdeb.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:会場: NT名古屋\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
-LOCATION:NT名古屋
-SUMMARY:NT名古屋2026
-UID:33b3f929-3d7f-4447-89ee-d6e356b737be@33b3.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20270112
-DESCRIPTION:会場: 福岡アジア美術館福岡\n\nhttps://artscape.jp/exhibitions/78341/
-LOCATION:福岡アジア美術館福岡
-SUMMARY:アジア美術の歩き方　南アジア特別編　対立の先へ―光の水脈をめぐる旅
-UID:8617db8c-4d5c-47a8-945c-e5fc1021242a@8617.org
-URL:https://artscape.jp/exhibitions/78341/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251006
-DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
-LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
-SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:460f3f35-3c26-4090-9a77-e24150c4f0ec@460f.org
-URL:https://makezine.jp/event/mft2025/
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20261017
 DESCRIPTION:会場: KOTARO NUKAGA 天王洲\n\nhttps://bijutsutecho.com/exhibitions/18665
 LOCATION:KOTARO NUKAGA 天王洲
 SUMMARY:Rhizomatiks「After Understanding」
-UID:5e26ade8-a4f0-4ed9-89d8-f41eaf642a10@5e26.org
+UID:943d48bf-fd92-4bd7-9d54-7092f0f7ad2c@943d.org
 URL:https://bijutsutecho.com/exhibitions/18665
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:会場: NTShenzhen\n\nhttps://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
+LOCATION:NTShenzhen
+SUMMARY:NTShenzhen2026
+UID:ccad0310-e1d4-4f1b-8477-d24ab227b4ad@ccad.org
+URL:https://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260719
 DESCRIPTION:会場: 20日(月・祝)東京ビッグサイト南1ホール\n\nhttps://www.hakubutufes.info/
 LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
 SUMMARY:博物ふぇすてぃばる！12終了致しました！沢山のご来場、誠にありがとうございました！皆様の知的好奇心を満たすことが出来ましたでしょうか？またお会いしましょう♪
-UID:dc3e2ce1-e316-4041-b10c-c3ff2b7668aa@dc3e.org
+UID:ceb39cb5-228d-4de5-980e-cfd80807c78b@ceb3.org
 URL:https://www.hakubutufes.info/
 END:VEVENT
 BEGIN:VEVENT
@@ -86,17 +33,69 @@ DTEND;VALUE=DATE:20261206
 DESCRIPTION:会場: 小山市立車屋美術館\n\nhttps://bijutsutecho.com/exhibitions/18710
 LOCATION:小山市立車屋美術館
 SUMMARY:伊藤誠　遅延幾何学―夢を見るための機械2―
-UID:a762fe10-1667-40ec-a180-b8c8bd25655d@a762.org
+UID:13c7fcb5-c3e2-4de8-b3ce-fe5188740342@13c7.org
 URL:https://bijutsutecho.com/exhibitions/18710
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20261104
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12746
+DTSTART;VALUE=DATE:20261107
+DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+LOCATION:NT湘南
+SUMMARY:NT湘南2026
+UID:d3d3835e-b486-44ae-a3f1-09728cfc91b6@d3d3.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251006
+DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
+LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
+SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
+UID:d6166992-5ff6-4452-8dd7-ec231b32ff33@d616.org
+URL:https://makezine.jp/event/mft2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+DESCRIPTION:会場: NT東京\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
+LOCATION:NT東京
+SUMMARY:NT東京2026
+UID:4cec625a-44ec-42f2-9f55-07014d9d6ac7@4cec.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20261206
+DESCRIPTION:会場: 東京都現代美術館\n\nhttps://bijutsutecho.com/exhibitions/18497
+LOCATION:東京都現代美術館
+SUMMARY:多田美波―光、凛と ゆれる
+UID:bf0491e2-cfc7-4c0c-96b1-6d45cca89009@bf04.org
+URL:https://bijutsutecho.com/exhibitions/18497
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12755
 LOCATION:アートアジェンダ
-SUMMARY:印象派の先駆者　ウジェーヌ・ブーダン展 ―瞬間の美学、光の探求
-UID:542628c4-12f7-4eec-9377-5a30b5726db3@5426.org
-URL:https://www.artagenda.jp/exhibition/detail/12746
+SUMMARY:パァーッと光が出て、キラキラッていろんなものが見えてくる。
+UID:e821042d-b174-4959-86f2-d6db9b792802@e821.org
+URL:https://www.artagenda.jp/exhibition/detail/12755
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:会場: NT名古屋\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
+LOCATION:NT名古屋
+SUMMARY:NT名古屋2026
+UID:94ebc4c9-9e42-43d3-b26a-ad08a14bddef@94eb.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:fd5ffb92-8ce5-4a2c-b143-570fde184186@fd5f.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260617
@@ -104,15 +103,7 @@ DTEND;VALUE=DATE:20260921
 DESCRIPTION:会場: 東京都写真美術館\n\nhttps://bijutsutecho.com/exhibitions/18157
 LOCATION:東京都写真美術館
 SUMMARY:出光真子　おんなのさくひん――ある映像作家の自伝
-UID:79577646-10b8-4310-9438-6a9b2ac1d6d8@7957.org
+UID:1d72d1c3-3b39-4b0e-9221-7623a252a970@1d72.org
 URL:https://bijutsutecho.com/exhibitions/18157
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261108
-DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-LOCATION:NTいわて
-SUMMARY:NTいわて2026
-UID:eea00c79-575f-4817-9f34-dda9c2bf4bde@eea0.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 END:VCALENDAR

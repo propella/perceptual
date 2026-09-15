@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T15:21:09.643534+00:00",
+  "lastUpdated": "2026-09-15T13:57:04.379902+00:00",
   "exhibitions": [
     {
       "id": "931e1ebd773cf0c8",
@@ -54,28 +54,15 @@
       "tags": []
     },
     {
-      "id": "101dce703a8a890c",
-      "title": "アジア美術の歩き方　南アジア特別編　対立の先へ―光の水脈をめぐる旅",
-      "description": null,
-      "venue": "福岡アジア美術館福岡",
-      "address": null,
-      "startDate": "2026-09-19",
-      "endDate": "2027-01-11",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2026/09/2609_o_24.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/78341/",
-      "source": "artscape",
-      "tags": []
-    },
-    {
-      "id": "5e22743ddeba31de",
-      "title": "印象派の先駆者　ウジェーヌ・ブーダン展 ―瞬間の美学、光の探求",
+      "id": "704e12b33eb5d11b",
+      "title": "パァーッと光が出て、キラキラッていろんなものが見えてくる。",
       "description": null,
       "venue": "アートアジェンダ",
       "address": null,
-      "startDate": "2026-09-12",
-      "endDate": "2026-11-03",
-      "imageUrl": "https://www.artagenda.jp/img/event/12746/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12746",
+      "startDate": "2026-10-08",
+      "endDate": "2027-01-31",
+      "imageUrl": "https://www.artagenda.jp/img/event/12755/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12755",
       "source": "artagenda",
       "tags": []
     },
