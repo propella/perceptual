@@ -2,66 +2,22 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261107
-DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-LOCATION:NT湘南
-SUMMARY:NT湘南2026
-UID:f1862535-dfd9-4657-93d3-8769583adac0@f186.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261214
-DESCRIPTION:会場: NTShenzhen\n\nhttps://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
-LOCATION:NTShenzhen
-SUMMARY:NTShenzhen2026
-UID:a47c482c-b99c-4c90-b3a1-03ebfb791306@a47c.org
-URL:https://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12755
-LOCATION:アートアジェンダ
-SUMMARY:パァーッと光が出て、キラキラッていろんなものが見えてくる。
-UID:68ce6b00-534e-4fc5-953d-e360df2431a8@68ce.org
-URL:https://www.artagenda.jp/exhibition/detail/12755
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 DESCRIPTION:会場: NT名古屋\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
 LOCATION:NT名古屋
 SUMMARY:NT名古屋2026
-UID:32d73cfe-02ee-4713-8dab-8c730461bb9d@32d7.org
+UID:853aecf6-7f0b-44cf-b363-39f57651877b@853a.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20270125
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/11566
-LOCATION:アートアジェンダ
-SUMMARY:フォンタネージ――イタリアの光・心の風景
-UID:788a3e1c-b1f6-4496-96e8-af069012fc5c@788a.org
-URL:https://www.artagenda.jp/exhibition/detail/11566
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20270106
-DESCRIPTION:会場: 東京都現代美術館\n\nhttps://bijutsutecho.com/exhibitions/18744
-LOCATION:東京都現代美術館
-SUMMARY:MOTコレクション　いつかの光を今みている
-UID:b706a8f4-9960-4457-bac2-92358863788b@b706.org
-URL:https://bijutsutecho.com/exhibitions/18744
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260918
+DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20261206
-DESCRIPTION:会場: 小山市立車屋美術館\n\nhttps://bijutsutecho.com/exhibitions/18710
-LOCATION:小山市立車屋美術館
-SUMMARY:伊藤誠　遅延幾何学―夢を見るための機械2―
-UID:6ebdb93c-20e9-4186-a9fa-ac8af4dee25f@6ebd.org
-URL:https://bijutsutecho.com/exhibitions/18710
+DESCRIPTION:会場: 東京都現代美術館\n\nhttps://bijutsutecho.com/exhibitions/18497
+LOCATION:東京都現代美術館
+SUMMARY:多田美波―光、凛と ゆれる
+UID:7a3d60e2-d4cb-4c2f-99e3-95cb53f889ce@7a3d.org
+URL:https://bijutsutecho.com/exhibitions/18497
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251004
@@ -69,7 +25,7 @@ DTEND;VALUE=DATE:20251006
 DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
 LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
 SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:ac2b5b66-4f28-4836-9fc0-5fd9afebfde9@ac2b.org
+UID:6d1693c6-eb0c-4f66-81ea-3b00ae5846d9@6d16.org
 URL:https://makezine.jp/event/mft2025/
 END:VEVENT
 BEGIN:VEVENT
@@ -78,41 +34,58 @@ DTEND;VALUE=DATE:20261005
 DESCRIPTION:会場: NT東京\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
 LOCATION:NT東京
 SUMMARY:NT東京2026
-UID:9e482801-af0e-41a1-92ca-4b99366c3812@9e48.org
+UID:74af49c1-ccf9-4ab4-a6c2-e93734d5fd72@74af.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261207
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/11936
-LOCATION:アートアジェンダ
-SUMMARY:特別展　室町ごころの風景　―光り輝く四季と連歌懐紙の美
-UID:31d4d9bd-18eb-4e72-ba5c-c250d3828515@31d4.org
-URL:https://www.artagenda.jp/exhibition/detail/11936
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20261206
+DESCRIPTION:会場: 小山市立車屋美術館\n\nhttps://bijutsutecho.com/exhibitions/18710
+LOCATION:小山市立車屋美術館
+SUMMARY:伊藤誠　遅延幾何学―夢を見るための機械2―
+UID:d77486d4-4097-4dd8-9047-0e1c027a1e4a@d774.org
+URL:https://bijutsutecho.com/exhibitions/18710
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261108
-DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-LOCATION:NTいわて
-SUMMARY:NTいわて2026
-UID:2dee3127-c091-4669-a49a-7a07f143af46@2dee.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+DTSTART;VALUE=DATE:20261107
+DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+LOCATION:NT湘南
+SUMMARY:NT湘南2026
+UID:672a2931-a084-4d34-bc9b-feb0ef1d1c02@672a.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260719
 DESCRIPTION:会場: 20日(月・祝)東京ビッグサイト南1ホール\n\nhttps://www.hakubutufes.info/
 LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
 SUMMARY:博物ふぇすてぃばる！12終了致しました！沢山のご来場、誠にありがとうございました！皆様の知的好奇心を満たすことが出来ましたでしょうか？またお会いしましょう♪
-UID:677df4a3-be96-4918-a875-cb8a722269c8@677d.org
+UID:37254394-d713-473c-b167-edd351cdde04@3725.org
 URL:https://www.hakubutufes.info/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20261206
-DESCRIPTION:会場: 東京都現代美術館\n\nhttps://bijutsutecho.com/exhibitions/18497
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20270106
+DESCRIPTION:会場: 東京都現代美術館\n\nhttps://bijutsutecho.com/exhibitions/18744
 LOCATION:東京都現代美術館
-SUMMARY:多田美波―光、凛と ゆれる
-UID:185d1e8b-297d-4842-975b-1249f50d5e4c@185d.org
-URL:https://bijutsutecho.com/exhibitions/18497
+SUMMARY:MOTコレクション　いつかの光を今みている
+UID:d2320d88-910f-4ec4-bddc-031fff6638e0@d232.org
+URL:https://bijutsutecho.com/exhibitions/18744
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:会場: NTShenzhen\n\nhttps://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
+LOCATION:NTShenzhen
+SUMMARY:NTShenzhen2026
+UID:3bf71417-31f9-4ef8-a844-5f6d4e4e0bfb@3bf7.org
+URL:https://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:34134bfb-298e-4052-9a0f-10f7d784e4e1@3413.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 END:VCALENDAR

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T13:14:07.183439+00:00",
+  "lastUpdated": "2026-09-19T12:45:24.511270+00:00",
   "exhibitions": [
     {
       "id": "11051d32f75b8e40",
@@ -38,45 +38,6 @@
       "imageUrl": "https://bt.imgix.net/exhibition/18497/main/1785897608050_5e820c8b2b32fad8fbeb69ecc3b05bb5.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=257,0,4284,2410&v=13",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18497",
       "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "598494911e5a0578",
-      "title": "特別展　室町ごころの風景　―光り輝く四季と連歌懐紙の美",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-10-27",
-      "endDate": "2026-12-06",
-      "imageUrl": "https://www.artagenda.jp/img/event/11936/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11936",
-      "source": "artagenda",
-      "tags": []
-    },
-    {
-      "id": "e4502e4b945a59f5",
-      "title": "フォンタネージ――イタリアの光・心の風景",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-10-17",
-      "endDate": "2027-01-24",
-      "imageUrl": "https://www.artagenda.jp/img/event/11566/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11566",
-      "source": "artagenda",
-      "tags": []
-    },
-    {
-      "id": "704e12b33eb5d11b",
-      "title": "パァーッと光が出て、キラキラッていろんなものが見えてくる。",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-10-08",
-      "endDate": "2027-01-31",
-      "imageUrl": "https://www.artagenda.jp/img/event/12755/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12755",
-      "source": "artagenda",
       "tags": []
     },
     {
