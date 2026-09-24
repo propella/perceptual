@@ -1,6 +1,19 @@
 {
-  "lastUpdated": "2026-09-23T13:56:37.893749+00:00",
+  "lastUpdated": "2026-09-24T13:53:20.343972+00:00",
   "exhibitions": [
+    {
+      "id": "db251c32a52d12eb",
+      "title": "波多野光 個展「からまるもつれる」",
+      "description": null,
+      "venue": "iwao gallery",
+      "address": null,
+      "startDate": "2026-09-30",
+      "endDate": "2026-10-17",
+      "imageUrl": "https://bt.imgix.net/exhibition/18747/main/1789438382443_bc163978ee0938d87badb71ccc46ecb3.png?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=9,0,1200,675&v=8",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18747",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
     {
       "id": "11051d32f75b8e40",
       "title": "MOTコレクション　いつかの光を今みている",
@@ -66,6 +79,22 @@
       "endDate": "2026-10-04",
       "imageUrl": null,
       "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026",
+      "source": "nt",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
+    },
+    {
+      "id": "af1fe9518166def0",
+      "title": "NT函館出張版",
+      "description": null,
+      "venue": "NT函館出張版",
+      "address": null,
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-11",
+      "imageUrl": null,
+      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8%E5%87%BA%E5%BC%B5%E7%89%88",
       "source": "nt",
       "tags": [
         "メイカー",
