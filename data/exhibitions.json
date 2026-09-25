@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T13:53:20.343972+00:00",
+  "lastUpdated": "2026-09-25T14:16:07.149860+00:00",
   "exhibitions": [
     {
       "id": "db251c32a52d12eb",
@@ -22,7 +22,7 @@
       "address": null,
       "startDate": "2026-09-18",
       "endDate": "2027-01-05",
-      "imageUrl": "https://bt.imgix.net/exhibition/18744/main/1789428320490_efca43ac69a8f416f00366df47dd9022.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=317,0,5448,3065&v=4",
+      "imageUrl": "https://bt.imgix.net/exhibition/18744/main/1790305442291_cfcf6516bbf99c9ae3bf9ecec7f32c1d.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=340,0,5502,3095&v=9",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18744",
       "source": "bijutsu_techo",
       "tags": []
@@ -48,26 +48,23 @@
       "address": null,
       "startDate": "2026-08-28",
       "endDate": "2026-12-05",
-      "imageUrl": "https://bt.imgix.net/exhibition/18497/main/1785897608050_5e820c8b2b32fad8fbeb69ecc3b05bb5.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=257,0,4284,2410&v=13",
+      "imageUrl": "https://bt.imgix.net/exhibition/18497/main/1785897608050_5e820c8b2b32fad8fbeb69ecc3b05bb5.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=257,0,4284,2410&v=14",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18497",
       "source": "bijutsu_techo",
       "tags": []
     },
     {
-      "id": "a5868f178432aee3",
-      "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
+      "id": "7061b2b994863e17",
+      "title": "本館「旋回する美・光彩の美　―めくるめく東洋金石工芸」 新館「アナトリアのメダリオン・ラ…",
       "description": null,
-      "venue": "東京ビッグサイト　西4ホール東京都江東区有明3-11-1",
+      "venue": "アートアジェンダ",
       "address": null,
-      "startDate": "2025-10-04",
-      "endDate": "2025-10-05",
-      "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
-      "sourceUrl": "https://makezine.jp/event/mft2025/",
-      "source": "maker_faire",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
+      "startDate": "2026-09-26",
+      "endDate": "2026-12-13",
+      "imageUrl": "https://www.artagenda.jp/img/event/12823/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12823",
+      "source": "artagenda",
+      "tags": []
     },
     {
       "id": "97cd896f6a52e6db",
