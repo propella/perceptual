@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T13:28:18.955357+00:00",
+  "lastUpdated": "2026-09-27T14:23:34.025895+00:00",
   "exhibitions": [
     {
       "id": "db251c32a52d12eb",
@@ -51,19 +51,6 @@
       "imageUrl": "https://bt.imgix.net/exhibition/18497/main/1785897608050_5e820c8b2b32fad8fbeb69ecc3b05bb5.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=257,0,4284,2410&v=14",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18497",
       "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "4561c917db2aaab0",
-      "title": "髙松 光 個展「ある出来事のほどけかた」",
-      "description": null,
-      "venue": "Alt_Medium東京",
-      "address": null,
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-14",
-      "imageUrl": "https://artscape.jp/wp-content/uploads/2024/02/2026010takamatsu-1200x800.jpg",
-      "sourceUrl": "https://artscape.jp/exhibitions/79325/",
-      "source": "artscape",
       "tags": []
     },
     {
