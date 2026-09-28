@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T14:23:34.025895+00:00",
+  "lastUpdated": "2026-09-28T17:08:32.496612+00:00",
   "exhibitions": [
     {
       "id": "db251c32a52d12eb",
@@ -28,19 +28,6 @@
       "tags": []
     },
     {
-      "id": "97027511d1232df0",
-      "title": "シンデレラボーイ 池田満寿夫の栄光と忘却",
-      "description": null,
-      "venue": "ときの忘れもの",
-      "address": null,
-      "startDate": "2026-09-15",
-      "endDate": "2026-10-02",
-      "imageUrl": "https://bt.imgix.net/exhibition/18781/main/1789742777039_908313344cd54716529d1d709e678205.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=52,0,3148,1771&v=13",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18781",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
       "id": "a7105000dd90c4fe",
       "title": "多田美波―光、凛と ゆれる",
       "description": null,
@@ -51,19 +38,6 @@
       "imageUrl": "https://bt.imgix.net/exhibition/18497/main/1785897608050_5e820c8b2b32fad8fbeb69ecc3b05bb5.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=257,0,4284,2410&v=14",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18497",
       "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "7061b2b994863e17",
-      "title": "本館「旋回する美・光彩の美　―めくるめく東洋金石工芸」 新館「アナトリアのメダリオン・ラ…",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-09-26",
-      "endDate": "2026-12-13",
-      "imageUrl": "https://www.artagenda.jp/img/event/12823/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12823",
-      "source": "artagenda",
       "tags": []
     },
     {
