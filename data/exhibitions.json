@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T17:08:32.496612+00:00",
+  "lastUpdated": "2026-09-29T15:12:22.566109+00:00",
   "exhibitions": [
     {
       "id": "db251c32a52d12eb",
@@ -11,19 +11,6 @@
       "endDate": "2026-10-17",
       "imageUrl": "https://bt.imgix.net/exhibition/18747/main/1789438382443_bc163978ee0938d87badb71ccc46ecb3.png?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=9,0,1200,675&v=8",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18747",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "11051d32f75b8e40",
-      "title": "MOTコレクション　いつかの光を今みている",
-      "description": null,
-      "venue": "東京都現代美術館",
-      "address": null,
-      "startDate": "2026-09-18",
-      "endDate": "2027-01-05",
-      "imageUrl": "https://bt.imgix.net/exhibition/18744/main/1790305442291_cfcf6516bbf99c9ae3bf9ecec7f32c1d.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=340,0,5502,3095&v=9",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18744",
       "source": "bijutsu_techo",
       "tags": []
     },
