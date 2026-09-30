@@ -1,19 +1,6 @@
 {
-  "lastUpdated": "2026-09-29T15:12:22.566109+00:00",
+  "lastUpdated": "2026-09-30T15:35:07.841851+00:00",
   "exhibitions": [
-    {
-      "id": "db251c32a52d12eb",
-      "title": "波多野光 個展「からまるもつれる」",
-      "description": null,
-      "venue": "iwao gallery",
-      "address": null,
-      "startDate": "2026-09-30",
-      "endDate": "2026-10-17",
-      "imageUrl": "https://bt.imgix.net/exhibition/18747/main/1789438382443_bc163978ee0938d87badb71ccc46ecb3.png?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=9,0,1200,675&v=8",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18747",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
     {
       "id": "a7105000dd90c4fe",
       "title": "多田美波―光、凛と ゆれる",
@@ -25,6 +12,19 @@
       "imageUrl": "https://bt.imgix.net/exhibition/18497/main/1785897608050_5e820c8b2b32fad8fbeb69ecc3b05bb5.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=257,0,4284,2410&v=14",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18497",
       "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "926b4697a5f4d60b",
+      "title": "ウジェーヌ・ブーダン展　印象派の父―光を求めて",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-11-28",
+      "endDate": "2027-01-31",
+      "imageUrl": "https://www.artagenda.jp/img/event/12691/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12691",
+      "source": "artagenda",
       "tags": []
     },
     {
