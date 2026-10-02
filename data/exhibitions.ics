@@ -2,22 +2,30 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20270131
+DESCRIPTION:会場: 草間彌生美術館\n\nhttps://bijutsutecho.com/exhibitions/18842
+LOCATION:草間彌生美術館
+SUMMARY:パァーッと光が出て、キラキラッていろんなものが見えてくる。
+UID:9e16e804-1b04-471b-9fa5-efda2616788f@9e16.org
+URL:https://bijutsutecho.com/exhibitions/18842
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261005
 DESCRIPTION:会場: NT東京\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
 LOCATION:NT東京
 SUMMARY:NT東京2026
-UID:e1003dda-a26c-4ab2-a129-11c8aeba36a1@e100.org
+UID:79e87453-d892-4c91-8843-cb0f731a4a92@79e8.org
 URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261012
-DESCRIPTION:会場: NT函館出張版\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8%E5%87%BA%E5%BC%B5%E7%89%88
-LOCATION:NT函館出張版
-SUMMARY:NT函館出張版
-UID:a253719c-fe13-4bab-827d-884e6637995f@a253.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8%E5%87%BA%E5%BC%B5%E7%89%88
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:fe566d49-ff00-44be-a7ab-485b03065bb0@fe56.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260828
@@ -25,50 +33,33 @@ DTEND;VALUE=DATE:20261206
 DESCRIPTION:会場: 東京都現代美術館\n\nhttps://bijutsutecho.com/exhibitions/18497
 LOCATION:東京都現代美術館
 SUMMARY:多田美波―光、凛と ゆれる
-UID:6d7c01ae-9e4f-4222-89a5-909c4630be2b@6d7c.org
+UID:ec66b535-3c75-49a2-b453-305a6d873c73@ec66.org
 URL:https://bijutsutecho.com/exhibitions/18497
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261107
-DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-LOCATION:NT湘南
-SUMMARY:NT湘南2026
-UID:f83ab614-0110-473a-ab60-fe356ec43ff7@f83a.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261221
-DESCRIPTION:会場: NT山城\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%B1%B1%E5%9F%8E2026
-LOCATION:NT山城
-SUMMARY:NT山城2026
-UID:1ad2d969-18b9-4ea6-bd06-8290e5c1c3b4@1ad2.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%B1%B1%E5%9F%8E2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:会場: NT名古屋\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
-LOCATION:NT名古屋
-SUMMARY:NT名古屋2026
-UID:bbca8cb8-6863-47ea-9ada-05134cbc718a@bbca.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260719
 DESCRIPTION:会場: 20日(月・祝)東京ビッグサイト南1ホール\n\nhttps://www.hakubutufes.info/
 LOCATION:東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F
 SUMMARY:博物ふぇすてぃばる！12終了致しました！沢山のご来場、誠にありがとうございました！皆様の知的好奇心を満たすことが出来ましたでしょうか？またお会いしましょう♪
-UID:32c9a553-5c22-4390-87eb-541cd662f86a@32c9.org
+UID:6843c53f-436d-4d26-9393-05ee0f1c57fe@6843.org
 URL:https://www.hakubutufes.info/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261108
-DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-LOCATION:NTいわて
-SUMMARY:NTいわて2026
-UID:579a4e04-46a4-4197-9a59-bfde483ea3ed@579a.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+DTSTART;VALUE=DATE:20261107
+DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+LOCATION:NT湘南
+SUMMARY:NT湘南2026
+UID:70905131-d8c6-41ee-a230-a61d8d66aa02@7090.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261012
+DESCRIPTION:会場: NT函館出張版\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8%E5%87%BA%E5%BC%B5%E7%89%88
+LOCATION:NT函館出張版
+SUMMARY:NT函館出張版
+UID:a2a67d63-f70a-4231-b645-30f73eab3c2b@a2a6.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8%E5%87%BA%E5%BC%B5%E7%89%88
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261212
@@ -76,8 +67,26 @@ DTEND;VALUE=DATE:20261214
 DESCRIPTION:会場: NTShenzhen\n\nhttps://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
 LOCATION:NTShenzhen
 SUMMARY:NTShenzhen2026
-UID:dcc3acfb-ecd9-4ab8-a6fb-2214d782960e@dcc3.org
+UID:ae62f0ea-d3ce-4d93-8116-fb8b6f5472d9@ae62.org
 URL:https://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20261024
+DESCRIPTION:会場: Eunoia\n\nhttps://bijutsutecho.com/exhibitions/18835
+LOCATION:Eunoia
+SUMMARY:木村剛士「固定する技術 -fixing technology-」
+UID:3dae351f-5bf8-4cdc-bf20-6b9e6d0e91ad@3dae.org
+URL:https://bijutsutecho.com/exhibitions/18835
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:会場: NT名古屋\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
+LOCATION:NT名古屋
+SUMMARY:NT名古屋2026
+UID:e3214cc2-0b45-4749-8bb6-0d0abccb79e2@e321.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251004
@@ -85,16 +94,16 @@ DTEND;VALUE=DATE:20251006
 DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
 LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
 SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:0e509ea9-6a15-46b7-b46b-16f43b250761@0e50.org
+UID:28c5411e-b10c-40da-82dd-563567fc8f81@28c5.org
 URL:https://makezine.jp/event/mft2025/
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12691
-LOCATION:アートアジェンダ
-SUMMARY:ウジェーヌ・ブーダン展　印象派の父―光を求めて
-UID:b61ee1d7-519e-40ae-9af7-905f10b8175b@b61e.org
-URL:https://www.artagenda.jp/exhibition/detail/12691
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261221
+DESCRIPTION:会場: NT山城\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%B1%B1%E5%9F%8E2026
+LOCATION:NT山城
+SUMMARY:NT山城2026
+UID:d115a97c-d07a-4d78-8924-300f30f578b0@d115.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%B1%B1%E5%9F%8E2026
 END:VEVENT
 END:VCALENDAR
