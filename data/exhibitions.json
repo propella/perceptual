@@ -1,29 +1,42 @@
 {
-  "lastUpdated": "2026-10-02T15:09:25.412711+00:00",
+  "lastUpdated": "2026-10-25T07:20:19.435412+00:00",
   "exhibitions": [
     {
-      "id": "8ae0ec8e2b664e43",
-      "title": "木村剛士「固定する技術 -fixing technology-」",
+      "id": "1465b50b6e4c6ab8",
+      "title": "平良光子「老犬は夢を見る」",
       "description": null,
-      "venue": "Eunoia",
+      "venue": "四季彩舎",
       "address": null,
-      "startDate": "2026-09-25",
-      "endDate": "2026-10-23",
-      "imageUrl": "https://bt.imgix.net/exhibition/18835/main/1790655051885_efcb9c551f98976f7029657abee386da.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=66,0,1048,590&v=7",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18835",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-20",
+      "imageUrl": "https://bt.imgix.net/exhibition/18945/main/1792389340613_e6c591132fd21b7ae80d822570af3113.png?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=9,0,1200,675&v=7",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18945",
       "source": "bijutsu_techo",
       "tags": []
     },
     {
-      "id": "cae304c617a73200",
-      "title": "パァーッと光が出て、キラキラッていろんなものが見えてくる。",
+      "id": "e242d36810e2c492",
+      "title": "フォンタネージ――イタリアの光・心の風景",
       "description": null,
-      "venue": "草間彌生美術館",
+      "venue": "三菱一号館美術館",
       "address": null,
-      "startDate": "2026-10-07",
+      "startDate": "2026-10-16",
+      "endDate": "2027-01-23",
+      "imageUrl": "https://bt.imgix.net/exhibition/18860/main/1791158722006_54c5d4d529f252f9f32e17af8eb3f781.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=427,0,4108,2311&v=8",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18860",
+      "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "615bf029677bef15",
+      "title": "ジャム・セッション　石橋財団コレクション×藤井光　WHOSE LIGHT? —だれのひかりか",
+      "description": null,
+      "venue": "アーティゾン美術館",
+      "address": null,
+      "startDate": "2026-10-23",
       "endDate": "2027-01-30",
-      "imageUrl": null,
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18842",
+      "imageUrl": "https://bt.imgix.net/exhibition/18872/main/1790942040534_05d8f920695c512a5cb32777a0bd3b16.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=110,0,2478,1394&v=14",
+      "sourceUrl": "https://bijutsutecho.com/exhibitions/18872",
       "source": "bijutsu_techo",
       "tags": []
     },
@@ -35,9 +48,35 @@
       "address": null,
       "startDate": "2026-08-28",
       "endDate": "2026-12-05",
-      "imageUrl": "https://bt.imgix.net/exhibition/18497/main/1785897608050_5e820c8b2b32fad8fbeb69ecc3b05bb5.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=257,0,4284,2410&v=14",
+      "imageUrl": "https://bt.imgix.net/exhibition/18497/main/1785897608050_5e820c8b2b32fad8fbeb69ecc3b05bb5.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=257,0,4284,2410&v=15",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18497",
       "source": "bijutsu_techo",
+      "tags": []
+    },
+    {
+      "id": "8cb00de78e017b03",
+      "title": "静嘉堂＠丸の内 5周年記念展　美の福音　―幻の名作、山本芳翠《天女》《十二支》一挙公開",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2027-10-09",
+      "endDate": "2028-01-10",
+      "imageUrl": "https://www.artagenda.jp/img/event/12889/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12889",
+      "source": "artagenda",
+      "tags": []
+    },
+    {
+      "id": "a8b2ca915641a7d7",
+      "title": "ジャム・セッション 石橋財団コレクション×藤井光 WHOSE LIGHT? —だれのひかりか",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-10-24",
+      "endDate": "2027-01-31",
+      "imageUrl": "https://www.artagenda.jp/img/event/11501/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11501",
+      "source": "artagenda",
       "tags": []
     },
     {
@@ -51,38 +90,6 @@
       "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
       "sourceUrl": "https://makezine.jp/event/mft2025/",
       "source": "maker_faire",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
-    },
-    {
-      "id": "97cd896f6a52e6db",
-      "title": "NT東京2026",
-      "description": null,
-      "venue": "NT東京",
-      "address": null,
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-04",
-      "imageUrl": null,
-      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E6%9D%B1%E4%BA%AC2026",
-      "source": "nt",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
-    },
-    {
-      "id": "af1fe9518166def0",
-      "title": "NT函館出張版",
-      "description": null,
-      "venue": "NT函館出張版",
-      "address": null,
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-11",
-      "imageUrl": null,
-      "sourceUrl": "https://wiki.nicotech.jp/nico_tech/?NT%E5%87%BD%E9%A4%A8%E5%87%BA%E5%BC%B5%E7%89%88",
-      "source": "nt",
       "tags": [
         "メイカー",
         "ものづくり"
@@ -169,14 +176,14 @@
       ]
     },
     {
-      "id": "be05db7312722975",
-      "title": "博物ふぇすてぃばる！12終了致しました！沢山のご来場、誠にありがとうございました！皆様の知的好奇心を満たすことが出来ましたでしょうか？またお会いしましょう♪",
+      "id": "00a4abf97d62bad9",
+      "title": "博物ふぇすてぃばる！12",
       "description": null,
-      "venue": "20日(月・祝)東京ビッグサイト南1ホール",
-      "address": "東京ビッグサイト南1ホール東京都江東区有明３丁目１１−１ 東京国際展示場南展示棟1F",
-      "startDate": "2026-07-19",
-      "endDate": "2026-07-19",
-      "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/none/path/s7a4bc3c032178296/backgroundarea/i99168deb881dfc22/version/1776666342/image.jpg",
+      "venue": "東京都立産業貿易センター台東館7階",
+      "address": "東京都立産業貿易センター台東館7階〒111-0033 東京都台東区花川戸2-6-5",
+      "startDate": "2026-12-05",
+      "endDate": "2026-12-06",
+      "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/none/path/s7a4bc3c032178296/backgroundarea/i715fc815de485a48/version/1791014475/image.jpg",
       "sourceUrl": "https://www.hakubutufes.info/",
       "source": "hakubutsu_fes",
       "tags": [
