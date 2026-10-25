@@ -1,3 +1,4 @@
+from datetime import date
 from unittest.mock import patch
 
 from bs4 import BeautifulSoup
@@ -89,3 +90,48 @@ class TestHakubutsuFesScraper:
             scraper = HakubutsuFesScraper()
             exhibitions = scraper.scrape()
         assert exhibitions[0].image_url == "https://www.hakubutufes.info/images/banner.jpg"
+
+
+MULTI_EVENT_HTML = """
+<html><body>
+<h2>博物ふぇすてぃばる！12</h2>
+<p>いつ、どこで開催するの？</p>
+<p>2026年 12月5日(土) 6日(日)東京、浅草の東京都立産業貿易センター台東館7階にて開催されます。</p>
+<p>いつ、どこで開催するの？</p>
+<p>2026年 7月19日(日) 20日(月・祝)東京ビッグサイト南1ホールで開催されます。</p>
+</body></html>
+"""
+
+
+class TestHakubutsuFesMultiEvent:
+    """ページに今回と前回の開催情報が並んでいる場合。"""
+
+    def _scrape(self):
+        def _mock(self, url):
+            return BeautifulSoup(MULTI_EVENT_HTML, "lxml")
+
+        with patch.object(HakubutsuFesScraper, "_fetch_with_browser", _mock):
+            return HakubutsuFesScraper().scrape()
+
+    def test_uses_first_event_dates(self):
+        ex = self._scrape()[0]
+        assert ex.start_date == date(2026, 12, 5)
+        assert ex.end_date == date(2026, 12, 6)
+
+    def test_uses_first_event_venue(self):
+        ex = self._scrape()[0]
+        assert ex.venue == "東京都立産業貿易センター台東館7階"
+
+
+class TestParseDates:
+    def test_range_with_tilde(self):
+        start, end, _ = HakubutsuFesScraper()._parse_dates("2026年8月1日〜2026年8月2日")
+        assert (start, end) == (date(2026, 8, 1), date(2026, 8, 2))
+
+    def test_range_across_new_year(self):
+        start, end, _ = HakubutsuFesScraper()._parse_dates("2026年12月30日(水)〜1月3日(日)")
+        assert (start, end) == (date(2026, 12, 30), date(2027, 1, 3))
+
+    def test_single_day(self):
+        start, end, _ = HakubutsuFesScraper()._parse_dates("2026年8月1日(土)開催")
+        assert start == end == date(2026, 8, 1)

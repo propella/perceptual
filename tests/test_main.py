@@ -3,7 +3,12 @@ import tempfile
 from datetime import date
 from pathlib import Path
 
-from scripts.main import deduplicate_exhibitions, load_existing_exhibitions, merge_exhibitions
+from scripts.main import (
+    deduplicate_exhibitions,
+    drop_invalid_date_ranges,
+    load_existing_exhibitions,
+    merge_exhibitions,
+)
 from scripts.scrapers.base import Exhibition
 
 TODAY = date(2026, 3, 7)
@@ -145,3 +150,17 @@ class TestDeduplicateExhibitions:
         ]
         result = deduplicate_exhibitions(exhibitions)
         assert len(result) == 2
+
+
+class TestDropInvalidDateRanges:
+    def test_drops_end_before_start(self):
+        exhibitions = [
+            make_exhibition("https://example.com/1", "正常", end_date=date(2026, 5, 31)),
+            make_exhibition("https://example.com/2", "逆転", end_date=date(2026, 2, 1)),
+        ]
+        result = drop_invalid_date_ranges(exhibitions)
+        assert [e.title for e in result] == ["正常"]
+
+    def test_keeps_single_day(self):
+        exhibitions = [make_exhibition("https://example.com/1", end_date=date(2026, 3, 1))]
+        assert len(drop_invalid_date_ranges(exhibitions)) == 1

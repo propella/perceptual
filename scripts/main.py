@@ -107,6 +107,20 @@ def deduplicate_exhibitions(exhibitions: list) -> list:
     return unique
 
 
+def drop_invalid_date_ranges(exhibitions: list) -> list:
+    """Remove exhibitions whose end_date is before start_date."""
+    valid = []
+    for exhibition in exhibitions:
+        if exhibition.end_date < exhibition.start_date:
+            logger.warning(
+                f"  Skipping invalid date range ({exhibition.source}): "
+                f"{exhibition.title} {exhibition.start_date} - {exhibition.end_date}"
+            )
+            continue
+        valid.append(exhibition)
+    return valid
+
+
 def main():
     """Run all scrapers and generate output files."""
     all_exhibitions = []
@@ -131,6 +145,9 @@ def main():
     logger.info(f"Loaded {len(existing)} existing exhibitions")
     all_exhibitions = merge_exhibitions(existing, all_exhibitions, date.today())
     logger.info(f"After merge: {len(all_exhibitions)} exhibitions")
+
+    # Drop broken data so that a single bad item does not break ICS generation
+    all_exhibitions = drop_invalid_date_ranges(all_exhibitions)
 
     # Filter by keywords
     filtered = filter_exhibitions(all_exhibitions)
