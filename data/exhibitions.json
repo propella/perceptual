@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T13:26:29.323736+00:00",
+  "lastUpdated": "2026-10-26T15:46:56.061324+00:00",
   "exhibitions": [
     {
       "id": "1465b50b6e4c6ab8",
@@ -67,6 +67,19 @@
       "tags": []
     },
     {
+      "id": "598494911e5a0578",
+      "title": "特別展　室町ごころの風景　―光り輝く四季と連歌懐紙の美",
+      "description": null,
+      "venue": "アートアジェンダ",
+      "address": null,
+      "startDate": "2026-10-27",
+      "endDate": "2026-12-06",
+      "imageUrl": "https://www.artagenda.jp/img/event/11936/thumbnail.jpg",
+      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11936",
+      "source": "artagenda",
+      "tags": []
+    },
+    {
       "id": "8cb00de78e017b03",
       "title": "静嘉堂＠丸の内 5周年記念展　美の福音　―幻の名作、山本芳翠《天女》《十二支》一挙公開",
       "description": null,
@@ -76,19 +89,6 @@
       "endDate": "2028-01-10",
       "imageUrl": "https://www.artagenda.jp/img/event/12889/thumbnail.jpg",
       "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12889",
-      "source": "artagenda",
-      "tags": []
-    },
-    {
-      "id": "a8b2ca915641a7d7",
-      "title": "ジャム・セッション 石橋財団コレクション×藤井光 WHOSE LIGHT? —だれのひかりか",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2026-10-24",
-      "endDate": "2027-01-31",
-      "imageUrl": "https://www.artagenda.jp/img/event/11501/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11501",
       "source": "artagenda",
       "tags": []
     },
