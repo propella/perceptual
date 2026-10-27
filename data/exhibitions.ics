@@ -2,75 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:perceptual-exhibition-collector
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261108
-DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-LOCATION:NTいわて
-SUMMARY:NTいわて2026
-UID:a2511734-7577-4786-9d93-eaaca9869d5d@a251.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20261206
-DESCRIPTION:会場: 東京都現代美術館\n\nhttps://bijutsutecho.com/exhibitions/18497
-LOCATION:東京都現代美術館
-SUMMARY:多田美波―光、凛と ゆれる
-UID:a70b458a-18af-4432-821c-d18c4f70f3fc@a70b.org
-URL:https://bijutsutecho.com/exhibitions/18497
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20270131
-DESCRIPTION:会場: アーティゾン美術館\n\nhttps://bijutsutecho.com/exhibitions/18872
-LOCATION:アーティゾン美術館
-SUMMARY:ジャム・セッション　石橋財団コレクション×藤井光　WHOSE LIGHT? —だれのひかりか
-UID:704d0a5b-5b0d-4fd9-a1a1-60667fbf31b2@704d.org
-URL:https://bijutsutecho.com/exhibitions/18872
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:会場: 群馬県立近代美術館群馬\n\nhttps://artscape.jp/exhibitions/72268/
-LOCATION:群馬県立近代美術館群馬
-SUMMARY:ウジェーヌ・ブーダン展　印象派の父 ─ 光を求めて
-UID:feac7b46-cc09-4a40-a62e-70644d9819f8@feac.org
-URL:https://artscape.jp/exhibitions/72268/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251006
-DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
-LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
-SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
-UID:cd22c2f6-d833-4d58-9716-4d797f55e2b9@cd22.org
-URL:https://makezine.jp/event/mft2025/
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20270124
-DESCRIPTION:会場: 三菱一号館美術館\n\nhttps://bijutsutecho.com/exhibitions/18860
-LOCATION:三菱一号館美術館
-SUMMARY:フォンタネージ――イタリアの光・心の風景
-UID:ef785fd4-e096-487a-9395-9d9e80261b70@ef78.org
-URL:https://bijutsutecho.com/exhibitions/18860
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:会場: NT名古屋\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
-LOCATION:NT名古屋
-SUMMARY:NT名古屋2026
-UID:b6bb2299-dcc5-43ab-b277-a9cee4e46687@b6bb.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261221
-DESCRIPTION:会場: NT山城\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%B1%B1%E5%9F%8E2026
-LOCATION:NT山城
-SUMMARY:NT山城2026
-UID:7116d18b-e136-4848-9f80-79148f8644ec@7116.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%B1%B1%E5%9F%8E2026
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:会場: 東京都立産業貿易センター台東館7階\n\nhttps://www.hakubutufes.info/
+LOCATION:東京都立産業貿易センター台東館7階〒111-0033 東京都台東区花川戸2-6-5
+SUMMARY:博物ふぇすてぃばる！12
+UID:68a0a320-9635-4eae-af0d-0eae46f19b7d@68a0.org
+URL:https://www.hakubutufes.info/
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261027
@@ -78,25 +16,8 @@ DTEND;VALUE=DATE:20261207
 DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/11936
 LOCATION:アートアジェンダ
 SUMMARY:特別展　室町ごころの風景　―光り輝く四季と連歌懐紙の美
-UID:83e6da47-dd26-4d4e-b892-3972066e0f7a@83e6.org
+UID:5a4371d0-b633-46d5-9e52-5679157cde49@5a43.org
 URL:https://www.artagenda.jp/exhibition/detail/11936
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261107
-DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-LOCATION:NT湘南
-SUMMARY:NT湘南2026
-UID:e03542bb-f1a7-46ee-b231-b6cb5e82284d@e035.org
-URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261121
-DESCRIPTION:会場: 四季彩舎\n\nhttps://bijutsutecho.com/exhibitions/18945
-LOCATION:四季彩舎
-SUMMARY:平良光子「老犬は夢を見る」
-UID:69264c11-9c9b-49ee-aaef-699192eae98c@6926.org
-URL:https://bijutsutecho.com/exhibitions/18945
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261212
@@ -104,8 +25,70 @@ DTEND;VALUE=DATE:20261214
 DESCRIPTION:会場: NTShenzhen\n\nhttps://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
 LOCATION:NTShenzhen
 SUMMARY:NTShenzhen2026
-UID:97eba176-3689-4140-816b-fa20e0044906@97eb.org
+UID:fb5c329d-762c-4c52-a9e0-76d9499a01d2@fb5c.org
 URL:https://wiki.nicotech.jp/nico_tech/?NTShenzhen2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:会場: NT名古屋\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
+LOCATION:NT名古屋
+SUMMARY:NT名古屋2026
+UID:4389a255-5568-4a20-a197-6a92111960ea@4389.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%90%8D%E5%8F%A4%E5%B1%8B2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261121
+DESCRIPTION:会場: 四季彩舎\n\nhttps://bijutsutecho.com/exhibitions/18945
+LOCATION:四季彩舎
+SUMMARY:平良光子「老犬は夢を見る」
+UID:1a7a0b77-e337-44c0-8f79-e725a0ecab33@1a7a.org
+URL:https://bijutsutecho.com/exhibitions/18945
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251006
+DESCRIPTION:会場: 東京ビッグサイト　西4ホール東京都江東区有明3-11-1\n\nhttps://makezine.jp/event/mft2025/
+LOCATION:東京ビッグサイト　西4ホール東京都江東区有明3-11-1
+SUMMARY:作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]
+UID:33f17388-2899-4f9a-8579-57afe658f67c@33f1.org
+URL:https://makezine.jp/event/mft2025/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261107
+DESCRIPTION:会場: NT湘南\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+LOCATION:NT湘南
+SUMMARY:NT湘南2026
+UID:9dcd6b68-e042-41af-891b-87c54bbf501b@9dcd.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E6%B9%98%E5%8D%972026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261221
+DESCRIPTION:会場: NT山城\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E5%B1%B1%E5%9F%8E2026
+LOCATION:NT山城
+SUMMARY:NT山城2026
+UID:fa8a462a-70d5-440f-a450-e102e7cada93@fa8a.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E5%B1%B1%E5%9F%8E2026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20270131
+DESCRIPTION:会場: アーティゾン美術館\n\nhttps://bijutsutecho.com/exhibitions/18872
+LOCATION:アーティゾン美術館
+SUMMARY:ジャム・セッション　石橋財団コレクション×藤井光　WHOSE LIGHT? —だれのひかりか
+UID:c7476b54-f396-421a-b213-e1b68f9e9ef5@c747.org
+URL:https://bijutsutecho.com/exhibitions/18872
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20261206
+DESCRIPTION:会場: 東京都現代美術館\n\nhttps://bijutsutecho.com/exhibitions/18497
+LOCATION:東京都現代美術館
+SUMMARY:多田美波―光、凛と ゆれる
+UID:65e70fbd-64ca-47df-960f-2e3765c8aa61@65e7.org
+URL:https://bijutsutecho.com/exhibitions/18497
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20271009
@@ -113,16 +96,24 @@ DTEND;VALUE=DATE:20280111
 DESCRIPTION:会場: アートアジェンダ\n\nhttps://www.artagenda.jp/exhibition/detail/12889
 LOCATION:アートアジェンダ
 SUMMARY:静嘉堂＠丸の内 5周年記念展　美の福音　―幻の名作、山本芳翠《天女》《十二支》一挙公開
-UID:f7c208d3-4b77-4333-80f2-0221f484c779@f7c2.org
+UID:90bc9157-0906-4e0c-b0e9-f9b76f43a3f1@90bc.org
 URL:https://www.artagenda.jp/exhibition/detail/12889
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261207
-DESCRIPTION:会場: 東京都立産業貿易センター台東館7階\n\nhttps://www.hakubutufes.info/
-LOCATION:東京都立産業貿易センター台東館7階〒111-0033 東京都台東区花川戸2-6-5
-SUMMARY:博物ふぇすてぃばる！12
-UID:0c8a3ae8-e527-4df6-a42c-0a10ca1748e7@0c8a.org
-URL:https://www.hakubutufes.info/
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20270124
+DESCRIPTION:会場: 三菱一号館美術館\n\nhttps://bijutsutecho.com/exhibitions/18860
+LOCATION:三菱一号館美術館
+SUMMARY:フォンタネージ――イタリアの光・心の風景
+UID:2c2d67d9-cfa4-467c-a863-8819e8c41cb1@2c2d.org
+URL:https://bijutsutecho.com/exhibitions/18860
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261108
+DESCRIPTION:会場: NTいわて\n\nhttps://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
+LOCATION:NTいわて
+SUMMARY:NTいわて2026
+UID:03a28176-b665-4f43-8ab4-1ab95dfa3c0e@03a2.org
+URL:https://wiki.nicotech.jp/nico_tech/?NT%E3%81%84%E3%82%8F%E3%81%A62026
 END:VEVENT
 END:VCALENDAR
