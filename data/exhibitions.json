@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T15:03:00.703946+00:00",
+  "lastUpdated": "2026-10-28T15:35:23.720976+00:00",
   "exhibitions": [
     {
       "id": "1465b50b6e4c6ab8",
@@ -28,19 +28,6 @@
       "tags": []
     },
     {
-      "id": "615bf029677bef15",
-      "title": "ジャム・セッション　石橋財団コレクション×藤井光　WHOSE LIGHT? —だれのひかりか",
-      "description": null,
-      "venue": "アーティゾン美術館",
-      "address": null,
-      "startDate": "2026-10-23",
-      "endDate": "2027-01-30",
-      "imageUrl": "https://bt.imgix.net/exhibition/18872/main/1790942040534_05d8f920695c512a5cb32777a0bd3b16.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=110,0,2478,1394&v=14",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18872",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
       "id": "a7105000dd90c4fe",
       "title": "多田美波―光、凛と ゆれる",
       "description": null,
@@ -65,35 +52,6 @@
       "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11936",
       "source": "artagenda",
       "tags": []
-    },
-    {
-      "id": "8cb00de78e017b03",
-      "title": "静嘉堂＠丸の内 5周年記念展　美の福音　―幻の名作、山本芳翠《天女》《十二支》一挙公開",
-      "description": null,
-      "venue": "アートアジェンダ",
-      "address": null,
-      "startDate": "2027-10-09",
-      "endDate": "2028-01-10",
-      "imageUrl": "https://www.artagenda.jp/img/event/12889/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/12889",
-      "source": "artagenda",
-      "tags": []
-    },
-    {
-      "id": "a5868f178432aee3",
-      "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
-      "description": null,
-      "venue": "東京ビッグサイト　西4ホール東京都江東区有明3-11-1",
-      "address": null,
-      "startDate": "2025-10-04",
-      "endDate": "2025-10-05",
-      "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
-      "sourceUrl": "https://makezine.jp/event/mft2025/",
-      "source": "maker_faire",
-      "tags": [
-        "メイカー",
-        "ものづくり"
-      ]
     },
     {
       "id": "bbef516d858e02eb",
