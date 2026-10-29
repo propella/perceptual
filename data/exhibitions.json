@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T15:35:23.720976+00:00",
+  "lastUpdated": "2026-10-29T15:43:01.523849+00:00",
   "exhibitions": [
     {
       "id": "1465b50b6e4c6ab8",
@@ -11,19 +11,6 @@
       "endDate": "2026-11-20",
       "imageUrl": "https://bt.imgix.net/exhibition/18945/main/1792389340613_e6c591132fd21b7ae80d822570af3113.png?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=9,0,1200,675&v=7",
       "sourceUrl": "https://bijutsutecho.com/exhibitions/18945",
-      "source": "bijutsu_techo",
-      "tags": []
-    },
-    {
-      "id": "e242d36810e2c492",
-      "title": "フォンタネージ――イタリアの光・心の風景",
-      "description": null,
-      "venue": "三菱一号館美術館",
-      "address": null,
-      "startDate": "2026-10-16",
-      "endDate": "2027-01-23",
-      "imageUrl": "https://bt.imgix.net/exhibition/18860/main/1791158722006_54c5d4d529f252f9f32e17af8eb3f781.jpg?auto=format&fm=jpg&w=704&h=396&fit=clip&rect=427,0,4108,2311&v=8",
-      "sourceUrl": "https://bijutsutecho.com/exhibitions/18860",
       "source": "bijutsu_techo",
       "tags": []
     },
@@ -41,17 +28,20 @@
       "tags": []
     },
     {
-      "id": "598494911e5a0578",
-      "title": "特別展　室町ごころの風景　―光り輝く四季と連歌懐紙の美",
+      "id": "a5868f178432aee3",
+      "title": "作ることで 楽しむ、つながる、学ぶ Maker Faire Tokyo 2025 2025/10/4-5 SAT-SUN メイカーフェアトウキョウ2025 [東京ビッグサイト]",
       "description": null,
-      "venue": "アートアジェンダ",
+      "venue": "東京ビッグサイト　西4ホール東京都江東区有明3-11-1",
       "address": null,
-      "startDate": "2026-10-27",
-      "endDate": "2026-12-06",
-      "imageUrl": "https://www.artagenda.jp/img/event/11936/thumbnail.jpg",
-      "sourceUrl": "https://www.artagenda.jp/exhibition/detail/11936",
-      "source": "artagenda",
-      "tags": []
+      "startDate": "2025-10-04",
+      "endDate": "2025-10-05",
+      "imageUrl": "https://makezine.jp/wp-content/themes/makerfairetokyo/mft2025/img/top/image.png",
+      "sourceUrl": "https://makezine.jp/event/mft2025/",
+      "source": "maker_faire",
+      "tags": [
+        "メイカー",
+        "ものづくり"
+      ]
     },
     {
       "id": "bbef516d858e02eb",
